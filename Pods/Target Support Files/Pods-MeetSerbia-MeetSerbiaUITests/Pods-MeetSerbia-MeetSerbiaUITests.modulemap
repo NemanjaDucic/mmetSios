@@ -1,0 +1,6 @@
+framework module Pods_MeetSerbia_MeetSerbiaUITests {
+  umbrella header "Pods-MeetSerbia-MeetSerbiaUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

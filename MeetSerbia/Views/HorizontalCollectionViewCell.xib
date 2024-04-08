@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="sf-pro-text-bold.ttf">
+            <string>SFProText-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="horizontalCell" id="gTV-IL-0wX" customClass="HorizontalCollectionViewCell" customModule="MeetSerbia" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="130"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="300" height="130"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="adrenalin" translatesAutoresizingMaskIntoConstraints="NO" id="FHS-pV-1Dh">
+                        <rect key="frame" x="0.0" y="0.0" width="300" height="130"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="300" id="Ih0-TT-U30"/>
+                            <constraint firstAttribute="height" constant="130" id="YDL-0N-rdo"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sYJ-et-app">
+                        <rect key="frame" x="9" y="11" width="42" height="21"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4wG-Ck-MFN">
+                        <rect key="frame" x="4" y="66" width="248" height="33.333333333333343"/>
+                        <fontDescription key="fontDescription" name="SFProText-Bold" family="SF Pro Text" pointSize="35"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ydk-7q-FyR">
+                        <rect key="frame" x="250" y="82" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="oB7-xe-YSu"/>
+                            <constraint firstAttribute="height" constant="40" id="sfQ-vV-lj7"/>
+                        </constraints>
+                        <state key="normal" title="Button"/>
+                        <buttonConfiguration key="configuration" style="plain" image="button_unchecked" title=""/>
+                        <connections>
+                            <action selector="checkbuttonClick:" destination="gTV-IL-0wX" eventType="touchUpInside" id="M81-xs-Z3D"/>
+                        </connections>
+                    </button>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="FHS-pV-1Dh" secondAttribute="bottom" id="61M-qf-sGV"/>
+                <constraint firstItem="4wG-Ck-MFN" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="9AG-qm-srM"/>
+                <constraint firstAttribute="bottom" secondItem="4wG-Ck-MFN" secondAttribute="bottom" constant="10" id="I0M-sE-ENw"/>
+                <constraint firstAttribute="trailing" secondItem="4wG-Ck-MFN" secondAttribute="trailing" constant="10" id="I1G-VH-2Eh"/>
+                <constraint firstAttribute="bottom" secondItem="Ydk-7q-FyR" secondAttribute="bottom" constant="8" id="Myv-da-lkf"/>
+                <constraint firstItem="FHS-pV-1Dh" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Xoa-Qh-OG5"/>
+                <constraint firstAttribute="trailing" secondItem="Ydk-7q-FyR" secondAttribute="trailing" constant="10" id="cm6-MN-ONz"/>
+                <constraint firstAttribute="trailing" secondItem="FHS-pV-1Dh" secondAttribute="trailing" id="eWp-aT-wvb"/>
+                <constraint firstItem="FHS-pV-1Dh" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="r8d-iR-OEz"/>
+            </constraints>
+            <size key="customSize" width="300" height="130"/>
+            <connections>
+                <outlet property="checkButton" destination="Ydk-7q-FyR" id="kZD-5E-MJr"/>
+                <outlet property="hiddenlabel" destination="sYJ-et-app" id="fcS-bD-NqA"/>
+                <outlet property="mainImage" destination="FHS-pV-1Dh" id="Fua-WE-HZJ"/>
+                <outlet property="titleLabel" destination="4wG-Ck-MFN" id="ljz-eg-4Gj"/>
+            </connections>
+            <point key="canvasLocation" x="18.320610687022899" y="51.408450704225352"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="adrenalin" width="750" height="380"/>
+        <image name="button_unchecked" width="38" height="37"/>
+    </resources>
+</document>

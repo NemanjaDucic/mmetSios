@@ -23,18 +23,22 @@ class LaunchScreenViewController:UIViewController{
         animtedImageView.delegate = self
         do {
             let gif = try UIImage(gifName: "logogif.gif")
-            self.animtedImageView.setGifImage(gif, loopCount: 1)
+            self.animtedImageView.setGifImage(gif, loopCount: -1)
 
         } catch {
             print(error)
         }
-     
+        
+        LocalManager.shared.getAllLocations { models in
+            self.performSegue(withIdentifier: "gifLooped", sender: nil)
+
+        }
      
     }
 }
 extension LaunchScreenViewController: SwiftyGifDelegate {
     func gifDidStop(sender: UIImageView) {
         
-        self.performSegue(withIdentifier: "gifLooped", sender: nil)
+//        self.performSegue(withIdentifier: "gifLooped", sender: nil)
     }
 }

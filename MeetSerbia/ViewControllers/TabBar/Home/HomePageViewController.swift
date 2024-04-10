@@ -64,9 +64,9 @@ class HomePageViewController:UIViewController,UITableViewDelegate,UITableViewDat
             viewControllers?.remove(at: 2)
             tabBarController.viewControllers = viewControllers
         }
-        LocalManager.shared.getAllLocations { locations in
-            print("got all locations")
-        }
+//        LocalManager.shared.getAllLocations { locations in
+//            print("got all locations")
+//        }
         searchB.delegate = self
         searchTV.isHidden = true
         checkButtonGreen.isHidden = temporarySelectedCategories.isEmpty

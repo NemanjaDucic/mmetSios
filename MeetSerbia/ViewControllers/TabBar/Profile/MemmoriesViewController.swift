@@ -78,6 +78,11 @@ class MemmoriesViewController : UIViewController,UITableViewDelegate,UITableView
     }
 
     }
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(true)
+        self.tabBarController?.tabBar.isHidden = false
+
+    }
     
     @IBAction func addMemoClicked(_ sender: Any) {
         performSegue(withIdentifier: "addMemo", sender: nil)

@@ -149,7 +149,7 @@ class TravelViewController: UIViewController, CLLocationManagerDelegate,UISearch
        
         // Delegates
         locationManager.delegate = self
-//        self.tabBarController!.selectedIndex = 2
+        self.tabBarController?.selectedIndex = 2
         mapinit()
         NotificationCenter.default.addObserver(self, selector: #selector(orientationChanged), name: UIDevice.orientationDidChangeNotification, object: nil)
 

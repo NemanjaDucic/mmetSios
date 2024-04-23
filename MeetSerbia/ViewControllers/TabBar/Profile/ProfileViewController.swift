@@ -37,7 +37,7 @@ class ProfileViewController:UIViewController,UIImagePickerControllerDelegate, UI
         
     }
     private func uiSetup(){
-//        iProgressHUD.sharedInstance().attachProgress(toView: self.view)
+        iProgressHUD.sharedInstance().attachProgress(toView: self.view)
   
         view.showProgress()
         view.updateCaption(text: Utils().loadingText())
@@ -77,9 +77,15 @@ class ProfileViewController:UIViewController,UIImagePickerControllerDelegate, UI
         cirImage.isUserInteractionEnabled = true
         latImage.isUserInteractionEnabled = true
         engImage.isUserInteractionEnabled = true
-        wizard.getData { name, profileImage, coverImage in
+        wizard.getName { name in
             if let name = name {
                 self.nameLabel.text = name
+                self.view.dismissProgress()
+            }
+        }
+        wizard.getData { name, profileImage, coverImage in
+            if let name = name {
+               print(name)
             }
             
             if let profileImage = profileImage {

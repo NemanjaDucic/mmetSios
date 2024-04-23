@@ -285,6 +285,29 @@ class FirebaseWizard{
             }
         }
     }
+    func getName(completion: @escaping (String?) -> Void) {
+        refrence.child("users").child(UserDefaultsManager.userID).child("data").getData { error, snapshot in
+            if let error = error {
+                print("Error getting data: \(error.localizedDescription)")
+                completion(nil) // Call completion with nil indicating failure
+                return
+            }
+            
+            guard let dict = snapshot?.value as? [String: Any] else {
+                print("Invalid snapshot data")
+                completion(nil) // Call completion with nil indicating failure
+                return
+            }
+            
+            if let nameFromData = dict["name"] as? String {
+                completion(nameFromData) // Call completion with the retrieved name
+            } else {
+                print("Name not found in data")
+                completion(nil) // Call completion with nil indicating failure
+            }
+        }
+    }
+
      func getYourMemories(completion: @escaping ([MemoryModel]) -> Void) {
          let storageRef = Storage.storage().reference().child("images/memories")
         var localMemoriesArray = [MemoryModel]()

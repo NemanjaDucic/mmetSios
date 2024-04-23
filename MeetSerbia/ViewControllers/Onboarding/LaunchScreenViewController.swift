@@ -39,6 +39,5 @@ class LaunchScreenViewController:UIViewController{
 extension LaunchScreenViewController: SwiftyGifDelegate {
     func gifDidStop(sender: UIImageView) {
         
-//        self.performSegue(withIdentifier: "gifLooped", sender: nil)
     }
 }

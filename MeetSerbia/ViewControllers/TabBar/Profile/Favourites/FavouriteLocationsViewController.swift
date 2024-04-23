@@ -10,7 +10,9 @@ import UIKit
 
 class FavouriteLocationsViewController:UIViewController,UITableViewDelegate,UITableViewDataSource, DidSelectLocationDelegate{
   
-    
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        return .landscape
+    }
     private var locations = [LocationModel]()
     private let wizard = FirebaseWizard()
     
@@ -86,5 +88,8 @@ class FavouriteLocationsViewController:UIViewController,UITableViewDelegate,UITa
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 180
     }
+    deinit {
+         NotificationCenter.default.removeObserver(self)
+     }
 }
 

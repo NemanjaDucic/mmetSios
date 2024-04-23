@@ -344,21 +344,21 @@ class Data {
                 " Барови, пабови, клубови",
                 " Винарије",
                 " Кафеи и посластичарнице",
-                " Ресторани (Сви. Општи, национални, пицерије, кафане",
+                " Ресторани (Општи, национални, пицерије, кафане)",
                 " Салаши и етно-куће"
             ],
             subcategotyLat: [
                 "Barovi pabovi klubovi",
                 "Vinarije",
                 "Kafei i poslastičarnice",
-                "Restorani (Svi. Opšti, nacionalni, picerije, kafane",
+                "Restorani (Opšti, nacionalni, picerije, kafane)",
                 "Salaši i etno-kuće"
             ],
             subcategoryEng: [
                 "Bars, pubs, clubs",
                 "Wineries",
                 "Cafes and pastry shops",
-                "Restaurants (All. General, national, pizzerias, cafes)",
+                "Restaurants (General, national, pizzerias, cafes)",
                 "Farmhouses and ethno-houses"
             ],
             expanded :false,
@@ -466,26 +466,6 @@ class Data {
                 "holidays",
                 "travel",
                 "taxi"
-            ]
-        ),
-        DataModel(
-            category: "Све Kатегорије",
-            categoryEng: "All Categories",
-            categoryLat: "Sve kategorije",
-            subcategory: [
-               ""
-             
-            ],
-            subcategotyLat: [
-              ""
-            ],
-            subcategoryEng: [
-             ""
-            ],
-            expanded :false,
-            categoryImageData: "All Categories",
-            imageData: [
-               ""
             ]
         )
     ]

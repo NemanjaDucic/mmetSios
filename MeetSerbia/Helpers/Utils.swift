@@ -7,12 +7,16 @@
 
 import Foundation
 import UIKit
+import MapboxDirections
+import MapboxCoreNavigation
+import MapboxNavigation
+
 
 class Utils {
     func loadingText() -> String {
         switch UserDefaultsManager.language {
         case "cir":
-             return "Учитавање ..."
+            return "Учитавање ..."
         case "eng":
             return "Loading ..."
         case "lat":
@@ -25,7 +29,7 @@ class Utils {
     func addNewMemoryText() -> String {
         switch UserDefaultsManager.language {
         case "cir":
-             return "ДОДАЈ НОВУ УСПОМЕНУ"
+            return "ДОДАЈ НОВУ УСПОМЕНУ"
         case "eng":
             return "ADD NEW MEMORY"
         case "lat":
@@ -34,11 +38,11 @@ class Utils {
             return "ДОДАЈ НОВУ УСПОМЕНУ"
         }
     }
-
+    
     func startNavigationText() -> String {
         switch UserDefaultsManager.language {
         case "cir":
-             return "Започни навигацију"
+            return "Започни навигацију"
         case "eng":
             return "Start Navigation"
         case "lat":
@@ -75,38 +79,12 @@ class Utils {
             return "shopping_pin"
         case "korisne informacije":
             return "usefull_pin"
-        
+            
             
         default:
             return "pin"
         }
     }
-//    private func formatMixedContent(_ mixedContent: String) -> NSAttributedString {
-//        let components = mixedContent.components(separatedBy: "<a")
-//        let attributedString = NSMutableAttributedString()
-//        for component in components {
-//            if component.contains("</a>") {
-//                do {
-//                    let doc = try SwiftSoup.parse("<a\(component)")
-//                    let link = try doc.select("a").first()
-//                    let linkText = try link?.text() ?? ""
-//                    let linkURL = try link?.attr("href") ?? ""
-//                    print(linkURL,"doc")
-//                    let trimmedLinkString = linkURL.trimmingCharacters(in: .init(charactersIn: "\""))
-//                    urlString = trimmedLinkString
-//                    let linkAttributes: [NSAttributedString.Key: Any] = [.link: linkURL]
-//                    let attributedLink = NSAttributedString(string: linkText, attributes: linkAttributes)
-//                    attributedString.append(attributedLink)
-//                } catch {
-//                    print("Error parsing HTML: \(error)")
-//                }
-//            } else {
-//                let textAttributes: [NSAttributedString.Key: Any] = [:]
-//                let attributedText = NSAttributedString(string: component, attributes: textAttributes)
-//                attributedString.append(attributedText)
-//            }
-//        }
-//
-//        return attributedString
-//    }
-}
+
+    }
+

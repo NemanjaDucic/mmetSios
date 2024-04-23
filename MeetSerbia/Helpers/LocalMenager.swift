@@ -68,13 +68,13 @@ class LocalManager {
      
 extension Array where Element == LocationModel {
     func filterLocations(byCategory category: String) -> [LocationModel] {
-        return self.filter { $0.category == category }
+        return self.filter { $0.category.contains(category)}
     }
 }
 extension Array where Element == LocationModel {
     func filterLocations(byCategories categories: [String]) -> [LocationModel] {
         return self.filter { location in
-            categories.contains(location.category)
+            location.category.contains { categories.contains($0) }
         }
     }
 }

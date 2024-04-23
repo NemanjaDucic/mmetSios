@@ -16,7 +16,7 @@ class HomePageViewController:UIViewController,UITableViewDelegate,UITableViewDat
     }
     
     var itemsArray = [DataModel]()
-    private var boolArray = [false,false,false,false,false,false,false,false,false,false,false,false,false]
+    private var boolArray = [false,false,false,false,false,false,false,false,false,false,false,false]
     private var selectedLocationModel: LocationModel?
     private var filteredData = [String]()
     private var temporarySelectedCategories = [String]()
@@ -64,9 +64,7 @@ class HomePageViewController:UIViewController,UITableViewDelegate,UITableViewDat
             viewControllers?.remove(at: 2)
             tabBarController.viewControllers = viewControllers
         }
-//        LocalManager.shared.getAllLocations { locations in
-//            print("got all locations")
-//        }
+
         searchB.delegate = self
         searchTV.isHidden = true
         checkButtonGreen.isHidden = temporarySelectedCategories.isEmpty
@@ -227,7 +225,7 @@ class HomePageViewController:UIViewController,UITableViewDelegate,UITableViewDat
             let viewController =  UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "FMT") as? FilteredMapViewController
             viewController?.selectedCategories = temporarySelectedCategories
             viewController?.sentFromSearch = false
-            boolArray = [false,false,false,false,false,false,false,false,false,false,false,false,false]
+            boolArray = [false,false,false,false,false,false,false,false,false,false,false,false]
             temporarySelectedCategories = []
             navigationController?.pushViewController(viewController!, animated: true)
         }
@@ -235,15 +233,7 @@ class HomePageViewController:UIViewController,UITableViewDelegate,UITableViewDat
             
         
     }
-    func categoryToLat(string:String) -> String {
-        if Constants().MAIN_CATEGORIES_CIR.contains(string){
-            return Constants().MAIN_CATEGORIES[Constants().MAIN_CATEGORIES_CIR.firstIndex(of: string)!]
-        } else if Constants().MAIN_CATEGORIES_ENG.contains(string){
-            return Constants().MAIN_CATEGORIES[Constants().MAIN_CATEGORIES_ENG.firstIndex(of: string)!]
-        } else {
-            return string
-        }
-    }
+
 
 }
 

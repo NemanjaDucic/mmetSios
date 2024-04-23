@@ -2,16 +2,14 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>UIBackgroundModes</key>
-	<array>
-		<string>audio</string>
-	</array>
-	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>Потребно је да одобрите приступ локацији да бисте могли да користите мапу</string>
-	<key>NSLocationUsageDescription</key>
-	<string>Потребно је да одобрите приступ локацији да бисте могли да користите мапу</string>
+	<key>UIUserInterfaceStyle</key>
+	<string>Light</string>
 	<key>MBXAccessToken</key>
 	<string>pk.eyJ1IjoibWVldHNlcmJpYSIsImEiOiJjbGY4NHNqb3UxbzJsM3pudGV4eGxrdmw2In0.U7yh9XHMImXSU3CxkLRbDg</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>sf-pro-text-bold.ttf</string>
+	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
@@ -33,9 +31,9 @@
 			</array>
 		</dict>
 	</dict>
-	<key>UIAppFonts</key>
+	<key>UIBackgroundModes</key>
 	<array>
-		<string>sf-pro-text-bold.ttf</string>
+		<string>audio</string>
 	</array>
 </dict>
 </plist>

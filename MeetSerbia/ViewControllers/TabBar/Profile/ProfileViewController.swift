@@ -25,13 +25,20 @@ class ProfileViewController:UIViewController,UIImagePickerControllerDelegate, UI
     @IBOutlet weak var cirImage: UIImageView!
     @IBOutlet weak var engImage: UIImageView!
     @IBOutlet weak var latImage: UIImageView!
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        return .portrait  // Force landscape orientation
+    }
+    override var shouldAutorotate: Bool {
+        return false
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         uiSetup()
         
     }
     private func uiSetup(){
-        iProgressHUD.sharedInstance().attachProgress(toView: self.view)
+//        iProgressHUD.sharedInstance().attachProgress(toView: self.view)
+  
         view.showProgress()
         view.updateCaption(text: Utils().loadingText())
         switch UserDefaultsManager.language {
@@ -82,7 +89,7 @@ class ProfileViewController:UIViewController,UIImagePickerControllerDelegate, UI
             if let coverImage = coverImage {
                 self.coverImageView.image = coverImage
             }
-            self.view.dismissProgress()
+//            self.view.dismissProgress()
         }
     
     }
@@ -123,6 +130,14 @@ class ProfileViewController:UIViewController,UIImagePickerControllerDelegate, UI
             constants.membershipArray[0]
           ])
 
+    }
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        AppUtility.lockOrientation(.portrait)
+    }
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        AppUtility.lockOrientation(.all)
     }
     func presentImagePicker(for imageType: String) {
         let imagePickerController = UIImagePickerController()

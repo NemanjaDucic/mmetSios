@@ -27,12 +27,13 @@ class LocationDescriptionViewController:UIViewController,UICollectionViewDelegat
     @IBOutlet weak var sampleTextHolder: UITextView!
     @IBOutlet weak var imagesCollectionView: UICollectionView!
     private var swipeGestureRecognizer = UISwipeGestureRecognizer()
+    private var swipeGestureRecognizerRight = UISwipeGestureRecognizer()
     private var locationHasVideo = false
     private var attributedDescription: NSAttributedString = NSAttributedString()
     private var player: AVPlayer?
     private var playerLayer: AVPlayerLayer?
     private var videoURL: URL?
-    
+    var strings = [URL]()
     var locationManager = CLLocationManager()
     var urlString = ""
     var id = ""
@@ -45,22 +46,53 @@ class LocationDescriptionViewController:UIViewController,UICollectionViewDelegat
     override func viewDidLoad() {
         super.viewDidLoad()
         initSetup()
-       
+        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(textViewTapped(_:)))
+        sampleTextHolder.addGestureRecognizer(tapGesture)
         FirebaseWizard().getLocation(byID: id) { model in
-            //
             self.currentLocationDisplayed = model
+            for i in model!.images {
+                print(Storage.storage().reference().child(i))
+            }
             switch UserDefaultsManager.language {
             case "eng":
                 self.nameLabel.text = model?.nameEng ?? ""
-                self.sampleTextHolder.attributedText = self.formatMixedContent(model?.descriptionEng ?? "")
-
+                if model?.subcat.contains("mobilna telefonija") == true {
+                    self.sampleTextHolder.attributedText = self.formatMixedContent(model?.descriptionEng ?? "")
+                }  else {
+                    if model?.descriptionLat.hasPrefix("<p>") == true {
+                        self.sampleTextHolder.attributedText = model?.descriptionEng.htmlToAttributedString
+                        self.sampleTextHolder.removeGestureRecognizer(tapGesture)
+                    } else {
+                        self.sampleTextHolder.text =  model?.descriptionEng
+                    }
+                }
+                
             case "lat":
                 self.nameLabel.text = model?.nameLat ?? ""
-               
-                self.sampleTextHolder.attributedText = self.formatMixedContent(model?.descriptionLat ?? "")
+                if model?.subcat.contains("mobilna telefonija") == true {
+                    self.sampleTextHolder.attributedText = self.formatMixedContent(model?.descriptionLat ?? "")
+                } else {
+                    if model?.descriptionLat.hasPrefix("<p>") == true {
+                        self.sampleTextHolder.attributedText = model?.descriptionLat.htmlToAttributedString
+                        self.sampleTextHolder.removeGestureRecognizer(tapGesture)
+                    } else {
+                        self.sampleTextHolder.text =  model?.descriptionLat
+                    }
+                    
+                    
+                }
             default:
                 self.nameLabel.text = model?.nameCir ?? ""
-                self.sampleTextHolder.attributedText = self.formatMixedContent(model?.descriptionCir ?? "")
+                if model?.subcat.contains("mobilna telefonija") == true {
+                    self.sampleTextHolder.attributedText = self.formatMixedContent(model?.descriptionCir ?? "")
+                }  else {
+                    if model?.descriptionLat.hasPrefix("<p>") == true {
+                        self.sampleTextHolder.attributedText = model?.descriptionCir.htmlToAttributedString
+                        self.sampleTextHolder.removeGestureRecognizer(tapGesture)
+                    } else {
+                        self.sampleTextHolder.text =  model?.descriptionCir
+                    }
+                }
             }
             self.wizard.containsFavourite(locationID: self.id) { bool in
                 print(bool)
@@ -75,7 +107,7 @@ class LocationDescriptionViewController:UIViewController,UICollectionViewDelegat
                 self.wizard.getVideo(videoURL: model?.video ?? "") { url, error in
                     if error != nil {
                         self.view.dismissProgress()
-                     
+                        
                     } else {
                         self.videoURL = url
                         self.playVideo(in: self.imagesCollectionView)
@@ -88,7 +120,7 @@ class LocationDescriptionViewController:UIViewController,UICollectionViewDelegat
                         } else {
                             self.locationImages = images!
                             self.imagesCollectionView.reloadData()
-
+                            
                         }
                     }
                 }
@@ -103,9 +135,17 @@ class LocationDescriptionViewController:UIViewController,UICollectionViewDelegat
                     }
                 }
             }
-           
+            
         }
-
+        
+    }
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        AppUtility.lockOrientation(.portrait)
+    }
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        AppUtility.lockOrientation(.all)
     }
     private func initSetup() {
         let nib = UINib(nibName: "ImagesCollectionViewCell", bundle: nil)
@@ -121,19 +161,19 @@ class LocationDescriptionViewController:UIViewController,UICollectionViewDelegat
         imagesCollectionView.collectionViewLayout = layout
         sampleTextHolder.delegate = self
         locationManager.delegate = self
-        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(textViewTapped(_:)))
-               sampleTextHolder.addGestureRecognizer(tapGesture)
+        
         view.showProgress()
         view.updateCaption(text: Utils().loadingText())
         startNavButton.setTitle(Utils().startNavigationText(), for: .normal)
- 
+        
         locationManager.requestWhenInUseAuthorization()
         locationManager.desiredAccuracy = kCLLocationAccuracyBest
         locationManager.startUpdatingLocation()
         
         swipeGestureRecognizer = UISwipeGestureRecognizer(target: self, action: #selector(handleSwipeLeft(_:)))
         swipeGestureRecognizer.direction = .left
-        
+        swipeGestureRecognizerRight.direction = .left
+        swipeGestureRecognizerRight = UISwipeGestureRecognizer(target: self, action: #selector(handleSwipe(_:)))
         sampleTextHolder.isSelectable = true
         sampleTextHolder.dataDetectorTypes = .link
         sampleTextHolder.isScrollEnabled = true
@@ -144,7 +184,10 @@ class LocationDescriptionViewController:UIViewController,UICollectionViewDelegat
         config.baseBackgroundColor = .white
         config.baseForegroundColor = . red
         buttonLike.configuration = config
-       
+        
+    }
+    @objc func handleSwipe(_ gestureRecognizer: UISwipeGestureRecognizer){
+        playVideo(in: imagesCollectionView)
     }
     @objc func textViewTapped(_ gestureRecognizer: UITapGestureRecognizer) {
         if gestureRecognizer.state == .ended {
@@ -198,6 +241,7 @@ class LocationDescriptionViewController:UIViewController,UICollectionViewDelegat
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = imagesCollectionView.dequeueReusableCell(withReuseIdentifier: "imagesCell", for: indexPath) as! ImagesCollectionViewCell
             cell.locationImage.image = locationImages[indexPath.row]
+    
              return cell
     }
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
@@ -223,17 +267,23 @@ class LocationDescriptionViewController:UIViewController,UICollectionViewDelegat
         self.playerLayer?.videoGravity = .resizeAspectFill
         view.layer.addSublayer(self.playerLayer!)
         self.imagesCollectionView.isScrollEnabled = false
+       
         imagesCollectionView.addGestureRecognizer(swipeGestureRecognizer)
         self.player?.play()
 
     }
     @objc func handleSwipeLeft(_ gestureRecognizer: UISwipeGestureRecognizer) {
-          if gestureRecognizer.state == .ended {
+        if gestureRecognizer.state == .ended {
+          
               player?.pause()
               playerLayer?.isHidden = true
               self.imagesCollectionView.isScrollEnabled = true
               imagesCollectionView.removeGestureRecognizer(swipeGestureRecognizer)
               imagesCollectionView.reloadData()
+            if locationImages.count == 1 {
+                imagesCollectionView.addGestureRecognizer(swipeGestureRecognizerRight)
+                imagesCollectionView.isScrollEnabled = false
+            }
           }
       }
 
@@ -288,45 +338,87 @@ class LocationDescriptionViewController:UIViewController,UICollectionViewDelegat
     
     @IBAction func startNavButtonClick(_ sender: Any) {
      
-        if let currentLocation = locationManager.location {
-            CLGeocoder().reverseGeocodeLocation(currentLocation) { placemarks, error in
-                if let error = error {
-                    print("Error getting location: \(error.localizedDescription)")
-                } else if let placemark = placemarks?.first {
-                    let origin = CLLocationCoordinate2D(latitude: currentLocation.coordinate.latitude, longitude: currentLocation.coordinate.longitude)
-                    let endpoint = CLLocationCoordinate2D(latitude: self.lat, longitude: self.long)
-                    let options = NavigationRouteOptions(coordinates: [origin,endpoint])
-                    Directions.shared.calculate(options) { [weak self] (_, result) in
-                        switch result {
-                        case .failure(let error):
-                            print(error.localizedDescription)
-                        case .success(let response):
-                            guard let strongSelf = self else {
-                                return
-                            }
-                            let indexedRouteResponse = IndexedRouteResponse(routeResponse: response, routeIndex: 0)
-                            let navigationService = MapboxNavigationService(indexedRouteResponse: indexedRouteResponse,
-                                                                            customRoutingProvider: NavigationSettings.shared.directions,
-                                                                            credentials: NavigationSettings.shared.directions.credentials,
-                                                                            simulating: .onPoorGPS)
-                            
-                            let navigationOptions = NavigationOptions(navigationService: navigationService)
-                            let navigationViewController = NavigationViewController(for: indexedRouteResponse,
-                                                                                    navigationOptions: navigationOptions)
-                            navigationViewController.modalPresentationStyle = .fullScreen
-                           
-                            navigationViewController.routeLineTracksTraversal = true
-                            
-                            strongSelf.present(navigationViewController, animated: true, completion: nil)
-                        }
-                    }
-                }
-            }
-        } else {
-            print("Location is nil")
-        }
-    
-    
+//        if let currentLocation = locationManager.location {
+//            CLGeocoder().reverseGeocodeLocation(currentLocation) { placemarks, error in
+//                if let error = error {
+//                    print("Error getting location: \(error.localizedDescription)")
+//                } else if let placemark = placemarks?.first {
+//                    let origin = CLLocationCoordinate2D(latitude: currentLocation.coordinate.latitude, longitude: currentLocation.coordinate.longitude)
+//                    let endpoint = CLLocationCoordinate2D(latitude: self.lat, longitude: self.long)
+//                    let options = NavigationRouteOptions(coordinates: [origin,endpoint])
+//                    Directions.shared.calculate(options) { [weak self] (_, result) in
+//                        switch result {
+//                        case .failure(let error):
+//                            print(error.localizedDescription)
+//                        case .success(let response):
+//                            guard let strongSelf = self else {
+//                                return
+//                            }
+//                            let indexedRouteResponse = IndexedRouteResponse(routeResponse: response, routeIndex: 0)
+//                            let navigationService = MapboxNavigationService(indexedRouteResponse: indexedRouteResponse,
+//                                                                            customRoutingProvider: NavigationSettings.shared.directions,
+//                                                                            credentials: NavigationSettings.shared.directions.credentials,
+//                                                                            simulating: .onPoorGPS)
+//                            
+//                            let navigationOptions = NavigationOptions(navigationService: navigationService)
+//                            let navigationViewController = NavigationViewController(for: indexedRouteResponse,
+//                                                                                    navigationOptions: navigationOptions)
+//                            navigationViewController.modalPresentationStyle = .fullScreen
+//                           
+//                            navigationViewController.routeLineTracksTraversal = true
+//                            
+//                            strongSelf.present(navigationViewController, animated: true, completion: nil)
+//                        }
+//                    }
+//                }
+//            }
+//        } else {
+//            print("Location is nil")
+//        }
+        print(currentLocationDisplayed)
+        sampleTextHolder.text = currentLocationDisplayed?.descriptionEng
+//        do {
+//                    // Parse HTML
+//            let doc: Document = try SwiftSoup.parse(currentLocationDisplayed!.descriptionLat)
+//                    
+//                    // Get all paragraphs
+//                    let paragraphs: Elements = try doc.select("body > *")
+//                    
+//                    // Create a string to hold formatted content
+//                        
+//                        // Create a string to hold formatted content
+//                        var formattedContent = ""
+//                        
+//                        // Iterate through paragraphs
+//                        for paragraph in paragraphs {
+//                            // Get text content of the paragraph
+//                            let paragraphText = try paragraph.text()
+//                            
+//                            // Check if the paragraph starts with a number followed by a dot
+//                            if let firstCharacter = paragraphText.first, let dotIndex = paragraphText.firstIndex(of: ".") {
+//                                if firstCharacter.isNumber && dotIndex == paragraphText.index(after: paragraphText.startIndex) {
+//                                    // If it starts with a number and a dot, add it as a numbered item in a new line
+//                                    formattedContent += "\(paragraphText)\n"
+//                                } else {
+//                                    // Otherwise, add it as a regular paragraph
+//                                    formattedContent += "\(paragraphText)\n\n"
+//                                }
+//                            } else {
+//                                // If it doesn't start with a number and a dot, add it as a regular paragraph
+//                                formattedContent += "\(paragraphText)\n\n"
+//                            }
+//                        }
+//                        
+//                        // Set the formatted content as text in the UITextView
+//                        sampleTextHolder.text = formattedContent.trimmingCharacters(in: .whitespacesAndNewlines)
+//                        
+//                    } catch Exception.Error(let type, let message) {
+//                        print("Error: \(type) - \(message)")
+//                    } catch {
+//                        print("Error")
+//                    }
+      
+
     }
     @IBAction func buttonLikeClick(_ sender: Any) {
         if buttonLike.currentImage == UIImage(systemName: "heart.fill") {

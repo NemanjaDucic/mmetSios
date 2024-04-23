@@ -18,7 +18,11 @@ import MapboxNavigation
 class TravelViewController: UIViewController, CLLocationManagerDelegate,UISearchBarDelegate,UITableViewDelegate,UITableViewDataSource {
     private let storageRef = Storage.storage().reference()
     
-    
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        return [.landscape,.landscapeLeft,.landscapeRight]
+    }
+    var landscapeConstraints: [NSLayoutConstraint] = []
+
     //LOCAL HOLDERS
     private var coordinatePointsArray = [CoordinateModel]() // SLUZI U SLUCAJU DA SACUVAMO RUTU
     private var coordinatesForPointsFromAdd = [CoordinateModel]()
@@ -68,6 +72,31 @@ class TravelViewController: UIViewController, CLLocationManagerDelegate,UISearch
         self.mhHolderView.bringSubviewToFront(holderLabel)
     
     }
+    @objc func orientationChanged() {
+        let isPortrait = UIDevice.current.orientation.isPortrait
+        
+        adjustMapViewFrame(!isPortrait)
+    }
+    deinit {
+         NotificationCenter.default.removeObserver(self)
+     }
+    private func adjustMapViewFrame(_ isPortrait: Bool) {
+        seachStart.isHidden = isPortrait ? true : false
+        searchEnd.isHidden = isPortrait ? true : false
+        navigationController?.navigationBar.isHidden = isPortrait ? true : false
+        tabBarController?.tabBar.isHidden = isPortrait ? true: false
+        mhHolderView.translatesAutoresizingMaskIntoConstraints = isPortrait ? false: false
+
+        if !isPortrait {
+            NSLayoutConstraint.deactivate(landscapeConstraints)
+            mhHolderView.frame = view.bounds
+            
+         } else {
+           
+             NSLayoutConstraint.activate(landscapeConstraints)
+         }
+        
+      }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = UITableViewCell()
         cell.textLabel?.text = filteredData[indexPath.row]
@@ -75,6 +104,18 @@ class TravelViewController: UIViewController, CLLocationManagerDelegate,UISearch
     }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         filteredData.count
+    }
+
+
+
+    private func setupLandscapeConstraints() {
+        // Define your landscape constraints here
+        landscapeConstraints = [
+            mhHolderView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 0),
+            mhHolderView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: 0),
+            mhHolderView.topAnchor.constraint(equalTo: view.topAnchor, constant: 0),
+            mhHolderView.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: 0)
+        ]
     }
     private  func initSetup(){
         holderView.isHidden = true
@@ -85,7 +126,7 @@ class TravelViewController: UIViewController, CLLocationManagerDelegate,UISearch
         seachStart.delegate = self
         searchTableBiew.dataSource = self
         searchTableBiew.delegate = self
-        
+        setupLandscapeConstraints()
         searchTableBiew.isHidden = true
         holderView.layoutMargins = UIEdgeInsets(top: 10, left: 10, bottom: 0, right: 10)
         holderView.isLayoutMarginsRelativeArrangement = true
@@ -108,8 +149,10 @@ class TravelViewController: UIViewController, CLLocationManagerDelegate,UISearch
        
         // Delegates
         locationManager.delegate = self
-        self.tabBarController!.selectedIndex = 2
+//        self.tabBarController!.selectedIndex = 2
         mapinit()
+        NotificationCenter.default.addObserver(self, selector: #selector(orientationChanged), name: UIDevice.orientationDidChangeNotification, object: nil)
+
 
     }
     @objc func closeButtonTapped() {
@@ -221,7 +264,7 @@ class TravelViewController: UIViewController, CLLocationManagerDelegate,UISearch
         }
         searchTableBiew.isHidden = true
         
-        if selectedLocationEnd != nil && selectedLocationStart != nil  {
+        if selectedLocationEnd != nil  {
             searchTableBiew.isHidden = true
             saveRoutesButton.isHidden = false
             stackView.isHidden = false
@@ -233,6 +276,25 @@ class TravelViewController: UIViewController, CLLocationManagerDelegate,UISearch
         guard let location = locations.last else { return }
         DispatchQueue.main.async {
             self.mapView.mapboxMap.setCamera(to: CameraOptions(center: location.coordinate, zoom:14))
+        }
+        let geocoder = CLGeocoder()
+        geocoder.reverseGeocodeLocation(location) { (placemarks, error) in
+            if let error = error {
+                print("Reverse geocoding failed with error: \(error.localizedDescription)")
+                return
+            }
+            
+            if let placemark = placemarks?.first {
+                if let name = placemark.name {
+                    print(name)
+                    self.seachStart.text =  name + ( " , "  + (placemark.locality ?? "" ))
+                    
+                } else {
+                    print("Location name not found")
+                }
+            } else {
+                print("No placemarks found")
+            }
         }
         print(location,"lokacija")
         currentLatitude = location.coordinate.latitude
@@ -272,11 +334,22 @@ class TravelViewController: UIViewController, CLLocationManagerDelegate,UISearch
     
     
     @IBAction func saveRouteClick(_ sender: Any) {
+        var coordinateStart = CoordinateModel(lat: currentLatitude ?? 0.0, lon: currentLongitude ?? 0.0)
+        var coordinateCurrent = CoordinateModel(lat: selectedLocationStart?.lat ?? 00.0,lon: selectedLocationStart?.lon ?? 0.0)
+        var coordinateEnd = CoordinateModel(lat: selectedLocationEnd?.lat ?? 0.0,lon: selectedLocationEnd?.lon ?? 0.0)
         saveRoutesButton.isHidden = true
-        coordinatePointsArray.append(CoordinateModel(lat: currentLatitude ?? 0.0, lon: currentLongitude ?? 0.0))
-        coordinatePointsArray.append(CoordinateModel(lat: selectedLocationStart?.lat ?? 00.0,lon: selectedLocationStart?.lon ?? 0.0))
-        coordinatePointsArray.append(contentsOf: coordinatesForPointsFromAdd)
-        coordinatePointsArray.append(CoordinateModel(lat: selectedLocationEnd?.lat ?? 0.0,lon: selectedLocationEnd?.lon ?? 0.0))
+        if selectedLocationStart != nil {
+            coordinatePointsArray.append(coordinateStart)
+            coordinatePointsArray.append(coordinateCurrent)
+            coordinatePointsArray.append(contentsOf: coordinatesForPointsFromAdd)
+            coordinatePointsArray.append(coordinateEnd)
+        }
+        else {
+            coordinatePointsArray.append(coordinateStart)
+            coordinatePointsArray.append(contentsOf: coordinatesForPointsFromAdd)
+            coordinatePointsArray.append(coordinateEnd)
+        }
+      
       
         FirebaseWizard().addToFavouriteRoutes(customRoute: CustomRoute(name: seachStart.text! + " - " + searchEnd.text!,points: coordinatePointsArray), completion: {
             added in
@@ -290,14 +363,51 @@ class TravelViewController: UIViewController, CLLocationManagerDelegate,UISearch
     }
     
     @IBAction func showLocalityClicked(_ sender: Any) {
-        
-        var destionation = CLLocationCoordinate2D(latitude: selectedLocationEnd!.lat, longitude: selectedLocationEnd!.lon)
-        var currentLocation = CLLocationCoordinate2D(latitude: selectedLocationStart!.lat, longitude: selectedLocationStart!.lon)
         var myLocation = CLLocationCoordinate2D(latitude: currentLatitude!, longitude: currentLongitude!)
-        
-        addAnnotations(getProximityAnnotations(start: Point(currentLocation), end: Point(destionation), oneMore: Point(myLocation)).0,getProximityAnnotations(start: Point(currentLocation), end: Point(destionation), oneMore: Point(myLocation)).1)
+        var destionation = CLLocationCoordinate2D(latitude: selectedLocationEnd!.lat, longitude: selectedLocationEnd!.lon)
+
+        if selectedLocationStart != nil {
+            
+            var currentLocation = CLLocationCoordinate2D(latitude: selectedLocationStart!.lat, longitude: selectedLocationStart!.lon)
+            
+            addAnnotations(getProximityAnnotations(start: Point(currentLocation), end: Point(destionation), oneMore: Point(myLocation)).0,getProximityAnnotations(start: Point(currentLocation), end: Point(destionation), oneMore: Point(myLocation)).1)
+        } else {
+            var twoLocations = getProximityAnnotationsForTwoLocations(start: Point(myLocation), end: Point(destionation))
+            addAnnotations(twoLocations.0, twoLocations.1)
+          
+        }
+
        
     }
+    func getProximityAnnotationsForTwoLocations(start: Point, end: Point) -> ([LocationModel], [TollModel]) {
+        let padding = 0.020000
+        
+        let west = min(start.coordinates.longitude, end.coordinates.longitude) - padding
+        let east = max(start.coordinates.longitude, end.coordinates.longitude) + padding
+        let south = min(start.coordinates.latitude, end.coordinates.latitude) - padding
+        let north = max(start.coordinates.latitude, end.coordinates.latitude) + padding
+        
+        var proximityAnnotations: [LocationModel] = []
+        var proximityTolls: [TollModel] = []
+        
+        for annotation in LocalManager.shared.allLocations {
+            let annotationCoordinate = CLLocationCoordinate2D(latitude: annotation.lat, longitude: annotation.lon)
+            if (annotationCoordinate.longitude > west && annotationCoordinate.longitude < east &&
+                annotationCoordinate.latitude > south && annotationCoordinate.latitude < north) {
+                proximityAnnotations.append(annotation)
+            }
+        }
+        for tol in LocalManager.shared.allTolls {
+            let tollCoordinate = CLLocationCoordinate2D(latitude: tol.lat, longitude: tol.lon)
+            if (tollCoordinate.longitude > west && tollCoordinate.longitude < east &&
+                tollCoordinate.latitude > south && tollCoordinate.latitude < north) {
+                proximityTolls.append(tol)
+            }
+        }
+        
+        return (proximityAnnotations, proximityTolls)
+    }
+
     func getProximityAnnotations(start: Point, end: Point, oneMore: Point) -> ([LocationModel], [TollModel]) {
         let padding = 0.020000
         let west = min(start.coordinates.longitude, end.coordinates.longitude, oneMore.coordinates.longitude) - padding
@@ -335,7 +445,8 @@ class TravelViewController: UIViewController, CLLocationManagerDelegate,UISearch
     func startNavigation(){
         
         waypointsArray.append(Waypoint(coordinate:  LocationCoordinate2D(latitude: currentLatitude!, longitude: currentLongitude!)))
-        waypointsArray.append(Waypoint(coordinate: LocationCoordinate2D(latitude: selectedLocationStart!.lat, longitude: selectedLocationStart!.lon)))
+        if selectedLocationStart != nil { waypointsArray.append(Waypoint(coordinate: LocationCoordinate2D(latitude: selectedLocationStart!.lat, longitude: selectedLocationStart!.lon)))}
+       
         waypointsArray.append(contentsOf: wayPointsAditionalyAded)
         waypointsArray.append(Waypoint(coordinate: LocationCoordinate2D(latitude: selectedLocationEnd!.lat, longitude: selectedLocationEnd!.lon)))
         let options = NavigationRouteOptions(waypoints: waypointsArray)
@@ -376,7 +487,7 @@ class TravelViewController: UIViewController, CLLocationManagerDelegate,UISearch
             
             let coordinate = CLLocationCoordinate2D(latitude: item.lat, longitude: item.lon)
             var pointAnnotation = PointAnnotation(coordinate: coordinate)
-            if item.subcat.contains("mobilna"){
+            if item.subcat.contains("mobilna telefonija"){
                 pointAnnotation.image = .init(image: UIImage(named: "mts_pin")!, name: item.id)
             } else if item.nameLat == Constants.VRNJACKA_BANJA {
                 pointAnnotation.image = .init(image: UIImage(named: "pin_vrnjacka_banja")!, name: item.id)
@@ -384,7 +495,7 @@ class TravelViewController: UIViewController, CLLocationManagerDelegate,UISearch
             else if item.nameLat == Constants.RUMA {
                 pointAnnotation.image = .init(image: UIImage(named: "pin_ruma")!, name: item.id)
             }else {
-                pointAnnotation.image = UIImage(named: Utils().getPinForCategory(category: item.category)).map { .init(image: $0, name: item.id) }
+                pointAnnotation.image = UIImage(named: Utils().getPinForCategory(category: item.primaryCategory)).map { .init(image: $0, name: item.id) }
             }
             
             pointAnnotation.iconAnchor = .bottom

@@ -12,6 +12,7 @@ target 'MeetSerbia' do
 	pod 'Firebase/Auth'
 	pod 'Firebase/Storage'
 	pod 'SDWebImage'
+	pod 'FloatingTabBarController'
 	pod 'Kingfisher', '~> 7.0'
   	pod 'MapboxMaps', '10.11.1'
 	pod 'MapboxCoreNavigation', '~> 2.11'
@@ -19,7 +20,6 @@ target 'MeetSerbia' do
 	pod 'MapboxGeocoder.swift', '~> 0.15'	
 	pod 'SwiftyGif'
 	pod 'iProgressHUD', '~> 1.1.1'
-
 
   target 'MeetSerbiaTests' do
     inherit! :search_paths

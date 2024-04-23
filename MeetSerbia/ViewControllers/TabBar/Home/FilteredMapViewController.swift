@@ -28,7 +28,8 @@ class FilteredMapViewController:UIViewController,CLLocationManagerDelegate, UICo
        
 
     }
-    
+    var landscapeConstraints: [NSLayoutConstraint] = []
+
     let allCategories = Data().items as [DataModel]
     private let firebaseWizard = FirebaseWizard()
     @IBOutlet weak var heightConstraintCV: NSLayoutConstraint!
@@ -40,12 +41,12 @@ class FilteredMapViewController:UIViewController,CLLocationManagerDelegate, UICo
     var selectedCategories = [String]()
     private var images = [String]()
     private var subcategoriesLat = [String]()
-    private var selectedFilters = [String]()
+    private var  selectedFilters = [String]()
     var pointAnnotationManager : PointAnnotationManager?
      var sentFromSearch:Bool?
     var selectedSub = ""
     override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
-        return .landscape
+        return [.landscape,.landscapeRight,.landscapeLeft]
     }
     private var boolArray = [Bool]()
    
@@ -65,8 +66,28 @@ class FilteredMapViewController:UIViewController,CLLocationManagerDelegate, UICo
     private func adjustMapViewFrame(_ isPortrait: Bool) {
           mapView.frame = isPortrait ? mhView.bounds : view.bounds
         heightConstraintCV.constant = isPortrait ? 0 : 150
+        tabBarController?.tabBar.backgroundColor = isPortrait ? .white : .white
+        navigationController?.navigationBar.isHidden = isPortrait ? true : false
+        floatinButton.isHidden = isPortrait ? true : false
+        if !isPortrait {
+            NSLayoutConstraint.deactivate(landscapeConstraints)
 
+            mhView.frame = view.bounds
+        } else {
+            NSLayoutConstraint.activate(landscapeConstraints)
+
+        }
+        
       }
+    private func setupLandscapeConstraints() {
+        // Define your landscape constraints here
+        landscapeConstraints = [
+            mhView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 0),
+            mhView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: 0),
+            mhView.topAnchor.constraint(equalTo: view.topAnchor, constant: 0),
+            mhView.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: 0)
+        ]
+    }
     @objc func orientationChanged() {
         let isPortrait = UIDevice.current.orientation.isPortrait
         
@@ -85,7 +106,7 @@ class FilteredMapViewController:UIViewController,CLLocationManagerDelegate, UICo
           cell.delegate = self
         let info = multipleCategoriesInfo(categories: selectedCategories)
         cell.titleLabel.text = info.subcategories[indexPath.row]
-       
+    
         cell.mainImage.image = UIImage(named:info.images[indexPath.row])
 
         if boolArray.isEmpty{
@@ -117,11 +138,11 @@ class FilteredMapViewController:UIViewController,CLLocationManagerDelegate, UICo
         
         for category in allCategories {
             if categories.contains(where: { $0.lowercased() == category.categoryLat.lowercased() }) {
-                if Constants().userDefLangugaeKey == "lat" {
+                if UserDefaultsManager.language == "lat" {
                     subcategoriesLat.append(category.categoryLat)
                     subcategoriesArray.append(category.categoryLat)
                     imagesArray.append(category.categoryImageData)
-                } else if Constants().userDefLangugaeKey == "eng" {
+                } else if UserDefaultsManager.language == "eng" {
                     subcategoriesArray.append(category.categoryEng)
                     imagesArray.append(category.categoryImageData)
                     subcategoriesLat.append(category.categoryLat)
@@ -132,7 +153,16 @@ class FilteredMapViewController:UIViewController,CLLocationManagerDelegate, UICo
                     subcategoriesLat.append(category.categoryLat)
                 }
                 subcategoriesLat.append(contentsOf: category.subcategoryLat)
-                subcategoriesArray.append(contentsOf: category.subcategory)
+                if UserDefaultsManager.language == "lat" {
+                    subcategoriesArray.append(contentsOf: category.subcategoryLat)
+
+                } else if UserDefaultsManager.language == "eng" {
+                    subcategoriesArray.append(contentsOf: category.subcategoryEng)
+
+                } else {
+                    subcategoriesArray.append(contentsOf: category.subcategory)
+
+                }
                 imagesArray.append(contentsOf: category.imageData)
 
             }
@@ -149,6 +179,7 @@ class FilteredMapViewController:UIViewController,CLLocationManagerDelegate, UICo
     private func initSetup(){
         let myResourceOptions = ResourceOptions(accessToken: Constants.token)
         let myMapInitOptions = MapInitOptions(resourceOptions: myResourceOptions)
+        setupLandscapeConstraints()
         mapView = MapView(frame: mhView.bounds   , mapInitOptions: myMapInitOptions)
         mapView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
         mapView.isUserInteractionEnabled = true
@@ -158,20 +189,7 @@ class FilteredMapViewController:UIViewController,CLLocationManagerDelegate, UICo
         pointAnnotationManager = mapView.annotations.makePointAnnotationManager()
         pointAnnotationManager!.delegate = self
         NotificationCenter.default.addObserver(self, selector: #selector(orientationChanged), name: UIDevice.orientationDidChangeNotification, object: nil)
-        if Constants().userDefLangugaeKey == "eng" {
-       
-            view.updateCaption(text: "Loading ...")
-        } else if Constants().userDefLangugaeKey == "lat"{
-        
-            view.updateCaption(text: "Učitavanje ...")
-        }
-        else if Constants().userDefLangugaeKey == "cir"{
-            view.updateCaption(text: "Учитавање ...")
-         
-        } else {
-            view.updateCaption(text: "Учитавање ...")
-
-        }
+        view.updateCaption(text: Utils().loadingText())
         view.showProgress()
         let expansionWidth = width * 0.15
         let expansionHeight = height * 0.15
@@ -193,7 +211,7 @@ class FilteredMapViewController:UIViewController,CLLocationManagerDelegate, UICo
         try? mapView.mapboxMap.setCameraBounds(with: CameraBoundsOptions(bounds: bounds))
         let camera = mapView.mapboxMap.camera(for: bounds, padding: .zero, bearing:0, pitch: 0)
         mapView.mapboxMap.setCamera(to: camera)
-     
+        selectedFilters.append(contentsOf: selectedCategories)
         floatinButton.backgroundColor = nil
         mhView.bringSubviewToFront(floatinButton)
         
@@ -202,7 +220,7 @@ class FilteredMapViewController:UIViewController,CLLocationManagerDelegate, UICo
             LocalManager.shared.getAllLocations { locations in
                 DispatchQueue.main.async {
                     self.filterAnnotations = locations
-                    let filtered = self.filterAnnotations.filter{$0.subcat == self.selectedSub.lowercased()}
+                    let filtered = self.filterAnnotations.filter{$0.subcat.contains(self.selectedSub.lowercased()) == true}
                     self.addFilterAnnotations(filtered)
                     self.horizontalCV.reloadData()
                     self.view.dismissProgress()
@@ -211,14 +229,7 @@ class FilteredMapViewController:UIViewController,CLLocationManagerDelegate, UICo
             
             
         } else {
-            if selectedCategories.contains("sve kategorije") {
-                LocalManager.shared.getAllLocations { locations in
-        DispatchQueue.main.async {
-            self.addAnnotations(locations)
-
-            }
-                }
-            } else{
+                
                 LocalManager.shared.getAllLocations { locations in
                     DispatchQueue.main.async {
                         self.addAnnotations(locations.filterLocations(byCategories: self.selectedCategories))
@@ -231,14 +242,12 @@ class FilteredMapViewController:UIViewController,CLLocationManagerDelegate, UICo
                                 } else {
                                     self.boolArray.append(false)
                                 }
-                               print(i,"ja sam i")
                                 self.horizontalCV.reloadData()
                             }
                         }
                         
                     }
                 }
-            }
         }
         
     }
@@ -248,7 +257,7 @@ class FilteredMapViewController:UIViewController,CLLocationManagerDelegate, UICo
            
             let coordinate = CLLocationCoordinate2D(latitude: item.lat, longitude: item.lon)
             var pointAnnotation = PointAnnotation(coordinate: coordinate)
-            if item.subcat.contains("mobilna"){
+            if item.subcat.contains("mobilna telefonija"){
                 pointAnnotation.image = .init(image: UIImage(named: "mts_pin")!, name: item.id)
             } else if item.nameLat == Constants.VRNJACKA_BANJA {
                 pointAnnotation.image = .init(image: UIImage(named: "pin_vrnjacka_banja")!, name: item.id)
@@ -256,7 +265,7 @@ class FilteredMapViewController:UIViewController,CLLocationManagerDelegate, UICo
             else if item.nameLat == Constants.RUMA {
                 pointAnnotation.image = .init(image: UIImage(named: "pin_ruma")!, name: item.id)
             }else {
-                pointAnnotation.image = UIImage(named: Utils().getPinForCategory(category: item.category)).map { .init(image: $0, name: item.id) }
+                pointAnnotation.image = UIImage(named: Utils().getPinForCategory(category: item.primaryCategory)).map { .init(image: $0, name: item.id) }
             }
             pointAnnotation.iconAnchor = .bottom
             pointAnnotation.iconSize = .maximum(0.5, 0.5)
@@ -275,7 +284,7 @@ class FilteredMapViewController:UIViewController,CLLocationManagerDelegate, UICo
         for item in locations {
             let coordinate = CLLocationCoordinate2D(latitude: item.lat, longitude: item.lon)
             var pointAnnotation = PointAnnotation(coordinate: coordinate)
-            if item.subcat.contains("mobilna"){
+            if item.subcat.contains("mobilna telefonija"){
                 pointAnnotation.image = .init(image: UIImage(named: "mts_pin")!, name: item.id)
             } else if item.nameLat == Constants.VRNJACKA_BANJA {
                 pointAnnotation.image = .init(image: UIImage(named: "pin_vrnjacka_banja")!, name: item.id)
@@ -283,7 +292,7 @@ class FilteredMapViewController:UIViewController,CLLocationManagerDelegate, UICo
             else if item.nameLat == Constants.RUMA {
                 pointAnnotation.image = .init(image: UIImage(named: "pin_ruma")!, name: item.id)
             }else {
-                pointAnnotation.image = UIImage(named: Utils().getPinForCategory(category: item.category)).map { .init(image: $0, name: item.id) }
+                pointAnnotation.image = UIImage(named: Utils().getPinForCategory(category: item.primaryCategory)).map { .init(image: $0, name: item.id) }
             }
             pointAnnotation.iconAnchor = .bottom
             pointAnnotation.iconSize = .maximum(0.5, 0.5)
@@ -296,51 +305,56 @@ class FilteredMapViewController:UIViewController,CLLocationManagerDelegate, UICo
     
     @IBAction func floatingButtonClick(_ sender: Any) {
         filtereOutAnnotations()
+            print(selectedFilters)
 
     }
     func filtereOutAnnotations(){
-                let allCategories = Data().items as [DataModel]
-        var matchingResults = [DataModel]()
-        for filterCategory in selectedFilters {
-            if let matchingCategory = allCategories.first(where: { $0.categoryLat.lowercased() == filterCategory.lowercased() }) {
-                matchingResults.append(matchingCategory)
-            }
-        }
-        if matchingResults.isEmpty {
-            print("nema")
-            // THERE ARENT MATHCING RESULTS
-            pointAnnotationManager?.annotations.removeAll()
-            filterAnnotations = allAnotations
-            let filtered = filterAnnotations.filter { annotation in
-                selectedFilters.contains(annotation.subcat.lowercased())
-            }
-            addFilterAnnotations(filtered)
-        } else {
-            print("nema")
-            // THERE ARE MATHCING RESULTS
+        let allCategories = Data().items as [DataModel]
+         var matchingResults = [DataModel]()
+         for filterCategory in selectedFilters {
+             if let matchingCategory = allCategories.first(where: { $0.categoryLat.lowercased() == filterCategory.lowercased() }) {
+                 matchingResults.append(matchingCategory)
+             }
+         }
+      
+         if matchingResults.isEmpty {
+             print("nema")
+               // THERE ARENT MATHCING RESULTS
                pointAnnotationManager?.annotations.removeAll()
                filterAnnotations = allAnotations
-               var filtered = [LocationModel]()
-               for matchingCategory in matchingResults {
-                   let annotationsForCategory = filterAnnotations.filter { annotation in
-                       annotation.category.lowercased() == matchingCategory.categoryLat.lowercased()
+               let filtered = filterAnnotations.filter { annotation in
+                   
+                   selectedFilters.contains { filterCategory in
+                       annotation.subcat.contains(filterCategory.lowercased())
                    }
-                   filtered.append(contentsOf: annotationsForCategory)
                }
+               addFilterAnnotations(filtered)
+           } else {
+               print("nema")
+               // THERE ARE MATHCING RESULTS
+                  pointAnnotationManager?.annotations.removeAll()
+                  filterAnnotations = allAnotations
+                  var filtered = [LocationModel]()
+                  for matchingCategory in matchingResults {
+                      let annotationsForCategory = filterAnnotations.filter { annotation in
+                          annotation.category.contains(matchingCategory.categoryLat.lowercased())
+                      }
+                      filtered.append(contentsOf: annotationsForCategory)
+                  }
                for filterCategory in selectedFilters {
                    if matchingResults.contains(where: { $0.categoryLat.lowercased() == filterCategory.lowercased() }) {
                        continue
                    }
                    let annotationsForSubcategory = filterAnnotations.filter { annotation in
-                       annotation.subcat.lowercased() == filterCategory.lowercased()
+                       annotation.subcat.contains(filterCategory.lowercased())
                    }
                    filtered.append(contentsOf: annotationsForSubcategory)
                }
 
-            addFilterAnnotations(filtered)
-            
-        }
-    }
+               addFilterAnnotations(filtered)
+               
+           }
+       }
     
 }
 extension FilteredMapViewController: AnnotationInteractionDelegate {

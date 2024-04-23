@@ -1,6 +1,33 @@
 {
   "pins" : [
     {
+      "identity" : "cgmath",
+      "kind" : "remoteSourceControl",
+      "location" : "https://EmilioPelaez@github.com/EmilioPelaez/CGMath.git",
+      "state" : {
+        "revision" : "352dc9a0c5ea8db162714944c68de1fa7ae3e4bf",
+        "version" : "1.0.4"
+      }
+    },
+    {
+      "identity" : "floatingtabbarcontroller",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/EmilioPelaez/FloatingTabBarController",
+      "state" : {
+        "revision" : "823ca858652fce63b6a66b35c8915605988d20ed",
+        "version" : "1.0.0"
+      }
+    },
+    {
+      "identity" : "imagescrollview",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/huynguyencong/ImageScrollView.git",
+      "state" : {
+        "revision" : "1cf139aec5b838d3b383058e20cdbd80d20142f5",
+        "version" : "1.9.3"
+      }
+    },
+    {
       "identity" : "swiftsoup",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/scinfu/SwiftSoup.git",

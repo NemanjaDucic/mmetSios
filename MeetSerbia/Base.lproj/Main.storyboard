@@ -318,7 +318,7 @@
         <!--MTS Meet Serbia-->
         <scene sceneID="xcW-gJ-n5f">
             <objects>
-                <viewController id="OkA-qK-hxt" customClass="TravelViewController" customModule="MeetSerbia" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="TravelVC" id="OkA-qK-hxt" customClass="TravelViewController" customModule="MeetSerbia" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="JQj-xC-1Le">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -550,30 +550,23 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" maximumZoomScale="10" translatesAutoresizingMaskIntoConstraints="NO" id="HqU-mu-MQQ">
-                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="adrenalin" translatesAutoresizingMaskIntoConstraints="NO" id="r7z-Hl-RYH">
-                                        <rect key="frame" x="0.0" y="106" width="393" height="438"/>
-                                    </imageView>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstItem="r7z-Hl-RYH" firstAttribute="leading" secondItem="GJy-Jv-m3I" secondAttribute="leading" id="2oW-qc-ZA7"/>
-                                    <constraint firstItem="r7z-Hl-RYH" firstAttribute="top" secondItem="GJy-Jv-m3I" secondAttribute="top" constant="150" id="96S-gG-4co"/>
-                                    <constraint firstItem="GJy-Jv-m3I" firstAttribute="bottom" secondItem="r7z-Hl-RYH" secondAttribute="bottom" constant="264" id="IQo-4Q-H3B"/>
-                                    <constraint firstItem="GJy-Jv-m3I" firstAttribute="trailing" secondItem="r7z-Hl-RYH" secondAttribute="trailing" id="zeh-xf-WC1"/>
-                                </constraints>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" scrollEnabled="NO" maximumZoomScale="10" translatesAutoresizingMaskIntoConstraints="NO" id="HqU-mu-MQQ" customClass="ImageScrollView" customModule="ImageScrollView">
+                                <rect key="frame" x="0.0" y="138" width="393" height="449"/>
                                 <viewLayoutGuide key="contentLayoutGuide" id="bmu-cQ-fmS"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="GJy-Jv-m3I"/>
                             </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="0IW-56-9kN"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="0IW-56-9kN" firstAttribute="bottom" secondItem="HqU-mu-MQQ" secondAttribute="bottom" id="3ng-Wx-Sgj"/>
+                            <constraint firstItem="HqU-mu-MQQ" firstAttribute="top" secondItem="0IW-56-9kN" secondAttribute="top" id="FLy-Tu-XHp"/>
+                            <constraint firstItem="HqU-mu-MQQ" firstAttribute="trailing" secondItem="0IW-56-9kN" secondAttribute="trailing" id="OXK-sb-fDT"/>
+                            <constraint firstItem="HqU-mu-MQQ" firstAttribute="leading" secondItem="0IW-56-9kN" secondAttribute="leading" id="gCv-UG-kdv"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="1bx-hU-Kre"/>
                     <connections>
-                        <outlet property="image" destination="r7z-Hl-RYH" id="asy-0W-S9V"/>
                         <outlet property="scroll" destination="HqU-mu-MQQ" id="Dx2-ak-QOe"/>
                     </connections>
                 </viewController>
@@ -595,7 +588,7 @@
                                 <string key="text">Од првог дашка пролећа, када се благе падине оките белим цветовима висибаба, па до одмакле јесени када се цела природа прелива у тоновима жуте и црвене боје јесењег лишћа, Фрушка гора је веома посећена од стране многих излетника и туриста. Да би се обезбедио пријатан боравак на овој планини, ЈП "Национални парк Фрушка гора" се брине о уређивању излетишта. Излетишта на Фрушкој гори су простори најчешће поред Гребенског пута. Од излетишта која се уређују, значајнија су: Чортановачка шума, Стражилово, Партизански пут, Иришки венац, Хопово, Главица, Поповица, Змајевац, Летенка, Хајдучки брег, Андревље, Тестера, Цигански логор, Лежимир, Рохаљ базе, Липовача и др. На свим овим излетиштима створени су услови за једнодневни боравак у шуми, шумским пропланцима и на ливадама. Излетницима се овде пружа могућност за активан и пасиван одмор. Сва излетишта су посећена током целе године, а најбројнији посетиоци Фрушке горе су деца из целе Србије.
 </string>
                                 <color key="textColor" systemColor="labelColor"/>
-                                <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="15"/>
+                                <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pi9-j5-Vod">
@@ -715,10 +708,25 @@
             </objects>
             <point key="canvasLocation" x="-2004" y="3174"/>
         </scene>
+        <!--VCTEST-->
+        <scene sceneID="2p3-it-sgo">
+            <objects>
+                <viewController id="SPV-dr-tC4" customClass="VCTEST" customModule="MeetSerbia" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fmt-re-dUy">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="m3d-0B-eqK"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="H7L-5F-oWZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-843.51145038167931" y="3369.0140845070423"/>
+        </scene>
         <!--MTS Meet Serbia-->
         <scene sceneID="pLR-OM-8F7">
             <objects>
-                <viewController id="dQw-Ml-jYc" customClass="HomePageViewController" customModule="MeetSerbia" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeVC" id="dQw-Ml-jYc" customClass="HomePageViewController" customModule="MeetSerbia" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fh1-kV-KpV">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1136,7 +1144,7 @@
         <!--MTS Meet Serbia-->
         <scene sceneID="Rr1-it-ZvZ">
             <objects>
-                <viewController id="EPa-Pc-J4E" customClass="ProfileViewController" customModule="MeetSerbia" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ProfileVC" id="EPa-Pc-J4E" customClass="ProfileViewController" customModule="MeetSerbia" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8Wz-We-0wL">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1852,12 +1860,11 @@
     <inferredMetricsTieBreakers>
         <segue reference="MkS-Si-aPN"/>
         <segue reference="eMn-7o-G9c"/>
-        <segue reference="Nd2-iA-1vH"/>
+        <segue reference="Pdc-S4-ag1"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="LOGO MEET SERBIA" width="231" height="241"/>
         <image name="addphoto" width="799" height="402"/>
-        <image name="adrenalin" width="750" height="380"/>
         <image name="bed" width="39" height="23"/>
         <image name="checkmark" width="78" height="78"/>
         <image name="chevron.left" catalog="system" width="97" height="128"/>
@@ -1883,7 +1890,7 @@
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemCyanColor">
-            <color red="0.1960784314" green="0.67843137249999996" blue="0.90196078430000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.19607843137254902" green="0.67843137254901964" blue="0.90196078431372551" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

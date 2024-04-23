@@ -42,6 +42,27 @@
 		1267B4D229BAA48A00154428 /* Slide2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1267B4D129BAA48A00154428 /* Slide2ViewController.swift */; };
 		1267B4D429BAA4BA00154428 /* Slide3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1267B4D329BAA4BA00154428 /* Slide3ViewController.swift */; };
 		1267B4D629BAAB2600154428 /* OnboardingViewCoontrollerMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1267B4D529BAAB2600154428 /* OnboardingViewCoontrollerMain.swift */; };
+		126B46A72BC93C8B004FE297 /* VCTEST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126B46A62BC93C8B004FE297 /* VCTEST.swift */; };
+		126B46F82BC94A01004FE297 /* FiraSans-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 126B46B42BC94A00004FE297 /* FiraSans-Thin.ttf */; };
+		126B46FC2BC94A01004FE297 /* FiraSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 126B46B82BC94A00004FE297 /* FiraSans-BoldItalic.ttf */; };
+		126B47002BC94A01004FE297 /* FiraSans-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 126B46BC2BC94A00004FE297 /* FiraSans-MediumItalic.ttf */; };
+		126B47012BC94A01004FE297 /* FiraSans-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 126B46BD2BC94A00004FE297 /* FiraSans-BlackItalic.ttf */; };
+		126B47032BC94A01004FE297 /* FiraSans-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 126B46BF2BC94A00004FE297 /* FiraSans-Black.ttf */; };
+		126B47042BC94A01004FE297 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 126B46C02BC94A00004FE297 /* OFL.txt */; };
+		126B470B2BC94A01004FE297 /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 126B46C82BC94A01004FE297 /* Poppins-ExtraLight.ttf */; };
+		126B470C2BC94A01004FE297 /* Poppins-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 126B46C92BC94A01004FE297 /* Poppins-ThinItalic.ttf */; };
+		126B470D2BC94A01004FE297 /* Poppins-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 126B46CA2BC94A01004FE297 /* Poppins-ExtraLightItalic.ttf */; };
+		126B470F2BC94A01004FE297 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 126B46CC2BC94A01004FE297 /* Poppins-Light.ttf */; };
+		126B471A2BC94A01004FE297 /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 126B46D72BC94A01004FE297 /* Poppins-Thin.ttf */; };
+		126B471B2BC94A01004FE297 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 126B46D82BC94A01004FE297 /* Poppins-SemiBold.ttf */; };
+		126B471D2BC94A01004FE297 /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 126B46DA2BC94A01004FE297 /* Poppins-MediumItalic.ttf */; };
+		126B47202BC94A01004FE297 /* FiraSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 126B46DE2BC94A01004FE297 /* FiraSans-LightItalic.ttf */; };
+		126B47212BC94A01004FE297 /* FiraSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 126B46DF2BC94A01004FE297 /* FiraSans-Medium.ttf */; };
+		126B47232BC94A01004FE297 /* FiraSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 126B46E12BC94A01004FE297 /* FiraSans-Bold.ttf */; };
+		126B47252BC94A01004FE297 /* FiraSans-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 126B46E32BC94A01004FE297 /* FiraSans-ThinItalic.ttf */; };
+		126B472A2BC94A01004FE297 /* FiraSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 126B46E82BC94A01004FE297 /* FiraSans-ExtraBold.ttf */; };
+		126B472C2BC94A01004FE297 /* FiraSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 126B46EA2BC94A01004FE297 /* FiraSans-SemiBoldItalic.ttf */; };
+		126B472F2BC94A01004FE297 /* FiraSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 126B46ED2BC94A01004FE297 /* FiraSans-Italic.ttf */; };
 		1271D53729E41A1200FFFB53 /* FilteredMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1271D53629E41A1200FFFB53 /* FilteredMapViewController.swift */; };
 		1271F8782A82ECAD00DC2F03 /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = 1271F8772A82ECAD00DC2F03 /* SwiftSoup */; };
 		127474522A9DFF5000F640D4 /* HorizontalCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127474502A9DFF5000F640D4 /* HorizontalCollectionViewCell.swift */; };
@@ -60,6 +81,8 @@
 		12A14CF62BADA84000675829 /* FavouriteRoutesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A14CF52BADA84000675829 /* FavouriteRoutesViewController.swift */; };
 		12A14CF82BADBB4400675829 /* FavouriteMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A14CF72BADBB4400675829 /* FavouriteMapViewController.swift */; };
 		12C5E05629C0C23500752C64 /* MemoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C5E05529C0C23500752C64 /* MemoryModel.swift */; };
+		12C6858B2BD1577900329E56 /* ImageScrollView in Frameworks */ = {isa = PBXBuildFile; productRef = 12C6858A2BD1577900329E56 /* ImageScrollView */; };
+		12C685912BD2786500329E56 /* FloatingTabBarController in Frameworks */ = {isa = PBXBuildFile; productRef = 12C685902BD2786500329E56 /* FloatingTabBarController */; };
 		12C735AB2BAD94D300AA33D5 /* TYPE + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C735AA2BAD94D300AA33D5 /* TYPE + Extension.swift */; };
 		12C735AE2BADA1EF00AA33D5 /* SavedRoutesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C735AC2BADA1EF00AA33D5 /* SavedRoutesTableViewCell.swift */; };
 		12C735AF2BADA1EF00AA33D5 /* SavedRoutesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12C735AD2BADA1EF00AA33D5 /* SavedRoutesTableViewCell.xib */; };
@@ -76,6 +99,7 @@
 		12CA91C029B5E693007A322B /* PageOneVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CA91BF29B5E693007A322B /* PageOneVC.swift */; };
 		12D2CD252A3882550077D3F8 /* PreviewImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D2CD242A3882550077D3F8 /* PreviewImageViewController.swift */; };
 		12DCE44729F68D42006FCD29 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DCE44629F68D42006FCD29 /* Constants.swift */; };
+		12F6EAF82BD005DC0095A50F /* AppUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F6EAF72BD005DC0095A50F /* AppUtility.swift */; };
 		9393D9D7C09372664DBB15B9 /* Pods_MeetSerbiaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BD3ACB5110F7D8557F817D2 /* Pods_MeetSerbiaTests.framework */; };
 		93D29EE26C9530E04304F684 /* Pods_MeetSerbia_MeetSerbiaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92AEFB46953F23B19CE6F116 /* Pods_MeetSerbia_MeetSerbiaUITests.framework */; };
 		CD33C3AD5D2F4DD045A927A7 /* Pods_MeetSerbia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C40860C4F839F15014A98A6 /* Pods_MeetSerbia.framework */; };
@@ -126,21 +150,82 @@
 		1267B4B329B9E4CD00154428 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		1267B4B629B9F6A500154428 /* HomePageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageTableViewCell.swift; sourceTree = "<group>"; };
 		1267B4B729B9F6A500154428 /* HomePageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomePageTableViewCell.xib; sourceTree = "<group>"; };
-		1267B4BA29BA040700154428 /* sf-pro-text-bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "sf-pro-text-bold.ttf"; path = "../../Downloads/sf-pro-display-font/sf-pro-text-bold.ttf"; sourceTree = "<group>"; };
 		1267B4BB29BA0D3600154428 /* MemmoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemmoryTableViewCell.swift; sourceTree = "<group>"; };
 		1267B4BC29BA0D3600154428 /* MemmoryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MemmoryTableViewCell.xib; sourceTree = "<group>"; };
 		1267B4C029BA104A00154428 /* MemmoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemmoriesViewController.swift; sourceTree = "<group>"; };
-		1267B4C329BA197F00154428 /* FiraSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "FiraSans-Regular.ttf"; path = "../../Downloads/Fira_Sans/FiraSans-Regular.ttf"; sourceTree = "<group>"; };
-		1267B4C429BA19EB00154428 /* FiraSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "FiraSans-Italic.ttf"; path = "../../Downloads/Fira_Sans/FiraSans-Italic.ttf"; sourceTree = "<group>"; };
 		1267B4C529BA1A6600154428 /* LocationDescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDescriptionViewController.swift; sourceTree = "<group>"; };
-		1267B4C729BA1C4800154428 /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Black.ttf"; path = "../../Downloads/Poppins/Poppins-Black.ttf"; sourceTree = "<group>"; };
-		1267B4C829BA1C6E00154428 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Regular.ttf"; path = "../../Downloads/Poppins/Poppins-Regular.ttf"; sourceTree = "<group>"; };
 		1267B4C929BA997400154428 /* MyPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageViewController.swift; sourceTree = "<group>"; };
 		1267B4CB29BA9CCB00154428 /* Slide1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slide1ViewController.swift; sourceTree = "<group>"; };
 		1267B4CF29BAA27800154428 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		1267B4D129BAA48A00154428 /* Slide2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slide2ViewController.swift; sourceTree = "<group>"; };
 		1267B4D329BAA4BA00154428 /* Slide3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slide3ViewController.swift; sourceTree = "<group>"; };
 		1267B4D529BAAB2600154428 /* OnboardingViewCoontrollerMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewCoontrollerMain.swift; sourceTree = "<group>"; };
+		126B46A62BC93C8B004FE297 /* VCTEST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCTEST.swift; sourceTree = "<group>"; };
+		126B46A92BC94A00004FE297 /* SIL Open Font License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "SIL Open Font License.txt"; sourceTree = "<group>"; };
+		126B46AA2BC94A00004FE297 /* D-DINCondensed-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "D-DINCondensed-Bold.otf"; sourceTree = "<group>"; };
+		126B46AB2BC94A00004FE297 /* D-DIN-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "D-DIN-Italic.otf"; sourceTree = "<group>"; };
+		126B46AC2BC94A00004FE297 /* D-DINExp-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "D-DINExp-Bold.otf"; sourceTree = "<group>"; };
+		126B46AD2BC94A00004FE297 /* D-DINExp-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "D-DINExp-Italic.otf"; sourceTree = "<group>"; };
+		126B46AE2BC94A00004FE297 /* D-DINCondensed.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "D-DINCondensed.otf"; sourceTree = "<group>"; };
+		126B46AF2BC94A00004FE297 /* D-DINExp.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "D-DINExp.otf"; sourceTree = "<group>"; };
+		126B46B12BC94A00004FE297 /* D-DIN.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "D-DIN.otf"; sourceTree = "<group>"; };
+		126B46B22BC94A00004FE297 /* D-DIN-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "D-DIN-Bold.otf"; sourceTree = "<group>"; };
+		126B46B42BC94A00004FE297 /* FiraSans-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-Thin.ttf"; sourceTree = "<group>"; };
+		126B46B52BC94A00004FE297 /* FiraSans-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		126B46B62BC94A00004FE297 /* FiraSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		126B46B72BC94A00004FE297 /* FiraSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-Medium.ttf"; sourceTree = "<group>"; };
+		126B46B82BC94A00004FE297 /* FiraSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		126B46B92BC94A00004FE297 /* FiraSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-Bold.ttf"; sourceTree = "<group>"; };
+		126B46BA2BC94A00004FE297 /* FiraSans-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-ExtraLight.ttf"; sourceTree = "<group>"; };
+		126B46BB2BC94A00004FE297 /* FiraSans-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-ThinItalic.ttf"; sourceTree = "<group>"; };
+		126B46BC2BC94A00004FE297 /* FiraSans-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-MediumItalic.ttf"; sourceTree = "<group>"; };
+		126B46BD2BC94A00004FE297 /* FiraSans-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-BlackItalic.ttf"; sourceTree = "<group>"; };
+		126B46BE2BC94A00004FE297 /* FiraSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-Light.ttf"; sourceTree = "<group>"; };
+		126B46BF2BC94A00004FE297 /* FiraSans-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-Black.ttf"; sourceTree = "<group>"; };
+		126B46C02BC94A00004FE297 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		126B46C12BC94A00004FE297 /* FiraSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		126B46C22BC94A00004FE297 /* FiraSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		126B46C32BC94A00004FE297 /* FiraSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		126B46C42BC94A00004FE297 /* FiraSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		126B46C52BC94A00004FE297 /* FiraSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-Regular.ttf"; sourceTree = "<group>"; };
+		126B46C62BC94A00004FE297 /* FiraSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-Italic.ttf"; sourceTree = "<group>"; };
+		126B46C82BC94A01004FE297 /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
+		126B46C92BC94A01004FE297 /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ThinItalic.ttf"; sourceTree = "<group>"; };
+		126B46CA2BC94A01004FE297 /* Poppins-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		126B46CB2BC94A01004FE297 /* Poppins-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BoldItalic.ttf"; sourceTree = "<group>"; };
+		126B46CC2BC94A01004FE297 /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		126B46CD2BC94A01004FE297 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		126B46CE2BC94A01004FE297 /* Poppins-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		126B46CF2BC94A01004FE297 /* Poppins-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		126B46D02BC94A01004FE297 /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
+		126B46D12BC94A01004FE297 /* Poppins-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BlackItalic.ttf"; sourceTree = "<group>"; };
+		126B46D22BC94A01004FE297 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		126B46D32BC94A01004FE297 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		126B46D42BC94A01004FE297 /* Poppins-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-LightItalic.ttf"; sourceTree = "<group>"; };
+		126B46D52BC94A01004FE297 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		126B46D62BC94A01004FE297 /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Black.ttf"; sourceTree = "<group>"; };
+		126B46D72BC94A01004FE297 /* Poppins-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Thin.ttf"; sourceTree = "<group>"; };
+		126B46D82BC94A01004FE297 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		126B46D92BC94A01004FE297 /* Poppins-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Italic.ttf"; sourceTree = "<group>"; };
+		126B46DA2BC94A01004FE297 /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
+		126B46DC2BC94A01004FE297 /* FiraSans-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-Thin.ttf"; sourceTree = "<group>"; };
+		126B46DD2BC94A01004FE297 /* FiraSans-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		126B46DE2BC94A01004FE297 /* FiraSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		126B46DF2BC94A01004FE297 /* FiraSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-Medium.ttf"; sourceTree = "<group>"; };
+		126B46E02BC94A01004FE297 /* FiraSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		126B46E12BC94A01004FE297 /* FiraSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-Bold.ttf"; sourceTree = "<group>"; };
+		126B46E22BC94A01004FE297 /* FiraSans-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-ExtraLight.ttf"; sourceTree = "<group>"; };
+		126B46E32BC94A01004FE297 /* FiraSans-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-ThinItalic.ttf"; sourceTree = "<group>"; };
+		126B46E42BC94A01004FE297 /* FiraSans-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-MediumItalic.ttf"; sourceTree = "<group>"; };
+		126B46E52BC94A01004FE297 /* FiraSans-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-BlackItalic.ttf"; sourceTree = "<group>"; };
+		126B46E62BC94A01004FE297 /* FiraSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-Light.ttf"; sourceTree = "<group>"; };
+		126B46E72BC94A01004FE297 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		126B46E82BC94A01004FE297 /* FiraSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		126B46E92BC94A01004FE297 /* FiraSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		126B46EA2BC94A01004FE297 /* FiraSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		126B46EB2BC94A01004FE297 /* FiraSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		126B46EC2BC94A01004FE297 /* FiraSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-Regular.ttf"; sourceTree = "<group>"; };
+		126B46ED2BC94A01004FE297 /* FiraSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-Italic.ttf"; sourceTree = "<group>"; };
 		1271D53629E41A1200FFFB53 /* FilteredMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilteredMapViewController.swift; sourceTree = "<group>"; };
 		127474502A9DFF5000F640D4 /* HorizontalCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalCollectionViewCell.swift; sourceTree = "<group>"; };
 		127474512A9DFF5000F640D4 /* HorizontalCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HorizontalCollectionViewCell.xib; sourceTree = "<group>"; };
@@ -178,6 +263,7 @@
 		12CA91BF29B5E693007A322B /* PageOneVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageOneVC.swift; sourceTree = "<group>"; };
 		12D2CD242A3882550077D3F8 /* PreviewImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewImageViewController.swift; sourceTree = "<group>"; };
 		12DCE44629F68D42006FCD29 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		12F6EAF72BD005DC0095A50F /* AppUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUtility.swift; sourceTree = "<group>"; };
 		3BD3ACB5110F7D8557F817D2 /* Pods_MeetSerbiaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeetSerbiaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C40860C4F839F15014A98A6 /* Pods_MeetSerbia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeetSerbia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DD41A44D4E6B71E9E95A60A /* Pods-MeetSerbia-MeetSerbiaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetSerbia-MeetSerbiaUITests.debug.xcconfig"; path = "Target Support Files/Pods-MeetSerbia-MeetSerbiaUITests/Pods-MeetSerbia-MeetSerbiaUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -192,7 +278,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12C685912BD2786500329E56 /* FloatingTabBarController in Frameworks */,
 				CD33C3AD5D2F4DD045A927A7 /* Pods_MeetSerbia.framework in Frameworks */,
+				12C6858B2BD1577900329E56 /* ImageScrollView in Frameworks */,
 				1271F8782A82ECAD00DC2F03 /* SwiftSoup in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -245,6 +333,7 @@
 				12C735AA2BAD94D300AA33D5 /* TYPE + Extension.swift */,
 				122274E52BC1DD490085B688 /* UserDefaultsManager.swift */,
 				122274E92BC1E51D0085B688 /* Utils.swift */,
+				12F6EAF72BD005DC0095A50F /* AppUtility.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -316,6 +405,103 @@
 			path = Home;
 			sourceTree = "<group>";
 		};
+		126B46A82BC94A00004FE297 /* d-din */ = {
+			isa = PBXGroup;
+			children = (
+				126B46A92BC94A00004FE297 /* SIL Open Font License.txt */,
+				126B46AA2BC94A00004FE297 /* D-DINCondensed-Bold.otf */,
+				126B46AB2BC94A00004FE297 /* D-DIN-Italic.otf */,
+				126B46AC2BC94A00004FE297 /* D-DINExp-Bold.otf */,
+				126B46AD2BC94A00004FE297 /* D-DINExp-Italic.otf */,
+				126B46AE2BC94A00004FE297 /* D-DINCondensed.otf */,
+				126B46AF2BC94A00004FE297 /* D-DINExp.otf */,
+				126B46B12BC94A00004FE297 /* D-DIN.otf */,
+				126B46B22BC94A00004FE297 /* D-DIN-Bold.otf */,
+			);
+			name = "d-din";
+			path = "untitled folder/d-din";
+			sourceTree = "<group>";
+		};
+		126B46B32BC94A00004FE297 /* Fira_Sans-2 */ = {
+			isa = PBXGroup;
+			children = (
+				126B46B42BC94A00004FE297 /* FiraSans-Thin.ttf */,
+				126B46B52BC94A00004FE297 /* FiraSans-ExtraLightItalic.ttf */,
+				126B46B62BC94A00004FE297 /* FiraSans-LightItalic.ttf */,
+				126B46B72BC94A00004FE297 /* FiraSans-Medium.ttf */,
+				126B46B82BC94A00004FE297 /* FiraSans-BoldItalic.ttf */,
+				126B46B92BC94A00004FE297 /* FiraSans-Bold.ttf */,
+				126B46BA2BC94A00004FE297 /* FiraSans-ExtraLight.ttf */,
+				126B46BB2BC94A00004FE297 /* FiraSans-ThinItalic.ttf */,
+				126B46BC2BC94A00004FE297 /* FiraSans-MediumItalic.ttf */,
+				126B46BD2BC94A00004FE297 /* FiraSans-BlackItalic.ttf */,
+				126B46BE2BC94A00004FE297 /* FiraSans-Light.ttf */,
+				126B46BF2BC94A00004FE297 /* FiraSans-Black.ttf */,
+				126B46C02BC94A00004FE297 /* OFL.txt */,
+				126B46C12BC94A00004FE297 /* FiraSans-ExtraBold.ttf */,
+				126B46C22BC94A00004FE297 /* FiraSans-SemiBold.ttf */,
+				126B46C32BC94A00004FE297 /* FiraSans-SemiBoldItalic.ttf */,
+				126B46C42BC94A00004FE297 /* FiraSans-ExtraBoldItalic.ttf */,
+				126B46C52BC94A00004FE297 /* FiraSans-Regular.ttf */,
+				126B46C62BC94A00004FE297 /* FiraSans-Italic.ttf */,
+			);
+			name = "Fira_Sans-2";
+			path = "untitled folder/Fira_Sans-2";
+			sourceTree = "<group>";
+		};
+		126B46C72BC94A01004FE297 /* Poppins */ = {
+			isa = PBXGroup;
+			children = (
+				126B46C82BC94A01004FE297 /* Poppins-ExtraLight.ttf */,
+				126B46C92BC94A01004FE297 /* Poppins-ThinItalic.ttf */,
+				126B46CA2BC94A01004FE297 /* Poppins-ExtraLightItalic.ttf */,
+				126B46CB2BC94A01004FE297 /* Poppins-BoldItalic.ttf */,
+				126B46CC2BC94A01004FE297 /* Poppins-Light.ttf */,
+				126B46CD2BC94A01004FE297 /* Poppins-Medium.ttf */,
+				126B46CE2BC94A01004FE297 /* Poppins-SemiBoldItalic.ttf */,
+				126B46CF2BC94A01004FE297 /* Poppins-ExtraBoldItalic.ttf */,
+				126B46D02BC94A01004FE297 /* Poppins-ExtraBold.ttf */,
+				126B46D12BC94A01004FE297 /* Poppins-BlackItalic.ttf */,
+				126B46D22BC94A01004FE297 /* OFL.txt */,
+				126B46D32BC94A01004FE297 /* Poppins-Regular.ttf */,
+				126B46D42BC94A01004FE297 /* Poppins-LightItalic.ttf */,
+				126B46D52BC94A01004FE297 /* Poppins-Bold.ttf */,
+				126B46D62BC94A01004FE297 /* Poppins-Black.ttf */,
+				126B46D72BC94A01004FE297 /* Poppins-Thin.ttf */,
+				126B46D82BC94A01004FE297 /* Poppins-SemiBold.ttf */,
+				126B46D92BC94A01004FE297 /* Poppins-Italic.ttf */,
+				126B46DA2BC94A01004FE297 /* Poppins-MediumItalic.ttf */,
+			);
+			name = Poppins;
+			path = "untitled folder/Poppins";
+			sourceTree = "<group>";
+		};
+		126B46DB2BC94A01004FE297 /* Fira_Sans */ = {
+			isa = PBXGroup;
+			children = (
+				126B46DC2BC94A01004FE297 /* FiraSans-Thin.ttf */,
+				126B46DD2BC94A01004FE297 /* FiraSans-ExtraLightItalic.ttf */,
+				126B46DE2BC94A01004FE297 /* FiraSans-LightItalic.ttf */,
+				126B46DF2BC94A01004FE297 /* FiraSans-Medium.ttf */,
+				126B46E02BC94A01004FE297 /* FiraSans-BoldItalic.ttf */,
+				126B46E12BC94A01004FE297 /* FiraSans-Bold.ttf */,
+				126B46E22BC94A01004FE297 /* FiraSans-ExtraLight.ttf */,
+				126B46E32BC94A01004FE297 /* FiraSans-ThinItalic.ttf */,
+				126B46E42BC94A01004FE297 /* FiraSans-MediumItalic.ttf */,
+				126B46E52BC94A01004FE297 /* FiraSans-BlackItalic.ttf */,
+				126B46E62BC94A01004FE297 /* FiraSans-Light.ttf */,
+				126B46E72BC94A01004FE297 /* OFL.txt */,
+				126B46E82BC94A01004FE297 /* FiraSans-ExtraBold.ttf */,
+				126B46E92BC94A01004FE297 /* FiraSans-SemiBold.ttf */,
+				126B46EA2BC94A01004FE297 /* FiraSans-SemiBoldItalic.ttf */,
+				126B46EB2BC94A01004FE297 /* FiraSans-ExtraBoldItalic.ttf */,
+				126B46EC2BC94A01004FE297 /* FiraSans-Regular.ttf */,
+				126B46ED2BC94A01004FE297 /* FiraSans-Italic.ttf */,
+			);
+			name = Fira_Sans;
+			path = "untitled folder/Fira_Sans";
+			sourceTree = "<group>";
+		};
 		1271F8792A82F0CA00DC2F03 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
@@ -365,11 +551,10 @@
 		12CA917D29B5C894007A322B = {
 			isa = PBXGroup;
 			children = (
-				1267B4C329BA197F00154428 /* FiraSans-Regular.ttf */,
-				1267B4C829BA1C6E00154428 /* Poppins-Regular.ttf */,
-				1267B4C429BA19EB00154428 /* FiraSans-Italic.ttf */,
-				1267B4C729BA1C4800154428 /* Poppins-Black.ttf */,
-				1267B4BA29BA040700154428 /* sf-pro-text-bold.ttf */,
+				126B46A82BC94A00004FE297 /* d-din */,
+				126B46DB2BC94A01004FE297 /* Fira_Sans */,
+				126B46B32BC94A00004FE297 /* Fira_Sans-2 */,
+				126B46C72BC94A01004FE297 /* Poppins */,
 				12CA918829B5C894007A322B /* MeetSerbia */,
 				12CA919F29B5C895007A322B /* MeetSerbiaTests */,
 				12CA91A929B5C895007A322B /* MeetSerbiaUITests */,
@@ -407,6 +592,7 @@
 				12CA919429B5C895007A322B /* LaunchScreen.storyboard */,
 				12CA919729B5C895007A322B /* Info.plist */,
 				122274E72BC1DFE20085B688 /* Localizable.xcstrings */,
+				126B46A62BC93C8B004FE297 /* VCTEST.swift */,
 			);
 			path = MeetSerbia;
 			sourceTree = "<group>";
@@ -496,6 +682,8 @@
 			name = MeetSerbia;
 			packageProductDependencies = (
 				1271F8772A82ECAD00DC2F03 /* SwiftSoup */,
+				12C6858A2BD1577900329E56 /* ImageScrollView */,
+				12C685902BD2786500329E56 /* FloatingTabBarController */,
 			);
 			productName = MeetSerbia;
 			productReference = 12CA918629B5C894007A322B /* MeetSerbia.app */;
@@ -574,6 +762,8 @@
 			mainGroup = 12CA917D29B5C894007A322B;
 			packageReferences = (
 				1271F8762A82ECAD00DC2F03 /* XCRemoteSwiftPackageReference "SwiftSoup" */,
+				12C685892BD1577900329E56 /* XCRemoteSwiftPackageReference "ImageScrollView" */,
+				12C6858F2BD2786500329E56 /* XCRemoteSwiftPackageReference "FloatingTabBarController" */,
 			);
 			productRefGroup = 12CA918729B5C894007A322B /* Products */;
 			projectDirPath = "";
@@ -603,8 +793,28 @@
 				12CA919129B5C894007A322B /* Main.storyboard in Resources */,
 				1267B4B929B9F6A500154428 /* HomePageTableViewCell.xib in Resources */,
 				1290456B2A331D07007D834E /* logogif.gif in Resources */,
+				126B47042BC94A01004FE297 /* OFL.txt in Resources */,
+				126B471B2BC94A01004FE297 /* Poppins-SemiBold.ttf in Resources */,
+				126B472A2BC94A01004FE297 /* FiraSans-ExtraBold.ttf in Resources */,
 				12C735AF2BADA1EF00AA33D5 /* SavedRoutesTableViewCell.xib in Resources */,
+				126B46F82BC94A01004FE297 /* FiraSans-Thin.ttf in Resources */,
+				126B46FC2BC94A01004FE297 /* FiraSans-BoldItalic.ttf in Resources */,
+				126B471A2BC94A01004FE297 /* Poppins-Thin.ttf in Resources */,
+				126B47002BC94A01004FE297 /* FiraSans-MediumItalic.ttf in Resources */,
+				126B47252BC94A01004FE297 /* FiraSans-ThinItalic.ttf in Resources */,
+				126B470D2BC94A01004FE297 /* Poppins-ExtraLightItalic.ttf in Resources */,
+				126B471D2BC94A01004FE297 /* Poppins-MediumItalic.ttf in Resources */,
+				126B47202BC94A01004FE297 /* FiraSans-LightItalic.ttf in Resources */,
+				126B470B2BC94A01004FE297 /* Poppins-ExtraLight.ttf in Resources */,
+				126B470F2BC94A01004FE297 /* Poppins-Light.ttf in Resources */,
 				1293715D29C0645200F7BF0F /* GoogleService-Info.plist in Resources */,
+				126B472F2BC94A01004FE297 /* FiraSans-Italic.ttf in Resources */,
+				126B47212BC94A01004FE297 /* FiraSans-Medium.ttf in Resources */,
+				126B472C2BC94A01004FE297 /* FiraSans-SemiBoldItalic.ttf in Resources */,
+				126B470C2BC94A01004FE297 /* Poppins-ThinItalic.ttf in Resources */,
+				126B47012BC94A01004FE297 /* FiraSans-BlackItalic.ttf in Resources */,
+				126B47232BC94A01004FE297 /* FiraSans-Bold.ttf in Resources */,
+				126B47032BC94A01004FE297 /* FiraSans-Black.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -739,6 +949,7 @@
 				129AF73B29C879F600CAA7A9 /* LocationModel.swift in Sources */,
 				128DB0A82BC1FC1400809D2D /* PinchCollectionViewCell.swift in Sources */,
 				123840402A41AAEE009A6FE4 /* TollModel.swift in Sources */,
+				12F6EAF82BD005DC0095A50F /* AppUtility.swift in Sources */,
 				12A14CF12BADA55800675829 /* CustomRoute.swift in Sources */,
 				1271D53729E41A1200FFFB53 /* FilteredMapViewController.swift in Sources */,
 				1267B4A829B9D0A600154428 /* HomePageViewController.swift in Sources */,
@@ -776,6 +987,7 @@
 				122274E62BC1DD490085B688 /* UserDefaultsManager.swift in Sources */,
 				122184372B8C9D8400518D91 /* FirebaseWizard.swift in Sources */,
 				12D2CD252A3882550077D3F8 /* PreviewImageViewController.swift in Sources */,
+				126B46A72BC93C8B004FE297 /* VCTEST.swift in Sources */,
 				12C5E05629C0C23500752C64 /* MemoryModel.swift in Sources */,
 				1267B4AE29B9D20D00154428 /* SleepViewController.swift in Sources */,
 				12C735B22BADA20600AA33D5 /* SavedLocationsTableViewCell.swift in Sources */,
@@ -964,12 +1176,13 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MeetSerbia/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "потребан нам је приступ вашој камери да бисте могли да изаберете слике из свог телефона";
+				INFOPLIST_KEY_NSLocationUsageDescription = "Потребно је да одобрите приступ локацији да бисте могли да користите мапу";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Потребно је да одобрите приступ локацији да бисте могли да користите мапу";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "потребан нам је приступ вашој галереији да бисте могли да изаберете слике из свог телефона";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -995,12 +1208,13 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MeetSerbia/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "потребан нам је приступ вашој камери да бисте могли да изаберете слике из свог телефона";
+				INFOPLIST_KEY_NSLocationUsageDescription = "Потребно је да одобрите приступ локацији да бисте могли да користите мапу";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Потребно је да одобрите приступ локацији да бисте могли да користите мапу";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "потребан нам је приступ вашој галереији да бисте могли да изаберете слике из свог телефона";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1144,6 +1358,22 @@
 				minimumVersion = 2.6.0;
 			};
 		};
+		12C685892BD1577900329E56 /* XCRemoteSwiftPackageReference "ImageScrollView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/huynguyencong/ImageScrollView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.9.3;
+			};
+		};
+		12C6858F2BD2786500329E56 /* XCRemoteSwiftPackageReference "FloatingTabBarController" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/EmilioPelaez/FloatingTabBarController";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -1151,6 +1381,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 1271F8762A82ECAD00DC2F03 /* XCRemoteSwiftPackageReference "SwiftSoup" */;
 			productName = SwiftSoup;
+		};
+		12C6858A2BD1577900329E56 /* ImageScrollView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 12C685892BD1577900329E56 /* XCRemoteSwiftPackageReference "ImageScrollView" */;
+			productName = ImageScrollView;
+		};
+		12C685902BD2786500329E56 /* FloatingTabBarController */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 12C6858F2BD2786500329E56 /* XCRemoteSwiftPackageReference "FloatingTabBarController" */;
+			productName = FloatingTabBarController;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

@@ -14,7 +14,9 @@ import FirebaseStorage
 import iProgressHUD
 
 class MemmoriesViewController : UIViewController,UITableViewDelegate,UITableViewDataSource {
-   
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        return .portrait  
+    }
     let dateArray = ["23. МАЈ 2023 - БАЊСКА СТЕНА"]
     let descArray = ["Прелепо дружење са пријатељима и породицом!"]
     let profileImages = [UIImage(named: "placeholder_profile")]
@@ -32,6 +34,7 @@ class MemmoriesViewController : UIViewController,UITableViewDelegate,UITableView
         super.viewDidLoad()
         initSetup()
     }
+
     private func initSetup(){
 
         memmoriesTableView.register(UINib(nibName: "MemmoryTableViewCell", bundle: nil), forCellReuseIdentifier: "memmoryCell")
@@ -67,7 +70,7 @@ class MemmoriesViewController : UIViewController,UITableViewDelegate,UITableView
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         wizard.getYourMemories { [weak self] memoriesArray in
-        print(memoriesArray)
+        
         guard let self = self else { return }
         self.memoriesArray = memoriesArray
         
@@ -76,11 +79,13 @@ class MemmoriesViewController : UIViewController,UITableViewDelegate,UITableView
             self.memmoriesTableView.reloadData()
         }
     }
+        AppUtility.lockOrientation(.portrait)
 
     }
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(true)
         self.tabBarController?.tabBar.isHidden = false
+        AppUtility.lockOrientation(.all)
 
     }
     

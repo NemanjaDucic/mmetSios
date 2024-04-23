@@ -14,7 +14,9 @@ import MapboxCoreNavigation
 
 class FavouriteRoutesViewController:UIViewController,UITableViewDelegate,UITableViewDataSource,SelectedRouteDelegate{
     
-    
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        return .landscape
+    }
  
     
     private var routesArray = [CustomRoute]()
@@ -88,4 +90,7 @@ class FavouriteRoutesViewController:UIViewController,UITableViewDelegate,UITable
         }
         coordinatesOfRoute.removeAll()
     }
+    deinit {
+         NotificationCenter.default.removeObserver(self)
+     }
 }

@@ -65,49 +65,38 @@ class FirebaseWizard{
             completion(snapshot.exists())
         }
     }
-    func getLocations(byCategory category: String, completion: @escaping ([LocationModel]?, Error?) -> Void) {
-        let ref = Database.database().reference(withPath: "locations")
-        
-        ref.observeSingleEvent(of: .value) { snapshot in
-            guard let data = try? JSONSerialization.data(withJSONObject: snapshot.value),
-                  let locations = try? JSONDecoder().decode([String: LocationModel].self, from: data) else {
-                completion(nil, NSError(domain: "YourApp", code: 1, userInfo: [NSLocalizedDescriptionKey: "Failed to retrieve locations"]))
-                return
-            }
-            
-            let locationModels = locations.values.filter { $0.category == category }
-            completion(Array(locationModels), nil)
-        }
-    }
-    func getLocations(bySubcategory subcategory: String, completion: @escaping ([LocationModel]?, Error?) -> Void) {
-        let ref = Database.database().reference(withPath: "locations")
-        
-        ref.observeSingleEvent(of: .value) { snapshot in
-            guard let data = try? JSONSerialization.data(withJSONObject: snapshot.value),
-                  let locations = try? JSONDecoder().decode([String: LocationModel].self, from: data) else {
-                completion(nil, NSError(domain: "YourApp", code: 1, userInfo: [NSLocalizedDescriptionKey: "Failed to retrieve locations"]))
-                return
-            }
-            
-            let locationModels = locations.values.filter { $0.subcat == subcategory }
-            completion(Array(locationModels), nil)
-        }
-    }
+
+//    func getAllLocations(completion: @escaping ([LocationModel]?, Error?) -> Void) {
+//        let ref = Database.database().reference(withPath: "locations")
+//        
+//        ref.observeSingleEvent(of: .value) { snapshot in
+//            guard let data = try? JSONSerialization.data(withJSONObject: snapshot.value),
+//                  let locations = try? JSONDecoder().decode([String: LocationModel].self, from: data) else {
+//                completion(nil, NSError(domain: "YourApp", code: 1, userInfo: [NSLocalizedDescriptionKey: "Failed to retrieve locations"]))
+//                return
+//            }
+//            
+//            let locationModels = Array(locations.values)
+//            completion(locationModels, nil)
+//        }
+//    }
     func getAllLocations(completion: @escaping ([LocationModel]?, Error?) -> Void) {
         let ref = Database.database().reference(withPath: "locations")
         
         ref.observeSingleEvent(of: .value) { snapshot in
-            guard let data = try? JSONSerialization.data(withJSONObject: snapshot.value),
-                  let locations = try? JSONDecoder().decode([String: LocationModel].self, from: data) else {
-                completion(nil, NSError(domain: "YourApp", code: 1, userInfo: [NSLocalizedDescriptionKey: "Failed to retrieve locations"]))
-                return
+            do {
+                guard let data = try JSONSerialization.data(withJSONObject: snapshot.value as Any) as? Foundation.Data else {
+                    throw NSError(domain: "YourApp", code: 1, userInfo: [NSLocalizedDescriptionKey: "Failed to serialize snapshot value"])
+                }
+                
+                let locations = try JSONDecoder().decode([String: LocationModel].self, from: data)
+                let locationModels = Array(locations.values)
+                completion(locationModels, nil)
+            } catch {
+                completion(nil, error)
             }
-            
-            let locationModels = Array(locations.values)
-            completion(locationModels, nil)
         }
     }
-
     func getAllTolls(completion: @escaping ([TollModel]?, Error?) -> Void){
         let ref = Database.database().reference(withPath: "tolls")
         
@@ -356,28 +345,31 @@ class FirebaseWizard{
         }
     }
     func downloadImages(model: [String], completion: @escaping ([UIImage]?, Error?) -> Void) {
-         var downloadedImages = [UIImage]()
-         let dispatchGroup = DispatchGroup()
-         
-         for img in model {
-             dispatchGroup.enter()
-             self.storageRef.child(img).getData(maxSize: 5 * 1024 * 1024) { imageData, error in
-                 defer {
-                     dispatchGroup.leave()
-                 }
-                 
-                 if let imageData = imageData, let image = UIImage(data: imageData) {
-                     downloadedImages.append(image)
-                 } else {
-                     if let error = error {
-                         print("Error downloading image: \(error.localizedDescription)")
-                     }
-                 }
-             }
-         }
-         
-         dispatchGroup.notify(queue: .main) {
-             completion(downloadedImages, nil)
-         }
-     }
+        var downloadedImages = [UIImage?](repeating: nil, count: model.count) // Array to store downloaded images
+        let dispatchGroup = DispatchGroup()
+        
+        for (index, img) in model.enumerated() {
+            dispatchGroup.enter()
+            self.storageRef.child(img).getData(maxSize: 5 * 1024 * 1024) { imageData, error in
+                defer {
+                    dispatchGroup.leave()
+                }
+                
+                if let imageData = imageData, let image = UIImage(data: imageData) {
+                    downloadedImages[index] = image
+                } else {
+                    if let error = error {
+                        print("Error downloading image: \(error.localizedDescription)")
+                    }
+                }
+            }
+        }
+        
+        dispatchGroup.notify(queue: .main) {
+            
+            let filteredImages = downloadedImages.compactMap { $0 }
+            completion(filteredImages, nil)
+        }
+    }
+    
 }

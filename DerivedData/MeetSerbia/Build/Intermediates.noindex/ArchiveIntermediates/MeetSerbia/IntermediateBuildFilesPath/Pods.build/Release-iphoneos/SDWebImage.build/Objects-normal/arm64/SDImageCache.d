@@ -1,0 +1,27 @@
+dependencies: \
+  /Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/BuildProductsPath/Release-iphoneos/SDWebImage/SDWebImage.framework/Modules/module.modulemap \
+  /Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/SDWebImage/SDWebImage/Core/SDImageCache.m \
+  /Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Target\ Support\ Files/SDWebImage/SDWebImage-prefix.pch \
+  /Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/SDWebImage/SDWebImage/Core/SDImageCache.h \
+  /Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/SDWebImage/SDWebImage/Core/SDWebImageCompat.h \
+  /Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/SDWebImage/SDWebImage/Core/SDWebImageDefine.h \
+  /Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/SDWebImage/SDWebImage/Core/SDImageCacheConfig.h \
+  /Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/SDWebImage/SDWebImage/Core/SDImageCacheDefine.h \
+  /Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/SDWebImage/SDWebImage/Core/SDWebImageOperation.h \
+  /Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/SDWebImage/SDWebImage/Core/SDImageCoder.h \
+  /Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/SDWebImage/SDWebImage/Core/NSData+ImageContentType.h \
+  /Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/SDWebImage/SDWebImage/Core/SDImageFrame.h \
+  /Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/SDWebImage/SDWebImage/Core/SDMemoryCache.h \
+  /Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/SDWebImage/SDWebImage/Core/SDDiskCache.h \
+  /Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/SDWebImage/SDWebImage/Private/SDInternalMacros.h \
+  /Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/SDWebImage/SDWebImage/Private/SDmetamacros.h \
+  /Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/SDWebImage/SDWebImage/Core/NSImage+Compatibility.h \
+  /Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/SDWebImage/SDWebImage/Core/SDImageCodersManager.h \
+  /Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/SDWebImage/SDWebImage/Core/SDImageCoderHelper.h \
+  /Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/SDWebImage/SDWebImage/Core/SDAnimatedImage.h \
+  /Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/SDWebImage/SDWebImage/Core/UIImage+MemoryCacheCost.h \
+  /Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/SDWebImage/SDWebImage/Core/UIImage+Metadata.h \
+  /Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/SDWebImage/SDWebImage/Core/UIImage+ExtendedCacheData.h \
+  /Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/SDWebImage/SDWebImage/Core/SDCallbackQueue.h \
+  /Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/SDWebImage/SDWebImage/Core/SDImageTransformer.h \
+  /Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/SDWebImage/SDWebImage/Core/UIImage+Transform.h

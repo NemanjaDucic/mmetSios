@@ -2,6 +2,7 @@
 
 #import <Foundation/Foundation.h>
 #import <MapboxNavigationNative/MBNNRouterOrigin.h>
+@class MBXDataRef;
 @class MBXExpected<__covariant Value, __covariant Error>;
 
 @protocol MBNNRouteInterface;

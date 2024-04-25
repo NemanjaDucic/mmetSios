@@ -18,6 +18,8 @@ __attribute__((visibility ("default")))
                                routeIndex:(uint32_t)routeIndex
                                  legIndex:(uint32_t)legIndex
                            routingProfile:(nonnull MBNNRoutingProfile *)routingProfile
+                                  baseURL:(nonnull NSString *)baseURL
+                                    token:(nonnull NSString *)token
                 currentRouteGeometryIndex:(nullable NSNumber *)currentRouteGeometryIndex
                          additionalParams:(nonnull NSDictionary<NSString *, NSString *> *)additionalParams;
 
@@ -32,6 +34,12 @@ __attribute__((visibility ("default")))
 
 /** The routing profile to use. Possible values are driving-traffic, driving, walking, or cycling with account name */
 @property (nonatomic, readonly, nonnull) MBNNRoutingProfile *routingProfile;
+
+/** Base URL for route refresh requests, usually the same as routing endpoint URL */
+@property (nonatomic, readonly, nonnull, copy) NSString *baseURL;
+
+/** Secret access token for directions requests */
+@property (nonatomic, readonly, nonnull, copy) NSString *token;
 
 /**
  * Describes which geometry index the user currently is located at.

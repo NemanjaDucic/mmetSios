@@ -1,0 +1,15 @@
+version: "Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)"
+options: "792871084bc4fdebb2ac4610e85be3e485e2503e7657525fffda6db0cfa994ef"
+build_start_time: [1713875165, 151819000]
+build_end_time: [1713875167, 312972000]
+inputs:
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/FloatingTabBarController/Sources/FloatingTabBarController/FloatingTabBar.swift"
+  : [1713875116, 436056624]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/FloatingTabBarController/Sources/FloatingTabBarController/FloatingTabBarController.swift"
+  : [1713875116, 436167041]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/FloatingTabBarController/Sources/FloatingTabBarController/FloatingTabItem.swift"
+  : [1713875116, 436256333]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/FloatingTabBarController/Sources/FloatingTabBarController/UIView+MaskPath.swift"
+  : [1713875116, 436338582]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/FloatingTabBarController/Sources/FloatingTabBarController/UIViewController+TabBarItem.swift"
+  : [1713875116, 436416207]

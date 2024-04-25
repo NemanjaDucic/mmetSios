@@ -22,4 +22,6 @@ __attribute__((visibility ("default")))
 @property (nonatomic, readonly, nonnull, copy) NSString *iso_3166_1;
 
 
+- (BOOL)isEqualToAdminInfo:(nonnull MBNNAdminInfo *)other;
+
 @end

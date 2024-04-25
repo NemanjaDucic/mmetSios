@@ -1,0 +1,374 @@
+version: "Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)"
+options: "118eb6b90025d47861d8923270409f5f9efe0a898c6e580c08a8abf8111bb018"
+build_start_time: [1713875166, 345265000]
+build_end_time: [1713875198, 647110000]
+inputs:
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxMaps.build/DerivedSources/GeneratedAssetSymbols.swift"
+  : [1713875166, 266085027]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Annotations/AnnotationImagesManager.swift": [1712575756, 537946786]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Annotations/AnnotationManagerFactory.swift": [1712575756, 538076371]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Annotations/AnnotationOrchestrator.swift": [1712575756, 538209580]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Annotations/AnnotationOrchestratorImpl.swift": [1712575756, 538459207]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Annotations/ClusterOptions.swift": [1712575756, 538576833]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Annotations/DelegatingViewAnnotationPositionsUpdateListener.swift"
+  : [1712575756, 538685125]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Annotations/Generated/CircleAnnotation.swift": [1712575756, 538872877]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Annotations/Generated/CircleAnnotationManager.swift"
+  : [1712575756, 539022212]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Annotations/Generated/PointAnnotation.swift": [1712575756, 539132962]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Annotations/Generated/PointAnnotationManager.swift"
+  : [1712575756, 539271339]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Annotations/Generated/PolygonAnnotation.swift": [1712575756, 539392798]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Annotations/Generated/PolygonAnnotationManager.swift"
+  : [1712575756, 539528632]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Annotations/Generated/PolylineAnnotation.swift": [1712575756, 539674550]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Annotations/Generated/PolylineAnnotationManager.swift"
+  : [1712575756, 539794384]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Annotations/OffsetGeometryCalculator.swift": [1712575756, 539928844]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Annotations/ViewAnnotationManager.swift": [1712575756, 540070012]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Annotations/ViewAnnotationOptions.swift": [1712575756, 540199138]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Camera/AnimationCompletion.swift": [1712575756, 540361264]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Camera/AnimationOwner.swift": [1712575756, 540463431]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Camera/BasicCameraAnimator.swift": [1712575756, 540628724]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Camera/BasicCameraAnimatorImpl.swift": [1712575756, 540812018]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Camera/CameraAnimationsManager.swift": [1712575756, 540998269]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Camera/CameraAnimationsManagerImpl.swift": [1712575756, 541151104]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Camera/CameraAnimator.swift": [1712575756, 541322855]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Camera/CameraAnimatorsFactory.swift": [1712575756, 541507523]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Camera/CameraAnimatorsRunner.swift": [1712575756, 541677608]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Camera/CameraOptionsInterpolator.swift": [1712575756, 541826859]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Camera/CameraTransition.swift": [1712575756, 541990819]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Camera/CameraView.swift": [1712575756, 542159945]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Camera/FlyToCameraAnimator.swift": [1712575756, 542361322]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Camera/FlyToInterpolator.swift": [1712575756, 542564032]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Camera/GestureDecelerationCameraAnimator.swift": [1712575756, 542735283]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Camera/SimpleCameraAnimator.swift": [1712575756, 542914285]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/AttributionURLOpener.swift": [1712575756, 543141953]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/CameraBounds.swift": [1712575756, 543309580]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/CameraBoundsOptions.swift": [1712575756, 543474164]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/CameraOptions.swift": [1712575756, 543635665]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/CameraState.swift": [1712575756, 543808625]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/Cancelable.swift": [1712575756, 543983668]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/CancelableContainer.swift": [1712575756, 544159336]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/DateProvider.swift": [1712575756, 544325546]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/DelegatingDisplayLinkParticipant.swift"
+  : [1712575756, 544459672]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/DelegatingMapClient.swift": [1712575756, 544640882]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/DictionaryCoding/Array+CodingKey.swift"
+  : [1712575756, 544898717]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/DictionaryCoding/DictionaryEncoder.swift"
+  : [1712575756, 545095636]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/DisplayLinkCoordinator.swift": [1712575756, 545271095]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/Enablable.swift": [1712575756, 545375013]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/Events/EventsManager.swift": [1712575756, 545554139]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/Events/MapEvent.swift": [1712575756, 545661182]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/Events/Payload/MapLoadingErrorPayload.swift"
+  : [1712575756, 545820433]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/Events/Payload/NoPayload.swift": [1712575756, 545927976]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/Events/Payload/RenderFrameFinishedPayload.swift"
+  : [1712575756, 546036101]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/Events/Payload/ResourceRequestPayload.swift"
+  : [1712575756, 546154103]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/Events/Payload/SourceAddedPayload.swift"
+  : [1712575756, 546269895]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/Events/Payload/SourceDataLoadedPayload.swift"
+  : [1712575756, 546376521]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/Events/Payload/SourceRemovedPayload.swift"
+  : [1712575756, 546484980]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/Events/Payload/StyleDataLoadedPayload.swift"
+  : [1712575756, 546596148]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/Events/Payload/StyleImageMissingPayload.swift"
+  : [1712575756, 546707149]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/Events/Payload/StyleImageUnusedPayload.swift"
+  : [1712575756, 546819483]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/Extensions/Bool.swift": [1712575756, 546966359]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/Extensions/Bundle+MapboxMaps.swift": [1712575756, 547071610]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/Extensions/CodingUserInfoKey+Custom.swift"
+  : [1712575756, 547174861]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/Extensions/Comparable+Clamped.swift": [1712575756, 547280237]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/Extensions/Core/CoordinateBounds.swift"
+  : [1712575756, 547437238]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/Extensions/Core/EdgeInsets.swift": [1712575756, 547676198]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/Extensions/Core/FeatureExtensionValue.swift"
+  : [1712575756, 547908575]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/Extensions/Core/GlyphsRasterizationOptions.swift"
+  : [1712575756, 548091243]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/Extensions/Core/LayerPosition.swift": [1712575756, 548245911]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/Extensions/Core/MapEvents+Deprecated.swift"
+  : [1712575756, 548469204]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/Extensions/Core/MapEvents.swift": [1712575756, 548704456]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/Extensions/Core/MapOptions.swift": [1712575756, 548962667]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/Extensions/Core/MapSnapshotOptions.swift"
+  : [1712575756, 549191502]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/Extensions/Core/OfflineRegion.swift": [1712575756, 549390004]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/Extensions/Core/OfflineRegionGeometryDefinition.swift"
+  : [1712575756, 549604088]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/Extensions/Core/OfflineRegionManager.swift"
+  : [1712575756, 549854966]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/Extensions/Core/OfflineSwitch.swift": [1712575756, 550063176]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/Extensions/Core/QueriedFeature.swift": [1712575756, 550262844]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/Extensions/Core/RenderedQueryOptions.swift"
+  : [1712575756, 550466429]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/Extensions/Core/ResourceOptions.swift"
+  : [1712575756, 550708764]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/Extensions/Core/ScreenBox.swift": [1712575756, 550899932]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/Extensions/Core/ScreenCoordinate.swift"
+  : [1712575756, 551118559]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/Extensions/Core/Size.swift": [1712575756, 551358519]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/Extensions/Core/StyleObjectInfo+3DPuck.swift"
+  : [1712575756, 551605188]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/Extensions/Core/TransitionOptions.swift"
+  : [1712575756, 551795940]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/Extensions/CoreGraphics.swift": [1712575756, 551999649]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/Extensions/CoreLocation.swift": [1712575756, 552196901]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/Extensions/DateFormatter.swift": [1712575756, 552416653]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/Extensions/Dictionary+MapKeys.swift": [1712575756, 552602696]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/Extensions/Encodable+ToJSON.swift": [1712575756, 552917032]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/Extensions/FloatingPoint.swift": [1712575756, 553123117]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/Extensions/Int.swift": [1712575756, 553271535]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/Extensions/KebabCaseKeyDecodingStrategy.swift"
+  : [1712575756, 553392494]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/Extensions/NSNumber.swift": [1712575756, 553567662]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/Extensions/NSValue.swift": [1712575756, 553746872]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/Extensions/RawRepresentable.swift": [1712575756, 553916540]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/Extensions/Turf/Feature.swift": [1712575756, 554168417]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/Extensions/Turf/Geometry.swift": [1712575756, 554330127]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/Extensions/UIImage.swift": [1712575756, 554554670]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/Extensions/UIView.swift": [1712575756, 554733838]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/Extensions/UIWindow+ParentScene.swift"
+  : [1712575756, 554883339]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/ForwardingDispalyLinkTarget.swift": [1712575756, 555000715]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/Helpers/MainQueueWrapper.swift": [1712575756, 555154050]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/InterfaceOrientationProvider.swift": [1712575756, 555264509]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/Interpolators/CoordinateInterpolator.swift"
+  : [1712575756, 555460844]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/Interpolators/DirectionInterpolator.swift"
+  : [1712575756, 555568428]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/Interpolators/DoubleInterpolator.swift"
+  : [1712575756, 555678596]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/Interpolators/LongitudeInterpolator.swift"
+  : [1712575756, 555861681]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/Interpolators/OptionalInterpolator.swift"
+  : [1712575756, 556016140]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/Interpolators/TimingCurve.swift": [1712575756, 556187142]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/Interpolators/UIEdgeInsetsInterpolator.swift"
+  : [1712575756, 556342059]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/Interpolators/UnitBezier.swift": [1712575756, 556487186]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/Interpolators/WrappingInterpolator.swift"
+  : [1712575756, 556692187]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/Logger.swift": [1712575756, 556906397]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/MapEventsObservable.swift": [1712575756, 557655279]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/MapFeatureQueryable.swift": [1712575756, 557761363]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/MapInitOptions.swift": [1712575756, 557888655]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/MapRecorder.swift": [1712575756, 558104949]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/MapView+Attribution.swift": [1712575756, 558291075]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/MapView+Snapshot.swift": [1712575756, 558498619]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/MapView.swift": [1712575756, 558730162]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/MapViewDependencyProvider.swift": [1712575756, 558962747]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/MapViewMetricsReporter.swift": [1712575756, 559134415]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/MapboxMap.swift": [1712575756, 557169191]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/MapboxObservable.swift": [1712575756, 557545819]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/Observable.swift": [1712575756, 559336459]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/ObservableValue.swift": [1712575756, 559525752]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/Projection.swift": [1712575756, 559730670]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/Provider.swift": [1712575756, 559904213]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/ResourceOptionsManager.swift": [1712575756, 560127548]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/RetroactiveConformances/BundleProtocol.swift"
+  : [1712575756, 560445926]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/RetroactiveConformances/DispatchQueueProtocol.swift"
+  : [1712575756, 560666094]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/RetroactiveConformances/DisplayLinkProtocol.swift"
+  : [1712575756, 560871263]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/RetroactiveConformances/NotificationCenterProtocol.swift"
+  : [1712575756, 561042931]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/RetroactiveConformances/TimerProtocol.swift"
+  : [1712575756, 561220682]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/RetroactiveConformances/UIApplicationProtocol.swift"
+  : [1712575756, 561450017]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/SubviewInteractionOnlyView.swift": [1712575756, 561667519]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/Utils.swift": [1712575756, 561879229]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Foundation/WeakSet.swift": [1712575756, 562077272]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Gestures/GestureHandlers/AnyTouchGestureHandler.swift"
+  : [1712575756, 562452317]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Gestures/GestureHandlers/DoubleTapToZoomInGestureHandler.swift"
+  : [1712575756, 562653485]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Gestures/GestureHandlers/DoubleTouchToZoomOutGestureHandler.swift"
+  : [1712575756, 562864362]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Gestures/GestureHandlers/FocusableGestureHandlerProtocol.swift"
+  : [1712575756, 563075739]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Gestures/GestureHandlers/GestureHandler.swift": [1712575756, 563286782]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Gestures/GestureHandlers/PanGestureHandler.swift"
+  : [1712575756, 563509742]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Gestures/GestureHandlers/PinchBehaviors/EmptyPinchBehavior.swift"
+  : [1712575756, 563769703]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Gestures/GestureHandlers/PinchBehaviors/PanPinchBehavior.swift"
+  : [1712575756, 563950038]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Gestures/GestureHandlers/PinchBehaviors/PanZoomPinchBehavior.swift"
+  : [1712575756, 564129914]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Gestures/GestureHandlers/PinchBehaviors/PinchBehavior.swift"
+  : [1712575756, 564288790]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Gestures/GestureHandlers/PinchBehaviors/PinchBehaviorProvider.swift"
+  : [1712575756, 564476792]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Gestures/GestureHandlers/PinchBehaviors/ZoomPinchBehavior.swift"
+  : [1712575756, 564665002]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Gestures/GestureHandlers/PinchGestureHandler.swift"
+  : [1712575756, 564869920]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Gestures/GestureHandlers/PitchGestureHandler.swift"
+  : [1712575756, 565050713]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Gestures/GestureHandlers/QuickZoomGestureHandler.swift"
+  : [1712575756, 565194964]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Gestures/GestureHandlers/RotateGestureHandler.swift"
+  : [1712575756, 565329674]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Gestures/GestureHandlers/SingleTapGestureHandler.swift"
+  : [1712575756, 565438383]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Gestures/GestureManager.swift": [1712575756, 565569467]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Gestures/GestureOptions.swift": [1712575756, 565694760]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Gestures/GestureRecognizers/AnyTouchGestureRecognizer.swift"
+  : [1712575756, 565851344]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Gestures/GestureRecognizers/MapboxLongPressGestureRecognizer.swift"
+  : [1712575756, 565963512]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Gestures/GestureType.swift": [1712575756, 566080221]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Location/AppleLocationProvider.swift": [1712575756, 566243223]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Location/InterpolatedLocation.swift": [1712575756, 566350099]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Location/InterpolatedLocationProducer.swift": [1712575756, 566474599]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Location/Location.swift": [1712575756, 566577809]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Location/LocationConsumer.swift": [1712575756, 566681976]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Location/LocationInterpolator.swift": [1712575756, 566789061]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Location/LocationManager.swift": [1712575756, 566918686]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Location/LocationOptions.swift": [1712575756, 567025479]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Location/LocationPermissionsDelegate.swift": [1712575756, 567130855]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Location/LocationProducer.swift": [1712575756, 567259939]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Location/LocationProvider.swift": [1712575756, 567383440]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Location/LocationProviderDelegate.swift": [1712575756, 567499358]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Location/ObservableInterpolatedLocation.swift": [1712575756, 567615817]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Location/Puck/Puck.swift": [1712575756, 568891994]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Location/Puck/Puck2D.swift": [1712575756, 569026329]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Location/Puck/Puck3D.swift": [1712575756, 569159663]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Location/Puck/PuckManager.swift": [1712575756, 569270497]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Location/Puck/PuckType.swift": [1712575756, 569401623]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Location/PuckLocationConsumer.swift": [1712575756, 569503499]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Offline/OfflineCallbacks.swift": [1712575756, 569844585]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Offline/OfflineErrors.swift": [1712575756, 569953044]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Offline/OfflineManager+MapboxMaps.swift": [1712575756, 570096587]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Offline/StylePackLoadOptions+MapboxMaps.swift": [1712575756, 570208171]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Offline/TileRegionLoadOptions+MapboxMaps.swift": [1712575756, 570312756]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Offline/TileStore+MapboxMaps.swift": [1712575756, 570650758]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Offline/TileStoreObserver.swift": [1712575756, 570753592]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Offline/TileStoreObserverCancelable.swift": [1712575756, 570860302]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Offline/TileStoreObserverWrapper.swift": [1712575756, 570960261]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Offline/TileStoreProtocol.swift": [1712575756, 571064720]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Offline/TilesetDescriptorOptions+MapboxMaps.swift"
+  : [1712575756, 570418840]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Offline/TilesetDescriptorOptionsForTilesets+MapboxMaps.swift"
+  : [1712575756, 570534841]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Ornaments/Compass/CompassDirectionFormatter.swift"
+  : [1712575756, 571829476]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Ornaments/Compass/MapboxCompassOrnamentView.swift"
+  : [1712575756, 575684632]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Ornaments/DistanceFormatter.swift": [1712575756, 578860616]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Ornaments/InfoButtonOrnament.swift": [1712575756, 579187869]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Ornaments/LogoView.swift": [1712575756, 579391954]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Ornaments/OrnamentOptions.swift": [1712575756, 579530538]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Ornaments/OrnamentsManager.swift": [1712575756, 579657998]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Ornaments/ScaleBar/MapboxScaleBarConstants.swift"
+  : [1712575756, 579828374]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Ornaments/ScaleBar/MapboxScaleBarLabel.swift": [1712575756, 579937125]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Ornaments/ScaleBar/MapboxScaleBarOrnamentView.swift"
+  : [1712575756, 580078751]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Snapshot/AttributionMeasure.swift": [1712575756, 580270711]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Snapshot/AttributionView.swift": [1712575756, 580459337]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Snapshot/SnapshotOverlay.swift": [1712575756, 580567921]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Snapshot/Snapshotter.swift": [1712575756, 580713256]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Style/Attribution.swift": [1712575756, 580953883]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Style/AttributionDialogManager.swift": [1712575756, 581102092]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Style/Generated/Atmosphere.swift": [1712575756, 581286261]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Style/Generated/Enums/Enums.swift": [1712575756, 581608888]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Style/Generated/Expressions/AllExpressions.swift"
+  : [1712575756, 581901974]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Style/Generated/Layers/BackgroundLayer.swift": [1712575756, 582235560]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Style/Generated/Layers/CircleLayer.swift": [1712575756, 582490187]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Style/Generated/Layers/FillExtrusionLayer.swift": [1712575756, 582660980]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Style/Generated/Layers/FillLayer.swift": [1712575756, 582860648]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Style/Generated/Layers/HeatmapLayer.swift": [1712575756, 583082275]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Style/Generated/Layers/HillshadeLayer.swift": [1712575756, 583335569]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Style/Generated/Layers/LineLayer.swift": [1712575756, 583544862]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Style/Generated/Layers/LocationIndicatorLayer.swift"
+  : [1712575756, 583761947]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Style/Generated/Layers/ModelLayer.swift": [1712575756, 584002158]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Style/Generated/Layers/RasterLayer.swift": [1712575756, 584216993]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Style/Generated/Layers/SkyLayer.swift": [1712575756, 584419078]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Style/Generated/Layers/SymbolLayer.swift": [1712575756, 584592162]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Style/Generated/Light/Light.swift": [1712575756, 584851956]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Style/Generated/Sources/GeoJSONSource.swift": [1712575756, 585165625]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Style/Generated/Sources/ImageSource.swift": [1712575756, 585363710]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Style/Generated/Sources/RasterDemSource.swift": [1712575756, 585605920]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Style/Generated/Sources/RasterSource.swift": [1712575756, 585824047]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Style/Generated/Sources/SourceProperties.swift": [1712575756, 586021799]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Style/Generated/Sources/VectorSource.swift": [1712575756, 586215759]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Style/Generated/Terrain.swift": [1712575756, 586411635]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Style/Layer.swift": [1712575756, 586561678]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Style/LayerInfo.swift": [1712575756, 586765472]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Style/LayerType.swift": [1712575756, 586966723]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Style/ModelSource.swift": [1712575756, 587123183]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Style/Source.swift": [1712575756, 587341143]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Style/SourceInfo.swift": [1712575756, 587718438]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Style/SourceType.swift": [1712575756, 587872772]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Style/Style+Localization.swift": [1712575756, 588077940]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Style/Style.swift": [1712575756, 588324818]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Style/StyleEncodable.swift": [1712575756, 588837613]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Style/StyleErrors.swift": [1712575756, 589009573]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Style/StyleManagerProtocol.swift": [1712575756, 589207200]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Style/StyleProjection.swift": [1712575756, 589395034]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Style/StyleSourceManager.swift": [1712575756, 589553202]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Style/StyleURI.swift": [1712575756, 589661287]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Style/Types/Expression.swift": [1712575756, 589831288]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Style/Types/ExpressionArgumentBuilder.swift": [1712575756, 589945039]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Style/Types/ExpressionOptions.swift": [1712575756, 590085290]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Style/Types/GeoJSONSourceData.swift": [1712575756, 590198374]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Style/Types/PromoteId.swift": [1712575756, 590305292]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Style/Types/ResolvedImage.swift": [1712575756, 590413126]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Style/Types/StyleColor.swift": [1712575756, 590543919]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Style/Types/Value.swift": [1712575756, 590652503]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Viewport/States/FollowPuck/FollowPuckViewportState.swift"
+  : [1712575756, 590914380]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Viewport/States/FollowPuck/FollowPuckViewportStateBearing.swift"
+  : [1712575756, 591124132]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Viewport/States/FollowPuck/FollowPuckViewportStateDataSource.swift"
+  : [1712575756, 591327675]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Viewport/States/FollowPuck/FollowPuckViewportStateOptions.swift"
+  : [1712575756, 591539760]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Viewport/States/Helpers/ObservableCameraOptions.swift"
+  : [1712575756, 591819721]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Viewport/States/Overview/OverviewViewportState.swift"
+  : [1712575756, 592081973]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Viewport/States/Overview/OverviewViewportStateOptions.swift"
+  : [1712575756, 592283016]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Viewport/Transitions/Default/CameraOptionsComponent.swift"
+  : [1712575756, 592665436]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Viewport/Transitions/Default/DefaultViewportTransition.swift"
+  : [1712575756, 592873229]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Viewport/Transitions/Default/DefaultViewportTransitionAnimation.swift"
+  : [1712575756, 593131481]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Viewport/Transitions/Default/DefaultViewportTransitionAnimationFactory.swift"
+  : [1712575756, 593449317]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Viewport/Transitions/Default/DefaultViewportTransitionAnimationHelper.swift"
+  : [1712575756, 593709028]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Viewport/Transitions/Default/DefaultViewportTransitionAnimationSpec.swift"
+  : [1712575756, 593945946]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Viewport/Transitions/Default/DefaultViewportTransitionAnimationSpecProvider.swift"
+  : [1712575756, 594126698]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Viewport/Transitions/Default/DefaultViewportTransitionOptions.swift"
+  : [1712575756, 594335241]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Viewport/Transitions/Default/HighZoomToLowZoomAnimationSpecProvider.swift"
+  : [1712575756, 594517117]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Viewport/Transitions/Default/LowZoomToHighZoomAnimationSpecProvider.swift"
+  : [1712575756, 594725744]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Viewport/Transitions/Immediate/ImmediateViewportTransition.swift"
+  : [1712575756, 594997663]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Viewport/Viewport.swift": [1712575756, 595234082]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Viewport/ViewportImpl.swift": [1712575756, 595467917]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Viewport/ViewportOptions.swift": [1712575756, 595612668]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Viewport/ViewportState.swift": [1712575756, 595810878]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Viewport/ViewportStatus.swift": [1712575756, 595986254]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Viewport/ViewportStatusObserver.swift": [1712575756, 596214006]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Viewport/ViewportTransition.swift": [1712575756, 596370299]

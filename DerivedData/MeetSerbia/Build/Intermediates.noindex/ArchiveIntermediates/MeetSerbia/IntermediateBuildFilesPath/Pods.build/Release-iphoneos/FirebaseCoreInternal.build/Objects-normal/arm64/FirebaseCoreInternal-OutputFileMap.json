@@ -1,0 +1,70 @@
+{
+  "" : {
+    "const-values" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/FirebaseCoreInternal.build/Objects-normal/arm64/FirebaseCoreInternal-master.swiftconstvalues",
+    "dependencies" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/FirebaseCoreInternal.build/Objects-normal/arm64/FirebaseCoreInternal-master.d",
+    "diagnostics" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/FirebaseCoreInternal.build/Objects-normal/arm64/FirebaseCoreInternal-master.dia",
+    "emit-module-dependencies" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/FirebaseCoreInternal.build/Objects-normal/arm64/FirebaseCoreInternal-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/FirebaseCoreInternal.build/Objects-normal/arm64/FirebaseCoreInternal-master-emit-module.dia",
+    "swift-dependencies" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/FirebaseCoreInternal.build/Objects-normal/arm64/FirebaseCoreInternal-master.swiftdeps"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/_ObjC_HeartbeatController.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FirebaseCoreInternal.build/Objects-normal/arm64/_ObjC_HeartbeatController.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/FirebaseCoreInternal.build/Objects-normal/arm64/_ObjC_HeartbeatController.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/FirebaseCoreInternal.build/Objects-normal/arm64/_ObjC_HeartbeatController.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/_ObjC_HeartbeatsPayload.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FirebaseCoreInternal.build/Objects-normal/arm64/_ObjC_HeartbeatsPayload.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/FirebaseCoreInternal.build/Objects-normal/arm64/_ObjC_HeartbeatsPayload.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/FirebaseCoreInternal.build/Objects-normal/arm64/_ObjC_HeartbeatsPayload.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/Heartbeat.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FirebaseCoreInternal.build/Objects-normal/arm64/Heartbeat.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/FirebaseCoreInternal.build/Objects-normal/arm64/Heartbeat.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/FirebaseCoreInternal.build/Objects-normal/arm64/Heartbeat.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/HeartbeatController.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FirebaseCoreInternal.build/Objects-normal/arm64/HeartbeatController.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/FirebaseCoreInternal.build/Objects-normal/arm64/HeartbeatController.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/FirebaseCoreInternal.build/Objects-normal/arm64/HeartbeatController.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/HeartbeatLoggingTestUtils.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FirebaseCoreInternal.build/Objects-normal/arm64/HeartbeatLoggingTestUtils.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/FirebaseCoreInternal.build/Objects-normal/arm64/HeartbeatLoggingTestUtils.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/FirebaseCoreInternal.build/Objects-normal/arm64/HeartbeatLoggingTestUtils.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/HeartbeatsBundle.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FirebaseCoreInternal.build/Objects-normal/arm64/HeartbeatsBundle.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/FirebaseCoreInternal.build/Objects-normal/arm64/HeartbeatsBundle.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/FirebaseCoreInternal.build/Objects-normal/arm64/HeartbeatsBundle.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/HeartbeatsPayload.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FirebaseCoreInternal.build/Objects-normal/arm64/HeartbeatsPayload.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/FirebaseCoreInternal.build/Objects-normal/arm64/HeartbeatsPayload.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/FirebaseCoreInternal.build/Objects-normal/arm64/HeartbeatsPayload.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/HeartbeatStorage.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FirebaseCoreInternal.build/Objects-normal/arm64/HeartbeatStorage.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/FirebaseCoreInternal.build/Objects-normal/arm64/HeartbeatStorage.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/FirebaseCoreInternal.build/Objects-normal/arm64/HeartbeatStorage.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/RingBuffer.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FirebaseCoreInternal.build/Objects-normal/arm64/RingBuffer.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/FirebaseCoreInternal.build/Objects-normal/arm64/RingBuffer.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/FirebaseCoreInternal.build/Objects-normal/arm64/RingBuffer.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/Storage.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FirebaseCoreInternal.build/Objects-normal/arm64/Storage.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/FirebaseCoreInternal.build/Objects-normal/arm64/Storage.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/FirebaseCoreInternal.build/Objects-normal/arm64/Storage.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/StorageFactory.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FirebaseCoreInternal.build/Objects-normal/arm64/StorageFactory.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/FirebaseCoreInternal.build/Objects-normal/arm64/StorageFactory.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/FirebaseCoreInternal.build/Objects-normal/arm64/StorageFactory.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/WeakContainer.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FirebaseCoreInternal.build/Objects-normal/arm64/WeakContainer.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/FirebaseCoreInternal.build/Objects-normal/arm64/WeakContainer.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/FirebaseCoreInternal.build/Objects-normal/arm64/WeakContainer.o"
+  }
+}

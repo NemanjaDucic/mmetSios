@@ -63,6 +63,7 @@
 		126B472A2BC94A01004FE297 /* FiraSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 126B46E82BC94A01004FE297 /* FiraSans-ExtraBold.ttf */; };
 		126B472C2BC94A01004FE297 /* FiraSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 126B46EA2BC94A01004FE297 /* FiraSans-SemiBoldItalic.ttf */; };
 		126B472F2BC94A01004FE297 /* FiraSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 126B46ED2BC94A01004FE297 /* FiraSans-Italic.ttf */; };
+		126F4EA22BD7EDCA00A3DB0C /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 126F4EA12BD7EDCA00A3DB0C /* Kingfisher */; };
 		1271D53729E41A1200FFFB53 /* FilteredMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1271D53629E41A1200FFFB53 /* FilteredMapViewController.swift */; };
 		1271F8782A82ECAD00DC2F03 /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = 1271F8772A82ECAD00DC2F03 /* SwiftSoup */; };
 		127474522A9DFF5000F640D4 /* HorizontalCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127474502A9DFF5000F640D4 /* HorizontalCollectionViewCell.swift */; };
@@ -82,7 +83,6 @@
 		12A14CF82BADBB4400675829 /* FavouriteMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A14CF72BADBB4400675829 /* FavouriteMapViewController.swift */; };
 		12C5E05629C0C23500752C64 /* MemoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C5E05529C0C23500752C64 /* MemoryModel.swift */; };
 		12C6858B2BD1577900329E56 /* ImageScrollView in Frameworks */ = {isa = PBXBuildFile; productRef = 12C6858A2BD1577900329E56 /* ImageScrollView */; };
-		12C685912BD2786500329E56 /* FloatingTabBarController in Frameworks */ = {isa = PBXBuildFile; productRef = 12C685902BD2786500329E56 /* FloatingTabBarController */; };
 		12C735AB2BAD94D300AA33D5 /* TYPE + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C735AA2BAD94D300AA33D5 /* TYPE + Extension.swift */; };
 		12C735AE2BADA1EF00AA33D5 /* SavedRoutesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C735AC2BADA1EF00AA33D5 /* SavedRoutesTableViewCell.swift */; };
 		12C735AF2BADA1EF00AA33D5 /* SavedRoutesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12C735AD2BADA1EF00AA33D5 /* SavedRoutesTableViewCell.xib */; };
@@ -278,10 +278,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12C685912BD2786500329E56 /* FloatingTabBarController in Frameworks */,
 				CD33C3AD5D2F4DD045A927A7 /* Pods_MeetSerbia.framework in Frameworks */,
 				12C6858B2BD1577900329E56 /* ImageScrollView in Frameworks */,
 				1271F8782A82ECAD00DC2F03 /* SwiftSoup in Frameworks */,
+				126F4EA22BD7EDCA00A3DB0C /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -683,7 +683,7 @@
 			packageProductDependencies = (
 				1271F8772A82ECAD00DC2F03 /* SwiftSoup */,
 				12C6858A2BD1577900329E56 /* ImageScrollView */,
-				12C685902BD2786500329E56 /* FloatingTabBarController */,
+				126F4EA12BD7EDCA00A3DB0C /* Kingfisher */,
 			);
 			productName = MeetSerbia;
 			productReference = 12CA918629B5C894007A322B /* MeetSerbia.app */;
@@ -763,7 +763,7 @@
 			packageReferences = (
 				1271F8762A82ECAD00DC2F03 /* XCRemoteSwiftPackageReference "SwiftSoup" */,
 				12C685892BD1577900329E56 /* XCRemoteSwiftPackageReference "ImageScrollView" */,
-				12C6858F2BD2786500329E56 /* XCRemoteSwiftPackageReference "FloatingTabBarController" */,
+				126F4EA02BD7EDCA00A3DB0C /* XCRemoteSwiftPackageReference "Kingfisher" */,
 			);
 			productRefGroup = 12CA918729B5C894007A322B /* Products */;
 			projectDirPath = "";
@@ -1172,7 +1172,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8LWW6684F7;
+				DEVELOPMENT_TEAM = 4HK4P5XKSC;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MeetSerbia/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "потребан нам је приступ вашој камери да бисте могли да изаберете слике из свог телефона";
@@ -1182,7 +1182,10 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1190,9 +1193,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.princippres.meetserbia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -1204,7 +1209,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8LWW6684F7;
+				DEVELOPMENT_TEAM = 4HK4P5XKSC;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MeetSerbia/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "потребан нам је приступ вашој камери да бисте могли да изаберете слике из свог телефона";
@@ -1214,7 +1219,10 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1222,9 +1230,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.princippres.meetserbia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -1350,6 +1360,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		126F4EA02BD7EDCA00A3DB0C /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.11.0;
+			};
+		};
 		1271F8762A82ECAD00DC2F03 /* XCRemoteSwiftPackageReference "SwiftSoup" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/scinfu/SwiftSoup.git";
@@ -1366,17 +1384,14 @@
 				minimumVersion = 1.9.3;
 			};
 		};
-		12C6858F2BD2786500329E56 /* XCRemoteSwiftPackageReference "FloatingTabBarController" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/EmilioPelaez/FloatingTabBarController";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
-			};
-		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		126F4EA12BD7EDCA00A3DB0C /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 126F4EA02BD7EDCA00A3DB0C /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
 		1271F8772A82ECAD00DC2F03 /* SwiftSoup */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 1271F8762A82ECAD00DC2F03 /* XCRemoteSwiftPackageReference "SwiftSoup" */;
@@ -1386,11 +1401,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 12C685892BD1577900329E56 /* XCRemoteSwiftPackageReference "ImageScrollView" */;
 			productName = ImageScrollView;
-		};
-		12C685902BD2786500329E56 /* FloatingTabBarController */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 12C6858F2BD2786500329E56 /* XCRemoteSwiftPackageReference "FloatingTabBarController" */;
-			productName = FloatingTabBarController;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

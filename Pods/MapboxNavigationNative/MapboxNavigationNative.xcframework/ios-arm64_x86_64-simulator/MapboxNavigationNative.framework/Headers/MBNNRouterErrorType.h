@@ -7,6 +7,8 @@ typedef NS_ENUM(NSInteger, MBNNRouterErrorType)
 {
     MBNNRouterErrorTypeUnknown,
     MBNNRouterErrorTypeRequestCancelled,
+    /** Error caused by too many requests to router. */
+    MBNNRouterErrorTypeThrottlingError,
     /** Errors from DirectionsAPI. Fallback to onboard router is supported. (e.g. RateLimit) */
     MBNNRouterErrorTypeDirectionsError,
     /** Critical errors from DirectionsAPI. Fallback to onboard router unsupported. (NoRoute, NoSegment, Forbidden, ProfileNotFound, InvalidInput, NoChargersNearby) */

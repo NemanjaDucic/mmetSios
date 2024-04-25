@@ -148,13 +148,19 @@ open class LegacyRouteController: NSObject, Router, InternalRouter, CLLocationMa
                             routeOptions: RouteOptions?,
                             completion: ((Bool) -> Void)?) {
         guard !hasFinishedRouting else { return }
-        updateRoute(with: indexedRouteResponse, routeOptions: routeOptions, isProactive: false, completion: completion)
+        updateRoute(with: indexedRouteResponse,
+                    routeOptions: routeOptions,
+                    isProactive: false,
+                    isAlternative: false) { result in
+            completion?(result.isSuccess)
+        }
     }
 
     func updateRoute(with indexedRouteResponse: IndexedRouteResponse,
                      routeOptions: RouteOptions?,
                      isProactive: Bool,
-                     completion: ((Bool) -> Void)?) {
+                     isAlternative: Bool,
+                     completion: ((Result<Void, Error>) -> Void)?) {
         guard let route = indexedRouteResponse.currentRoute else {
             preconditionFailure("`indexedRouteResponse` does not contain route for index `\(indexedRouteResponse.routeIndex)` when updating route.")
         }
@@ -162,7 +168,7 @@ open class LegacyRouteController: NSObject, Router, InternalRouter, CLLocationMa
         routeProgress = RouteProgress(route: route, options: routeOptions)
         self.indexedRouteResponse = indexedRouteResponse
         announce(reroute: route, at: location, proactive: isProactive)
-        completion?(true)
+        completion?(.success(()))
     }
 
     
@@ -242,7 +248,7 @@ open class LegacyRouteController: NSObject, Router, InternalRouter, CLLocationMa
         self.init(alongRouteAtIndex:routeIndex,
                   in: routeResponse,
                   options: options,
-                  routingProvider: routingProvider,
+                  customRoutingProvider: routingProvider,
                   dataSource: source)
     }
     
@@ -502,7 +508,10 @@ open class LegacyRouteController: NSObject, Router, InternalRouter, CLLocationMa
             case let .success(indexedResponse):
                 let response = indexedResponse.routeResponse
                 guard case let .route(options) = response.options else { return }
-                self.updateRoute(with: indexedResponse, routeOptions: options, isProactive: false) { success in
+                self.updateRoute(with: indexedResponse,
+                                 routeOptions: options,
+                                 isProactive: false,
+                                 isAlternative: false) { success in
                     self.isRerouting = false
                 }
             }

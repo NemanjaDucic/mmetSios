@@ -19,4 +19,6 @@ __attribute__((visibility ("default")))
 @property (nonatomic, readonly, nonnull, copy) NSString *dataset;
 @property (nonatomic, readonly, nonnull, copy) NSString *version;
 
+- (BOOL)isEqualToRoadGraphVersionInfo:(nonnull MBNNRoadGraphVersionInfo *)other;
+
 @end

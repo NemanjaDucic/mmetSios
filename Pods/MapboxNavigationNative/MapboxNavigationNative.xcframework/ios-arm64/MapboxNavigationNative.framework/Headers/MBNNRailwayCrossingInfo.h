@@ -12,10 +12,12 @@ __attribute__((visibility ("default")))
 // This class provides custom init which should be called
 + (nonnull instancetype)new NS_UNAVAILABLE;
 
-- (nonnull instancetype)initWithIsRailwayCrossing:(BOOL)isRailwayCrossing;
+- (nonnull instancetype)initWithId:(nonnull NSString *)id;
 
-/** will be always `true` (Bindgen does not allow empty records at the moment) */
-@property (nonatomic, readonly, getter=isIsRailwayCrossing) BOOL isRailwayCrossing;
+/** id of railway crossing */
+@property (nonatomic, readonly, nonnull, copy) NSString *id;
 
+
+- (BOOL)isEqualToRailwayCrossingInfo:(nonnull MBNNRailwayCrossingInfo *)other;
 
 @end

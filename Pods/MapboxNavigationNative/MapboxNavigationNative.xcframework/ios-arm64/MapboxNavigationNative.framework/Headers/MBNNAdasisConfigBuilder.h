@@ -26,6 +26,7 @@ __attribute__((visibility ("default")))
  * "positionCycleMs": 200
  * },
  * "dataSending": {
+ * "messageBinaryFormat": "ADASISv2LE",
  * "messageIntervalMs": 80,
  * "messagesInPackage": 4,
  * "sortProfileshortsByOffset": true,

@@ -177,6 +177,16 @@ open class CarPlayNavigationViewController: UIViewController, BuildingHighlighti
         let template = CPListTemplate(title: alternativesTitle,
                                       sections: variants)
         template.delegate = self
+        
+        if #available(iOS 14.0, *) {
+            let alternativesEmptyVariantsSubtitle = NSLocalizedString("CARPLAY_ALTERNATIVES_EMPTY_SUBTITLE",
+                                              bundle: .mapboxNavigation,
+                                              value: "No alternative routes found.",
+                                              comment: "Subtitle for the alternative list template empty variants")
+            
+            template.emptyViewSubtitleVariants = [alternativesEmptyVariantsSubtitle]
+        }
+        
         return template
     }
     
@@ -278,13 +288,15 @@ open class CarPlayNavigationViewController: UIViewController, BuildingHighlighti
                 currentUserInterfaceStyle = .dark
             }
         }
-        
+
+        let backgroundColor = delegate?.carPlayNavigationViewController(self, guidanceBackgroundColorFor: currentUserInterfaceStyle)
+
         switch currentUserInterfaceStyle {
         case .dark:
-            mapTemplate.guidanceBackgroundColor = .black
+            mapTemplate.guidanceBackgroundColor = backgroundColor ?? .black
             mapTemplate.tripEstimateStyle = .dark
         default:
-            mapTemplate.guidanceBackgroundColor = .white
+            mapTemplate.guidanceBackgroundColor = backgroundColor ?? .white
             mapTemplate.tripEstimateStyle = .light
         }
     }
@@ -858,7 +870,7 @@ open class CarPlayNavigationViewController: UIViewController, BuildingHighlighti
     @objc func didUpdateRoadNameFromStatus(_ notification: Notification) {
         let roadNameFromStatus = notification.userInfo?[RouteController.NotificationUserInfoKey.localizedRoadNameKey] as? String
         if let roadName = roadNameFromStatus?.nonEmptyString {
-            let representation = notification.userInfo?[RouteController.NotificationUserInfoKey.routeShieldRepresentationKey] as? VisualInstruction.Component.ImageRepresentation
+            let representation = notification.userInfo?[RouteController.NotificationUserInfoKey.localizedRouteShieldRepresentationKey] as? VisualInstruction.Component.ImageRepresentation
             wayNameView.label.updateRoad(roadName: roadName, representation: representation, idiom: .carPlay)
             wayNameView.containerView.isHidden = false
         } else {
@@ -906,15 +918,8 @@ open class CarPlayNavigationViewController: UIViewController, BuildingHighlighti
             text += "\n\(secondaryText)"
         }
         primaryManeuver.instructionVariants = [text]
-        
-        // Add maneuver arrow
-        if #available(iOS 13.0, *) {
-            let userInterfaceStyle = traitCollection.userInterfaceStyle
-            primaryManeuver.symbolImage = visualInstruction.primaryInstruction.maneuverImage(side: visualInstruction.drivingSide,
-                                                                                             userInterfaceStyle: userInterfaceStyle)
-        } else {
-            primaryManeuver.symbolSet = visualInstruction.primaryInstruction.maneuverImageSet(side: visualInstruction.drivingSide)
-        }
+
+        primaryManeuver.symbolSet = visualInstruction.primaryInstruction.maneuverImageSet(side: visualInstruction.drivingSide)
         
         let junctionImage = guidanceViewManeuverRepresentation(for: visualInstruction,
                                                                navigationService: navigationService)
@@ -1147,6 +1152,22 @@ extension CarPlayNavigationViewController: NavigationServiceDelegate {
 
 extension CarPlayNavigationViewController: NavigationMapViewDelegate {
     
+    public func navigationMapView(_ navigationMapView: NavigationMapView, 
+                                  waypointCircleLayerWithIdentifier identifier: String,
+                                  sourceIdentifier: String) -> CircleLayer? {
+        delegate?.carPlayNavigationViewController(self,
+                                                  waypointCircleLayerWithIdentifier: identifier,
+                                                  sourceIdentifier: sourceIdentifier)
+    }
+
+    public func navigationMapView(_ navigationMapView: NavigationMapView, 
+                                  waypointSymbolLayerWithIdentifier identifier: String,
+                                  sourceIdentifier: String) -> SymbolLayer? {
+        delegate?.carPlayNavigationViewController(self,
+                                                  waypointSymbolLayerWithIdentifier: identifier,
+                                                  sourceIdentifier: sourceIdentifier)
+    }
+
     public func navigationMapView(_ navigationMapView: NavigationMapView,
                                   didAdd finalDestinationAnnotation: PointAnnotation,
                                   pointAnnotationManager: PointAnnotationManager) {

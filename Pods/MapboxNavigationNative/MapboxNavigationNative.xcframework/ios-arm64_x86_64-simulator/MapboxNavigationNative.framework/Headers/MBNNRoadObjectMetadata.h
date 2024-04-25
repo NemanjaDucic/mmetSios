@@ -6,6 +6,8 @@
 @class MBNNIcInfo;
 @class MBNNIncidentInfo;
 @class MBNNJctInfo;
+@class MBNNMergingAreaInfo;
+@class MBNNNotificationInfo;
 @class MBNNRailwayCrossingInfo;
 @class MBNNServiceAreaInfo;
 @class MBNNTollCollectionInfo;
@@ -20,7 +22,9 @@ typedef NS_ENUM(NSInteger, MBNNRoadObjectMetadataType)
     MBNNRoadObjectMetadataTypeServiceAreaInfo,
     MBNNRoadObjectMetadataTypeRailwayCrossingInfo,
     MBNNRoadObjectMetadataTypeIcInfo,
-    MBNNRoadObjectMetadataTypeJctInfo
+    MBNNRoadObjectMetadataTypeJctInfo,
+    MBNNRoadObjectMetadataTypeNotificationInfo,
+    MBNNRoadObjectMetadataTypeMergingAreaInfo
 } NS_SWIFT_NAME(RoadObjectMetadataType);
 
 NS_SWIFT_NAME(RoadObjectMetadata)
@@ -37,6 +41,8 @@ __attribute__((visibility ("default")))
 + (nonnull instancetype)fromRailwayCrossingInfo:(nonnull MBNNRailwayCrossingInfo *)value;
 + (nonnull instancetype)fromIcInfo:(nonnull MBNNIcInfo *)value;
 + (nonnull instancetype)fromJctInfo:(nonnull MBNNJctInfo *)value;
++ (nonnull instancetype)fromNotificationInfo:(nonnull MBNNNotificationInfo *)value;
++ (nonnull instancetype)fromMergingAreaInfo:(nonnull MBNNMergingAreaInfo *)value;
 
 - (BOOL)isIncidentInfo;
 - (BOOL)isTunnelInfo;
@@ -46,6 +52,8 @@ __attribute__((visibility ("default")))
 - (BOOL)isRailwayCrossingInfo;
 - (BOOL)isIcInfo;
 - (BOOL)isJctInfo;
+- (BOOL)isNotificationInfo;
+- (BOOL)isMergingAreaInfo;
 
 - (nonnull MBNNIncidentInfo *)getIncidentInfo __attribute((ns_returns_retained));
 - (nonnull MBNNTunnelInfo *)getTunnelInfo __attribute((ns_returns_retained));
@@ -55,6 +63,8 @@ __attribute__((visibility ("default")))
 - (nonnull MBNNRailwayCrossingInfo *)getRailwayCrossingInfo __attribute((ns_returns_retained));
 - (nonnull MBNNIcInfo *)getIcInfo __attribute((ns_returns_retained));
 - (nonnull MBNNJctInfo *)getJctInfo __attribute((ns_returns_retained));
+- (nonnull MBNNNotificationInfo *)getNotificationInfo __attribute((ns_returns_retained));
+- (nonnull MBNNMergingAreaInfo *)getMergingAreaInfo __attribute((ns_returns_retained));
 
 @property (nonatomic, nonnull) id value;
 

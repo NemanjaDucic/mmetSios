@@ -15,7 +15,8 @@ __attribute__((visibility ("default")))
 + (nonnull instancetype)new NS_UNAVAILABLE;
 
 - (nonnull instancetype)initWithMatches:(nonnull NSArray<MBNNMapMatch *> *)matches
-                             isTeleport:(BOOL)isTeleport;
+                             isTeleport:(BOOL)isTeleport
+                   totalCandidatesCount:(uint32_t)totalCandidatesCount;
 
 /**
  * Probable user positions on the road graph sorted from the most probable to the least probable.
@@ -29,6 +30,9 @@ __attribute__((visibility ("default")))
  * and just do "teleport".
  */
 @property (nonatomic, readonly, getter=isIsTeleport) BOOL isTeleport;
+
+/** Total number of MM candidates including the low-probability ones */
+@property (nonatomic, readonly) uint32_t totalCandidatesCount;
 
 
 @end

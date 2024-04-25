@@ -13,8 +13,12 @@ __attribute__((visibility ("default")))
 // This class provides custom init which should be called
 + (nonnull instancetype)new NS_UNAVAILABLE;
 
-- (nonnull instancetype)initWithType:(MBNNTollCollectionType)type
-                                name:(nullable NSString *)name;
+- (nonnull instancetype)initWithId:(nonnull NSString *)id
+                              type:(MBNNTollCollectionType)type
+                              name:(nullable NSString *)name;
+
+/** id of the toll collection */
+@property (nonatomic, readonly, nonnull, copy) NSString *id;
 
 /** type of toll collection point */
 @property (nonatomic, readonly) MBNNTollCollectionType type;
@@ -22,5 +26,7 @@ __attribute__((visibility ("default")))
 /** name of the toll */
 @property (nonatomic, readonly, nullable, copy) NSString *name;
 
+
+- (BOOL)isEqualToTollCollectionInfo:(nonnull MBNNTollCollectionInfo *)other;
 
 @end

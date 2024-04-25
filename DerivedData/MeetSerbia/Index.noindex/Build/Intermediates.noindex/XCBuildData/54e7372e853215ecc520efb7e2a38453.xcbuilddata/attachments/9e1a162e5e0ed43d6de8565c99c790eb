@@ -1,0 +1,195 @@
+{
+  "" : {
+    "dependencies" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Index.noindex/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/arm64/Kingfisher-master.d",
+    "diagnostics" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Index.noindex/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/arm64/Kingfisher-master.dia",
+    "emit-module-dependencies" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Index.noindex/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/arm64/Kingfisher-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Index.noindex/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/arm64/Kingfisher-master-emit-module.dia",
+    "swift-dependencies" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Index.noindex/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/arm64/Kingfisher-master.swiftdeps"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Cache/CacheSerializer.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Cache/DiskStorage.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Cache/FormatIndicatedCacheSerializer.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Cache/ImageCache.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Cache/MemoryStorage.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Cache/Storage.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Extensions/CPListItem+Kingfisher.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Extensions/ImageView+Kingfisher.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Extensions/NSButton+Kingfisher.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Extensions/NSTextAttachment+Kingfisher.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Extensions/TVMonogramView+Kingfisher.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Extensions/UIButton+Kingfisher.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Extensions/WKInterfaceImage+Kingfisher.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/General/ImageSource/AVAssetImageDataProvider.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/General/ImageSource/ImageDataProvider.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/General/ImageSource/Resource.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/General/ImageSource/Source.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/General/KF.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/General/KFOptionsSetter.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/General/Kingfisher.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/General/KingfisherError.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/General/KingfisherManager.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/General/KingfisherOptionsInfo.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Image/Filter.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Image/GIFAnimatedImage.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Image/GraphicsContext.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Image/Image.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Image/ImageDrawing.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Image/ImageFormat.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Image/ImageProcessor.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Image/ImageProgressive.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Image/ImageTransition.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Image/Placeholder.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Networking/AuthenticationChallengeResponsable.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Networking/ImageDataProcessor.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Networking/ImageDownloader.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Networking/ImageDownloaderDelegate.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Networking/ImageModifier.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Networking/ImagePrefetcher.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Networking/RedirectHandler.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Networking/RequestModifier.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Networking/RetryStrategy.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Networking/SessionDataTask.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Networking/SessionDelegate.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/SwiftUI/ImageBinder.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/SwiftUI/ImageContext.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/SwiftUI/KFAnimatedImage.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/SwiftUI/KFImage.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/SwiftUI/KFImageOptions.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/SwiftUI/KFImageProtocol.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/SwiftUI/KFImageRenderer.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Utility/Box.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Utility/CallbackQueue.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Utility/Delegate.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Utility/DisplayLink.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Utility/ExtensionHelpers.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Utility/Result.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Utility/Runtime.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Utility/SizeExtensions.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Utility/String+MD5.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Views/AnimatedImageView.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Views/Indicator.swift" : {
+
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "main_library": {
+    "exported_symbols": [
+      {
+        "data": {
+          "global": [
+            "_$s12MapboxSpeech0B7OptionsC12speechGenderAA0bE0OvMTq",
+            "_$s12MapboxSpeech0B7OptionsC12outputFormatAA05AudioE0OvgTq",
+            "_$s12MapboxSpeech0B7OptionsC12outputFormatAA05AudioE0Ovs",
+            "_$s12MapboxSpeech0B7OptionsC4textSSvgTq",
+            "_$s12MapboxSpeech0B11SynthesizerC11apiEndpoint10Foundation3URLVvs",
+            "_$s12MapboxSpeech0B7OptionsC4textSSvg",
+            "_$s12MapboxSpeech0B11SynthesizerC8skuToken33_DB0BC25C71596D1BCA89916F0D433D65LLSSSgvg",
+            "_$s12MapboxSpeech0B5ErrorOs0C0AAMc",
+            "_$s12MapboxSpeech0B7OptionsC4textSSvs",
+            "_$s12MapboxSpeech0B7OptionsC6locale10Foundation6LocaleVvs",
+            "_$s12MapboxSpeech0B7OptionsC12speechGenderAA0bE0OvsTq",
+            "_$s12MapboxSpeech0B11SynthesizerC9audioData4with17completionHandlerSo012NSURLSessionE4TaskCAA0B7OptionsC_y10Foundation0E0VSg_AA0B5ErrorOSgtctF",
+            "_$s12MapboxSpeech0B6GenderO8rawValueACSgSS_tcfC",
+            "_$s12MapboxSpeech0B7OptionsCMm",
+            "_$s12MapboxSpeech0B7OptionsC4textSSvpMV",
+            "_$s12MapboxSpeech0B7OptionsCMa",
+            "_$s12MapboxSpeech0B11SynthesizerC11accessToken4hostACSSSg_AFtcfCTq",
+            "_$s12MapboxSpeech0B11SynthesizerC11accessTokenSSvpMV",
+            "_$s12MapboxSpeech0B7OptionsC12outputFormatAA05AudioE0Ovg",
+            "_$s12MapboxSpeech11AudioFormatOSYAAMc",
+            "_$s12MapboxSpeech0B7OptionsCMn",
+            "_$s12MapboxSpeech8TextTypeOMa",
+            "_$s12MapboxSpeech8TextTypeON",
+            "_$s12MapboxSpeech0B7OptionsCfd",
+            "_$s12MapboxSpeech8TextTypeO8rawValueACSgSS_tcfC",
+            "_$s12MapboxSpeech11AudioFormatO8rawValueSSvg",
+            "_$s12MapboxSpeech0B7OptionsC12outputFormatAA05AudioE0OvM",
+            "_$s12MapboxSpeech0B11SynthesizerC11accessTokenSSvg",
+            "_$s12MapboxSpeech0B11SynthesizerC11apiEndpoint10Foundation3URLVvpMV",
+            "_$s12MapboxSpeech0B7OptionsC4textACSS_tcfC",
+            "_$s12MapboxSpeech0B5ErrorOMa",
+            "_$s12MapboxSpeech11AudioFormatOSHAAMc",
+            "_$s12MapboxSpeech0B11SynthesizerCfD",
+            "_$s12MapboxSpeech0B11SynthesizerC11accessTokenACSSSg_tcfC",
+            "_$s12MapboxSpeech0B11SynthesizerC6sharedACvpZ",
+            "_$s12MapboxSpeech0B7OptionsC12speechGenderAA0bE0Ovs",
+            "_$s12MapboxSpeech0B6GenderOSYAAMc",
+            "_$s12MapboxSpeech0B5ErrorON",
+            "_$s12MapboxSpeech0B7OptionsC4textACSS_tcfCTq",
+            "_$s12MapboxSpeech0B11SynthesizerC11accessTokenSSvpWvd",
+            "_MapboxSpeechVersionString",
+            "_$s12MapboxSpeech8TextTypeOSQAAMc",
+            "_$s12MapboxSpeech8TextTypeOSYAAMc",
+            "_$s12MapboxSpeech0B5ErrorOMn",
+            "_$s12MapboxSpeech0B11SynthesizerC11accessToken4hostACSSSg_AFtcfC",
+            "_$s12MapboxSpeech0B7OptionsC6locale10Foundation6LocaleVvpWvd",
+            "_$s12MapboxSpeech0B6GenderOMn",
+            "_$s12MapboxSpeech11AudioFormatON",
+            "_$s12MapboxSpeech0B7OptionsC4ssmlACSS_tcfC",
+            "_$s12MapboxSpeech0B11SynthesizerCfd",
+            "_Swift50Overrides",
+            "_$s12MapboxSpeech0B7OptionsC6encode2toys7Encoder_p_tKFTq",
+            "_$s12MapboxSpeech0B5ErrorO13failureReasonSSSgvpMV",
+            "_$s12MapboxSpeech0B6GenderOSeAAMc",
+            "_$s12MapboxSpeech0B11SynthesizerC11apiEndpoint10Foundation3URLVvM",
+            "_$s12MapboxSpeech0B7OptionsC6locale10Foundation6LocaleVvM",
+            "_$s12MapboxSpeech11AudioFormatOMn",
+            "_$s12MapboxSpeech0B7OptionsC4textSSvpWvd",
+            "_$s12MapboxSpeech0B11SynthesizerC3url15forSynthesizing10Foundation3URLVAA0B7OptionsC_tFTq",
+            "_$s12MapboxSpeech8TextTypeOMn",
+            "_$s12MapboxSpeech0B11SynthesizerCMn",
+            "_$s12MapboxSpeech0B11SynthesizerC3url15forSynthesizing10Foundation3URLVAA0B7OptionsC_tF",
+            "_$s12MapboxSpeech0B6GenderOSEAAMc",
+            "_$s12MapboxSpeech0B7OptionsC4textSSvMTq",
+            "_$s12MapboxSpeech0B7OptionsC4fromACs7Decoder_p_tKcfc",
+            "_$s12MapboxSpeech0B7OptionsC4ssmlACSS_tcfCTq",
+            "_$s12MapboxSpeech0B7OptionsC6locale10Foundation6LocaleVvg",
+            "_$s12MapboxSpeech0B7OptionsC4textSSvM",
+            "_$s12MapboxSpeech0B7OptionsC4pathSSvg",
+            "_$s12MapboxSpeech0B11SynthesizerC11accessToken4hostACSSSg_AFtcfc",
+            "_$s12MapboxSpeech0B5ErrorO13failureReasonSSSgvg",
+            "_$s12MapboxSpeech0B7OptionsC12speechGenderAA0bE0OvpWvd",
+            "_$s12MapboxSpeech0B7OptionsCSeAAMc",
+            "_$s12MapboxSpeech0B6GenderON",
+            "_$s12MapboxSpeech0B7OptionsC12speechGenderAA0bE0OvgTq",
+            "_$s12MapboxSpeech0B7OptionsC6encode2toys7Encoder_p_tKF",
+            "_$s12MapboxSpeech11AudioFormatOSQAAMc",
+            "_$s12MapboxSpeech0B7OptionsC6locale10Foundation6LocaleVvMTq",
+            "_$s12MapboxSpeech0B6GenderOMa",
+            "_$s12MapboxSpeech0B7OptionsC12outputFormatAA05AudioE0OvpMV",
+            "_$s12MapboxSpeech0B7OptionsC4fromACs7Decoder_p_tKcfC",
+            "_$s12MapboxSpeech11AudioFormatO8rawValueSSvpMV",
+            "_$s12MapboxSpeech0B6GenderO8rawValueSSvpMV",
+            "_$s12MapboxSpeech11AudioFormatOSeAAMc",
+            "_$s12MapboxSpeech0B11SynthesizerC8dataTask33_DB0BC25C71596D1BCA89916F0D433D65LL4with17completionHandler05errorP0So016NSURLSessionDataE0C10Foundation3URLV_yAK0S0VcyAA0B5ErrorOctF",
+            "_$s12MapboxSpeech8TextTypeOSHAAMc",
+            "_Swift51Overrides",
+            "_$s12MapboxSpeech0B6GenderOSHAAMc",
+            "_$s12MapboxSpeech0B7OptionsC6locale10Foundation6LocaleVvpMV",
+            "_$s12MapboxSpeech0B7OptionsC12outputFormatAA05AudioE0OvMTq",
+            "_$s12MapboxSpeech0B11SynthesizerCMa",
+            "_$s12MapboxSpeech0B7OptionsC6locale10Foundation6LocaleVvpfi",
+            "_$s12MapboxSpeech0B5ErrorO18recoverySuggestionSSSgvpMV",
+            "_$s12MapboxSpeech0B11SynthesizerC6sharedACvau",
+            "_$s12MapboxSpeech0B7OptionsC12speechGenderAA0bE0Ovpfi",
+            "_$s12MapboxSpeech11AudioFormatOMa",
+            "_$s12MapboxSpeech0B11SynthesizerC6sharedACvgZ",
+            "_$s12MapboxSpeech0B7OptionsC12speechGenderAA0bE0OvM",
+            "_$s12MapboxSpeech8TextTypeOSEAAMc",
+            "_$s12MapboxSpeech0B7OptionsC12outputFormatAA05AudioE0OvpWvd",
+            "_$s12MapboxSpeech0B7OptionsC4textSSvsTq",
+            "_$s12MapboxSpeech0B6GenderO8rawValueSSvg",
+            "_$s12MapboxSpeech8TextTypeO8rawValueSSvg",
+            "_$s12MapboxSpeech0B7OptionsC6paramsSay10Foundation12URLQueryItemVGvg",
+            "_$s12MapboxSpeech0B7OptionsC4ssmlACSS_tcfc",
+            "_$s12MapboxSpeech0B7OptionsC12speechGenderAA0bE0Ovg",
+            "_$s12MapboxSpeech8TextTypeOSeAAMc",
+            "_$s12MapboxSpeech0B7OptionsCSEAAMc",
+            "_$s12MapboxSpeech0B5ErrorO10Foundation09LocalizedC0AAMc",
+            "_$s12MapboxSpeech0B11SynthesizerC9audioData4with17completionHandlerSo012NSURLSessionE4TaskCAA0B7OptionsC_y10Foundation0E0VSg_AA0B5ErrorOSgtctFTq",
+            "_$s12MapboxSpeech0B5ErrorO18recoverySuggestionSSSgvg",
+            "_$s12MapboxSpeech0B7OptionsCfD",
+            "_$s12MapboxSpeech0B11SynthesizerCN",
+            "_MapboxSpeechVersionNumber",
+            "_$s12MapboxSpeech0B11SynthesizerCMm",
+            "_$s12MapboxSpeech0B7OptionsC6locale10Foundation6LocaleVvgTq",
+            "_$s12MapboxSpeech8TextTypeO8rawValueSSvpMV",
+            "_$s12MapboxSpeech0B7OptionsC6locale10Foundation6LocaleVvsTq",
+            "_$s12MapboxSpeech11AudioFormatOSEAAMc",
+            "_$s12MapboxSpeech0B11SynthesizerC11apiEndpoint10Foundation3URLVvpWvd",
+            "_$s12MapboxSpeech0B6GenderOSQAAMc",
+            "_$s12MapboxSpeech0B7OptionsC12outputFormatAA05AudioE0Ovpfi",
+            "_$s12MapboxSpeech0B11SynthesizerC11apiEndpoint10Foundation3URLVvg",
+            "_$s12MapboxSpeech0B11SynthesizerC11apiEndpoint10Foundation3URLVvgTq",
+            "_$s12MapboxSpeech0B7OptionsC4textACSS_tcfc",
+            "_$s12MapboxSpeech11AudioFormatO8rawValueACSgSS_tcfC",
+            "_$s12MapboxSpeech0B7OptionsCN",
+            "_$s12MapboxSpeech0B7OptionsC12outputFormatAA05AudioE0OvsTq",
+            "_$s12MapboxSpeech0B7OptionsC12speechGenderAA0bE0OvpMV",
+            "_$s12MapboxSpeech0B7OptionsC4fromACs7Decoder_p_tKcfCTq"
+          ],
+          "objc_class": [
+            "PodsDummy_MapboxSpeech"
+          ]
+        },
+        "text": {
+          "global": [
+            "__ZN5swift39swift51override_conformsToSwiftProtocolEPKNS_14TargetMetadataINS_9InProcessEEEPKNS_24TargetProtocolDescriptorIS1_EEN7__swift9__runtime4llvm9StringRefEPFPKNS_35TargetProtocolConformanceDescriptorIS1_EES4_S8_SC_E",
+            "__ZN5swift34swift50override_conformsToProtocolEPKNS_14TargetMetadataINS_9InProcessEEEPKNS_24TargetProtocolDescriptorIS1_EEPFPKNS_18TargetWitnessTableIS1_EES4_S8_E",
+            "__Z34_swiftoverride_class_getSuperclassPKN5swift14TargetMetadataINS_9InProcessEEE"
+          ]
+        }
+      }
+    ],
+    "flags": [
+      {
+        "attributes": [
+          "not_app_extension_safe"
+        ]
+      }
+    ],
+    "install_names": [
+      {
+        "name": "@rpath/MapboxSpeech.framework/MapboxSpeech"
+      }
+    ],
+    "swift_abi": [
+      {
+        "abi": 7
+      }
+    ],
+    "target_info": [
+      {
+        "min_deployment": "12",
+        "target": "arm64-ios"
+      }
+    ]
+  },
+  "tapi_tbd_version": 5
+}

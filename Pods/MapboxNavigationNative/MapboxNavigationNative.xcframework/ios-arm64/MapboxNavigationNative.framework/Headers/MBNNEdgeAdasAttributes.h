@@ -17,7 +17,8 @@ __attribute__((visibility ("default")))
 
 - (nonnull instancetype)initWithSpeedLimit:(nonnull NSArray<MBNNSpeedLimitInfo *> *)speedLimit
                                     slopes:(nonnull NSArray<MBNNValueOnEdge *> *)slopes
-                                curvatures:(nonnull NSArray<MBNNValueOnEdge *> *)curvatures;
+                                curvatures:(nonnull NSArray<MBNNValueOnEdge *> *)curvatures
+                             isDividedRoad:(BOOL)isDividedRoad;
 
 /**
  * List of speed limits on the edge.
@@ -30,6 +31,7 @@ __attribute__((visibility ("default")))
  * List of slope values with their positions on the edge.
  * Position is a shape index, where integer part in an index of geometry segment is
  * and fractional part is a position on the segment.
+ * Value is a slope in degrees.
  */
 @property (nonatomic, readonly, nonnull, copy) NSArray<MBNNValueOnEdge *> *slopes;
 
@@ -39,6 +41,9 @@ __attribute__((visibility ("default")))
  * and fractional part is a position on the segment.
  */
 @property (nonatomic, readonly, nonnull, copy) NSArray<MBNNValueOnEdge *> *curvatures;
+
+/** A flag indicating if the edge is a divided road. */
+@property (nonatomic, readonly, getter=isIsDividedRoad) BOOL isDividedRoad;
 
 
 - (BOOL)isEqualToEdgeAdasAttributes:(nonnull MBNNEdgeAdasAttributes *)other;

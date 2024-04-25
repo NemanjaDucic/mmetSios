@@ -1,0 +1,177 @@
+version: "Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)"
+options: "1252658b1151af10c738e795a640ee61dc507c6ef8b24b4641f94ebdae09d10d"
+build_start_time: [1713875186, 180066000]
+build_end_time: [1713875199, 485295000]
+inputs:
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/Accounts.swift": [1712575756, 499618310]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/ActiveNavigationEventDetails.swift"
+  : [1712575756, 499738853]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/AlternativeRoute.swift": [1712575756, 499864396]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/AlternativeRouteDetectionStrategy.swift"
+  : [1712575756, 499974188]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/AmenityType.swift": [1712575756, 500085606]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/BillingHandler.swift": [1712575756, 500396359]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/BorderCrossing.swift": [1712575756, 500514859]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/Bundle+SDKVersion.swift": [1712575756, 500625110]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/BundleAdditions.swift": [1712575756, 500753861]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/CLLocation.swift": [1712575756, 500873362]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/CLLocationDirection.swift": [1712575756, 500981905]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/CongestionLevel.swift": [1712575756, 501104989]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/CoreConstants.swift": [1712575756, 501284824]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/CoreNavigationNavigator.swift"
+  : [1712575756, 501670327]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/Date.swift": [1712575756, 501776745]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/DefaultRerouteControllerInterface.swift"
+  : [1712575756, 501883329]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/Dictionary+DeepMerge.swift": [1712575756, 501985996]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/Directions+RoutingProvider.swift"
+  : [1712575756, 502138872]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/Directions.swift": [1712575756, 502290707]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/DispatchTimer.swift": [1712575756, 502400916]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/DistanceFormatter.swift": [1712575756, 502524042]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/EHorizon/DistancedRoadObject.swift"
+  : [1712575756, 502703544]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/EHorizon/ElectronicHorizonOptions.swift"
+  : [1712575756, 502813920]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/EHorizon/Interchange.swift": [1712575756, 502918545]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/EHorizon/Junction.swift": [1712575756, 503021963]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/EHorizon/LocalizedRoadObjectName.swift"
+  : [1712575756, 503130380]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/EHorizon/OpenLRIdentifier.swift"
+  : [1712575756, 503242048]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/EHorizon/OpenLROrientation.swift"
+  : [1712575756, 503357757]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/EHorizon/OpenLRSideOfRoad.swift"
+  : [1712575756, 503470425]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/EHorizon/RoadGraph.swift": [1712575756, 503589509]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/EHorizon/RoadGraphEdge.swift"
+  : [1712575756, 503702343]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/EHorizon/RoadGraphEdgeMetadata.swift"
+  : [1712575756, 503840469]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/EHorizon/RoadGraphPath.swift"
+  : [1712575756, 503954887]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/EHorizon/RoadGraphPosition.swift"
+  : [1712575756, 504093972]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/EHorizon/RoadName.swift": [1712575756, 504211639]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/EHorizon/RoadObject.swift": [1712575756, 504326015]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/EHorizon/RoadObjectEdgeLocation.swift"
+  : [1712575756, 504445391]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/EHorizon/RoadObjectKind.swift"
+  : [1712575756, 504586517]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/EHorizon/RoadObjectLocation.swift"
+  : [1712575756, 504723310]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/EHorizon/RoadObjectMatcher.swift"
+  : [1712575756, 504861020]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/EHorizon/RoadObjectMatcherDelegate.swift"
+  : [1712575756, 504978937]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/EHorizon/RoadObjectMatcherError.swift"
+  : [1712575756, 505088730]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/EHorizon/RoadObjectPosition.swift"
+  : [1712575756, 505203439]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/EHorizon/RoadObjectStore.swift"
+  : [1712575756, 505335732]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/EHorizon/RoadObjectStoreDelegate.swift"
+  : [1712575756, 505440732]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/EHorizon/RoadShield.swift": [1712575756, 505548900]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/EHorizon/RoadSubgraphEdge.swift"
+  : [1712575756, 505657692]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/EventDetails.swift": [1712575756, 505784068]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/EventLocation.swift": [1712575756, 505888194]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/Feedback/ActiveNavigationFeedbackType.swift"
+  : [1712575756, 506092363]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/Feedback/CoreFeedbackEvent.swift"
+  : [1712575756, 506206322]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/Feedback/EndOfRouteFeedback.swift"
+  : [1712575756, 506309448]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/Feedback/EventConstants.swift"
+  : [1712575756, 506416532]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/Feedback/EventsAPI.swift": [1712575756, 506521283]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/Feedback/FeedbackEvent.swift"
+  : [1712575756, 506631200]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/Feedback/FeedbackScreenshotOption.swift"
+  : [1712575756, 506747951]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/Feedback/FeedbackType.swift": [1712575756, 506856577]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/Feedback/NavigationEventsManager.swift"
+  : [1712575756, 507011787]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/Feedback/PassiveNavigationFeedbackType.swift"
+  : [1712575756, 507122163]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/FixLocation.swift": [1712575756, 507231664]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/FreeDriveEventDetails.swift": [1712575756, 507353790]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/Geometry.swift": [1712575756, 507460290]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/HandlerFactory.swift": [1712575756, 507565333]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/HistoryEvent.swift": [1712575756, 507672084]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/HistoryReader.swift": [1712575756, 507798627]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/HistoryRecorder.swift": [1712575756, 507966836]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/HistoryRecording.swift": [1712575756, 508149004]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/Incident.swift": [1712575756, 508367506]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/IncidentsOptions.swift": [1712575756, 508550966]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/LegacyRouteController.swift": [1712575756, 508827260]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/Locale.swift": [1712575756, 509002053]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/MapMatchingResult.swift": [1712575756, 509652266]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/MapboxRoutingProvider.swift": [1712575756, 509321847]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/MapboxStreetsRoadClass.swift"
+  : [1712575756, 509491432]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/MinimumEditDistance.swift": [1712575756, 509833601]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/NSLock+MapboxInternal.swift": [1712575756, 511851451]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/NativeHandlersFactory.swift": [1712575756, 509997352]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/NavigationLocationManager.swift"
+  : [1712575756, 510137020]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/NavigationLog.swift": [1712575756, 510309438]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/NavigationRouteOptions.swift"
+  : [1712575756, 510500815]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/NavigationService.swift": [1712575756, 510739359]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/NavigationServiceDelegate.swift"
+  : [1712575756, 511275821]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/NavigationSettings.swift": [1712575756, 511498115]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/NavigationStatus.swift": [1712575756, 511694491]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/OnMainQueue.swift": [1712575756, 512032119]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/PassiveLocationManager.swift"
+  : [1712575756, 512223037]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/PassiveNavigationEventDetails.swift"
+  : [1712575756, 512380997]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/PredictiveCache/PredictiveCacheLocationOptions.swift"
+  : [1712575756, 512603290]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/PredictiveCache/PredictiveCacheManager.swift"
+  : [1712575756, 512806250]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/PredictiveCache/PredictiveCacheMapsOptions.swift"
+  : [1712575756, 512943501]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/PredictiveCache/PredictiveCacheNavigationOptions.swift"
+  : [1712575756, 513050460]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/PredictiveCache/PredictiveCacheOptions.swift"
+  : [1712575756, 513165753]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/ProcessInfo.swift": [1712575756, 513270379]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/ReplayLocationManager.swift": [1712575756, 513396047]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/RerouteController.swift": [1712575756, 513522756]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/RerouteControllerDelegate.swift"
+  : [1712575756, 513624715]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/RestStop.swift": [1712575756, 520255519]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/Result+Expected.swift": [1712575756, 520430687]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/RouteAlert.swift": [1712575756, 520690105]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/RouteController.swift": [1712575756, 520914232]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/RouteLeg.swift": [1712575756, 521033566]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/RouteLegProgress.swift": [1712575756, 521162526]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/RouteOptions.swift": [1712575756, 521280485]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/RouteProgress.swift": [1712575756, 521506654]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/RouteState.swift": [1712575756, 522200618]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/RouteStep.swift": [1712575756, 522305493]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/RouteStepProgress.swift": [1712575756, 522430703]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/Router.swift": [1712575756, 521746989]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/RouterDelegate.swift": [1712575756, 521973199]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/RoutesCoordinator.swift": [1712575756, 522092783]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/RoutingProvider.swift": [1712575756, 522810789]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/ScreenCapture.swift": [1712575756, 522977665]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/SessionState.swift": [1712575756, 523160209]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/SimulatedLocationManager.swift"
+  : [1712575756, 523389836]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/SimulationType.swift": [1712575756, 523582629]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/TileStore.swift": [1712575756, 524020507]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/TileStoreConfiguration.swift"
+  : [1712575756, 524228259]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/TilesetDescriptorFactory.swift"
+  : [1712575756, 523815422]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/TollCollection.swift": [1712575756, 524423385]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/Tunnel.swift": [1712575756, 524634512]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/TunnelAuthority.swift": [1712575756, 524830264]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/UIDevice.swift": [1712575756, 525017557]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/URLSession.swift": [1712575756, 525402435]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxCoreNavigation/Sources/MapboxCoreNavigation/UnimplementedLogging.swift": [1712575756, 525205017]

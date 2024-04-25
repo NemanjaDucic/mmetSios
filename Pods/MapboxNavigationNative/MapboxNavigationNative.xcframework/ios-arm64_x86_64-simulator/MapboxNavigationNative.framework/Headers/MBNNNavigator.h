@@ -1,20 +1,25 @@
 // This file is generated and will be overwritten automatically.
 
 #import <Foundation/Foundation.h>
+#import <MapboxNavigationNative/MBNNADASISv2MessageCallback.h>
 #import <MapboxNavigationNative/MBNNChangeLegCallback.h>
 #import <MapboxNavigationNative/MBNNResetCallback.h>
 #import <MapboxNavigationNative/MBNNSetRoutesReason.h>
+#import <MapboxNavigationNative/MBNNUpdateExternalSensorDataCallback.h>
 #import <MapboxNavigationNative/MBNNUpdateLocationCallback.h>
 
+@class MBNNAdasisConfig;
 @class MBNNCacheHandle;
 @class MBNNConfigHandle;
 @class MBNNElectronicHorizonOptions;
 @class MBNNFixLocation;
 @class MBNNHistoryRecorderHandle;
+@class MBNNNavigationSessionState;
 @class MBNNPredictiveCacheController;
 @class MBNNPredictiveCacheControllerOptions;
 @class MBNNPredictiveLocationTrackerOptions;
 @class MBNNRoadObjectsStore;
+@class MBNNSensorData;
 @class MBNNSetRoutesDataParams;
 @class MBNNSetRoutesParams;
 @class MBXTileStore;
@@ -45,6 +50,8 @@ __attribute__((visibility ("default")))
 
 /** Obtain config object that was used for Navigator construction */
 - (nonnull MBNNConfigHandle *)config __attribute((ns_returns_retained));
+/** Provides navigator version */
+- (nonnull NSString *)version __attribute((ns_returns_retained));
 /**
  * Shuts down Navigator instance, so it frees resources.
  * This Navigator instance should not be used after shutdown call.
@@ -80,6 +87,15 @@ __attribute__((visibility ("default")))
  */
 - (void)updateLocationForFixLocation:(nonnull MBNNFixLocation *)fixLocation
                             callback:(nonnull MBNNUpdateLocationCallback)callback;
+/**
+ * Asynchronously passes in the current sensor data of the user.
+ * The callback is scheduled using the `common::Scheduler` of the thread calling the `Navigator` constructor.
+ *
+ * @param  data  The current sensor data of user.
+ * @param  callback Callback which is called when the async operation is completed
+ */
+- (void)updateExternalSensorDataForSensorData:(nonnull MBNNSensorData *)sensorData
+                                     callback:(nonnull MBNNUpdateExternalSensorDataCallback)callback;
 /**
  * Asynchronously sets leg of the already loaded directions
  * The callback is scheduled using the `common::Scheduler` of the thread calling the `Navigator` constructor.
@@ -154,8 +170,8 @@ __attribute__((visibility ("default")))
  * i.e. you don't need to call startRoutesRefresh each time after setRoutes was called.
  * Call is non-blocking.
  *
- * @param defaultRefreshPeriodMs          used in case expiration time is ignored or wasn't determined from Directions API response
- * @param ignoreExpirationTime            if you want to refresh routes only each defaultRefreshPeriodInSeconds
+ * @param defaultRefreshPeriodMs  used in case expiration time is ignored or wasn't determined from Directions API response
+ * @param ignoreExpirationTime    if you want to refresh routes only each defaultRefreshPeriodInSeconds
  */
 - (void)startRoutesRefreshForDefaultRefreshPeriodMs:(uint64_t)defaultRefreshPeriodMs
                                ignoreExpirationTime:(BOOL)ignoreExpirationTime;
@@ -177,6 +193,15 @@ __attribute__((visibility ("default")))
  */
 - (void)removeRouteRefreshObserverForObserver:(nonnull id<MBNNRouteRefreshObserver>)observer;
 /**
+ * Caution: Beta feature for ADAS / ADASIS SDK. Method interface may change soon.
+ *
+ * Sets a callback for ADASIS messages
+ */
+- (void)setAdasisMessageCallbackForCallback:(nonnull MBNNADASISv2MessageCallback)callback
+                               adasisConfig:(nonnull MBNNAdasisConfig *)adasisConfig;
+/** Resets a callback for ADASIS messages */
+- (void)resetAdasisMessageCallback;
+/**
  * Returns interface implementing experimental APIs
  * Caller must guarantee `Navigator` instance is alive when calling any methods of returned instance
  */
@@ -185,5 +210,31 @@ __attribute__((visibility ("default")))
 - (void)pause;
 /** Resume navigator. Remove pause, and start receiving NavigationStatus'es */
 - (void)resume;
+/** Returns user agent fragment added to all Navigation requests */
++ (nonnull NSString *)getUserAgentFragment __attribute((ns_returns_retained));
+/**
+ * Navigation session encapsulates trip-related data, like id, mode, travelled distance, etc.
+ * Start / Stop navigation session methods must be called for correct telemetry events and potentially billing.
+ * If navigation session isn't started, no telemetry events will be generated, and navigator functionalities may not work.
+ * If there is no current route set, new navigation session is considered as free drive, otherwise active guidance. So,
+ * if no free drive session needed on start call `setRoute(...)` before `startNavigationSession()`. If a new route is set
+ * (NewRoute reason) or Navigator#resetRoute() is called current drive session ends and a new one starts automatically.
+ * Note: navigation session is not automatically started on navigator start and not ended on navigator destruction.
+ * Session may outlive navigator destruction, see storeNavigationSession() method description.
+ */
+- (void)startNavigationSession;
+/**
+ * Stops NavigationSession. No sessions will be created on setting / resetting routes if session is stopped.
+ * For more details see description of `startNavigationSession`
+ */
+- (void)stopNavigationSession;
+/**
+ * If the nav-native client needs to restart Navigator without changing trip session, user must call `storeNavigationSession()`
+ * before destructing navigator and just after restart set the internal session state back with `restoreNavigationSession(state)`
+ * Note: Empty serialized field means null trip session.
+ */
+- (nonnull MBNNNavigationSessionState *)storeNavigationSession __attribute((ns_returns_retained));
+/** See description of `storeNavigationSession` */
+- (void)restoreNavigationSessionForState:(nonnull MBNNNavigationSessionState *)state;
 
 @end

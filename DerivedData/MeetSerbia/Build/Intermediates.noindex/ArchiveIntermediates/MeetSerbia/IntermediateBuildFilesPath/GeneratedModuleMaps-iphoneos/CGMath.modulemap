@@ -1,0 +1,4 @@
+module CGMath {
+header "CGMath-Swift.h"
+export *
+}

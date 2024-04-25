@@ -1,0 +1,20 @@
+{
+  "" : {
+    "const-values" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxSpeech.build/Objects-normal/arm64/MapboxSpeech-master.swiftconstvalues",
+    "dependencies" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxSpeech.build/Objects-normal/arm64/MapboxSpeech-master.d",
+    "diagnostics" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxSpeech.build/Objects-normal/arm64/MapboxSpeech-master.dia",
+    "emit-module-dependencies" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxSpeech.build/Objects-normal/arm64/MapboxSpeech-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxSpeech.build/Objects-normal/arm64/MapboxSpeech-master-emit-module.dia",
+    "swift-dependencies" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxSpeech.build/Objects-normal/arm64/MapboxSpeech-master.swiftdeps"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxSpeech/Sources/MapboxSpeech/MapboxSpeech.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxSpeech.build/Objects-normal/arm64/MapboxSpeech.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxSpeech.build/Objects-normal/arm64/MapboxSpeech.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxSpeech.build/Objects-normal/arm64/MapboxSpeech.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxSpeech/Sources/MapboxSpeech/MBSpeechOptions.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxSpeech.build/Objects-normal/arm64/MBSpeechOptions.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxSpeech.build/Objects-normal/arm64/MBSpeechOptions.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxSpeech.build/Objects-normal/arm64/MBSpeechOptions.o"
+  }
+}

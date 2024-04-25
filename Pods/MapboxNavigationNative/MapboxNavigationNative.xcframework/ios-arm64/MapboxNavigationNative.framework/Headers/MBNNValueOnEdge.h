@@ -31,7 +31,7 @@ __attribute__((visibility ("default")))
  */
 @property (nonatomic, readonly) double percentAlong;
 
-/** Floating point value, e.g. curvature in 1/m or slope as {elevation diff}/{horizontal length} */
+/** Floating point value, e.g. curvature in 1/m or slope in degrees */
 @property (nonatomic, readonly) double value;
 
 

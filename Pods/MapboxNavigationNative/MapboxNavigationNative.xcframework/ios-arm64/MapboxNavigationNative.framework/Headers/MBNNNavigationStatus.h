@@ -1,15 +1,18 @@
 // This file is generated and will be overwritten automatically.
 
 #import <Foundation/Foundation.h>
+#import <MapboxNavigationNative/MBNNOffRoadStateProvider.h>
 #import <MapboxNavigationNative/MBNNRouteState.h>
 
 @class MBNNActiveGuidanceInfo;
 @class MBNNBannerInstruction;
+@class MBNNCorrectedLocationData;
 @class MBNNFixLocation;
 @class MBNNMapMatcherOutput;
 @class MBNNRoadName;
+@class MBNNRouteIndices;
 @class MBNNSpeedLimit;
-@class MBNNUpcomingRouteAlert;
+@class MBNNUpcomingRouteAlertUpdate;
 @class MBNNVoiceInstruction;
 
 NS_SWIFT_NAME(NavigationStatus)
@@ -24,6 +27,7 @@ __attribute__((visibility ("default")))
 
 - (nonnull instancetype)initWithRouteState:(MBNNRouteState)routeState
                  locatedAlternativeRouteId:(nullable NSString *)locatedAlternativeRouteId
+                            primaryRouteId:(nullable NSString *)primaryRouteId
                                      stale:(BOOL)stale
                                   location:(nonnull MBNNFixLocation *)location
                                 routeIndex:(uint32_t)routeIndex
@@ -31,21 +35,27 @@ __attribute__((visibility ("default")))
                                  stepIndex:(uint32_t)stepIndex
                                 isFallback:(BOOL)isFallback
                                   inTunnel:(BOOL)inTunnel
+                            inParkingAisle:(BOOL)inParkingAisle
                                  predicted:(NSTimeInterval)predicted
                              geometryIndex:(uint32_t)geometryIndex
                                 shapeIndex:(uint32_t)shapeIndex
                          intersectionIndex:(uint32_t)intersectionIndex
+                   alternativeRouteIndices:(nonnull NSArray<MBNNRouteIndices *> *)alternativeRouteIndices
                                      roads:(nonnull NSArray<MBNNRoadName *> *)roads
                           voiceInstruction:(nullable MBNNVoiceInstruction *)voiceInstruction
                          bannerInstruction:(nullable MBNNBannerInstruction *)bannerInstruction
-                                speedLimit:(nullable MBNNSpeedLimit *)speedLimit
+                                speedLimit:(nonnull MBNNSpeedLimit *)speedLimit
                                  keyPoints:(nonnull NSArray<MBNNFixLocation *> *)keyPoints
                           mapMatcherOutput:(nonnull MBNNMapMatcherOutput *)mapMatcherOutput
                               offRoadProba:(float)offRoadProba
+                      offRoadStateProvider:(MBNNOffRoadStateProvider)offRoadStateProvider
                         activeGuidanceInfo:(nullable MBNNActiveGuidanceInfo *)activeGuidanceInfo
-                       upcomingRouteAlerts:(nonnull NSArray<MBNNUpcomingRouteAlert *> *)upcomingRouteAlerts
+                 upcomingRouteAlertUpdates:(nonnull NSArray<MBNNUpcomingRouteAlertUpdate *> *)upcomingRouteAlertUpdates
                          nextWaypointIndex:(uint32_t)nextWaypointIndex
-                                     layer:(nullable NSNumber *)layer;
+                                     layer:(nullable NSNumber *)layer
+                       isSyntheticLocation:(BOOL)isSyntheticLocation
+                     correctedLocationData:(nullable MBNNCorrectedLocationData *)correctedLocationData
+                      mapMatchedSystemTime:(nonnull NSDate *)mapMatchedSystemTime;
 
 @property (nonatomic, readonly) MBNNRouteState routeState;
 /**
@@ -53,6 +63,9 @@ __attribute__((visibility ("default")))
  *  `nullopt` for non-OffRoute `routeState` or if no one alternative route matches.
  */
 @property (nonatomic, readonly, nullable, copy) NSString *locatedAlternativeRouteId;
+
+/** The Id of the primary route, if in guidance mode. */
+@property (nonatomic, readonly, nullable, copy) NSString *primaryRouteId;
 
 /**
  * We didn't have location updates for too much time.
@@ -81,6 +94,9 @@ __attribute__((visibility ("default")))
 /** is current location belongs to tunnel */
 @property (nonatomic, readonly, getter=isInTunnel) BOOL inTunnel;
 
+/** is current location belongs to parking aisle */
+@property (nonatomic, readonly, getter=isInParkingAisle) BOOL inParkingAisle;
+
 /** "prediction" time, i.e. duration between this status and the latest location update */
 @property (nonatomic, readonly) NSTimeInterval predicted;
 
@@ -92,6 +108,12 @@ __attribute__((visibility ("default")))
 
 /** index in step bounds(i.e. on each new step we start indexing from 0) */
 @property (nonatomic, readonly) uint32_t intersectionIndex;
+
+/**
+ * List of route indices for each alternative route.
+ * Do not contain data for primary route because all data related to the primary route is directly in NavigationStatus
+ */
+@property (nonatomic, readonly, nonnull, copy) NSArray<MBNNRouteIndices *> *alternativeRouteIndices;
 
 /**
  * List of known names and shields for the current road.
@@ -111,11 +133,11 @@ __attribute__((visibility ("default")))
 @property (nonatomic, readonly, nullable) MBNNBannerInstruction *bannerInstruction;
 
 /**
- * current speed limit
- *  `nullopt` for unknown speed limit
- * For more accurate speed limit, depending on time / weather / etc conditions use GraphAccessor.getAdasAttributes(EdgeId)
+ * Current speed limit
+ *
+ *  For more accurate speed limit, depending on time / weather / etc conditions use GraphAccessor.getAdasAttributes(EdgeId)
  */
-@property (nonatomic, readonly, nullable) MBNNSpeedLimit *speedLimit;
+@property (nonatomic, readonly, nonnull) MBNNSpeedLimit *speedLimit;
 
 /**
  * Contains key points(for example corners) of route shape passed by pack between `getStatus` calls or from last notification of observer.
@@ -133,17 +155,40 @@ __attribute__((visibility ("default")))
  */
 @property (nonatomic, readonly) float offRoadProba;
 
+/**
+ * Off road state provider.
+ * This field can be used to understand which off-road detector had the greatest impact on determining off-road state.
+ * Used as internal nav-native field to debug off-road logic.
+ */
+@property (nonatomic, readonly) MBNNOffRoadStateProvider offRoadStateProvider;
+
 /** Will be empty if we are in free-drive now(i.e. routeState == invalid) */
 @property (nonatomic, readonly, nullable) MBNNActiveGuidanceInfo *activeGuidanceInfo;
 
-/** Array of upcoming route alerts, doesn't contain route alerts that were already passed by user */
-@property (nonatomic, readonly, nonnull, copy) NSArray<MBNNUpcomingRouteAlert *> *upcomingRouteAlerts;
+/**
+ * Array of upcoming route alert updates without RouteAlert itself.
+ * Use getRouteInfo() to get RouteAlert itself.
+ * Doesn't contain route alerts that were already passed by user
+ */
+@property (nonatomic, readonly, nonnull, copy) NSArray<MBNNUpcomingRouteAlertUpdate *> *upcomingRouteAlertUpdates;
 
-/** Index of next waypoint on the route in the initial list of waypoints. If no waypoints - 0 */
+/**
+ * Index of the next waypoint on the route in the list of waypoints. If no waypoints - 0.
+ * Added by server waypoints are also counted.
+ */
 @property (nonatomic, readonly) uint32_t nextWaypointIndex;
 
 /** current Z-level, can be used to build route from proper level of road */
 @property (nonatomic, readonly, nullable) NSNumber *layer;
+
+/** True if location is generated by dead-reckoning corrector */
+@property (nonatomic, readonly, getter=isIsSyntheticLocation) BOOL isSyntheticLocation;
+
+/** Corrected GPS location data. */
+@property (nonatomic, readonly, nullable) MBNNCorrectedLocationData *correctedLocationData;
+
+/** Local system time of the map matched get status */
+@property (nonatomic, readonly, nonnull) NSDate *mapMatchedSystemTime;
 
 
 @end

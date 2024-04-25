@@ -6,11 +6,18 @@
 @interface MBNNRouteParser ()
 + (nonnull MBXExpected<NSArray<id<MBNNRouteInterface>> *, NSString *> *)parseDirectionsResponseForResponse:(nonnull NSString *)response
                                                                                                    request:(nonnull NSString *)request
-                                                                                               routeOrigin:(MBNNRouterOrigin)routeOrigin __attribute((ns_returns_retained));
+                                                                                               routeOrigin:(MBNNRouterOrigin)routeOrigin __attribute((ns_returns_retained)) __attribute__((deprecated));
++ (nonnull MBXExpected<NSArray<id<MBNNRouteInterface>> *, NSString *> *)parseDirectionsResponseForResponseDataRef:(nonnull MBXDataRef *)responseDataRef
+                                                                                                          request:(nonnull NSString *)request
+                                                                                                      routeOrigin:(MBNNRouterOrigin)routeOrigin __attribute((ns_returns_retained));
 + (void)parseDirectionsResponseForResponse:(nonnull NSString *)response
                                    request:(nonnull NSString *)request
                                routeOrigin:(MBNNRouterOrigin)routeOrigin
-                                  callback:(nonnull MBNNRouteParserCallback)callback;
+                                  callback:(nonnull MBNNRouteParserCallback)callback __attribute__((deprecated));
++ (void)parseDirectionsResponseForResponseDataRef:(nonnull MBXDataRef *)responseDataRef
+                                          request:(nonnull NSString *)request
+                                      routeOrigin:(MBNNRouterOrigin)routeOrigin
+                                         callback:(nonnull MBNNRouteParserCallback)callback;
 + (nonnull MBXExpected<NSArray<id<MBNNRouteInterface>> *, NSString *> *)parseDirectionsRoutesForResponse:(nonnull NSString *)response
                                                                                                  request:(nonnull NSString *)request
                                                                                              routeOrigin:(MBNNRouterOrigin)routeOrigin __attribute((ns_returns_retained));

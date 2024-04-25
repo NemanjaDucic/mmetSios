@@ -1,0 +1,10 @@
+framework module MapboxCoreNavigation {
+  umbrella header "MapboxCoreNavigation-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module MapboxCoreNavigation.__Swift {
+  exclude header "MapboxCoreNavigation-Swift.h"
+}

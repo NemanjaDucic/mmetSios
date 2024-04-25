@@ -15,10 +15,16 @@ __attribute__((visibility ("default")))
 // This class provides custom init which should be called
 + (nonnull instancetype)new NS_UNAVAILABLE;
 
-- (nonnull instancetype)initWithName:(nonnull NSArray<MBNNLocalizedString *> *)name;
+- (nonnull instancetype)initWithId:(nonnull NSString *)id
+                              name:(nonnull NSArray<MBNNLocalizedString *> *)name;
+
+/** id of junction */
+@property (nonatomic, readonly, nonnull, copy) NSString *id;
 
 /** Language order is not guaranteed */
 @property (nonatomic, readonly, nonnull, copy) NSArray<MBNNLocalizedString *> *name;
 
+
+- (BOOL)isEqualToIcInfo:(nonnull MBNNIcInfo *)other;
 
 @end

@@ -2,7 +2,9 @@
 
 #import "MBNNWaypointType.h"
 #import "MBNNUpcomingRouteAlert.h"
+#import "MBNNUpcomingRouteAlertUpdate.h"
 #import "MBNNRouteInfo.h"
+#import "MBNNRouteIndices.h"
 #import "MBNNWaypoint.h"
 #import "MBNNRouteIntersection.h"
 #import "MBNNAlternativeRouteInfo.h"

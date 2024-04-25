@@ -15,10 +15,14 @@ __attribute__((visibility ("default")))
 // This class provides custom init which should be called
 + (nonnull instancetype)new NS_UNAVAILABLE;
 
-- (nonnull instancetype)initWithType:(MBNNServiceAreaType)type
-                                name:(nullable NSString *)name
-                           amenities:(nonnull NSArray<MBNNAmenity *> *)amenities
-                         guideMapUri:(nullable NSString *)guideMapUri;
+- (nonnull instancetype)initWithId:(nonnull NSString *)id
+                              type:(MBNNServiceAreaType)type
+                              name:(nullable NSString *)name
+                         amenities:(nonnull NSArray<MBNNAmenity *> *)amenities
+                       guideMapUri:(nullable NSString *)guideMapUri;
+
+/** id of service area */
+@property (nonatomic, readonly, nonnull, copy) NSString *id;
 
 /** type of service area */
 @property (nonatomic, readonly) MBNNServiceAreaType type;
@@ -32,5 +36,7 @@ __attribute__((visibility ("default")))
 /** URI to guide map image. To use it you must add an access token */
 @property (nonatomic, readonly, nullable, copy) NSString *guideMapUri;
 
+
+- (BOOL)isEqualToServiceAreaInfo:(nonnull MBNNServiceAreaInfo *)other;
 
 @end

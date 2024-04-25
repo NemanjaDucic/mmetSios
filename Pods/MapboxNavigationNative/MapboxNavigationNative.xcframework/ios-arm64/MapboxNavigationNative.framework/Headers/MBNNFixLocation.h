@@ -74,6 +74,9 @@ __attribute__((visibility ("default")))
  * At the moment the following flags are in use:
  * `isDR: boolean` - should be `true` if this location is a result of dead reckoning
  * and can be potentially not as precise as usually, used on automotive profile only.
+ * `satellites: int` - corresponds to the number of satellites that were used
+ * to identify the current location. Applicable to automotive profile only.
+ * In case, the value has incorrect type, the field is ignored.
  */
 @property (nonatomic, readonly, nonnull, copy) NSDictionary<NSString *, id> *extras;
 

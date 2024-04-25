@@ -36,6 +36,10 @@ class ResetPasswordViewController:UIViewController{
         }
     }
     @IBAction func resetButtonTapped(_ sender: Any) {
+        
+        
+        
+        
         guard let email = emailTF.text, !email.isEmpty else {
             if Constants().userDefLangugaeKey == "lat"{
                 showAlert(message: Constants().emptyMSGArray[1])

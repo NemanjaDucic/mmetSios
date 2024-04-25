@@ -20,4 +20,6 @@ __attribute__((visibility ("default")))
 
 @property (nonatomic, readonly, nonnull, copy) NSString *value;
 
+- (BOOL)isEqualToLocalizedString:(nonnull MBNNLocalizedString *)other;
+
 @end

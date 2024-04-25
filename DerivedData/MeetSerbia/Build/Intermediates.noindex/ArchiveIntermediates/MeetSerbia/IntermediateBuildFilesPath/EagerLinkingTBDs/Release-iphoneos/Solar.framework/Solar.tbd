@@ -1,0 +1,87 @@
+{
+  "main_library": {
+    "exported_symbols": [
+      {
+        "data": {
+          "global": [
+            "_$s5SolarAAVMn",
+            "_$s5SolarAAV7sunrise10Foundation4DateVSgvpMV",
+            "_$s5SolarAAVMa",
+            "_$s5SolarAAV11isNighttimeSbvpMV",
+            "_$s5SolarAAV9calculateyyF",
+            "_$s5SolarAAV19astronomicalSunrise10Foundation4DateVSgvpfi",
+            "_$s5SolarAAV10coordinateSo22CLLocationCoordinate2DVvpMV",
+            "_Swift50Overrides",
+            "_$s5SolarAAV15nauticalSunrise10Foundation4DateVSgvg",
+            "_$s5SolarAAV18astronomicalSunset10Foundation4DateVSgvpfi",
+            "_$s5SolarAAV4date10Foundation4DateVvg",
+            "_$s5SolarAAV14nauticalSunset10Foundation4DateVSgvg",
+            "_$s5SolarAAV11isNighttimeSbvg",
+            "_$s5SolarAAV11civilSunset10Foundation4DateVSgvpMV",
+            "_$s5SolarAAV12civilSunrise10Foundation4DateVSgvpfi",
+            "_$s5SolarAAV7sunrise10Foundation4DateVSgvpfi",
+            "_$s5SolarAAV15nauticalSunrise10Foundation4DateVSgvpfi",
+            "_$s5SolarAAV18astronomicalSunset10Foundation4DateVSgvpMV",
+            "_SolarVersionNumber",
+            "_$s5SolarAAV11civilSunset10Foundation4DateVSgvpfi",
+            "_$s5SolarAAV18astronomicalSunset10Foundation4DateVSgvg",
+            "_$s5SolarAAV19astronomicalSunrise10Foundation4DateVSgvg",
+            "_$s5SolarAAV4date10Foundation4DateVvpMV",
+            "_$s5SolarAAV14nauticalSunset10Foundation4DateVSgvpMV",
+            "_$s5SolarAAV12civilSunrise10Foundation4DateVSgvg",
+            "_$s5SolarAAV19astronomicalSunrise10Foundation4DateVSgvpMV",
+            "_$s5SolarAAV3for10coordinateABSg10Foundation4DateV_So22CLLocationCoordinate2DVtcfC",
+            "_$s5SolarAAV12civilSunrise10Foundation4DateVSgvpMV",
+            "_$s5SolarAAVN",
+            "_$s5SolarAAV9isDaytimeSbvg",
+            "_$s5SolarAAV15nauticalSunrise10Foundation4DateVSgvpMV",
+            "_$s5SolarAAV9isDaytimeSbvpMV",
+            "_$s5SolarAAV6sunset10Foundation4DateVSgvg",
+            "_SolarVersionString",
+            "_$s5SolarAAV14nauticalSunset10Foundation4DateVSgvpfi",
+            "_$s5SolarAAV6sunset10Foundation4DateVSgvpMV",
+            "_$s5SolarAAV10coordinateSo22CLLocationCoordinate2DVvg",
+            "_$s5SolarAAV11civilSunset10Foundation4DateVSgvg",
+            "_$s5SolarAAV7sunrise10Foundation4DateVSgvg",
+            "_$s5SolarAAV6sunset10Foundation4DateVSgvpfi",
+            "_Swift51Overrides"
+          ],
+          "objc_class": [
+            "PodsDummy_Solar_dev"
+          ]
+        },
+        "text": {
+          "global": [
+            "__Z34_swiftoverride_class_getSuperclassPKN5swift14TargetMetadataINS_9InProcessEEE",
+            "__ZN5swift34swift50override_conformsToProtocolEPKNS_14TargetMetadataINS_9InProcessEEEPKNS_24TargetProtocolDescriptorIS1_EEPFPKNS_18TargetWitnessTableIS1_EES4_S8_E",
+            "__ZN5swift39swift51override_conformsToSwiftProtocolEPKNS_14TargetMetadataINS_9InProcessEEEPKNS_24TargetProtocolDescriptorIS1_EEN7__swift9__runtime4llvm9StringRefEPFPKNS_35TargetProtocolConformanceDescriptorIS1_EES4_S8_SC_E"
+          ]
+        }
+      }
+    ],
+    "flags": [
+      {
+        "attributes": [
+          "not_app_extension_safe"
+        ]
+      }
+    ],
+    "install_names": [
+      {
+        "name": "@rpath/Solar.framework/Solar"
+      }
+    ],
+    "swift_abi": [
+      {
+        "abi": 7
+      }
+    ],
+    "target_info": [
+      {
+        "min_deployment": "12",
+        "target": "arm64-ios"
+      }
+    ]
+  },
+  "tapi_tbd_version": 5
+}

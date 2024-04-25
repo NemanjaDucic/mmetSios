@@ -1,0 +1,49 @@
+dependencies: \
+  /Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/BuildProductsPath/Release-iphoneos/FirebaseAuth/FirebaseAuth.framework/Modules/module.modulemap \
+  /Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/FirebaseAuth/FirebaseAuth/Sources/AuthProvider/OAuth/FIROAuthProvider.m \
+  /Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIROAuthProvider.h \
+  /Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRFederatedAuthProvider.h \
+  /Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRAuthUIDelegate.h \
+  /Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/BuildProductsPath/Release-iphoneos/FirebaseAppCheckInterop/FirebaseAppCheckInterop.framework/Modules/module.modulemap \
+  /Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Target\ Support\ Files/FirebaseAppCheckInterop/FirebaseAppCheckInterop-umbrella.h \
+  /Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/FirebaseAppCheckInterop/FirebaseAppCheck/Interop/Public/FirebaseAppCheckInterop/FIRAppCheckInterop.h \
+  /Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/FirebaseAppCheckInterop/FirebaseAppCheck/Interop/Public/FirebaseAppCheckInterop/FIRAppCheckProtocol.h \
+  /Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/FirebaseAppCheckInterop/FirebaseAppCheck/Interop/Public/FirebaseAppCheckInterop/FIRAppCheckTokenResultInterop.h \
+  /Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/FirebaseAppCheckInterop/FirebaseAppCheck/Interop/Public/FirebaseAppCheckInterop/FirebaseAppCheckInterop.h \
+  /Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRFacebookAuthProvider.h \
+  /Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIROAuthCredential.h \
+  /Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRAuthCredential.h \
+  /Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/FirebaseAuth/FirebaseCore/Extension/FirebaseCoreInternal.h \
+  /Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/BuildProductsPath/Release-iphoneos/FirebaseCore/FirebaseCore.framework/Modules/module.modulemap \
+  /Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Target\ Support\ Files/FirebaseCore/FirebaseCore-umbrella.h \
+  /Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIRApp.h \
+  /Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIRConfiguration.h \
+  /Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIRLoggerLevel.h \
+  /Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FirebaseCore.h \
+  /Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIROptions.h \
+  /Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIRVersion.h \
+  /Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/FirebaseAuth/FirebaseCore/Extension/FIRAppInternal.h \
+  /Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/FirebaseAuth/FirebaseCore/Extension/FIRComponent.h \
+  /Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/FirebaseAuth/FirebaseCore/Extension/FIRComponentContainer.h \
+  /Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/FirebaseAuth/FirebaseCore/Extension/FIRComponentType.h \
+  /Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/FirebaseAuth/FirebaseCore/Extension/FIRDependency.h \
+  /Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/FirebaseAuth/FirebaseCore/Extension/FIRHeartbeatLogger.h \
+  /Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/FirebaseAuth/FirebaseCore/Extension/FIRLibrary.h \
+  /Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/FirebaseAuth/FirebaseCore/Extension/FIRLogger.h \
+  /Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/FirebaseAuth/FirebaseCore/Extension/FIROptionsInternal.h \
+  /Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/FirebaseAuth/FirebaseAuth/Sources/Auth/FIRAuthGlobalWorkQueue.h \
+  /Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/FirebaseAuth/FirebaseAuth/Sources/Auth/FIRAuth_Internal.h \
+  /Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/FirebaseAuth/FirebaseAuth/Interop/FIRAuthInterop.h \
+  /Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/FirebaseAuth/FirebaseAuth/Sources/Backend/FIRAuthBackend.h \
+  /Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/FirebaseAuth/FirebaseAuth/Sources/Backend/FIRAuthRPCRequest.h \
+  /Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/FirebaseAuth/FirebaseAuth/Sources/Backend/FIRAuthRPCResponse.h \
+  /Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRAuth.h \
+  /Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRAuthAPNSTokenType.h \
+  /Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRAuthErrors.h \
+  /Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/FirebaseAuth/FirebaseAuth/Sources/AuthProvider/OAuth/FIROAuthCredential_Internal.h \
+  /Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/FirebaseAuth/FirebaseAuth/Sources/Backend/FIRAuthRequestConfiguration.h \
+  /Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/FirebaseAuth/FirebaseAuth/Sources/Utilities/FIRAuthErrorUtils.h \
+  /Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRMultiFactorInfo.h \
+  /Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/FirebaseAuth/FirebaseAuth/Sources/Utilities/FIRAuthInternalErrors.h \
+  /Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/FirebaseAuth/FirebaseAuth/Sources/Utilities/FIRAuthWebUtils.h \
+  /Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/FirebaseAuth/FirebaseAuth/Sources/Utilities/FIRAuthURLPresenter.h

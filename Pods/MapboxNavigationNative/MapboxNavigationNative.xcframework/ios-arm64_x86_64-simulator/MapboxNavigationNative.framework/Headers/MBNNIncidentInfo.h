@@ -23,6 +23,7 @@ __attribute__((visibility ("default")))
                          startTime:(nullable NSDate *)startTime
                            endTime:(nullable NSDate *)endTime
                       creationTime:(nullable NSDate *)creationTime
+                            length:(nullable NSNumber *)length
                  iso_3166_1_alpha2:(nullable NSString *)iso_3166_1_alpha2
                  iso_3166_1_alpha3:(nullable NSString *)iso_3166_1_alpha3
                       lanesBlocked:(nonnull NSArray<NSString *> *)lanesBlocked
@@ -33,10 +34,12 @@ __attribute__((visibility ("default")))
                            subType:(nullable NSString *)subType
                 subTypeDescription:(nullable NSString *)subTypeDescription
                        alertcCodes:(nonnull NSArray<NSNumber *> *)alertcCodes
+                      trafficCodes:(nonnull NSDictionary<NSString *, NSNumber *> *)trafficCodes
                    longDescription:(nullable NSString *)longDescription
                     lanesClearDesc:(nullable NSString *)lanesClearDesc
                    numLanesBlocked:(nullable NSNumber *)numLanesBlocked
-                 affectedRoadNames:(nonnull NSArray<NSString *> *)affectedRoadNames;
+                 affectedRoadNames:(nonnull NSArray<NSString *> *)affectedRoadNames
+     multiLingualAffectedRoadNames:(nonnull NSDictionary<NSString *, NSArray<NSString *> *> *)multiLingualAffectedRoadNames;
 
 /** id of incident */
 @property (nonatomic, readonly, nonnull, copy) NSString *id;
@@ -55,6 +58,9 @@ __attribute__((visibility ("default")))
 
 /** creation time of incident */
 @property (nonatomic, readonly, nullable) NSDate *creationTime;
+
+/** length of the incident */
+@property (nonatomic, readonly, nullable) NSNumber *length;
 
 /** ISO-3166-1 (2-letter country name) */
 @property (nonatomic, readonly, nullable, copy) NSString *iso_3166_1_alpha2;
@@ -90,6 +96,9 @@ __attribute__((visibility ("default")))
 /** RDS-TMC alert-c codes of incident */
 @property (nonatomic, readonly, nonnull, copy) NSArray<NSNumber *> *alertcCodes;
 
+/** Map of traffic code attributes to values */
+@property (nonatomic, readonly, nonnull, copy) NSDictionary<NSString *, NSNumber *> *trafficCodes;
+
 /** detailed description of incident */
 @property (nonatomic, readonly, nullable, copy) NSString *longDescription;
 
@@ -108,5 +117,13 @@ __attribute__((visibility ("default")))
 /** list of roads names affected by the incident */
 @property (nonatomic, readonly, nonnull, copy) NSArray<NSString *> *affectedRoadNames;
 
+/**
+ * List of multi-lingual road names affected by the incident.
+ * Structure: "language" -> "list of affected road names"
+ */
+@property (nonatomic, readonly, nonnull, copy) NSDictionary<NSString *, NSArray<NSString *> *> *multiLingualAffectedRoadNames;
+
+
+- (BOOL)isEqualToIncidentInfo:(nonnull MBNNIncidentInfo *)other;
 
 @end

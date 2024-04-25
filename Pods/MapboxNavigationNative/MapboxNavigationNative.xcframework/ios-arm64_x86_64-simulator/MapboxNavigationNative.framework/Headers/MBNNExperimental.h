@@ -1,10 +1,8 @@
 // This file is generated and will be overwritten automatically.
 
 #import <Foundation/Foundation.h>
-#import <MapboxNavigationNative/MBNNADASISv2MessageCallback.h>
 #import <MapboxNavigationNative/MBNNGenerateEh360Callback.h>
 
-@class MBNNAdasisConfig;
 @class MBNNETCGateInfo;
 @class MBNNEdgeAdasAttributes;
 
@@ -28,15 +26,6 @@ NS_SWIFT_NAME(Experimental)
  * @param etcGateInfo Information about ETC gate which was just passed by vehicle
  */
 - (void)updateETCGateInfoForEtcGateInfo:(nonnull MBNNETCGateInfo *)etcGateInfo;
-/**
- * Caution: Beta feature for ADAS / ADASIS SDK. Method interface may change soon.
- *
- * Sets a callback for ADASIS messages
- */
-- (void)setAdasisMessageCallbackForCallback:(nonnull MBNNADASISv2MessageCallback)callback
-                               adasisConfig:(nonnull MBNNAdasisConfig *)adasisConfig;
-/** Resets a callback for ADASIS messages */
-- (void)resetAdasisMessageCallback;
 /**
  * Caution: Beta feature that cat be changed soon.
  *

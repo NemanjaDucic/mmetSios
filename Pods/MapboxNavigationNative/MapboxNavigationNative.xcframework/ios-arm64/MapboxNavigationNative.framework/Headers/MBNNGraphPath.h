@@ -31,4 +31,6 @@ __attribute__((visibility ("default")))
 @property (nonatomic, readonly) double length;
 
 
+- (BOOL)isEqualToGraphPath:(nonnull MBNNGraphPath *)other;
+
 @end

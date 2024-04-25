@@ -4,13 +4,9 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Headers/MBNNADASISv2Message.h</key>
-		<data>
-		gUhEURvh9RoVtoIcdwiBAjhcE0A=
-		</data>
 		<key>Headers/MBNNADASISv2MessageCallback.h</key>
 		<data>
-		JBCPED9sjwqiO9Ga/e4diHvH2Ek=
+		YdR4LoBjwBSQu80HDmSn+DrjtAk=
 		</data>
 		<key>Headers/MBNNActiveGuidanceGeometryEncoding.h</key>
 		<data>
@@ -26,47 +22,39 @@
 		</data>
 		<key>Headers/MBNNAdasisConfig.h</key>
 		<data>
-		qcxpeYWcthHQuVZITuclbBNy0S0=
+		a7UE1qPKo4v0JLznPzTHxRqthmg=
 		</data>
 		<key>Headers/MBNNAdasisConfigBuilder.h</key>
 		<data>
-		c7L4reamTFykXDh9TH3T9pEMSCg=
-		</data>
-		<key>Headers/MBNNAdasisConfigCycleTimes.h</key>
-		<data>
-		MWg6yXq0CpHh9Zvpxarts5qzBI8=
+		WeH73IvMD77+GUdUlwxd552tzhs=
 		</data>
 		<key>Headers/MBNNAdasisConfigDataSending.h</key>
 		<data>
-		vg3MY08l+r7RAlbOTCs03gtVURw=
+		z2fqSYKlMlQMd3nvkd3K26rRm7c=
 		</data>
 		<key>Headers/MBNNAdasisConfigMessageOptions.h</key>
 		<data>
-		FsGzNaRPBcgFTZ4eCgfe44YCTyI=
+		5LR+V98qTwZA9ylJfZ0nERvzWvA=
 		</data>
-		<key>Headers/MBNNAdasisConfigPathLevelOptions.h</key>
+		<key>Headers/MBNNAdasisConfigPathOptions.h</key>
 		<data>
-		CmpoNHNnypy5vIqeQxDtiqEW45I=
-		</data>
-		<key>Headers/MBNNAdasisConfigPathsConfigs.h</key>
-		<data>
-		DFFWojSpuGzn4Q01TpmgGzBkVIo=
+		n5EWQUy5pcpNgM9prWSZzuViA0I=
 		</data>
 		<key>Headers/MBNNAdasisConfigProfilelongTypeOptions.h</key>
 		<data>
-		gdyPDCSKTckDfsHUbiO1tr8CPmI=
+		FRsSYZg3zhWOh5MTb+GG2/znr20=
 		</data>
 		<key>Headers/MBNNAdasisConfigProfileshortTypeOptions.h</key>
 		<data>
-		MgGmOmrp0uPRLQCDRHKmhY5M1ak=
+		4aLH2oVCU1DbLOKjMyUda/FwZoM=
 		</data>
 		<key>Headers/MBNNAdminInfo.h</key>
 		<data>
-		xedFmOXROGW4oftSV5AS+KKedZA=
+		DHd1XoEYZmrzVD/2EoqzsXUzWE8=
 		</data>
 		<key>Headers/MBNNAlertsServiceOptions.h</key>
 		<data>
-		jd6Yg/kFk7u2+Eoxn2s2HhPwctc=
+		DXAjFb5RuTdRDB7i6vRuZ0DHSVU=
 		</data>
 		<key>Headers/MBNNAlternativeRouteInfo.h</key>
 		<data>
@@ -78,7 +66,7 @@
 		</data>
 		<key>Headers/MBNNAmenity.h</key>
 		<data>
-		UZmJgD2Nv5tbj0YZpzGJfRFimcA=
+		MzpQ+BdTXHCm7h21cbT71SV5pEQ=
 		</data>
 		<key>Headers/MBNNAmenityType.h</key>
 		<data>
@@ -118,7 +106,7 @@
 		</data>
 		<key>Headers/MBNNBorderCrossingInfo.h</key>
 		<data>
-		DHqzsmUc7A6cJ0+psN+OFn1fuQA=
+		UuSXJ1FpFsVs7K1QRitChpVkpH4=
 		</data>
 		<key>Headers/MBNNCacheDataDomain.h</key>
 		<data>
@@ -156,6 +144,10 @@
 		<data>
 		vpgCzlCHYqAhuaGav8+JB8b1qCs=
 		</data>
+		<key>Headers/MBNNCorrectedLocationData.h</key>
+		<data>
+		kHvhXxZuXELnMBmwbqwzfukfGRc=
+		</data>
 		<key>Headers/MBNNDecodingError.h</key>
 		<data>
 		iTZzl2zr9L231rC/98t4PoJ8dZ4=
@@ -178,7 +170,7 @@
 		</data>
 		<key>Headers/MBNNEdgeAdasAttributes.h</key>
 		<data>
-		FwXFo3miVjPLVCcCFv9zCuV1F3k=
+		ypoqjlGM8T4EYJ2LUBHXOQCGejo=
 		</data>
 		<key>Headers/MBNNEdgeMetadata.h</key>
 		<data>
@@ -198,7 +190,7 @@
 		</data>
 		<key>Headers/MBNNElectronicHorizonEdge.h</key>
 		<data>
-		BMf0T3uPwwETsrpWeb/JocxqkZ4=
+		KSABhpRnwaylpWwLr1saTJi48f8=
 		</data>
 		<key>Headers/MBNNElectronicHorizonObserver.h</key>
 		<data>
@@ -222,11 +214,11 @@
 		</data>
 		<key>Headers/MBNNEventsMetadataInterface.h</key>
 		<data>
-		+MXqLnD3SZ/aH0OcCvEiRkONUtE=
+		oNauzYyk/7yIxTvIeCV3kwM8rlY=
 		</data>
 		<key>Headers/MBNNExperimental.h</key>
 		<data>
-		crwzwp9JmUbLyFISxmIfQJCk45o=
+		0qzSL+SdAptg+P+cBDUkZ65DXcs=
 		</data>
 		<key>Headers/MBNNFallbackVersionsObserver.h</key>
 		<data>
@@ -234,7 +226,7 @@
 		</data>
 		<key>Headers/MBNNFixLocation.h</key>
 		<data>
-		8lszGGU6rTdEA/mdDqm1AVcQGQ8=
+		b+Sxr+Efd/CWcYKQ9L9cF/vIrok=
 		</data>
 		<key>Headers/MBNNFormOfWay.h</key>
 		<data>
@@ -262,7 +254,7 @@
 		</data>
 		<key>Headers/MBNNGetRouteOptions.h</key>
 		<data>
-		4MUeG2uRRB16qi8DrsqpYQJaXCU=
+		15060GB569ggZD2d2XwA6KK79+w=
 		</data>
 		<key>Headers/MBNNGetStatusHistoryRecord.h</key>
 		<data>
@@ -274,11 +266,11 @@
 		</data>
 		<key>Headers/MBNNGraphPath.h</key>
 		<data>
-		H07rDb91v70DRQx645LQUI4O8nA=
+		n62W3uZAnvbvqj3KHFdSn22M63s=
 		</data>
 		<key>Headers/MBNNGraphPosition.h</key>
 		<data>
-		1HDq64LjgMxKmHeqTnZvaNoRAHM=
+		SzTXcuJrG/QfFsJLsZMAOtgtotk=
 		</data>
 		<key>Headers/MBNNGridLocationReference.h</key>
 		<data>
@@ -300,13 +292,17 @@
 		<data>
 		wwE6PFH6wnoImRcYgVYYgyGFy2Q=
 		</data>
+		<key>Headers/MBNNIMUDerivedData.h</key>
+		<data>
+		79TATejBRgzjR3yF9rl7yKV4QFI=
+		</data>
 		<key>Headers/MBNNIcInfo.h</key>
 		<data>
-		8D0PSfuvlMWoqe474UYsaoL47i4=
+		yQS0alkZld8+SS+6+HOITBymoCE=
 		</data>
 		<key>Headers/MBNNIncidentCongestion.h</key>
 		<data>
-		GKIRk6EoNeWW8evAY0fz++pHhqY=
+		1V5fNe/1gssuLyS9JABRisObwUk=
 		</data>
 		<key>Headers/MBNNIncidentCongestionDescription.h</key>
 		<data>
@@ -318,7 +314,7 @@
 		</data>
 		<key>Headers/MBNNIncidentInfo.h</key>
 		<data>
-		36e+iDRN+y0FSPnplfAe25CjCo8=
+		oQ7pIBG8dwvhPYnFVYmciWZIoug=
 		</data>
 		<key>Headers/MBNNIncidentType.h</key>
 		<data>
@@ -330,7 +326,7 @@
 		</data>
 		<key>Headers/MBNNJctInfo.h</key>
 		<data>
-		2pc94VhE/n1YK6NGPIUx5vx4UqI=
+		k3bWRUfsLGrutYG07gYt1mJMLcM=
 		</data>
 		<key>Headers/MBNNLineAttributes.h</key>
 		<data>
@@ -346,7 +342,7 @@
 		</data>
 		<key>Headers/MBNNLocalizedString.h</key>
 		<data>
-		LD5ejPXnuNvssQDKKAl6aV1sbPA=
+		epm2i6mD+MfbB6VAB1pf1iv1R64=
 		</data>
 		<key>Headers/MBNNLocationReference.h</key>
 		<data>
@@ -366,7 +362,7 @@
 		</data>
 		<key>Headers/MBNNMapMatcherOutput.h</key>
 		<data>
-		oiuFZgCtTgttHBUjUw1LcL/1d58=
+		mxlIrMMuJGRir+s/GFmk+PO+Uzw=
 		</data>
 		<key>Headers/MBNNMatchableGeometry.h</key>
 		<data>
@@ -412,13 +408,29 @@
 		<data>
 		ieGcBdJPquqvYhTrftVXe6obUzA=
 		</data>
+		<key>Headers/MBNNMergingAreaInfo.h</key>
+		<data>
+		EfqXHePJK1iYdVecFOgbrAAFz74=
+		</data>
+		<key>Headers/MBNNMergingAreaType.h</key>
+		<data>
+		4VyF1u22uMqev+8wAQFKJHdXnn0=
+		</data>
+		<key>Headers/MBNNMessageBinaryFormat.h</key>
+		<data>
+		0mbIMzskd8Cnv2WUPBuv82yHDFI=
+		</data>
 		<key>Headers/MBNNMotionData.h</key>
 		<data>
 		PQ7aNBGMfR9yIFTo8VuM44pJxEk=
 		</data>
+		<key>Headers/MBNNNavigationSessionState.h</key>
+		<data>
+		NxZhjux0eQjA8iQh46+vL6RFTJU=
+		</data>
 		<key>Headers/MBNNNavigationStatus.h</key>
 		<data>
-		oVPiAiOofY0M88VXz2o6IeQtJV0=
+		+aS7zen0QIo8s6Puav7KvY4GLEU=
 		</data>
 		<key>Headers/MBNNNavigationStatusOrigin.h</key>
 		<data>
@@ -426,7 +438,7 @@
 		</data>
 		<key>Headers/MBNNNavigator.h</key>
 		<data>
-		o2Evat/JPXwe1138wdWoLy4Ji0M=
+		x6eSRwQw6bWDq9UGId5sxzr4JtU=
 		</data>
 		<key>Headers/MBNNNavigatorConfig.h</key>
 		<data>
@@ -436,9 +448,21 @@
 		<data>
 		yyRJMaW3+EbeVulcs4e3jYPwT00=
 		</data>
+		<key>Headers/MBNNNotificationDetails.h</key>
+		<data>
+		O63dsjUJH2vQPtgwLe/gS+r0fwg=
+		</data>
+		<key>Headers/MBNNNotificationInfo.h</key>
+		<data>
+		j0PU0Gik82hphm277M0OXd7T/Q4=
+		</data>
+		<key>Headers/MBNNOffRoadStateProvider.h</key>
+		<data>
+		oX6H/+sJu5KUw4V/pD6iisRh1B4=
+		</data>
 		<key>Headers/MBNNOpenLR.h</key>
 		<data>
-		kf/CjAuylBHVwa82zdW6/xuQYIs=
+		J98kwWTq9Uhb27oGGwr9OPo6CcQ=
 		</data>
 		<key>Headers/MBNNOpenLRDecoder.h</key>
 		<data>
@@ -498,7 +522,7 @@
 		</data>
 		<key>Headers/MBNNPosition.h</key>
 		<data>
-		GegsglF6Vyvm1ZjyCDIeTCd31KQ=
+		EtOI7t2S3FK1gOINjAHNqkK5r40=
 		</data>
 		<key>Headers/MBNNPredictiveCacheController.h</key>
 		<data>
@@ -522,11 +546,11 @@
 		</data>
 		<key>Headers/MBNNProfilelong.h</key>
 		<data>
-		SslLzgXWXCq/DktkUMO/DFOJoq0=
+		/NeWLkUSfJpGTcNt89RuyCjdDvU=
 		</data>
 		<key>Headers/MBNNProfileshort.h</key>
 		<data>
-		yggjouPSTaB2zRvOxjZN9f5F1pY=
+		Duz51oQqvax1uW5Ogp0cDwveHzQ=
 		</data>
 		<key>Headers/MBNNPushHistoryRecord.h</key>
 		<data>
@@ -534,7 +558,7 @@
 		</data>
 		<key>Headers/MBNNRailwayCrossingInfo.h</key>
 		<data>
-		48KwfqZ3+hBrKcaOX3c+GLcYDHs=
+		aIHAb6A++K3qltdsFY9B3TzNuIU=
 		</data>
 		<key>Headers/MBNNRectangleLocationReference.h</key>
 		<data>
@@ -570,7 +594,7 @@
 		</data>
 		<key>Headers/MBNNRoadGraphVersionInfo.h</key>
 		<data>
-		buxWLJKi65BQvXXv9zmTrAuRcLw=
+		aCmK707aKIU2lM2SSqcya+MeRzk=
 		</data>
 		<key>Headers/MBNNRoadName.h</key>
 		<data>
@@ -606,7 +630,7 @@
 		</data>
 		<key>Headers/MBNNRoadObjectMetadata.h</key>
 		<data>
-		kWFjFKmUy0sE5BtA/ZvGlyeI2cY=
+		sQ4wTDsIMH553MXc2IHQoI51XHY=
 		</data>
 		<key>Headers/MBNNRoadObjectPassInfo.h</key>
 		<data>
@@ -618,7 +642,7 @@
 		</data>
 		<key>Headers/MBNNRoadObjectType.h</key>
 		<data>
-		y/yd/jCeG/5M6bt8PDhXXt6RoeI=
+		uDyp4xd+ItauiQNO38SutNRdoKs=
 		</data>
 		<key>Headers/MBNNRoadObjectsStore.h</key>
 		<data>
@@ -642,11 +666,15 @@
 		</data>
 		<key>Headers/MBNNRouteAlternativesObserver.h</key>
 		<data>
-		VSz3iKnaTYXagfk/ut0HBr6/J1U=
+		1lv/KFrR/qVRVbOKn+8LgVENW5Y=
 		</data>
 		<key>Headers/MBNNRouteAlternativesOptions.h</key>
 		<data>
 		Gda/6YdPMpdOAh2tz6oCVUPM7yo=
+		</data>
+		<key>Headers/MBNNRouteIndices.h</key>
+		<data>
+		5nHJ5FqmXD+hiupltPY0tYgAa/s=
 		</data>
 		<key>Headers/MBNNRouteInfo.h</key>
 		<data>
@@ -654,7 +682,7 @@
 		</data>
 		<key>Headers/MBNNRouteInterface.h</key>
 		<data>
-		5zoTitETqOpygyJUgVZ3vYPpiLk=
+		ZjKbecjKXt4FDdwoHZqkp1gRcYo=
 		</data>
 		<key>Headers/MBNNRouteIntersection.h</key>
 		<data>
@@ -662,11 +690,11 @@
 		</data>
 		<key>Headers/MBNNRouteParser.h</key>
 		<data>
-		x6ylcCdhiKvv66ZIKqm9uysOedM=
+		G7Ui6hLViGIoXjMprW7R75sFfYE=
 		</data>
 		<key>Headers/MBNNRouteRefreshControllerInterface.h</key>
 		<data>
-		3USryoW/l/cf7vk65ehlvD9C+sI=
+		w+dg0SQ4wuDeU5Om23CeRdDgCe4=
 		</data>
 		<key>Headers/MBNNRouteRefreshControllerOptions.h</key>
 		<data>
@@ -674,7 +702,7 @@
 		</data>
 		<key>Headers/MBNNRouteRefreshError.h</key>
 		<data>
-		et98RutL3zNTqqaZkIojvanO084=
+		JyGkBVAp4yZuL+Ks4pVlpFUnzYM=
 		</data>
 		<key>Headers/MBNNRouteRefreshErrorType.h</key>
 		<data>
@@ -682,11 +710,11 @@
 		</data>
 		<key>Headers/MBNNRouteRefreshObserver.h</key>
 		<data>
-		D3yz9aSbyPY+nEdhd3/MNmS6Vcw=
+		hXTrdl2TuEm3uEfg8QVyPLaZrqw=
 		</data>
 		<key>Headers/MBNNRouteRefreshOptions.h</key>
 		<data>
-		k/2+3zXB9odd30VUmPXgarP9oLo=
+		TCenI7BEIencwd5d8ZUgDD5V2Vc=
 		</data>
 		<key>Headers/MBNNRouteState.h</key>
 		<data>
@@ -694,11 +722,11 @@
 		</data>
 		<key>Headers/MBNNRouterError.h</key>
 		<data>
-		f14NlvltU/593Ykf9ukBokV1vkw=
+		01mlas5VwzJz/KTmJJHJOghKI5M=
 		</data>
 		<key>Headers/MBNNRouterErrorType.h</key>
 		<data>
-		WD03NAh8A6lzhfzMDsxL3CJqPjE=
+		UFEhCTO+eBzUuDjSNpQ21o+K9fQ=
 		</data>
 		<key>Headers/MBNNRouterFactory.h</key>
 		<data>
@@ -736,13 +764,29 @@
 		<data>
 		KAIheo0mh7te4S1nnKN1L+WzPsQ=
 		</data>
+		<key>Headers/MBNNScreenshotCallback.h</key>
+		<data>
+		AT7XhB9eult2ifo1Owev4ztedgQ=
+		</data>
+		<key>Headers/MBNNScreenshotFormat.h</key>
+		<data>
+		JfT/qFOnp8mfQA9FMByNatQ0Kio=
+		</data>
 		<key>Headers/MBNNSegment.h</key>
 		<data>
-		UGM/qVXEZVVIW8+X4JaatB5w2RA=
+		5cxM3hgWgz9KVeu7Ob1wjbj/1YQ=
+		</data>
+		<key>Headers/MBNNSensorData.h</key>
+		<data>
+		0lIPw5y+LPAMQAAvyEAc+uHIzzk=
+		</data>
+		<key>Headers/MBNNSensorType.h</key>
+		<data>
+		m4xEh6POcjTIucOZK1h8zYacg1A=
 		</data>
 		<key>Headers/MBNNServiceAreaInfo.h</key>
 		<data>
-		VLH1wVPbYu1P+Ajzv9WqgqnxP2M=
+		R+tde3HHpZXxdMzZr1Fdu49LAhw=
 		</data>
 		<key>Headers/MBNNServiceAreaType.h</key>
 		<data>
@@ -754,7 +798,7 @@
 		</data>
 		<key>Headers/MBNNSetRouteHistoryRecord.h</key>
 		<data>
-		QlhJzH5Z1vcFfWg55+BG70bbR3U=
+		KGCoN67yGNgd3yhjSjuDZL8Zwno=
 		</data>
 		<key>Headers/MBNNSetRoutesDataParams.h</key>
 		<data>
@@ -762,7 +806,7 @@
 		</data>
 		<key>Headers/MBNNSetRoutesParams.h</key>
 		<data>
-		gUzh9O+ibqvv43yQMqdQerKF0l4=
+		PdNtHkfYE3cS5YLNBKDqc4ebB+c=
 		</data>
 		<key>Headers/MBNNSetRoutesReason.h</key>
 		<data>
@@ -786,7 +830,7 @@
 		</data>
 		<key>Headers/MBNNSpeedLimit.h</key>
 		<data>
-		FYXIM1QsjeMxQ144bQCsf06RS20=
+		0aerooX4qLTZfpCGnpBaGxXnS8Q=
 		</data>
 		<key>Headers/MBNNSpeedLimitCondition.h</key>
 		<data>
@@ -794,7 +838,7 @@
 		</data>
 		<key>Headers/MBNNSpeedLimitInfo.h</key>
 		<data>
-		SYcCOOkl83qk3304m1QwH7oTny8=
+		Xhz4KUcnHrCd5+8IdB7Zjr9mhOE=
 		</data>
 		<key>Headers/MBNNSpeedLimitRestriction.h</key>
 		<data>
@@ -806,11 +850,11 @@
 		</data>
 		<key>Headers/MBNNSpeedLimitType.h</key>
 		<data>
-		tihIKtb+EksCV49SukKB7ztLLbY=
+		YzzudCRi6l5KyHZRWIaOHM88FV8=
 		</data>
 		<key>Headers/MBNNSpeedLimitUnit.h</key>
 		<data>
-		yX2kwVVCT3+8m8jSwC0WUHAlOoY=
+		6cOzLGalO1GJWA3uRa+vMaq25XQ=
 		</data>
 		<key>Headers/MBNNStandard.h</key>
 		<data>
@@ -822,7 +866,7 @@
 		</data>
 		<key>Headers/MBNNStub.h</key>
 		<data>
-		4xchkYvzMu+zH2aAkmZ75kMY1eM=
+		kjT0UEil6kSZXqEabJaKHxa9wnI=
 		</data>
 		<key>Headers/MBNNSubGraphDistanceInfo.h</key>
 		<data>
@@ -834,11 +878,11 @@
 		</data>
 		<key>Headers/MBNNTileEndpointConfiguration.h</key>
 		<data>
-		wgwJqPvKoZyVQdG/Icabt8fpTS4=
+		owIYe1IUSVmbHmrkSsj6388w1KE=
 		</data>
 		<key>Headers/MBNNTilesConfig.h</key>
 		<data>
-		th5b50IyY0lm+jskIzEurJD6EJs=
+		Bj2xjxVv2edwYQ4qMYPefDt0Wmc=
 		</data>
 		<key>Headers/MBNNTilesetDescriptorFactory.h</key>
 		<data>
@@ -846,7 +890,7 @@
 		</data>
 		<key>Headers/MBNNTollCollectionInfo.h</key>
 		<data>
-		6Bzlp4WSZKgBlCF54zt1fxHGfwc=
+		iZ1+tljZqy5a4P/YuljS2qLp5u4=
 		</data>
 		<key>Headers/MBNNTollCollectionType.h</key>
 		<data>
@@ -854,11 +898,19 @@
 		</data>
 		<key>Headers/MBNNTunnelInfo.h</key>
 		<data>
-		jEQ9hHIj9D0GGbvtuNu0ZfOJeOY=
+		PhL3H569HHFNwOHNBvKOKgShS+0=
 		</data>
 		<key>Headers/MBNNUpcomingRouteAlert.h</key>
 		<data>
 		HuTILnNFHfnyurq/fRBdCefz9hI=
+		</data>
+		<key>Headers/MBNNUpcomingRouteAlertUpdate.h</key>
+		<data>
+		Jy1iRu/v2JHH/snmmrjPQ/0dBMI=
+		</data>
+		<key>Headers/MBNNUpdateExternalSensorDataCallback.h</key>
+		<data>
+		g9B66uDpL/fwNjymXuukYEo2uDc=
 		</data>
 		<key>Headers/MBNNUpdateLocationCallback.h</key>
 		<data>
@@ -870,7 +922,7 @@
 		</data>
 		<key>Headers/MBNNUserFeedback.h</key>
 		<data>
-		RNbt0n0HiaoHGqWN9E/XZLvrYfw=
+		uF8jCuSPAcU10a6BsQPv9wJE6aY=
 		</data>
 		<key>Headers/MBNNUserFeedbackHandle.h</key>
 		<data>
@@ -882,11 +934,11 @@
 		</data>
 		<key>Headers/MBNNValueOnEdge.h</key>
 		<data>
-		u7SHesIgrh5rJiMRdWdQlJ9aqEs=
+		qH87ZZhsDamElboRnpkxPUT9E74=
 		</data>
 		<key>Headers/MBNNVehicleType.h</key>
 		<data>
-		lFGAwByIDvPkY5JF3wo06evPJUk=
+		kf4064qNRioEalqVF+4AYMvb6NU=
 		</data>
 		<key>Headers/MBNNVoiceInstruction.h</key>
 		<data>
@@ -894,15 +946,15 @@
 		</data>
 		<key>Headers/MBNNWaypoint.h</key>
 		<data>
-		M6CEvzZMiqpN8TOuG6MS8SnuST8=
+		ry0PjbmuXy78ObQop1F0EkqgV/0=
 		</data>
 		<key>Headers/MBNNWaypointType.h</key>
 		<data>
-		X8K/bzVc3IpK/K6sZFs0ZnpmSoY=
+		e2UzomeXXHHilHfk7osbVJ+cBMQ=
 		</data>
 		<key>Headers/MBNNWeather.h</key>
 		<data>
-		zhAb5cRkTbqMx9jexm5f9BYikxc=
+		nLfUcxD3FWl1KPJPhLx/IRjJkYM=
 		</data>
 		<key>Headers/MapboxNavigationNative.h</key>
 		<data>
@@ -914,7 +966,7 @@
 		</data>
 		<key>Headers/MapboxNavigationNativeAdasis.h</key>
 		<data>
-		iC7K/g4IUuuA8FjcRw4zZXqZJOY=
+		4PH2zyc/iqT+OKUcqBczSeYZ8rg=
 		</data>
 		<key>Headers/MapboxNavigationNativeBLE.h</key>
 		<data>
@@ -922,7 +974,7 @@
 		</data>
 		<key>Headers/MapboxNavigationNativeCommonTypes.h</key>
 		<data>
-		BJVYtF8cXE9RQ8XLsbUynD9XYfQ=
+		z83IF483d7/9kA5k6njIt1pQXos=
 		</data>
 		<key>Headers/MapboxNavigationNativeCompassIMU.h</key>
 		<data>
@@ -954,7 +1006,7 @@
 		</data>
 		<key>Headers/MapboxNavigationNativeRoadObjects.h</key>
 		<data>
-		xwCx855n5UNVwuY/4v5A7lLgoXY=
+		Mxyh+A0DGcfk4Jk6WWJxji+OD7w=
 		</data>
 		<key>Headers/MapboxNavigationNativeRoadObjectsMatcher.h</key>
 		<data>
@@ -966,7 +1018,7 @@
 		</data>
 		<key>Headers/MapboxNavigationNativeRoute.h</key>
 		<data>
-		zR3iemauBAoLN3vgLmyfFO9/UsE=
+		yoYxfiIZpTq77RMllJu/ev6eomQ=
 		</data>
 		<key>Headers/MapboxNavigationNativeRouteAlternativesController.h</key>
 		<data>
@@ -986,15 +1038,15 @@
 		</data>
 		<key>Headers/MapboxNavigationNativeTelemetry.h</key>
 		<data>
-		YMH0VBFFnhuG/av7vfnGRKTHkg4=
+		78RwmCJ6PUxBWEg3oSc++AD8/r0=
 		</data>
 		<key>Headers/MapboxNavigationNavigator.h</key>
 		<data>
-		VXfmTJzVyz4mmnD116vc2yZgP6s=
+		cE2gnBa0qPRE2vGPIu7w/Y1CP1I=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		WtOT4TZHJ29AzfmzIyGVq2cd3mg=
+		OIJAxyQ6mykdJKIxMHNU3puqxuE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -1038,7 +1090,7 @@
 		</data>
 		<key>PrivateHeaders/MBNNNavigator_Internal.h</key>
 		<data>
-		JcqmOG2A3F3Uc0JhJ5P2Qs5AY7k=
+		F3P4RNVhzPYgg7lwRzsFCexVIZg=
 		</data>
 		<key>PrivateHeaders/MBNNOpenLRDecoder_Internal.h</key>
 		<data>
@@ -1074,7 +1126,7 @@
 		</data>
 		<key>PrivateHeaders/MBNNRouteAlternativesControllerInterface_Internal.h</key>
 		<data>
-		gTSd2BtbIAIhH6/s5HPcYRDjgGs=
+		ezcEuPF87QlzrJ0noDyShvifSV0=
 		</data>
 		<key>PrivateHeaders/MBNNRouteParserCallback_Internal.h</key>
 		<data>
@@ -1082,11 +1134,15 @@
 		</data>
 		<key>PrivateHeaders/MBNNRouteParser_Internal.h</key>
 		<data>
-		WaCUF7UvjWKr2zd4c0CPZj8p2Gg=
+		fifGc0tKC0clm9Wj0rM8SGiM1s8=
 		</data>
 		<key>PrivateHeaders/MBNNRouterCallback_Internal.h</key>
 		<data>
-		hB057gnoSYX+oCQu7dVf9mu++Vg=
+		vsowkT7qMl5VO7O6zWQNClaC2VM=
+		</data>
+		<key>PrivateHeaders/MBNNRouterDataRefCallback_Internal.h</key>
+		<data>
+		cCPFthfPCTKkSz8upmY7r8FBqR8=
 		</data>
 		<key>PrivateHeaders/MBNNRouterFactory_Internal.h</key>
 		<data>
@@ -1094,7 +1150,7 @@
 		</data>
 		<key>PrivateHeaders/MBNNRouterInterface_Internal.h</key>
 		<data>
-		ubLwqT9QH2sy6SWJ2M890rMuh9Y=
+		4SHBCm7r7w4KQZ7E0bA79UW8l1g=
 		</data>
 		<key>PrivateHeaders/MBNNRouterRefreshCallback_Internal.h</key>
 		<data>
@@ -1150,7 +1206,7 @@
 		</data>
 		<key>PrivateHeaders/MapboxNavigationNativeRouter_Internal.h</key>
 		<data>
-		KWNTkQOQCg+OOIjCuVGSQwKSXb4=
+		ZgUEJghj7jtLNSSa0IlFyVL7lRY=
 		</data>
 		<key>PrivateHeaders/MapboxNavigationNativeTelemetry_Internal.h</key>
 		<data>
@@ -1167,18 +1223,11 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/MBNNADASISv2Message.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			3bNjqgnUro9Scx4FV+9EdsCEIEqGBpwE3F0obC4wbWk=
-			</data>
-		</dict>
 		<key>Headers/MBNNADASISv2MessageCallback.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			x+4C0q9LMM4KxyQh6pKj0vQTof+ceBtKzp/sKdB5Ujw=
+			LsZPGpqLzWXChn5BVUVmBuGNjYwbmtkIkKz4/JaOpMc=
 			</data>
 		</dict>
 		<key>Headers/MBNNActiveGuidanceGeometryEncoding.h</key>
@@ -1206,77 +1255,63 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			T/d43Eoo5UaC00Hsqmm8RhJzZJ9H0x2eddJpXYgMhpA=
+			MFIe3rsjqgAaUDCM5rmQeWa5lC/czb39LKs0YZJlKLQ=
 			</data>
 		</dict>
 		<key>Headers/MBNNAdasisConfigBuilder.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mf7eePduDHric8juBaKGfXTfjk5jUAME963FMqplFcU=
-			</data>
-		</dict>
-		<key>Headers/MBNNAdasisConfigCycleTimes.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			mLa0sQI5XHzKqpXWqyoXlZCJgrtuTs2QBTipTOoLiFM=
+			J/GKoH5rPlX61KaIcw7HWAJEmS+Hd3BBjSnmQ6jFKAU=
 			</data>
 		</dict>
 		<key>Headers/MBNNAdasisConfigDataSending.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ifFtB9/OG3w2F/QK5r5N2YN+jbfsQkcqjY8l62VqHtc=
+			kri1IFCidZETZ5YWPUDcMDKWjzyzyMe/ZQy9ZV8nqGA=
 			</data>
 		</dict>
 		<key>Headers/MBNNAdasisConfigMessageOptions.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			w7N4DmPMvB6yZbINGEJv/TTMjk/5lXwGMTQRIvzqHXY=
+			LRGQOE8/zjHIIoEuKv5L71vOpNtfNWDblO7qvjJ7k9s=
 			</data>
 		</dict>
-		<key>Headers/MBNNAdasisConfigPathLevelOptions.h</key>
+		<key>Headers/MBNNAdasisConfigPathOptions.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wygpmFHeoWyF1s845cLf/6WqoAkMPSbV3iqx4Kn8bt4=
-			</data>
-		</dict>
-		<key>Headers/MBNNAdasisConfigPathsConfigs.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			mpE3SH3ASbUgSIAoDMci/0u6l/4HVlHOrB19T1bAY5M=
+			ZlZ2p+2jo1vhXOF/BRDu5hRT6DOF3UswO91qCMfeEM0=
 			</data>
 		</dict>
 		<key>Headers/MBNNAdasisConfigProfilelongTypeOptions.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wQqTk+UfENtOqYPCk+uaHYTcYIEucDkcTJeSZ3mPJBc=
+			DPmTU4+i4Ohx4+Z3s/2CHI9YVkpoG3oWts3wH56W9Z0=
 			</data>
 		</dict>
 		<key>Headers/MBNNAdasisConfigProfileshortTypeOptions.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tjHT04QLujxkkjisqZODRZ4Ct66TcZN5NRE1GtOJ178=
+			R5fJKKt/24Di6grKvksArraY1Qy1A0imhpypZUqwP0I=
 			</data>
 		</dict>
 		<key>Headers/MBNNAdminInfo.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			L4TDmdLS1TU2qqjxmd+dUXPLWfT296KpuxlFGzsgfE0=
+			j3GRKqeFIOt8/CBbEN+Rk+Qhy+lqwOvQFH3OyrfTsJI=
 			</data>
 		</dict>
 		<key>Headers/MBNNAlertsServiceOptions.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UBb9wTlHBnJHFRcGLtJfU7PWvBIi2G9l5YmZiIQH9NU=
+			scz0wBBCay57TKzBkM1HJUAl8RKukCLJcxa+Shq0YWM=
 			</data>
 		</dict>
 		<key>Headers/MBNNAlternativeRouteInfo.h</key>
@@ -1297,7 +1332,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8+nOpUTiyj0cGlNZzN3hnaE/fdeNyop/FsQWqG/ejVY=
+			V90DB2Q6tSNXtfIoJCgSJaxaOaDRJQ613/im3ItZwdc=
 			</data>
 		</dict>
 		<key>Headers/MBNNAmenityType.h</key>
@@ -1367,7 +1402,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mRMV4gk1bOl/1VQcdHajHK8Z8GxH/jVVDVRYTn7i9hM=
+			OoZelGV+fjYO+LScjaxb1CxG/UccyjdAUyY7S8emUjI=
 			</data>
 		</dict>
 		<key>Headers/MBNNCacheDataDomain.h</key>
@@ -1433,6 +1468,13 @@
 			ywIV6YO4/3XQQSN2n6Sc03lJQoJ1oQJGKrhfDAomMZA=
 			</data>
 		</dict>
+		<key>Headers/MBNNCorrectedLocationData.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			KpqLXnU7uf8hJhEX+5fDKSc5J+LKN+7fMbbJOZgUJ1o=
+			</data>
+		</dict>
 		<key>Headers/MBNNDecodingError.h</key>
 		<dict>
 			<key>hash2</key>
@@ -1472,7 +1514,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4/Z9XjTx7ean77QC1SzE5rlh49n/VZQt75OMI0rw7ow=
+			UqRUYp9Y0kZicipB/X6nS5szo+O4OZkjgb2BTVYHpHw=
 			</data>
 		</dict>
 		<key>Headers/MBNNEdgeMetadata.h</key>
@@ -1507,7 +1549,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			u6SUM45emeu2L05/y44xhI0roTP1NwGXCvO1CnG/m60=
+			F9Untjv7/v0KB0Qrt95zBQM3KhK4I+jgWvdlKJVxOzw=
 			</data>
 		</dict>
 		<key>Headers/MBNNElectronicHorizonObserver.h</key>
@@ -1549,14 +1591,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Y8VSIdrXWau8vn2i77BTe2irEfza23Fhr7Mq7Ywkaqk=
+			oWUSZEtKNltaSS/XpcBTaBKqmAZk22gRDKGE/6IFs7k=
 			</data>
 		</dict>
 		<key>Headers/MBNNExperimental.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9/R8icQnb04WKOvRYl3m9b6gOaNJbiOdGcVSQSm0Wlc=
+			rLaOYPCoxgHZfjB35tC/nIlSqpED91OQtBqzXv781rY=
 			</data>
 		</dict>
 		<key>Headers/MBNNFallbackVersionsObserver.h</key>
@@ -1570,7 +1612,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LdcGNUJfVfutNeBUf9WBl2MPD2p3rfRWo2GN/RucXcA=
+			DdxktSYlGHFC1V0LgZILj6DFKQWQuE76nlycOoAdEK8=
 			</data>
 		</dict>
 		<key>Headers/MBNNFormOfWay.h</key>
@@ -1619,7 +1661,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fq+E7WTcSVkW1/5H3SxoY8Khg1bIMObi+0JTLG9RyyE=
+			PskoGWY8kH69lzZDfvIz8DnBpr//7P6sFamfxTAI2u8=
 			</data>
 		</dict>
 		<key>Headers/MBNNGetStatusHistoryRecord.h</key>
@@ -1640,14 +1682,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			b+WRtNFr/lLO0BUXxN1uNclFEQfz8TPsyW7YohSr7Lw=
+			vJlDnkh/hEiGOr6MRSIl+VcDHpkFiUcZqnS41zqZjOc=
 			</data>
 		</dict>
 		<key>Headers/MBNNGraphPosition.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jwEboYrb2xxv3BCDwUdbPQknH/gxnYITdy6aqkipHz4=
+			LIlyRD0nnQllDFv3pc01JzGSYjj3dsdn2VtStdeIIbM=
 			</data>
 		</dict>
 		<key>Headers/MBNNGridLocationReference.h</key>
@@ -1685,18 +1727,25 @@
 			UNEu147Zw2Fw2MV2jtFnQSrY5yrvr2s+6laLR7dmaLI=
 			</data>
 		</dict>
+		<key>Headers/MBNNIMUDerivedData.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			mjzFhvd+71I8649uK06HXU7sSGKJ7X/gfZ4I0yPo8sk=
+			</data>
+		</dict>
 		<key>Headers/MBNNIcInfo.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dgVaJUd9WD1H/fXwxOOFdWVpSoSTtaSKe+5vbUe6zss=
+			Mk9e4UIhvdX5/CDCfubjsy7n+aIiXWBp/kuq7UNnOh8=
 			</data>
 		</dict>
 		<key>Headers/MBNNIncidentCongestion.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			59j6LBYz31rWg0kR66ltIwBOrU0aIyrG0/XjhD9Qx9I=
+			7WqvXK6YlvZ7qPzC/0SLunMzyNNGnS00dwjeiBiTBA4=
 			</data>
 		</dict>
 		<key>Headers/MBNNIncidentCongestionDescription.h</key>
@@ -1717,7 +1766,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ek+bR4C6UqPB4ifZga/z9DPm1qY1SMGj0UwLBJl+kis=
+			yOUQI/zra+BRFuk3xSOBjgIbYOXvlkkVsvMaJrOfMFE=
 			</data>
 		</dict>
 		<key>Headers/MBNNIncidentType.h</key>
@@ -1738,7 +1787,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fTCcWFXMXhBImX7kJGQ/5DQEnasd2P7Psp29htvfMVg=
+			34NYqcWDYpLUX3rKyk0Ocal3L1HktAEd9s32JrzlFFg=
 			</data>
 		</dict>
 		<key>Headers/MBNNLineAttributes.h</key>
@@ -1766,7 +1815,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bUl+LL6V2DzSxWC9iYxcLib2Pwc0ejEEmrbcbFdENWY=
+			2wf2T4bgxx5Z/6dUZvPi4HHOzRk2R7EkJDVnaFcKbSk=
 			</data>
 		</dict>
 		<key>Headers/MBNNLocationReference.h</key>
@@ -1801,7 +1850,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			V7T+o9UCigxE3nVOZZr654/iaSxTlaRbE+IRAv2ETWY=
+			Qr+qQ/C6AFr1SgvvJ+p3lFb2i/j2Q6jywf8zxtLfH2I=
 			</data>
 		</dict>
 		<key>Headers/MBNNMatchableGeometry.h</key>
@@ -1881,6 +1930,27 @@
 			RwmIGv3c2vT+GqW53yPiZcXC33Y1fmP/MSe9cxcVpUk=
 			</data>
 		</dict>
+		<key>Headers/MBNNMergingAreaInfo.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			i0EW8eBEytd3mkFrxshXNagya4zHBvOrFmUn74tvG1w=
+			</data>
+		</dict>
+		<key>Headers/MBNNMergingAreaType.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			qjhi48lUdYdQt+RJuslJiN6AwvnM+O/3iPnjmC5nelE=
+			</data>
+		</dict>
+		<key>Headers/MBNNMessageBinaryFormat.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			AVqOhJnwouAhQKb9L6cjWiQq6aWzT5Q3ziST9JYEDGE=
+			</data>
+		</dict>
 		<key>Headers/MBNNMotionData.h</key>
 		<dict>
 			<key>hash2</key>
@@ -1888,11 +1958,18 @@
 			OaMcOq1Sae4T6WYYmgI/XhFgB21K9Xna66rIzYdMXKU=
 			</data>
 		</dict>
+		<key>Headers/MBNNNavigationSessionState.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			zl1lGdhfub8Zwoy6XJ8ydQNhpgxJ+3iLk0nziqIxZCM=
+			</data>
+		</dict>
 		<key>Headers/MBNNNavigationStatus.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			S9zI25N4gkYgSCDSEuNSxVAZ4r3s2tVerhhmIDK1+jc=
+			EBLzRxIWZKNMk1ROFEwLDHnnx5gxFoEhunKl8OlrTL0=
 			</data>
 		</dict>
 		<key>Headers/MBNNNavigationStatusOrigin.h</key>
@@ -1906,7 +1983,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			sF8bJxr39TW/+MrSn1cx8nRda5P//eGYfnHGufJ/FZo=
+			+nnc0y+gNtQDSy4xrYCSuPnIRM3T617OeSNj5sMUMyk=
 			</data>
 		</dict>
 		<key>Headers/MBNNNavigatorConfig.h</key>
@@ -1923,11 +2000,32 @@
 			jgRPGJ3h1pLBUwOxcccgSPdeyMZdxPD3EYG30QObIQE=
 			</data>
 		</dict>
+		<key>Headers/MBNNNotificationDetails.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			p3eQIDpMDqAJB68L31t0+rBIWhyvk4WZbjiGiPxYdr8=
+			</data>
+		</dict>
+		<key>Headers/MBNNNotificationInfo.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			2zinlgtsVMVFyh+SswKg7zsI1eFwUwc4htRWhD+x8zc=
+			</data>
+		</dict>
+		<key>Headers/MBNNOffRoadStateProvider.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			0qMVgp9bWABy6Kt5ntjewW1KVn7+kQD/ZpLHUeu9JeQ=
+			</data>
+		</dict>
 		<key>Headers/MBNNOpenLR.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pARb1FrDqyVlc0S13eLhSoJ3FUKct12woTLjdn08/no=
+			h+Gas8xfqF+vapIRElaZxk92g53yoCQoT2ZIDFLs+2U=
 			</data>
 		</dict>
 		<key>Headers/MBNNOpenLRDecoder.h</key>
@@ -2032,7 +2130,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			p0/C4inikWgWzpmVgEK58Mm/3yo3yaTwBlSNodG68V0=
+			yR/SxYlXgFMnYDHGueXoIad8WFJyqFGYZy8RPl7J2n0=
 			</data>
 		</dict>
 		<key>Headers/MBNNPredictiveCacheController.h</key>
@@ -2074,14 +2172,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PC9eGo6nv3ck2QKMXqaC+3BkhBKU+9dEi71bTVrGs18=
+			rpYe8YM7dt0IibAd2a6M/cKJFQfi4T6X4AHl4L/t+N4=
 			</data>
 		</dict>
 		<key>Headers/MBNNProfileshort.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3eyPfHl1lNGvKJI9Y6VC+6OWex6fwdPDb7ZquNX12LU=
+			ZDXboIhOPelTmHAOyNRViHF6oQ9mLpz6BYrlRmv1ECU=
 			</data>
 		</dict>
 		<key>Headers/MBNNPushHistoryRecord.h</key>
@@ -2095,7 +2193,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MQqbN2rBxmrcPwPWoNWaZI80vvJnZ4kBWWG2OSLqm68=
+			pf3KUsl/0ZH6L1op5H21dl9VT90mV2VNzA9C/eMdbTo=
 			</data>
 		</dict>
 		<key>Headers/MBNNRectangleLocationReference.h</key>
@@ -2158,7 +2256,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			EV2KtBftpAtlDrm0BwH7ILJOEjJMF4Mc5IRFNTzdv70=
+			7x/UakEoY1WpTO3//YVihFfKmAtjtO9F5d1G7aTDO1c=
 			</data>
 		</dict>
 		<key>Headers/MBNNRoadName.h</key>
@@ -2221,7 +2319,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2gZy/LCI+UWCejleD/KOU/5MO9ASmpm6cHyhOWb14sc=
+			zDjdAImM67y5FipcgpBkVx9+FeLXa0bdTwjhBww+CZQ=
 			</data>
 		</dict>
 		<key>Headers/MBNNRoadObjectPassInfo.h</key>
@@ -2242,7 +2340,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			WeDxG8+NHX+quuH0UcTPLFsL/uQdKiWmYz0EDmk2iWA=
+			5iNYGf8Fe73ABSUpJnop+E8PovkzG7rVKOe6WpqFs+k=
 			</data>
 		</dict>
 		<key>Headers/MBNNRoadObjectsStore.h</key>
@@ -2284,7 +2382,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zWhRUJ8n2TqK1WkYirRlFTM58mOD+GkZH9OiRC6vMfU=
+			KJGwoJVP2c5vl4f8jzwrCP/Bx3yLX/4ae70nRtnwpmU=
 			</data>
 		</dict>
 		<key>Headers/MBNNRouteAlternativesOptions.h</key>
@@ -2292,6 +2390,13 @@
 			<key>hash2</key>
 			<data>
 			UnY2rghf1WEVVia0ff00ye9KT01e+0LC96W4fO/c8Gs=
+			</data>
+		</dict>
+		<key>Headers/MBNNRouteIndices.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Gcu5BWvVOET3FkLNitm7GFrstZ5xPLfXYr4xsXJ32jA=
 			</data>
 		</dict>
 		<key>Headers/MBNNRouteInfo.h</key>
@@ -2305,7 +2410,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UfGTsH0Dm5kDFUdoFLB6isun6K3e8HbtOwAOYm/u6/A=
+			VerjgZeMl270NtzGt1OUEe+gQS5aTnc6Eocf9Yviq8Y=
 			</data>
 		</dict>
 		<key>Headers/MBNNRouteIntersection.h</key>
@@ -2319,14 +2424,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			H8QvFpAukoe1NTRQ4g1/f+gfCLlQR5mEczGmhp0M828=
+			wFe6E3azhFxn7nCVxIIahBLtBYvSOQpjIFL9dBWZXNw=
 			</data>
 		</dict>
 		<key>Headers/MBNNRouteRefreshControllerInterface.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			W430e7sgGg4vL7ZtKF/ZOuNsJHDuaLfwIAnC2Lp2udg=
+			a/3X9tVtNzuMZGjGHDS8LFh9nk7UAmOHbengRiV43qA=
 			</data>
 		</dict>
 		<key>Headers/MBNNRouteRefreshControllerOptions.h</key>
@@ -2340,7 +2445,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7v99jfJOphHjvpq+vCDRUEvm4JZ3T5Zg7Zj5mil0wfY=
+			TpMoMJT21ovMDwLubIUjFhdaQnb7uRRSRIqHdpgC/1A=
 			</data>
 		</dict>
 		<key>Headers/MBNNRouteRefreshErrorType.h</key>
@@ -2354,14 +2459,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xEVuiNUu9LuQmHS2WP2QzhTVsrBhXizLHEYA/9wkavc=
+			7NjVRubbrIUUb/96wAuuXn+cZ6GITiDRv+aaVtLJuJs=
 			</data>
 		</dict>
 		<key>Headers/MBNNRouteRefreshOptions.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hvAaQyN6oxCi04o7Wah5jmJHpj3JB/Cj6MUEtMt24h8=
+			i4czWGsYEyYXaZGYMNPK+cNxwrrKeFKT85Pc4AbVpgM=
 			</data>
 		</dict>
 		<key>Headers/MBNNRouteState.h</key>
@@ -2375,14 +2480,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9kVgw0nuAtO79irPs/MkMJBSlky4meodQey2ObzRi5s=
+			oRZhdGfcd3o1ITbtE+AKLFOTF/dW6hT7kf8tONkRAfw=
 			</data>
 		</dict>
 		<key>Headers/MBNNRouterErrorType.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4fXshnxAISYJNNp3LzSNiIVAIKaNa7szxFbV2V125DM=
+			x+XKl5fim4jEd5raZVHBISG5SiY8OTi6N8X4KG24f+A=
 			</data>
 		</dict>
 		<key>Headers/MBNNRouterFactory.h</key>
@@ -2448,18 +2553,46 @@
 			IQJ49Syeb0kRkUtJqyFwyiBo0DCMoELXzw1YibSU8yo=
 			</data>
 		</dict>
+		<key>Headers/MBNNScreenshotCallback.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			y19ov3VxeheYQx5w+v6plPICFwkRq+QMeYHMGT6omL8=
+			</data>
+		</dict>
+		<key>Headers/MBNNScreenshotFormat.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			daiKCz/H742nPX/fDBsw61N15jrHxfeAnusqPXevkd8=
+			</data>
+		</dict>
 		<key>Headers/MBNNSegment.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CNWhmQfepwZySWB89Bu5kMR1eZ02FXjkMh2JpswWtL4=
+			s+EByjQTkBnh/jS8miw0bkeAZw4Wkja0FDiQxdR+jE8=
+			</data>
+		</dict>
+		<key>Headers/MBNNSensorData.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			HzM7ffx/6zFQfCIh2eK9aeup22ugdQWcmaqEVYffjOA=
+			</data>
+		</dict>
+		<key>Headers/MBNNSensorType.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			yzicF/aJOYCxUKRhkC/fCQDLtRd9W2udI822PHB8UU0=
 			</data>
 		</dict>
 		<key>Headers/MBNNServiceAreaInfo.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kXd97rQObRExfsoDHOKWecxKtlzp2zGO5e8xgYNodEI=
+			oLksSbUrFPrmjTbdGmINlFvAp3x1SehwtUoZ+6btAIM=
 			</data>
 		</dict>
 		<key>Headers/MBNNServiceAreaType.h</key>
@@ -2480,7 +2613,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			l4h1eTedL42yBhdRSOaYWBn6hef+sCUMvx8Ue0lkY1Q=
+			0FI8pZ6yFvd4FcEg0i1ySBOz1YAtjLRzVtO+vnVmiQI=
 			</data>
 		</dict>
 		<key>Headers/MBNNSetRoutesDataParams.h</key>
@@ -2494,7 +2627,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tf/tcWkn11r7CUvV8Hnv6FrL7XAObXaAnc4yuHcItFs=
+			czBdPSGr28Aeh8azXxdVl1zOEOz6yFj8EnBneK8WIjo=
 			</data>
 		</dict>
 		<key>Headers/MBNNSetRoutesReason.h</key>
@@ -2536,7 +2669,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			eWdR85BS7vDFQJE86OnAgWgkJUn6EDovG1DxNUZm4jk=
+			Vg3QjTN9RO85iMbIMg+W9BECQaI2+uC1zfZYZ/a+9xw=
 			</data>
 		</dict>
 		<key>Headers/MBNNSpeedLimitCondition.h</key>
@@ -2550,7 +2683,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1WUuelnb5oRyzK+rheA24gIYMXqGsBwhJmb2tZ3OOVU=
+			pH6EQ2yVgOc3hcCbLAL52BEMxAd+yzqqyCOxTxR0w8M=
 			</data>
 		</dict>
 		<key>Headers/MBNNSpeedLimitRestriction.h</key>
@@ -2571,14 +2704,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kIji5p2NYzJcDUBX87KQNYng6i9hnxRl4stc+C3x6KI=
+			Nha1WbV8u6abdgesswobSmtnNPKrYRnQRghfNQkNAPU=
 			</data>
 		</dict>
 		<key>Headers/MBNNSpeedLimitUnit.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			o2DkRbEyIrZw3ZEj2oudhYSTKeg9ZPjjLJcWEbNFBFU=
+			kgFNU9XihpA67TIwRsIe2c7OU++CwqaUIUekvjGeCW8=
 			</data>
 		</dict>
 		<key>Headers/MBNNStandard.h</key>
@@ -2599,7 +2732,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uFLSI5QkXPw3/nM2oaqDKt5QzWZ4ge9hrJQQiMHsd5c=
+			rxlModMffaXdDARDJJRLxFtQinWSs1B6H2ZU+bbuFPw=
 			</data>
 		</dict>
 		<key>Headers/MBNNSubGraphDistanceInfo.h</key>
@@ -2620,14 +2753,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LmEuvatG6Z8kIzUkjHgYhy5Bb9c58L9VHRC6C7GftOI=
+			/Uy4/RezCz5MFShpj5Se3+mttNLlxEgEjgg6l5DxDzo=
 			</data>
 		</dict>
 		<key>Headers/MBNNTilesConfig.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5nj1TzkAUjScWY2ZhBsbpPxaDlANdX++iZ2z4/NKkJI=
+			bM5rUfchuQKzOrUej76FT7+KstvU1lmx2lI7vNgOLIE=
 			</data>
 		</dict>
 		<key>Headers/MBNNTilesetDescriptorFactory.h</key>
@@ -2641,7 +2774,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			A/ywPBeBzbdCI7zTsdR4LioYC52PpjcvpYITPpk87WU=
+			lN37jLOLYGEP6iaYNIfq2SCZZn7La6Sb0DF8L1wLvSk=
 			</data>
 		</dict>
 		<key>Headers/MBNNTollCollectionType.h</key>
@@ -2655,7 +2788,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SL59qVzaDCcGfH17Eo5zBy9zzOLmOEK9HBv+MwXANxE=
+			1YvT7G6/OZsTKvfc0L7dKdkgyQ4bmn7z3zUKG+w79wM=
 			</data>
 		</dict>
 		<key>Headers/MBNNUpcomingRouteAlert.h</key>
@@ -2663,6 +2796,20 @@
 			<key>hash2</key>
 			<data>
 			e/mPPmpukf9tUKRz4ZNEMko4EP9yYda+e4g13lSH+rQ=
+			</data>
+		</dict>
+		<key>Headers/MBNNUpcomingRouteAlertUpdate.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			lSIKopawqtlNeRl4JD1dP3WKqN2fp7dHq1kfAKfGaac=
+			</data>
+		</dict>
+		<key>Headers/MBNNUpdateExternalSensorDataCallback.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			dg3HblnXwmrAb4umElBEz4/kf2aZNu6FqBulUY1vn9w=
 			</data>
 		</dict>
 		<key>Headers/MBNNUpdateLocationCallback.h</key>
@@ -2683,7 +2830,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tIifL75QdnNfetZ4JythRO/710FxJc09CAEIFtAT1fA=
+			sf4q5U/Etg9LwKHLpuJEUOmjmWFHBkMdaF0UvjTYUBs=
 			</data>
 		</dict>
 		<key>Headers/MBNNUserFeedbackHandle.h</key>
@@ -2704,14 +2851,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7qQvggsUzRlKPYoL3z8K22EutWI8VFk9bkdHpBsGRkM=
+			sMR1a12Z2iorudvxLUH8VU4vPcDSGAgnWbNxeTWKEfU=
 			</data>
 		</dict>
 		<key>Headers/MBNNVehicleType.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1xmlieG5Xid1x+92kXeIURlmuzgwCkKDTgF52Kq4pn4=
+			+grSazUipWTQAAuKg5wWe2e6YiT8KjmCluUp51BOKNk=
 			</data>
 		</dict>
 		<key>Headers/MBNNVoiceInstruction.h</key>
@@ -2725,21 +2872,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HhFVBaOAY0QQ9rQjAZyOhRcnb6m0GP2kUPb2b88Hs7E=
+			y1iBEsAcQUfFTp8/tuF1Ysa9QIlyuRqwAsHqWfGHAl0=
 			</data>
 		</dict>
 		<key>Headers/MBNNWaypointType.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			29ItQaXQwhTHnpZnDpNz8Xw6fOptRH5+6+AJGjhiwtc=
+			St+F2DQzT06IWw1+NkgVCJKQ+UzMVO6piwUh6c+5sx0=
 			</data>
 		</dict>
 		<key>Headers/MBNNWeather.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vGspwqrO7EhUbwDwmHfEiDW6xuvSmQL9Td+2JxGo+s8=
+			uhiOHMghkJZmQUHQw16CBn5mG0ZidhV7v7ETPWVBL7E=
 			</data>
 		</dict>
 		<key>Headers/MapboxNavigationNative.h</key>
@@ -2760,7 +2907,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			z4B3HQ+7Y+8ZC9NH+9zJy/Z8zVaZt4ieugeADOHaVx8=
+			Z0dw5CNpM902fqvE6+liKlaJ42xlM9nHZ9YryOdQqIo=
 			</data>
 		</dict>
 		<key>Headers/MapboxNavigationNativeBLE.h</key>
@@ -2774,7 +2921,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			je7d00KRH4wCb5EU+Bhzl9m74fM+Y7rjiwkWnkmViLY=
+			PbDtMaEcJUB9P8RWoDnW/5z8VIt664VSWT1kDSBvlSI=
 			</data>
 		</dict>
 		<key>Headers/MapboxNavigationNativeCompassIMU.h</key>
@@ -2830,7 +2977,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LhveMJDhyTr0/k6DAJdxgACBGNoOnomth8PwIXTJ8iw=
+			TpluUk2VUtjWILIio/3VAwVFLwskOzOAfwbGGIC/dc4=
 			</data>
 		</dict>
 		<key>Headers/MapboxNavigationNativeRoadObjectsMatcher.h</key>
@@ -2851,7 +2998,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			z2TsgFAcZSsDcMbx5LzBIRhtVkUG+MjjE5cw15lnmWo=
+			vksGwkn55zO5+eia0NsqyJjZAfTD2fdBuyW4fFkMaII=
 			</data>
 		</dict>
 		<key>Headers/MapboxNavigationNativeRouteAlternativesController.h</key>
@@ -2886,14 +3033,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qjTl8ei15yiWqd7Lq7SrhVd6fSIJ2x6ACzLpY9HAOPY=
+			oXWPxsIyeFs4jpfLGle3bVcK+a/6HyGp893DEGyrmFA=
 			</data>
 		</dict>
 		<key>Headers/MapboxNavigationNavigator.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XMQeTIX1RuqHbBhQmhwIKGfBTLcebCWALE7Fxbmm/vE=
+			E93jNdR9p1Te4fo+IHhA875HRszzSDsQTtvEaVySbUs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -2970,7 +3117,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xyB8PhF8wcWEYkqtn+akCllvHEn7FZr/PgRraOWgIdo=
+			N0QY7NhDxEviHHN8dzvbxdGmcO3pPOkML6OMjjXAGOY=
 			</data>
 		</dict>
 		<key>PrivateHeaders/MBNNOpenLRDecoder_Internal.h</key>
@@ -3033,7 +3180,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JPCHJr1dT4ytTyCBAOL2PP3iIe8ziE7zxmcwaa4CDrM=
+			gIyVtNE1lhd3tw5I4WECyPpBTBY27+trq0RRzSJ3tok=
 			</data>
 		</dict>
 		<key>PrivateHeaders/MBNNRouteParserCallback_Internal.h</key>
@@ -3047,14 +3194,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fAE6OQ3wIGC71HkQsJd+uJ6c0pBgyyLGFH7OSBhfNZ8=
+			PqA2pSkFZvZqakvYe+qxvK8ztNg3lr5CWkpwGhzxZaA=
 			</data>
 		</dict>
 		<key>PrivateHeaders/MBNNRouterCallback_Internal.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0cBPr70G7P8jLOpNRffUfqXiMknYl8wgPwu0K00zlfo=
+			5pHywSGGPDnS0zWFLe+OzqX4cunE5ODH7pW65jeJ5Ho=
+			</data>
+		</dict>
+		<key>PrivateHeaders/MBNNRouterDataRefCallback_Internal.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			rF4qH1Nlu2oh2t/zG2B6v1s+xUVhTJ2SLTtiBBbsHqo=
 			</data>
 		</dict>
 		<key>PrivateHeaders/MBNNRouterFactory_Internal.h</key>
@@ -3068,7 +3222,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			sOrynyxxmF2wNBaS1BINn5MJwDnfuSPKTRwOkRNZ4tU=
+			LqdtZk3V+DX5dArldwGN3uwpdk/StkcedwbLpPdZ5aA=
 			</data>
 		</dict>
 		<key>PrivateHeaders/MBNNRouterRefreshCallback_Internal.h</key>
@@ -3166,7 +3320,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TQT6w9Z5yXWBpRWtdo58pEmvyFGlyHgb/XygUznV8+o=
+			z5B4tzos544G5iZXE6TYPlh2IOjYl/00N/BSbooqJJI=
 			</data>
 		</dict>
 		<key>PrivateHeaders/MapboxNavigationNativeTelemetry_Internal.h</key>

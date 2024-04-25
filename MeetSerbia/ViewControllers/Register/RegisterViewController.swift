@@ -138,11 +138,13 @@ extension RegisterViewController {
                     if err != nil {
                         return }
                     else {
-                        UserDefaultsManager.userID = uid ?? ""
-                         
+                        LocalManager.shared.getAllLocations { models in
+                            UserDefaultsManager.userID = uid ?? ""
                             UserDefaults.standard.set(true, forKey: "logedIn")
-                        UserDefaultsManager.language = "cir"
+                            UserDefaultsManager.language = "cir"
                             self!.performSegue(withIdentifier: "toMain", sender: nil)
+                        }
+               
                     
                         }
                 }
@@ -154,12 +156,15 @@ extension RegisterViewController {
         Firebase.Auth.auth().signIn(withEmail: email, password: password){res,err in
             if err != nil {
                 self.showToast(message: "Погрешни креденцијали", font: UIFont.systemFont(ofSize: 12.0))
-                return }else {
+                return }
+            else {
+                LocalManager.shared.getAllLocations { models in
                     UserDefaultsManager.userID = res?.user.uid ?? ""
-                    
                     UserDefaults.standard.set(true, forKey: "logedIn")
                     UserDefaultsManager.language = "cir"
                     self.performSegue(withIdentifier: "toMain", sender: nil)
+                }
+              
                     
                 }
         }

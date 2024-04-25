@@ -1,0 +1,70 @@
+{
+  "" : {
+    "const-values" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/CGMath.build/Release-iphoneos/CGMath.build/Objects-normal/arm64/CGMath-master.swiftconstvalues",
+    "dependencies" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/CGMath.build/Release-iphoneos/CGMath.build/Objects-normal/arm64/CGMath-master.d",
+    "diagnostics" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/CGMath.build/Release-iphoneos/CGMath.build/Objects-normal/arm64/CGMath-master.dia",
+    "emit-module-dependencies" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/CGMath.build/Release-iphoneos/CGMath.build/Objects-normal/arm64/CGMath-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/CGMath.build/Release-iphoneos/CGMath.build/Objects-normal/arm64/CGMath-master-emit-module.dia",
+    "swift-dependencies" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/CGMath.build/Release-iphoneos/CGMath.build/Objects-normal/arm64/CGMath-master.swiftdeps"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/CGMath/CGMath/Sources/CGFloatListRepresentable.swift" : {
+    "index-unit-output-path" : "/CGMath.build/Release-iphoneos/CGMath.build/Objects-normal/arm64/CGFloatListRepresentable.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/CGMath.build/Release-iphoneos/CGMath.build/Objects-normal/arm64/CGFloatListRepresentable.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/CGMath.build/Release-iphoneos/CGMath.build/Objects-normal/arm64/CGFloatListRepresentable.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/CGMath/CGMath/Sources/CGGeometry.swift" : {
+    "index-unit-output-path" : "/CGMath.build/Release-iphoneos/CGMath.build/Objects-normal/arm64/CGGeometry.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/CGMath.build/Release-iphoneos/CGMath.build/Objects-normal/arm64/CGGeometry.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/CGMath.build/Release-iphoneos/CGMath.build/Objects-normal/arm64/CGGeometry.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/CGMath/CGMath/Sources/CGPoint.swift" : {
+    "index-unit-output-path" : "/CGMath.build/Release-iphoneos/CGMath.build/Objects-normal/arm64/CGPoint.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/CGMath.build/Release-iphoneos/CGMath.build/Objects-normal/arm64/CGPoint.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/CGMath.build/Release-iphoneos/CGMath.build/Objects-normal/arm64/CGPoint.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/CGMath/CGMath/Sources/CGRect.swift" : {
+    "index-unit-output-path" : "/CGMath.build/Release-iphoneos/CGMath.build/Objects-normal/arm64/CGRect.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/CGMath.build/Release-iphoneos/CGMath.build/Objects-normal/arm64/CGRect.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/CGMath.build/Release-iphoneos/CGMath.build/Objects-normal/arm64/CGRect.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/CGMath/CGMath/Sources/CGSize.swift" : {
+    "index-unit-output-path" : "/CGMath.build/Release-iphoneos/CGMath.build/Objects-normal/arm64/CGSize.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/CGMath.build/Release-iphoneos/CGMath.build/Objects-normal/arm64/CGSize.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/CGMath.build/Release-iphoneos/CGMath.build/Objects-normal/arm64/CGSize.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/CGMath/CGMath/Sources/CGVector.swift" : {
+    "index-unit-output-path" : "/CGMath.build/Release-iphoneos/CGMath.build/Objects-normal/arm64/CGVector.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/CGMath.build/Release-iphoneos/CGMath.build/Objects-normal/arm64/CGVector.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/CGMath.build/Release-iphoneos/CGMath.build/Objects-normal/arm64/CGVector.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/CGMath/CGMath/Sources/Clamped.swift" : {
+    "index-unit-output-path" : "/CGMath.build/Release-iphoneos/CGMath.build/Objects-normal/arm64/Clamped.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/CGMath.build/Release-iphoneos/CGMath.build/Objects-normal/arm64/Clamped.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/CGMath.build/Release-iphoneos/CGMath.build/Objects-normal/arm64/Clamped.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/CGMath/CGMath/Sources/Comparable.swift" : {
+    "index-unit-output-path" : "/CGMath.build/Release-iphoneos/CGMath.build/Objects-normal/arm64/Comparable.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/CGMath.build/Release-iphoneos/CGMath.build/Objects-normal/arm64/Comparable.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/CGMath.build/Release-iphoneos/CGMath.build/Objects-normal/arm64/Comparable.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/CGMath/CGMath/Sources/FloatingPoint.swift" : {
+    "index-unit-output-path" : "/CGMath.build/Release-iphoneos/CGMath.build/Objects-normal/arm64/FloatingPoint.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/CGMath.build/Release-iphoneos/CGMath.build/Objects-normal/arm64/FloatingPoint.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/CGMath.build/Release-iphoneos/CGMath.build/Objects-normal/arm64/FloatingPoint.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/CGMath/CGMath/Sources/UIEdgeInsets.swift" : {
+    "index-unit-output-path" : "/CGMath.build/Release-iphoneos/CGMath.build/Objects-normal/arm64/UIEdgeInsets.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/CGMath.build/Release-iphoneos/CGMath.build/Objects-normal/arm64/UIEdgeInsets.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/CGMath.build/Release-iphoneos/CGMath.build/Objects-normal/arm64/UIEdgeInsets.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/CGMath/CGMath/Sources/UIGeometry.swift" : {
+    "index-unit-output-path" : "/CGMath.build/Release-iphoneos/CGMath.build/Objects-normal/arm64/UIGeometry.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/CGMath.build/Release-iphoneos/CGMath.build/Objects-normal/arm64/UIGeometry.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/CGMath.build/Release-iphoneos/CGMath.build/Objects-normal/arm64/UIGeometry.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/CGMath/CGMath/Sources/UIOffset.swift" : {
+    "index-unit-output-path" : "/CGMath.build/Release-iphoneos/CGMath.build/Objects-normal/arm64/UIOffset.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/CGMath.build/Release-iphoneos/CGMath.build/Objects-normal/arm64/UIOffset.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/CGMath.build/Release-iphoneos/CGMath.build/Objects-normal/arm64/UIOffset.o"
+  }
+}

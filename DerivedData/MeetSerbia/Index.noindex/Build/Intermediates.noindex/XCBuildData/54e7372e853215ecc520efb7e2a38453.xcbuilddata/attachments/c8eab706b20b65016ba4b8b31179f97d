@@ -1,0 +1,4 @@
+module FloatingTabBarController {
+header "FloatingTabBarController-Swift.h"
+export *
+}

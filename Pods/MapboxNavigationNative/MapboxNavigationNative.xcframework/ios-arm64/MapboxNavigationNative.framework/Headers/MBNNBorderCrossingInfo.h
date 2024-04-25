@@ -14,10 +14,16 @@ __attribute__((visibility ("default")))
 // This class provides custom init which should be called
 + (nonnull instancetype)new NS_UNAVAILABLE;
 
-- (nonnull instancetype)initWithFrom:(nonnull MBNNAdminInfo *)from
-                                  to:(nonnull MBNNAdminInfo *)to;
+- (nonnull instancetype)initWithId:(nonnull NSString *)id
+                              from:(nonnull MBNNAdminInfo *)from
+                                to:(nonnull MBNNAdminInfo *)to;
+
+/** id of the border crossing */
+@property (nonatomic, readonly, nonnull, copy) NSString *id;
 
 @property (nonatomic, readonly, nonnull) MBNNAdminInfo *from;
 @property (nonatomic, readonly, nonnull) MBNNAdminInfo *to;
+
+- (BOOL)isEqualToBorderCrossingInfo:(nonnull MBNNBorderCrossingInfo *)other;
 
 @end

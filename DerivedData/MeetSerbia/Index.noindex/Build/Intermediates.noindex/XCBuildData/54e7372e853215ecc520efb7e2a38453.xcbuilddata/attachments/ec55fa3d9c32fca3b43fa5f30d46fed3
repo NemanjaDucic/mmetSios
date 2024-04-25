@@ -1,0 +1,24 @@
+{
+  "" : {
+    "dependencies" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Index.noindex/Build/Intermediates.noindex/FloatingTabBarController.build/Debug-iphoneos/FloatingTabBarController.build/Objects-normal/arm64/FloatingTabBarController-master.d",
+    "diagnostics" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Index.noindex/Build/Intermediates.noindex/FloatingTabBarController.build/Debug-iphoneos/FloatingTabBarController.build/Objects-normal/arm64/FloatingTabBarController-master.dia",
+    "emit-module-dependencies" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Index.noindex/Build/Intermediates.noindex/FloatingTabBarController.build/Debug-iphoneos/FloatingTabBarController.build/Objects-normal/arm64/FloatingTabBarController-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Index.noindex/Build/Intermediates.noindex/FloatingTabBarController.build/Debug-iphoneos/FloatingTabBarController.build/Objects-normal/arm64/FloatingTabBarController-master-emit-module.dia",
+    "swift-dependencies" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Index.noindex/Build/Intermediates.noindex/FloatingTabBarController.build/Debug-iphoneos/FloatingTabBarController.build/Objects-normal/arm64/FloatingTabBarController-master.swiftdeps"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/FloatingTabBarController/Sources/FloatingTabBarController/FloatingTabBar.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/FloatingTabBarController/Sources/FloatingTabBarController/FloatingTabBarController.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/FloatingTabBarController/Sources/FloatingTabBarController/FloatingTabItem.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/FloatingTabBarController/Sources/FloatingTabBarController/UIView+MaskPath.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/FloatingTabBarController/Sources/FloatingTabBarController/UIViewController+TabBarItem.swift" : {
+
+  }
+}

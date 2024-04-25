@@ -5,6 +5,11 @@
 @class MBNNAdasisConfigMessageOptions;
 @class MBNNAdasisConfigProfileshortTypeOptions;
 
+/**
+ * PROFILE SHORT message options
+ * options - common options for PROFILE SHORT message
+ * types - options for each type of PROFILE SHORT message
+ */
 NS_SWIFT_NAME(Profileshort)
 __attribute__((visibility ("default")))
 @interface MBNNProfileshort : NSObject

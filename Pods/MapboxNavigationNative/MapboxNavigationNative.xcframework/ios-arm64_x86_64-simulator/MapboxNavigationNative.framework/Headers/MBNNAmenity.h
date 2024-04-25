@@ -27,4 +27,6 @@ __attribute__((visibility ("default")))
 @property (nonatomic, readonly, nullable, copy) NSString *brand;
 
 
+- (BOOL)isEqualToAmenity:(nonnull MBNNAmenity *)other;
+
 @end

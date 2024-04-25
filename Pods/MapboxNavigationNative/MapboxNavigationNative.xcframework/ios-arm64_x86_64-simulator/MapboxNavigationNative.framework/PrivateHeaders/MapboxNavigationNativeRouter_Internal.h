@@ -2,5 +2,6 @@
 
 #import "MBNNRouterInterface_Internal.h"
 #import "MBNNRouterCallback_Internal.h"
+#import "MBNNRouterDataRefCallback_Internal.h"
 #import "MBNNRouterRefreshCallback_Internal.h"
 #import "MBNNRouterFactory_Internal.h"

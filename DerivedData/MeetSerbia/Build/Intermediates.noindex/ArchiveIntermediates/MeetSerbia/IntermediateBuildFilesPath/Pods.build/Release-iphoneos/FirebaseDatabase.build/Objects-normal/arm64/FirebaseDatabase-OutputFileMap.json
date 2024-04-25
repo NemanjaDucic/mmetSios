@@ -1,0 +1,35 @@
+{
+  "" : {
+    "const-values" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/FirebaseDatabase.build/Objects-normal/arm64/FirebaseDatabase-master.swiftconstvalues",
+    "dependencies" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/FirebaseDatabase.build/Objects-normal/arm64/FirebaseDatabase-master.d",
+    "diagnostics" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/FirebaseDatabase.build/Objects-normal/arm64/FirebaseDatabase-master.dia",
+    "emit-module-dependencies" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/FirebaseDatabase.build/Objects-normal/arm64/FirebaseDatabase-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/FirebaseDatabase.build/Objects-normal/arm64/FirebaseDatabase-master-emit-module.dia",
+    "swift-dependencies" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/FirebaseDatabase.build/Objects-normal/arm64/FirebaseDatabase-master.swiftdeps"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/FirebaseDatabase/FirebaseDatabase/Swift/Sources/Codable/DatabaseReference+WriteEncodable.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FirebaseDatabase.build/Objects-normal/arm64/DatabaseReference+WriteEncodable.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/FirebaseDatabase.build/Objects-normal/arm64/DatabaseReference+WriteEncodable.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/FirebaseDatabase.build/Objects-normal/arm64/DatabaseReference+WriteEncodable.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/FirebaseDatabase/FirebaseDatabase/Swift/Sources/Codable/DataSnapshot+ReadDecodable.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FirebaseDatabase.build/Objects-normal/arm64/DataSnapshot+ReadDecodable.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/FirebaseDatabase.build/Objects-normal/arm64/DataSnapshot+ReadDecodable.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/FirebaseDatabase.build/Objects-normal/arm64/DataSnapshot+ReadDecodable.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/FirebaseDatabase/FirebaseDatabase/Swift/Sources/Codable/EncoderDecoder.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FirebaseDatabase.build/Objects-normal/arm64/EncoderDecoder.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/FirebaseDatabase.build/Objects-normal/arm64/EncoderDecoder.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/FirebaseDatabase.build/Objects-normal/arm64/EncoderDecoder.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/FirebaseDatabase/FirebaseDatabase/Swift/Sources/Codable/ServerTimestamp.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FirebaseDatabase.build/Objects-normal/arm64/ServerTimestamp.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/FirebaseDatabase.build/Objects-normal/arm64/ServerTimestamp.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/FirebaseDatabase.build/Objects-normal/arm64/ServerTimestamp.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/FirebaseDatabase/FirebaseDatabase/Swift/Sources/SPMSwiftHeaderWorkaround.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/FirebaseDatabase.build/Objects-normal/arm64/SPMSwiftHeaderWorkaround.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/FirebaseDatabase.build/Objects-normal/arm64/SPMSwiftHeaderWorkaround.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/FirebaseDatabase.build/Objects-normal/arm64/SPMSwiftHeaderWorkaround.o"
+  }
+}

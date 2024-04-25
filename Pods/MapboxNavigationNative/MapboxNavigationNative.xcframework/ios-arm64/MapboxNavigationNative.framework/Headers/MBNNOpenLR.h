@@ -19,4 +19,6 @@ __attribute__((visibility ("default")))
 @property (nonatomic, readonly, nonnull, copy) NSString *base64Encoded;
 @property (nonatomic, readonly) MBNNStandard standard;
 
+- (BOOL)isEqualToOpenLR:(nonnull MBNNOpenLR *)other;
+
 @end

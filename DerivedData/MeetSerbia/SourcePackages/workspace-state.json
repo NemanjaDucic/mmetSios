@@ -1,0 +1,78 @@
+{
+  "object" : {
+    "artifacts" : [
+
+    ],
+    "dependencies" : [
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "cgmath",
+          "kind" : "remoteSourceControl",
+          "location" : "https://EmilioPelaez@github.com/EmilioPelaez/CGMath.git",
+          "name" : "CGMath"
+        },
+        "state" : {
+          "checkoutState" : {
+            "revision" : "352dc9a0c5ea8db162714944c68de1fa7ae3e4bf",
+            "version" : "1.0.4"
+          },
+          "name" : "sourceControlCheckout"
+        },
+        "subpath" : "CGMath"
+      },
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "floatingtabbarcontroller",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/EmilioPelaez/FloatingTabBarController",
+          "name" : "FloatingTabBarController"
+        },
+        "state" : {
+          "checkoutState" : {
+            "revision" : "823ca858652fce63b6a66b35c8915605988d20ed",
+            "version" : "1.0.0"
+          },
+          "name" : "sourceControlCheckout"
+        },
+        "subpath" : "FloatingTabBarController"
+      },
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "imagescrollview",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/huynguyencong/ImageScrollView.git",
+          "name" : "ImageScrollView"
+        },
+        "state" : {
+          "checkoutState" : {
+            "revision" : "1cf139aec5b838d3b383058e20cdbd80d20142f5",
+            "version" : "1.9.3"
+          },
+          "name" : "sourceControlCheckout"
+        },
+        "subpath" : "ImageScrollView"
+      },
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "swiftsoup",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/scinfu/SwiftSoup.git",
+          "name" : "SwiftSoup"
+        },
+        "state" : {
+          "checkoutState" : {
+            "revision" : "8b6cf29eead8841a1fa7822481cb3af4ddaadba6",
+            "version" : "2.6.1"
+          },
+          "name" : "sourceControlCheckout"
+        },
+        "subpath" : "SwiftSoup"
+      }
+    ]
+  },
+  "version" : 6
+}

@@ -8,7 +8,6 @@
 import Foundation
 import UIKit
 import MapboxCommon
-import MapboxCoreNavigation
 import MapboxMaps
 import MapboxCoreMaps
 

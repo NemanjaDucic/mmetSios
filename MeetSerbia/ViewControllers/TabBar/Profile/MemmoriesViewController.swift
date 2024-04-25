@@ -8,7 +8,6 @@
 import Foundation
 import UIKit
 import Firebase
-import SDWebImage
 import Kingfisher
 import FirebaseStorage
 import iProgressHUD

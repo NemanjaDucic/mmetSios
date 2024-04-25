@@ -19,5 +19,11 @@ typedef NS_ENUM(NSInteger, MBNNRoadObjectType)
     /** Japan-specific Interchange info, refers to an expressway entrance and exit, e.g.  Wangannarashino IC */
     MBNNRoadObjectTypeIc,
     /** road object was added by user(via `RoadObjectsStore.addCustomRoadObject`) */
-    MBNNRoadObjectTypeCustom
+    MBNNRoadObjectTypeCustom,
+    /** notification object, see https://github.com/mapbox/api-documentation/pull/1385 */
+    MBNNRoadObjectTypeNotification,
+    /** defines a point where a merging area starts */
+    MBNNRoadObjectTypeMergingArea
 } NS_SWIFT_NAME(RoadObjectType);
+
+NSString* MBNNRoadObjectTypeToString(MBNNRoadObjectType road_object_type);

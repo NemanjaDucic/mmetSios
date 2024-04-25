@@ -1,0 +1,85 @@
+version: "Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)"
+options: "1056b44a1becc1bbfa064b11850a8bc17dacfb5155dee4099c83acc76af6b944"
+build_start_time: [1713875154, 933020000]
+build_end_time: [1713875166, 437862000]
+inputs:
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/iProgressHUD/iProgressHUD/iProgressHUD/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationAudioEqualizer.swift"
+  : [1712575754, 740602961]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/iProgressHUD/iProgressHUD/iProgressHUD/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallBeat.swift"
+  : [1712575754, 740739170]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/iProgressHUD/iProgressHUD/iProgressHUD/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallClipRotate.swift"
+  : [1712575754, 740862671]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/iProgressHUD/iProgressHUD/iProgressHUD/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallClipRotateMultiple.swift"
+  : [1712575754, 741004297]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/iProgressHUD/iProgressHUD/iProgressHUD/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallClipRotatePulse.swift"
+  : [1712575754, 741151798]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/iProgressHUD/iProgressHUD/iProgressHUD/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallGridBeat.swift"
+  : [1712575754, 741279508]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/iProgressHUD/iProgressHUD/iProgressHUD/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallGridPulse.swift"
+  : [1712575754, 741405634]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/iProgressHUD/iProgressHUD/iProgressHUD/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallPulse.swift"
+  : [1712575754, 741523885]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/iProgressHUD/iProgressHUD/iProgressHUD/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallPulseRise.swift"
+  : [1712575754, 741653011]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/iProgressHUD/iProgressHUD/iProgressHUD/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallPulseSync.swift"
+  : [1712575754, 741786679]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/iProgressHUD/iProgressHUD/iProgressHUD/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallRotate.swift"
+  : [1712575754, 741912263]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/iProgressHUD/iProgressHUD/iProgressHUD/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallRotateChase.swift"
+  : [1712575754, 742023055]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/iProgressHUD/iProgressHUD/iProgressHUD/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallScale.swift"
+  : [1712575754, 742135681]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/iProgressHUD/iProgressHUD/iProgressHUD/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallScaleMultiple.swift"
+  : [1712575754, 742249140]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/iProgressHUD/iProgressHUD/iProgressHUD/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallScaleRipple.swift"
+  : [1712575754, 742356641]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/iProgressHUD/iProgressHUD/iProgressHUD/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallScaleRippleMultiple.swift"
+  : [1712575754, 742467351]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/iProgressHUD/iProgressHUD/iProgressHUD/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallSpinFadeLoader.swift"
+  : [1712575754, 742591893]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/iProgressHUD/iProgressHUD/iProgressHUD/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallTrianglePath.swift"
+  : [1712575754, 742719103]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/iProgressHUD/iProgressHUD/iProgressHUD/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallZigZag.swift"
+  : [1712575754, 742862687]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/iProgressHUD/iProgressHUD/iProgressHUD/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallZigZagDeflect.swift"
+  : [1712575754, 742984105]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/iProgressHUD/iProgressHUD/iProgressHUD/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBlank.swift"
+  : [1712575754, 743108897]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/iProgressHUD/iProgressHUD/iProgressHUD/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationCircleStrokeSpin.swift"
+  : [1712575754, 743239815]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/iProgressHUD/iProgressHUD/iProgressHUD/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationCubeTransition.swift"
+  : [1712575754, 743361733]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/iProgressHUD/iProgressHUD/iProgressHUD/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationLineScale.swift"
+  : [1712575754, 743468275]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/iProgressHUD/iProgressHUD/iProgressHUD/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationLineScaleParty.swift"
+  : [1712575754, 743589443]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/iProgressHUD/iProgressHUD/iProgressHUD/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationLineScalePulseOut.swift"
+  : [1712575754, 743703486]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/iProgressHUD/iProgressHUD/iProgressHUD/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationLineScalePulseOutRapid.swift"
+  : [1712575754, 743820236]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/iProgressHUD/iProgressHUD/iProgressHUD/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationLineSpinFadeLoader.swift"
+  : [1712575754, 743928612]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/iProgressHUD/iProgressHUD/iProgressHUD/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationOrbit.swift"
+  : [1712575754, 744055780]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/iProgressHUD/iProgressHUD/iProgressHUD/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationPacman.swift"
+  : [1712575754, 744181406]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/iProgressHUD/iProgressHUD/iProgressHUD/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationSemiCircleSpin.swift"
+  : [1712575754, 744303240]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/iProgressHUD/iProgressHUD/iProgressHUD/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationSquareSpin.swift"
+  : [1712575754, 744413200]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/iProgressHUD/iProgressHUD/iProgressHUD/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationTriangleSkewSpin.swift"
+  : [1712575754, 744523159]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/iProgressHUD/iProgressHUD/iProgressHUD/NVActivityIndicatorView/NVActivityIndicatorAnimationDelegate.swift"
+  : [1712575754, 744639910]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/iProgressHUD/iProgressHUD/iProgressHUD/NVActivityIndicatorView/NVActivityIndicatorShape.swift"
+  : [1712575754, 744766911]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/iProgressHUD/iProgressHUD/iProgressHUD/NVActivityIndicatorView/NVActivityIndicatorView.swift"
+  : [1712575754, 744908995]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/iProgressHUD/iProgressHUD/iProgressHUD/NVActivityIndicatorView/Presenter/NVActivityIndicatorPresenter.swift"
+  : [1712575754, 745086455]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/iProgressHUD/iProgressHUD/iProgressHUD/NVActivityIndicatorView/Presenter/NVActivityIndicatorViewable.swift"
+  : [1712575754, 745201039]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/iProgressHUD/iProgressHUD/iProgressHUD/iProgressHUD.swift": [1712575754, 740059248]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/iProgressHUD/iProgressHUD/iProgressHUD/iProgressHUDDelegete.swift": [1712575754, 740156915]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/iProgressHUD/iProgressHUD/iProgressHUD/iProgressHUDGlobal.swift": [1712575754, 740270500]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/iProgressHUD/iProgressHUD/iProgressHUD/iProgressHUDUtilities.swift": [1712575754, 740373375]

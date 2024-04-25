@@ -2,6 +2,7 @@
 
 #import <Foundation/Foundation.h>
 #import <MapboxNavigationNative/MBNNRouterCallback_Internal.h>
+#import <MapboxNavigationNative/MBNNRouterDataRefCallback_Internal.h>
 #import <MapboxNavigationNative/MBNNRouterRefreshCallback_Internal.h>
 
 @class MBNNGetRouteOptions;
@@ -11,7 +12,10 @@ NS_SWIFT_NAME(RouterInterface)
 @protocol MBNNRouterInterface
 - (uint64_t)getRouteForDirectionsUri:(nonnull NSString *)directionsUri
                              options:(nonnull MBNNGetRouteOptions *)options
-                            callback:(nonnull MBNNRouterCallback)callback;
+                            callback:(nonnull MBNNRouterCallback)callback __attribute__((deprecated));
+- (uint64_t)getRouteForDirectionsUri:(nonnull NSString *)directionsUri
+                             options:(nonnull MBNNGetRouteOptions *)options
+                     callbackDataRef:(nonnull MBNNRouterDataRefCallback)callbackDataRef;
 - (uint64_t)getRouteRefreshForOptions:(nonnull MBNNRouteRefreshOptions *)options
                              callback:(nonnull MBNNRouterRefreshCallback)callback;
 /**

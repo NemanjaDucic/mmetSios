@@ -11,12 +11,9 @@ target 'MeetSerbia' do
 	pod 'Firebase/Database'
 	pod 'Firebase/Auth'
 	pod 'Firebase/Storage'
-	pod 'SDWebImage'
-	pod 'FloatingTabBarController'
-	pod 'Kingfisher', '~> 7.0'
-  	pod 'MapboxMaps', '10.11.1'
-	pod 'MapboxCoreNavigation', '~> 2.11'
-	pod 'MapboxNavigation', '~> 2.11'
+	pod 'MapboxMaps', '10.17.0'
+  	pod 'MapboxNavigation', '~> 2.18'
+	pod 'MapboxCoreNavigation', '~> 2.18'
 	pod 'MapboxGeocoder.swift', '~> 0.15'	
 	pod 'SwiftyGif'
 	pod 'iProgressHUD', '~> 1.1.1'
@@ -32,10 +29,10 @@ target 'MeetSerbia' do
 
 
 end
-post_install do |installer|
-  installer.pods_project.targets.each do |target|
-    target.build_configurations.each do |config|
-      config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '12.0'
+post_install do |pi|
+  pi.pods_project.targets.each do |t|
+    t.build_configurations.each do |config|
+      config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '16.2'
     end
   end
 end

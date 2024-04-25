@@ -1,0 +1,4 @@
+module ImageScrollView {
+header "ImageScrollView-Swift.h"
+export *
+}

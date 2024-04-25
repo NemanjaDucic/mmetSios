@@ -15,6 +15,7 @@ __attribute__((visibility ("default")))
 - (nonnull instancetype)initWithId:(uint64_t)id
                              level:(uint8_t)level
                        probability:(double)probability
+                         isOnRoute:(BOOL)isOnRoute
                                out:(nonnull NSArray<MBNNElectronicHorizonEdge *> *)out;
 
 /** Edge id of the road graph (internal; don't confuse with wayId) */
@@ -28,6 +29,12 @@ __attribute__((visibility ("default")))
 
 /** The probability for this edge in percentage */
 @property (nonatomic, readonly) double probability;
+
+/**
+ * Whether this edge is on primary route used for active guidance.
+ * Always false in free drive.
+ */
+@property (nonatomic, readonly, getter=isIsOnRoute) BOOL isOnRoute;
 
 /**
  * The outgoing Edges.

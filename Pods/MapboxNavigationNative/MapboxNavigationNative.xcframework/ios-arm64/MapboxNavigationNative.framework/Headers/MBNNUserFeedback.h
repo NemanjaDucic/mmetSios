@@ -2,6 +2,8 @@
 
 #import <Foundation/Foundation.h>
 
+@class MBNNScreenshotFormat;
+
 NS_SWIFT_NAME(UserFeedback)
 __attribute__((visibility ("default")))
 @interface MBNNUserFeedback : NSObject
@@ -14,9 +16,8 @@ __attribute__((visibility ("default")))
 
 - (nonnull instancetype)initWithFeedbackType:(nonnull NSString *)feedbackType
                              feedbackSubType:(nonnull NSArray<NSString *> *)feedbackSubType
-                              feedbackSource:(nonnull NSString *)feedbackSource
                                  description:(nonnull NSString *)description
-                                  screenshot:(nullable NSString *)screenshot;
+                                  screenshot:(nullable MBNNScreenshotFormat *)screenshot;
 
 /** User feedback type */
 @property (nonatomic, readonly, nonnull, copy) NSString *feedbackType;
@@ -24,16 +25,11 @@ __attribute__((visibility ("default")))
 /** An array of feedback subtypes */
 @property (nonatomic, readonly, nonnull, copy) NSArray<NSString *> *feedbackSubType;
 
-/** User feedback source */
-@property (nonatomic, readonly, nonnull, copy) NSString *feedbackSource;
-
 /** User feedback description */
 @property (nonatomic, readonly, nonnull, copy) NSString *description;
 
-/** Serialized screenshot */
-@property (nonatomic, readonly, nullable, copy) NSString *screenshot;
+/** Screenshot of the app on feedback */
+@property (nonatomic, readonly, nullable) MBNNScreenshotFormat *screenshot;
 
-
-- (BOOL)isEqualToUserFeedback:(nonnull MBNNUserFeedback *)other;
 
 @end

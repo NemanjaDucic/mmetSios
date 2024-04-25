@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)"
+options: "e4a7367be5e7f5379acfdc1d4d4d91b1c723f2b13228c80c8f6fdaf9c57823d6"
+build_start_time: [1713875154, 980936000]
+build_end_time: [1713875161, 716620000]
+inputs:
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Polyline/Sources/Polyline/CoreLocation.swift": [1712575756, 929136524]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Polyline/Sources/Polyline/Polyline.swift": [1712575756, 929362859]

@@ -1,0 +1,23 @@
+{
+  'version': 0,
+  'use-external-names': 'false',
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Index.noindex/Build/Products/Debug-iphoneos/MapboxGeocoder.swift/MapboxGeocoder.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Index.noindex/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/MapboxGeocoder.swift.build/unextended-module.modulemap",
+    }]
+    },
+    {
+    'type': 'directory',
+    'name': "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Index.noindex/Build/Products/Debug-iphoneos/MapboxGeocoder.swift/MapboxGeocoder.framework/Headers"
+    'contents': [{
+      'type': 'file',
+      'name': "MapboxGeocoder-Swift.h",
+      'external-contents': "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Index.noindex/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/MapboxGeocoder.swift.build/unextended-interface-header.h",
+    }]
+    }]
+}

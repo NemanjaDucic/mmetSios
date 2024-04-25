@@ -1,0 +1,15 @@
+{
+  "" : {
+    "const-values" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/ImageScrollView.build/Release-iphoneos/ImageScrollView.build/Objects-normal/arm64/ImageScrollView-master.swiftconstvalues",
+    "dependencies" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/ImageScrollView.build/Release-iphoneos/ImageScrollView.build/Objects-normal/arm64/ImageScrollView-master.d",
+    "diagnostics" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/ImageScrollView.build/Release-iphoneos/ImageScrollView.build/Objects-normal/arm64/ImageScrollView-master.dia",
+    "emit-module-dependencies" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/ImageScrollView.build/Release-iphoneos/ImageScrollView.build/Objects-normal/arm64/ImageScrollView-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/ImageScrollView.build/Release-iphoneos/ImageScrollView.build/Objects-normal/arm64/ImageScrollView-master-emit-module.dia",
+    "swift-dependencies" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/ImageScrollView.build/Release-iphoneos/ImageScrollView.build/Objects-normal/arm64/ImageScrollView-master.swiftdeps"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/ImageScrollView/Sources/ImageScrollView.swift" : {
+    "index-unit-output-path" : "/ImageScrollView.build/Release-iphoneos/ImageScrollView.build/Objects-normal/arm64/ImageScrollView.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/ImageScrollView.build/Release-iphoneos/ImageScrollView.build/Objects-normal/arm64/ImageScrollView.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/ImageScrollView.build/Release-iphoneos/ImageScrollView.build/Objects-normal/arm64/ImageScrollView.o"
+  }
+}

@@ -1,0 +1,320 @@
+{
+  "" : {
+    "const-values" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/Kingfisher-master.swiftconstvalues",
+    "dependencies" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/Kingfisher-master.d",
+    "diagnostics" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/Kingfisher-master.dia",
+    "emit-module-dependencies" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/Kingfisher-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/Kingfisher-master-emit-module.dia",
+    "swift-dependencies" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/Kingfisher-master.swiftdeps"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Cache/CacheSerializer.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/CacheSerializer.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/CacheSerializer.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/CacheSerializer.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Cache/DiskStorage.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/DiskStorage.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/DiskStorage.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/DiskStorage.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Cache/FormatIndicatedCacheSerializer.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/FormatIndicatedCacheSerializer.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/FormatIndicatedCacheSerializer.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/FormatIndicatedCacheSerializer.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Cache/ImageCache.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/ImageCache.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/ImageCache.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/ImageCache.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Cache/MemoryStorage.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/MemoryStorage.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/MemoryStorage.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/MemoryStorage.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Cache/Storage.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/Storage.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/Storage.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/Storage.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Extensions/CPListItem+Kingfisher.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/CPListItem+Kingfisher.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/CPListItem+Kingfisher.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/CPListItem+Kingfisher.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Extensions/ImageView+Kingfisher.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/ImageView+Kingfisher.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/ImageView+Kingfisher.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/ImageView+Kingfisher.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Extensions/NSButton+Kingfisher.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/NSButton+Kingfisher.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/NSButton+Kingfisher.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/NSButton+Kingfisher.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Extensions/NSTextAttachment+Kingfisher.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/NSTextAttachment+Kingfisher.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/NSTextAttachment+Kingfisher.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/NSTextAttachment+Kingfisher.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Extensions/TVMonogramView+Kingfisher.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/TVMonogramView+Kingfisher.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/TVMonogramView+Kingfisher.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/TVMonogramView+Kingfisher.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Extensions/UIButton+Kingfisher.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/UIButton+Kingfisher.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/UIButton+Kingfisher.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/UIButton+Kingfisher.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Extensions/WKInterfaceImage+Kingfisher.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/WKInterfaceImage+Kingfisher.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/WKInterfaceImage+Kingfisher.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/WKInterfaceImage+Kingfisher.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/General/ImageSource/AVAssetImageDataProvider.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/AVAssetImageDataProvider.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/AVAssetImageDataProvider.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/AVAssetImageDataProvider.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/General/ImageSource/ImageDataProvider.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/ImageDataProvider.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/ImageDataProvider.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/ImageDataProvider.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/General/ImageSource/Resource.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/Resource.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/Resource.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/Resource.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/General/ImageSource/Source.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/Source.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/Source.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/Source.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/General/KF.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/KF.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/KF.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/KF.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/General/KFOptionsSetter.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/KFOptionsSetter.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/KFOptionsSetter.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/KFOptionsSetter.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/General/Kingfisher.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/Kingfisher.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/Kingfisher.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/Kingfisher.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/General/KingfisherError.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/KingfisherError.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/KingfisherError.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/KingfisherError.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/General/KingfisherManager.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/KingfisherManager.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/KingfisherManager.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/KingfisherManager.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/General/KingfisherOptionsInfo.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/KingfisherOptionsInfo.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/KingfisherOptionsInfo.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/KingfisherOptionsInfo.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Image/Filter.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/Filter.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/Filter.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/Filter.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Image/GIFAnimatedImage.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/GIFAnimatedImage.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/GIFAnimatedImage.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/GIFAnimatedImage.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Image/GraphicsContext.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/GraphicsContext.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/GraphicsContext.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/GraphicsContext.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Image/Image.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/Image.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/Image.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/Image.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Image/ImageDrawing.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/ImageDrawing.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/ImageDrawing.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/ImageDrawing.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Image/ImageFormat.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/ImageFormat.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/ImageFormat.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/ImageFormat.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Image/ImageProcessor.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/ImageProcessor.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/ImageProcessor.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/ImageProcessor.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Image/ImageProgressive.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/ImageProgressive.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/ImageProgressive.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/ImageProgressive.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Image/ImageTransition.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/ImageTransition.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/ImageTransition.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/ImageTransition.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Image/Placeholder.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/Placeholder.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/Placeholder.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/Placeholder.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Networking/AuthenticationChallengeResponsable.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/AuthenticationChallengeResponsable.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/AuthenticationChallengeResponsable.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/AuthenticationChallengeResponsable.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Networking/ImageDataProcessor.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/ImageDataProcessor.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/ImageDataProcessor.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/ImageDataProcessor.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Networking/ImageDownloader.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/ImageDownloader.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/ImageDownloader.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/ImageDownloader.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Networking/ImageDownloaderDelegate.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/ImageDownloaderDelegate.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/ImageDownloaderDelegate.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/ImageDownloaderDelegate.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Networking/ImageModifier.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/ImageModifier.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/ImageModifier.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/ImageModifier.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Networking/ImagePrefetcher.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/ImagePrefetcher.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/ImagePrefetcher.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/ImagePrefetcher.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Networking/RedirectHandler.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/RedirectHandler.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/RedirectHandler.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/RedirectHandler.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Networking/RequestModifier.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/RequestModifier.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/RequestModifier.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/RequestModifier.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Networking/RetryStrategy.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/RetryStrategy.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/RetryStrategy.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/RetryStrategy.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Networking/SessionDataTask.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/SessionDataTask.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/SessionDataTask.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/SessionDataTask.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Networking/SessionDelegate.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/SessionDelegate.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/SessionDelegate.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/SessionDelegate.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/SwiftUI/ImageBinder.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/ImageBinder.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/ImageBinder.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/ImageBinder.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/SwiftUI/ImageContext.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/ImageContext.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/ImageContext.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/ImageContext.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/SwiftUI/KFAnimatedImage.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/KFAnimatedImage.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/KFAnimatedImage.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/KFAnimatedImage.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/SwiftUI/KFImage.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/KFImage.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/KFImage.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/KFImage.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/SwiftUI/KFImageOptions.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/KFImageOptions.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/KFImageOptions.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/KFImageOptions.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/SwiftUI/KFImageProtocol.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/KFImageProtocol.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/KFImageProtocol.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/KFImageProtocol.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/SwiftUI/KFImageRenderer.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/KFImageRenderer.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/KFImageRenderer.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/KFImageRenderer.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Utility/Box.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/Box.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/Box.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/Box.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Utility/CallbackQueue.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/CallbackQueue.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/CallbackQueue.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/CallbackQueue.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Utility/Delegate.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/Delegate.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/Delegate.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/Delegate.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Utility/DisplayLink.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/DisplayLink.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/DisplayLink.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/DisplayLink.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Utility/ExtensionHelpers.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/ExtensionHelpers.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/ExtensionHelpers.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/ExtensionHelpers.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Utility/Result.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/Result.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/Result.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/Result.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Utility/Runtime.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/Runtime.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/Runtime.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/Runtime.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Utility/SizeExtensions.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/SizeExtensions.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/SizeExtensions.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/SizeExtensions.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Utility/String+MD5.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/String+MD5.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/String+MD5.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/String+MD5.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Views/AnimatedImageView.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/AnimatedImageView.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/AnimatedImageView.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/AnimatedImageView.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Kingfisher/Sources/Views/Indicator.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/Indicator.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/Indicator.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Kingfisher.build/Objects-normal/arm64/Indicator.o"
+  }
+}

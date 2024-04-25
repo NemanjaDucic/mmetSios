@@ -46,7 +46,7 @@ __attribute__((visibility ("default")))
 /**
  *  Type of waypoint.
  *  Silent type calculates based on `via_vaypoints` field, or segment's source of each leg for legacy routes.
- *  EvCharging type calculates based on `metadata` field.
+ *  EvChargingServer and EvChangingUser types're calculated based on `metadata` field.
  */
 @property (nonatomic, readonly) MBNNWaypointType type;
 

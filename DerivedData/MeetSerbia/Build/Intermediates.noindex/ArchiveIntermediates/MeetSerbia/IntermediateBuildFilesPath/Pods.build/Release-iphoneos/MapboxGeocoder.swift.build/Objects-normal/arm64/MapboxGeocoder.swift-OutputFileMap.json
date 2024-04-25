@@ -1,0 +1,45 @@
+{
+  "" : {
+    "const-values" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxGeocoder.swift.build/Objects-normal/arm64/MapboxGeocoder.swift-master.swiftconstvalues",
+    "dependencies" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxGeocoder.swift.build/Objects-normal/arm64/MapboxGeocoder.swift-master.d",
+    "diagnostics" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxGeocoder.swift.build/Objects-normal/arm64/MapboxGeocoder.swift-master.dia",
+    "emit-module-dependencies" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxGeocoder.swift.build/Objects-normal/arm64/MapboxGeocoder.swift-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxGeocoder.swift.build/Objects-normal/arm64/MapboxGeocoder.swift-master-emit-module.dia",
+    "swift-dependencies" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxGeocoder.swift.build/Objects-normal/arm64/MapboxGeocoder.swift-master.swiftdeps"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxGeocoder.swift/Sources/MapboxGeocoder/CoreLocation.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxGeocoder.swift.build/Objects-normal/arm64/CoreLocation.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxGeocoder.swift.build/Objects-normal/arm64/CoreLocation.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxGeocoder.swift.build/Objects-normal/arm64/CoreLocation.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxGeocoder.swift/Sources/MapboxGeocoder/MBGeocodeOptions.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxGeocoder.swift.build/Objects-normal/arm64/MBGeocodeOptions.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxGeocoder.swift.build/Objects-normal/arm64/MBGeocodeOptions.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxGeocoder.swift.build/Objects-normal/arm64/MBGeocodeOptions.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxGeocoder.swift/Sources/MapboxGeocoder/MBGeocoder.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxGeocoder.swift.build/Objects-normal/arm64/MBGeocoder.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxGeocoder.swift.build/Objects-normal/arm64/MBGeocoder.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxGeocoder.swift.build/Objects-normal/arm64/MBGeocoder.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxGeocoder.swift/Sources/MapboxGeocoder/MBPlacemark.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxGeocoder.swift.build/Objects-normal/arm64/MBPlacemark.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxGeocoder.swift.build/Objects-normal/arm64/MBPlacemark.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxGeocoder.swift.build/Objects-normal/arm64/MBPlacemark.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxGeocoder.swift/Sources/MapboxGeocoder/MBPlacemarkPrecision.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxGeocoder.swift.build/Objects-normal/arm64/MBPlacemarkPrecision-b10750c5989a4ec25eb86598c2ba33f1.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxGeocoder.swift.build/Objects-normal/arm64/MBPlacemarkPrecision-b10750c5989a4ec25eb86598c2ba33f1.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxGeocoder.swift.build/Objects-normal/arm64/MBPlacemarkPrecision-b10750c5989a4ec25eb86598c2ba33f1.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxGeocoder.swift/Sources/MapboxGeocoder/MBPlacemarkScope.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxGeocoder.swift.build/Objects-normal/arm64/MBPlacemarkScope.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxGeocoder.swift.build/Objects-normal/arm64/MBPlacemarkScope.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxGeocoder.swift.build/Objects-normal/arm64/MBPlacemarkScope.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxGeocoder.swift/Sources/MapboxGeocoder/MBRectangularRegion.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxGeocoder.swift.build/Objects-normal/arm64/MBRectangularRegion.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxGeocoder.swift.build/Objects-normal/arm64/MBRectangularRegion.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxGeocoder.swift.build/Objects-normal/arm64/MBRectangularRegion.o"
+  }
+}

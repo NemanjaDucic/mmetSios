@@ -16,7 +16,8 @@ __attribute__((visibility ("default")))
 - (nonnull instancetype)initWithMessage:(nonnull NSString *)message
                                    code:(uint32_t)code
                                    type:(MBNNRouterErrorType)type
-                              requestId:(uint64_t)requestId;
+                              requestId:(uint64_t)requestId
+                             refreshTtl:(nullable NSNumber *)refreshTtl;
 
 /** Error message */
 @property (nonatomic, readonly, nonnull, copy) NSString *message;
@@ -29,6 +30,9 @@ __attribute__((visibility ("default")))
 
 /** Request ID */
 @property (nonatomic, readonly) uint64_t requestId;
+
+/** TTL in seconds for refresh */
+@property (nonatomic, readonly, nullable) NSNumber *refreshTtl;
 
 
 - (BOOL)isEqualToRouterError:(nonnull MBNNRouterError *)other;

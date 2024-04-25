@@ -4,6 +4,7 @@
 
 @class MBNNAdasisConfigMessageOptions;
 
+/** SEGMENT message options */
 NS_SWIFT_NAME(Segment)
 __attribute__((visibility ("default")))
 @interface MBNNSegment : NSObject

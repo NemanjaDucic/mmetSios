@@ -7,4 +7,5 @@
 @class MBNNRouterError;
 
 NS_SWIFT_NAME(RouterCallback)
+__attribute__((deprecated))
 typedef void (^MBNNRouterCallback)(MBXExpected<NSString *, MBNNRouterError *> * _Nonnull routeResponse, MBNNRouterOrigin origin); // NOLINT(modernize-use-using)

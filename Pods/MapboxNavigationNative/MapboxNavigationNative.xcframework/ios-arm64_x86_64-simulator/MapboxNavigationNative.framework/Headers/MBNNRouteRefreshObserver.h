@@ -9,25 +9,27 @@ NS_SWIFT_NAME(RouteRefreshObserver)
 @protocol MBNNRouteRefreshObserver
 /**
  * Will be called if route refresh succeeded
- * @param  id  internal identifier of the refresh request
+ * @param  routeId  UUID-based id of the route being refreshed
  * @param  routeRefreshResponse  A string containing the json response from Directions Refresh API that represents refreshed route leg
  * @param  routeIndex  Index of the route in the original routes response
  * @param  legIndex  Index of the refreshed leg in the route with index routeIndex
+ * @param routeGeometryIndex Index in the route geometry, indicates the first geometry to which the annotations are applied
  */
-- (void)onRouteRefreshAnnotationsUpdatedForId:(uint64_t)id
-                         routeRefreshResponse:(nonnull NSString *)routeRefreshResponse
-                                   routeIndex:(uint32_t)routeIndex
-                                     legIndex:(uint32_t)legIndex;
+- (void)onRouteRefreshAnnotationsUpdatedForRouteId:(nonnull NSString *)routeId
+                              routeRefreshResponse:(nonnull NSString *)routeRefreshResponse
+                                        routeIndex:(uint32_t)routeIndex
+                                          legIndex:(uint32_t)legIndex
+                                routeGeometryIndex:(uint32_t)routeGeometryIndex;
 /**
  * Will be called in case route refresh was cancelled
- * @param  id  internal identifier of the refresh request
+ * @param  routeId  UUID-based id of the route being refreshed
  */
-- (void)onRouteRefreshCancelledForId:(uint64_t)id;
+- (void)onRouteRefreshCancelledForRouteId:(nonnull NSString *)routeId;
 /**
  * Will be called in case route refresh was failed
- * @param  id  internal identifier of the refresh request
+ * @param  routeId  UUID-based id of the route being refreshed
  * @param  error  details of the failure
  */
-- (void)onRouteRefreshFailedForId:(uint64_t)id
-                            error:(nonnull MBNNRouteRefreshError *)error;
+- (void)onRouteRefreshFailedForRouteId:(nonnull NSString *)routeId
+                                 error:(nonnull MBNNRouteRefreshError *)error;
 @end

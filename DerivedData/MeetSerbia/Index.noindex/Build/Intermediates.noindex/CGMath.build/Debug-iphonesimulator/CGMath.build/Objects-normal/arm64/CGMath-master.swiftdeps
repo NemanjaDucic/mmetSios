@@ -1,0 +1,27 @@
+version: "Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)"
+options: "e4c6dccd96592ba0ed325ac880506513714a5bf88d8214048a75f2091e34a89f"
+build_start_time: [1713875127, 65066000]
+build_end_time: [1713875127, 66323000]
+inputs:
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/CGMath/CGMath/Sources/CGFloatListRepresentable.swift"
+  : !dirty [1713875117, 43600040]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/CGMath/CGMath/Sources/CGGeometry.swift"
+  : !dirty [1713875117, 43686415]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/CGMath/CGMath/Sources/CGPoint.swift"
+  : !dirty [1713875117, 43767665]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/CGMath/CGMath/Sources/CGRect.swift": !dirty [1713875117, 43838748]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/CGMath/CGMath/Sources/CGSize.swift": !dirty [1713875117, 43915248]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/CGMath/CGMath/Sources/CGVector.swift"
+  : !dirty [1713875117, 44031998]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/CGMath/CGMath/Sources/Clamped.swift"
+  : !dirty [1713875117, 44146165]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/CGMath/CGMath/Sources/Comparable.swift"
+  : !dirty [1713875117, 44240873]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/CGMath/CGMath/Sources/FloatingPoint.swift"
+  : !dirty [1713875117, 44332123]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/CGMath/CGMath/Sources/UIEdgeInsets.swift"
+  : !dirty [1713875117, 44420498]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/CGMath/CGMath/Sources/UIGeometry.swift"
+  : !dirty [1713875117, 44496790]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/CGMath/CGMath/Sources/UIOffset.swift"
+  : !dirty [1713875117, 44571498]

@@ -21,10 +21,12 @@ __attribute__((visibility ("default")))
 
 - (nonnull instancetype)initWithCollectTunnels:(nullable NSNumber *)collectTunnels
                                 collectBridges:(nullable NSNumber *)collectBridges
-                        collectRestrictedAreas:(nullable NSNumber *)collectRestrictedAreas;
+                        collectRestrictedAreas:(nullable NSNumber *)collectRestrictedAreas
+                           collectMergingAreas:(nullable NSNumber *)collectMergingAreas;
 
 @property (nonatomic, readonly, nullable) NSNumber *collectTunnels;
 @property (nonatomic, readonly, nullable) NSNumber *collectBridges;
 @property (nonatomic, readonly, nullable) NSNumber *collectRestrictedAreas;
+@property (nonatomic, readonly, nullable) NSNumber *collectMergingAreas;
 
 @end

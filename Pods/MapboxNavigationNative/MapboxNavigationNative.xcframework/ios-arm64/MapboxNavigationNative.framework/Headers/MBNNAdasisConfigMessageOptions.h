@@ -2,6 +2,11 @@
 
 #import <Foundation/Foundation.h>
 
+/**
+ * Common message options
+ * enable - if true, message of that type will be generated
+ * radiusMeters - distance along EH path in meters, for which message will be generated
+ */
 NS_SWIFT_NAME(AdasisConfigMessageOptions)
 __attribute__((visibility ("default")))
 @interface MBNNAdasisConfigMessageOptions : NSObject
@@ -9,12 +14,10 @@ __attribute__((visibility ("default")))
 - (nonnull instancetype)init;
 
 - (nonnull instancetype)initWithEnable:(BOOL)enable
-                          radiusMeters:(uint32_t)radiusMeters
-                      repetitionMeters:(uint32_t)repetitionMeters;
+                          radiusMeters:(uint32_t)radiusMeters;
 
 @property (nonatomic, readonly, getter=isEnable) BOOL enable;
 @property (nonatomic, readonly) uint32_t radiusMeters;
-@property (nonatomic, readonly) uint32_t repetitionMeters;
 
 - (BOOL)isEqualToAdasisConfigMessageOptions:(nonnull MBNNAdasisConfigMessageOptions *)other;
 

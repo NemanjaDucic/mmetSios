@@ -5,6 +5,11 @@
 @class MBNNAdasisConfigMessageOptions;
 @class MBNNAdasisConfigProfilelongTypeOptions;
 
+/**
+ * PROFILE LONG message options
+ * options - common options for PROFILE LONG message
+ * types - options for each type of PROFILE LONG message
+ */
 NS_SWIFT_NAME(Profilelong)
 __attribute__((visibility ("default")))
 @interface MBNNProfilelong : NSObject

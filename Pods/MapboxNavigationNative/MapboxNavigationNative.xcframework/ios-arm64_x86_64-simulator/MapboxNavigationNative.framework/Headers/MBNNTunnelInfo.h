@@ -12,10 +12,16 @@ __attribute__((visibility ("default")))
 // This class provides custom init which should be called
 + (nonnull instancetype)new NS_UNAVAILABLE;
 
-- (nonnull instancetype)initWithName:(nullable NSString *)name;
+- (nonnull instancetype)initWithId:(nonnull NSString *)id
+                              name:(nullable NSString *)name;
+
+/** id of the tunnel */
+@property (nonatomic, readonly, nonnull, copy) NSString *id;
 
 /** name of the tunnel */
 @property (nonatomic, readonly, nullable, copy) NSString *name;
 
+
+- (BOOL)isEqualToTunnelInfo:(nonnull MBNNTunnelInfo *)other;
 
 @end

@@ -338,86 +338,44 @@ class LocationDescriptionViewController:UIViewController,UICollectionViewDelegat
     
     @IBAction func startNavButtonClick(_ sender: Any) {
      
-//        if let currentLocation = locationManager.location {
-//            CLGeocoder().reverseGeocodeLocation(currentLocation) { placemarks, error in
-//                if let error = error {
-//                    print("Error getting location: \(error.localizedDescription)")
-//                } else if let placemark = placemarks?.first {
-//                    let origin = CLLocationCoordinate2D(latitude: currentLocation.coordinate.latitude, longitude: currentLocation.coordinate.longitude)
-//                    let endpoint = CLLocationCoordinate2D(latitude: self.lat, longitude: self.long)
-//                    let options = NavigationRouteOptions(coordinates: [origin,endpoint])
-//                    Directions.shared.calculate(options) { [weak self] (_, result) in
-//                        switch result {
-//                        case .failure(let error):
-//                            print(error.localizedDescription)
-//                        case .success(let response):
-//                            guard let strongSelf = self else {
-//                                return
-//                            }
-//                            let indexedRouteResponse = IndexedRouteResponse(routeResponse: response, routeIndex: 0)
-//                            let navigationService = MapboxNavigationService(indexedRouteResponse: indexedRouteResponse,
-//                                                                            customRoutingProvider: NavigationSettings.shared.directions,
-//                                                                            credentials: NavigationSettings.shared.directions.credentials,
-//                                                                            simulating: .onPoorGPS)
-//                            
-//                            let navigationOptions = NavigationOptions(navigationService: navigationService)
-//                            let navigationViewController = NavigationViewController(for: indexedRouteResponse,
-//                                                                                    navigationOptions: navigationOptions)
-//                            navigationViewController.modalPresentationStyle = .fullScreen
-//                           
-//                            navigationViewController.routeLineTracksTraversal = true
-//                            
-//                            strongSelf.present(navigationViewController, animated: true, completion: nil)
-//                        }
-//                    }
-//                }
-//            }
-//        } else {
-//            print("Location is nil")
-//        }
-        print(currentLocationDisplayed)
-        sampleTextHolder.text = currentLocationDisplayed?.descriptionEng
-//        do {
-//                    // Parse HTML
-//            let doc: Document = try SwiftSoup.parse(currentLocationDisplayed!.descriptionLat)
-//                    
-//                    // Get all paragraphs
-//                    let paragraphs: Elements = try doc.select("body > *")
-//                    
-//                    // Create a string to hold formatted content
-//                        
-//                        // Create a string to hold formatted content
-//                        var formattedContent = ""
-//                        
-//                        // Iterate through paragraphs
-//                        for paragraph in paragraphs {
-//                            // Get text content of the paragraph
-//                            let paragraphText = try paragraph.text()
-//                            
-//                            // Check if the paragraph starts with a number followed by a dot
-//                            if let firstCharacter = paragraphText.first, let dotIndex = paragraphText.firstIndex(of: ".") {
-//                                if firstCharacter.isNumber && dotIndex == paragraphText.index(after: paragraphText.startIndex) {
-//                                    // If it starts with a number and a dot, add it as a numbered item in a new line
-//                                    formattedContent += "\(paragraphText)\n"
-//                                } else {
-//                                    // Otherwise, add it as a regular paragraph
-//                                    formattedContent += "\(paragraphText)\n\n"
-//                                }
-//                            } else {
-//                                // If it doesn't start with a number and a dot, add it as a regular paragraph
-//                                formattedContent += "\(paragraphText)\n\n"
-//                            }
-//                        }
-//                        
-//                        // Set the formatted content as text in the UITextView
-//                        sampleTextHolder.text = formattedContent.trimmingCharacters(in: .whitespacesAndNewlines)
-//                        
-//                    } catch Exception.Error(let type, let message) {
-//                        print("Error: \(type) - \(message)")
-//                    } catch {
-//                        print("Error")
-//                    }
-      
+        if let currentLocation = locationManager.location {
+            CLGeocoder().reverseGeocodeLocation(currentLocation) { placemarks, error in
+                if let error = error {
+                    print("Error getting location: \(error.localizedDescription)")
+                } else if let placemark = placemarks?.first {
+                    let origin = CLLocationCoordinate2D(latitude: currentLocation.coordinate.latitude, longitude: currentLocation.coordinate.longitude)
+                    let endpoint = CLLocationCoordinate2D(latitude: self.lat, longitude: self.long)
+                    let options = NavigationRouteOptions(coordinates: [origin,endpoint])
+                    Directions.shared.calculate(options) { [weak self] (_, result) in
+                        switch result {
+                        case .failure(let error):
+                            print(error.localizedDescription)
+                        case .success(let response):
+                            guard let strongSelf = self else {
+                                return
+                            }
+                            let indexedRouteResponse = IndexedRouteResponse(routeResponse: response, routeIndex: 0)
+                            let navigationService = MapboxNavigationService(indexedRouteResponse: indexedRouteResponse,
+                                                                            customRoutingProvider: NavigationSettings.shared.directions,
+                                                                            credentials: NavigationSettings.shared.directions.credentials,
+                                                                            simulating: .onPoorGPS)
+                            
+                            let navigationOptions = NavigationOptions(navigationService: navigationService)
+                            let navigationViewController = NavigationViewController(for: indexedRouteResponse,
+                                                                                    navigationOptions: navigationOptions)
+                            navigationViewController.modalPresentationStyle = .fullScreen
+                           
+                            navigationViewController.routeLineTracksTraversal = true
+                            
+                            strongSelf.present(navigationViewController, animated: true, completion: nil)
+                        }
+                    }
+                }
+            }
+        } else {
+            print("Location is nil")
+        }
+
 
     }
     @IBAction func buttonLikeClick(_ sender: Any) {

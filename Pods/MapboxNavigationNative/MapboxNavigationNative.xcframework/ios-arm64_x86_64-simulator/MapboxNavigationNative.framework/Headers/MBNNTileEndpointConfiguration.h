@@ -16,8 +16,6 @@ __attribute__((visibility ("default")))
                              dataset:(nonnull NSString *)dataset
                              version:(nonnull NSString *)version
                                token:(nonnull NSString *)token
-                           userAgent:(nonnull NSString *)userAgent
-                    navigatorVersion:(nonnull NSString *)navigatorVersion
                           isFallback:(BOOL)isFallback
                versionBeforeFallback:(nonnull NSString *)versionBeforeFallback
 minDiffInDaysToConsiderServerVersion:(nullable NSNumber *)minDiffInDaysToConsiderServerVersion;
@@ -42,17 +40,6 @@ minDiffInDaysToConsiderServerVersion:(nullable NSNumber *)minDiffInDaysToConside
 
 /** Mapbox access token that will be used for ART (and potentially other web services) access */
 @property (nonatomic, readonly, nonnull, copy) NSString *token;
-
-/**
- * Application's portion of the user agent string used for querying web services.
- * No specific format enforced, but it's better to have an SDK and possibly an app name/version here.
- * Will be appended to the internal portion of the user agent string via a whitespace.
- * "<internal part filled by NavNative> ${userAgent}"
- */
-@property (nonatomic, readonly, nonnull, copy) NSString *userAgent;
-
-/** Detailed Navigation SDK version. Purely for information purposes. Can be empty */
-@property (nonatomic, readonly, nonnull, copy) NSString *navigatorVersion;
 
 /** Are we in an off-line fallback mode? */
 @property (nonatomic, readonly, getter=isIsFallback) BOOL isFallback;

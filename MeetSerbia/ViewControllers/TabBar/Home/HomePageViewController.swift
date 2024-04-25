@@ -45,7 +45,7 @@ class HomePageViewController:UIViewController,UITableViewDelegate,UITableViewDat
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         homePageTableView.reloadData()
-        
+       
     }
     
     

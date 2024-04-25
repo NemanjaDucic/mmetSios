@@ -1,0 +1,78 @@
+{
+  "" : {
+    "dependencies" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Index.noindex/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/FirebaseStorage.build/Objects-normal/arm64/FirebaseStorage-master.d",
+    "diagnostics" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Index.noindex/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/FirebaseStorage.build/Objects-normal/arm64/FirebaseStorage-master.dia",
+    "emit-module-dependencies" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Index.noindex/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/FirebaseStorage.build/Objects-normal/arm64/FirebaseStorage-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Index.noindex/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/FirebaseStorage.build/Objects-normal/arm64/FirebaseStorage-master-emit-module.dia",
+    "swift-dependencies" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Index.noindex/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/FirebaseStorage.build/Objects-normal/arm64/FirebaseStorage-master.swiftdeps"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/FirebaseStorage/FirebaseStorage/Sources/AsyncAwait.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/FirebaseStorage/FirebaseStorage/Sources/Internal/StorageDeleteTask.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/FirebaseStorage/FirebaseStorage/Sources/Internal/StorageGetDownloadURLTask.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/FirebaseStorage/FirebaseStorage/Sources/Internal/StorageGetMetadataTask.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/FirebaseStorage/FirebaseStorage/Sources/Internal/StorageListTask.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/FirebaseStorage/FirebaseStorage/Sources/Internal/StoragePath.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/FirebaseStorage/FirebaseStorage/Sources/Internal/StorageTaskState.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/FirebaseStorage/FirebaseStorage/Sources/Internal/StorageTokenAuthorizer.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/FirebaseStorage/FirebaseStorage/Sources/Internal/StorageUpdateMetadataTask.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/FirebaseStorage/FirebaseStorage/Sources/Internal/StorageUtils.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/FirebaseStorage/FirebaseStorage/Sources/Result.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/FirebaseStorage/FirebaseStorage/Sources/Storage.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/FirebaseStorage/FirebaseStorage/Sources/StorageComponent.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/FirebaseStorage/FirebaseStorage/Sources/StorageConstants.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/FirebaseStorage/FirebaseStorage/Sources/StorageDownloadTask.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/FirebaseStorage/FirebaseStorage/Sources/StorageError.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/FirebaseStorage/FirebaseStorage/Sources/StorageListResult.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/FirebaseStorage/FirebaseStorage/Sources/StorageMetadata.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/FirebaseStorage/FirebaseStorage/Sources/StorageObservableTask.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/FirebaseStorage/FirebaseStorage/Sources/StorageReference.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/FirebaseStorage/FirebaseStorage/Sources/StorageTask.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/FirebaseStorage/FirebaseStorage/Sources/StorageTaskSnapshot.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/FirebaseStorage/FirebaseStorage/Sources/StorageUploadTask.swift" : {
+
+  }
+}

@@ -1,4 +1,4 @@
-Copyright © 2018-2021 Mapbox, Inc. 
+Copyright © 2018-2024 Mapbox, Inc. 
 Unauthorized copying of this source code, via any medium is strictly prohibited.
 Proprietary and confidential. 
 

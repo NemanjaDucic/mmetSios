@@ -19,8 +19,6 @@ __attribute__((visibility ("default")))
                                 tileStore:(nullable MBXTileStore *)tileStore
                         inMemoryTileCache:(nullable NSNumber *)inMemoryTileCache
                           onDiskTileCache:(nullable NSNumber *)onDiskTileCache
-                  mapMatchingSpatialCache:(nullable NSNumber *)mapMatchingSpatialCache
-                             threadsCount:(nullable NSNumber *)threadsCount
                            endpointConfig:(nullable MBNNTileEndpointConfiguration *)endpointConfig;
 
 /** Local directory with routing tiles for a cache. If empty, no tiles on disk will be read/written */
@@ -32,14 +30,8 @@ __attribute__((visibility ("default")))
 /** Advisory size of the peak memory use by routing tiles */
 @property (nonatomic, readonly, nullable) NSNumber *inMemoryTileCache;
 
-/** Disk quota for routing tiles stored on the disk */
+/** NOT SUPPORTED: Disk quota for routing tiles stored on the disk */
 @property (nonatomic, readonly, nullable) NSNumber *onDiskTileCache;
-
-/** Obsolete; Not in use */
-@property (nonatomic, readonly, nullable) NSNumber *mapMatchingSpatialCache;
-
-/** Was used with curler implementation in Valhalla. Not in use */
-@property (nonatomic, readonly, nullable) NSNumber *threadsCount;
 
 /** API routing tiles configuration. If not set, no network requests will be made to ART */
 @property (nonatomic, readonly, nullable) MBNNTileEndpointConfiguration *endpointConfig;

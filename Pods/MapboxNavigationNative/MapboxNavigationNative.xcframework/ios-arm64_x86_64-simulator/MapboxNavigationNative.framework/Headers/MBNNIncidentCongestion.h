@@ -23,4 +23,6 @@ __attribute__((visibility ("default")))
 @property (nonatomic, readonly) MBNNIncidentCongestionDescription description;
 
 
+- (BOOL)isEqualToIncidentCongestion:(nonnull MBNNIncidentCongestion *)other;
+
 @end

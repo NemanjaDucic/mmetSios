@@ -1,0 +1,280 @@
+{
+  "" : {
+    "const-values" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/MeetSerbia-master.swiftconstvalues",
+    "dependencies" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/MeetSerbia-master.d",
+    "diagnostics" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/MeetSerbia-master.dia",
+    "emit-module-dependencies" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/MeetSerbia-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/MeetSerbia-master-emit-module.dia",
+    "swift-dependencies" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/MeetSerbia-master.swiftdeps"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "index-unit-output-path" : "/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/GeneratedAssetSymbols.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/MeetSerbia/AppDelegate.swift" : {
+    "index-unit-output-path" : "/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/AppDelegate.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/AppDelegate.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/AppDelegate.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/MeetSerbia/Helpers/AppUtility.swift" : {
+    "index-unit-output-path" : "/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/AppUtility.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/AppUtility.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/AppUtility.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/MeetSerbia/Helpers/Constants.swift" : {
+    "index-unit-output-path" : "/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/Constants.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/Constants.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/Constants.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/MeetSerbia/Helpers/Data.swift" : {
+    "index-unit-output-path" : "/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/Data.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/Data.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/Data.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/MeetSerbia/Helpers/LocalMenager.swift" : {
+    "index-unit-output-path" : "/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/LocalMenager.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/LocalMenager.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/LocalMenager.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/MeetSerbia/Helpers/PaddingLabel.swift" : {
+    "index-unit-output-path" : "/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/PaddingLabel.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/PaddingLabel.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/PaddingLabel.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/MeetSerbia/Helpers/TYPE + Extension.swift" : {
+    "index-unit-output-path" : "/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/TYPE + Extension.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/TYPE + Extension.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/TYPE + Extension.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/MeetSerbia/Helpers/UI+Extensions.swift" : {
+    "index-unit-output-path" : "/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/UI+Extensions.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/UI+Extensions.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/UI+Extensions.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/MeetSerbia/Helpers/UserDefaultsManager.swift" : {
+    "index-unit-output-path" : "/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/UserDefaultsManager.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/UserDefaultsManager.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/UserDefaultsManager.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/MeetSerbia/Helpers/Utils.swift" : {
+    "index-unit-output-path" : "/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/Utils.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/Utils.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/Utils.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/MeetSerbia/Models/CoordinateModel.swift" : {
+    "index-unit-output-path" : "/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/CoordinateModel.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/CoordinateModel.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/CoordinateModel.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/MeetSerbia/Models/CustomRoute.swift" : {
+    "index-unit-output-path" : "/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/CustomRoute.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/CustomRoute.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/CustomRoute.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/MeetSerbia/Models/DataModel.swift" : {
+    "index-unit-output-path" : "/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/DataModel.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/DataModel.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/DataModel.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/MeetSerbia/Models/LocationModel.swift" : {
+    "index-unit-output-path" : "/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/LocationModel.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/LocationModel.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/LocationModel.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/MeetSerbia/Models/MemoryModel.swift" : {
+    "index-unit-output-path" : "/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/MemoryModel.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/MemoryModel.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/MemoryModel.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/MeetSerbia/Models/TollModel.swift" : {
+    "index-unit-output-path" : "/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/TollModel.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/TollModel.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/TollModel.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/MeetSerbia/Networking/FirebaseWizard.swift" : {
+    "index-unit-output-path" : "/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/FirebaseWizard.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/FirebaseWizard.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/FirebaseWizard.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/MeetSerbia/SceneDelegate.swift" : {
+    "index-unit-output-path" : "/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/SceneDelegate.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/SceneDelegate.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/SceneDelegate.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/MeetSerbia/VCTEST.swift" : {
+    "index-unit-output-path" : "/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/VCTEST.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/VCTEST.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/VCTEST.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/MeetSerbia/ViewControllers/Onboarding/LaunchScreenViewController.swift" : {
+    "index-unit-output-path" : "/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/LaunchScreenViewController.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/LaunchScreenViewController.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/LaunchScreenViewController.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/MeetSerbia/ViewControllers/Onboarding/MyPageViewController.swift" : {
+    "index-unit-output-path" : "/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/MyPageViewController.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/MyPageViewController.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/MyPageViewController.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/MeetSerbia/ViewControllers/Onboarding/OnboardingViewCoontrollerMain.swift" : {
+    "index-unit-output-path" : "/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/OnboardingViewCoontrollerMain.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/OnboardingViewCoontrollerMain.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/OnboardingViewCoontrollerMain.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/MeetSerbia/ViewControllers/Onboarding/PageOneVC.swift" : {
+    "index-unit-output-path" : "/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/PageOneVC.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/PageOneVC.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/PageOneVC.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/MeetSerbia/ViewControllers/Onboarding/RootViewController.swift" : {
+    "index-unit-output-path" : "/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/RootViewController.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/RootViewController.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/RootViewController.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/MeetSerbia/ViewControllers/Onboarding/Slide1ViewController.swift" : {
+    "index-unit-output-path" : "/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/Slide1ViewController.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/Slide1ViewController.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/Slide1ViewController.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/MeetSerbia/ViewControllers/Onboarding/Slide2ViewController.swift" : {
+    "index-unit-output-path" : "/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/Slide2ViewController.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/Slide2ViewController.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/Slide2ViewController.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/MeetSerbia/ViewControllers/Onboarding/Slide3ViewController.swift" : {
+    "index-unit-output-path" : "/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/Slide3ViewController.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/Slide3ViewController.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/Slide3ViewController.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/MeetSerbia/ViewControllers/Register/RegisterViewController.swift" : {
+    "index-unit-output-path" : "/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/RegisterViewController.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/RegisterViewController.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/RegisterViewController.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/MeetSerbia/ViewControllers/Register/ResetPasswordViewController.swift" : {
+    "index-unit-output-path" : "/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/ResetPasswordViewController.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/ResetPasswordViewController.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/ResetPasswordViewController.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/MeetSerbia/ViewControllers/TabBar/FoodViewController.swift" : {
+    "index-unit-output-path" : "/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/FoodViewController.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/FoodViewController.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/FoodViewController.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/MeetSerbia/ViewControllers/TabBar/Home/FilteredMapViewController.swift" : {
+    "index-unit-output-path" : "/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/FilteredMapViewController.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/FilteredMapViewController.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/FilteredMapViewController.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/MeetSerbia/ViewControllers/TabBar/Home/HomePageViewController.swift" : {
+    "index-unit-output-path" : "/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/HomePageViewController.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/HomePageViewController.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/HomePageViewController.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/MeetSerbia/ViewControllers/TabBar/Home/SelectedLocation/LocationDescriptionViewController.swift" : {
+    "index-unit-output-path" : "/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/LocationDescriptionViewController.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/LocationDescriptionViewController.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/LocationDescriptionViewController.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/MeetSerbia/ViewControllers/TabBar/Home/SelectedLocation/PreviewImageViewController.swift" : {
+    "index-unit-output-path" : "/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/PreviewImageViewController.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/PreviewImageViewController.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/PreviewImageViewController.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/MeetSerbia/ViewControllers/TabBar/Home/SelectedLocation/ZoomingViewController.swift" : {
+    "index-unit-output-path" : "/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/ZoomingViewController.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/ZoomingViewController.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/ZoomingViewController.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/MeetSerbia/ViewControllers/TabBar/Profile/AddNewMemmoryNavigation.swift" : {
+    "index-unit-output-path" : "/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/AddNewMemmoryNavigation.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/AddNewMemmoryNavigation.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/AddNewMemmoryNavigation.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/MeetSerbia/ViewControllers/TabBar/Profile/AddNewMemmoryViewController.swift" : {
+    "index-unit-output-path" : "/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/AddNewMemmoryViewController.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/AddNewMemmoryViewController.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/AddNewMemmoryViewController.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/MeetSerbia/ViewControllers/TabBar/Profile/Favourites/FavouriteLocationsViewController.swift" : {
+    "index-unit-output-path" : "/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/FavouriteLocationsViewController.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/FavouriteLocationsViewController.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/FavouriteLocationsViewController.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/MeetSerbia/ViewControllers/TabBar/Profile/Favourites/FavouriteMapViewController.swift" : {
+    "index-unit-output-path" : "/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/FavouriteMapViewController.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/FavouriteMapViewController.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/FavouriteMapViewController.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/MeetSerbia/ViewControllers/TabBar/Profile/Favourites/FavouriteRoutesViewController.swift" : {
+    "index-unit-output-path" : "/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/FavouriteRoutesViewController.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/FavouriteRoutesViewController.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/FavouriteRoutesViewController.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/MeetSerbia/ViewControllers/TabBar/Profile/MemmoriesViewController.swift" : {
+    "index-unit-output-path" : "/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/MemmoriesViewController.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/MemmoriesViewController.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/MemmoriesViewController.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/MeetSerbia/ViewControllers/TabBar/Profile/ProfileViewController.swift" : {
+    "index-unit-output-path" : "/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/ProfileViewController.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/ProfileViewController.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/ProfileViewController.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/MeetSerbia/ViewControllers/TabBar/SleepViewController.swift" : {
+    "index-unit-output-path" : "/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/SleepViewController.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/SleepViewController.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/SleepViewController.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/MeetSerbia/ViewControllers/TabBar/TabBarMainController.swift" : {
+    "index-unit-output-path" : "/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/TabBarMainController.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/TabBarMainController.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/TabBarMainController.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/MeetSerbia/ViewControllers/TabBar/Travel/TravelViewController.swift" : {
+    "index-unit-output-path" : "/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/TravelViewController.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/TravelViewController.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/TravelViewController.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/MeetSerbia/Views/HomePageTableViewCell.swift" : {
+    "index-unit-output-path" : "/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/HomePageTableViewCell.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/HomePageTableViewCell.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/HomePageTableViewCell.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/MeetSerbia/Views/HorizontalCollectionViewCell.swift" : {
+    "index-unit-output-path" : "/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/HorizontalCollectionViewCell.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/HorizontalCollectionViewCell.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/HorizontalCollectionViewCell.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/MeetSerbia/Views/ImagesCollectionViewCell.swift" : {
+    "index-unit-output-path" : "/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/ImagesCollectionViewCell.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/ImagesCollectionViewCell.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/ImagesCollectionViewCell.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/MeetSerbia/Views/MemmoryTableViewCell.swift" : {
+    "index-unit-output-path" : "/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/MemmoryTableViewCell.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/MemmoryTableViewCell.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/MemmoryTableViewCell.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/MeetSerbia/Views/PinchCollectionViewCell.swift" : {
+    "index-unit-output-path" : "/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/PinchCollectionViewCell.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/PinchCollectionViewCell.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/PinchCollectionViewCell.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/MeetSerbia/Views/SavedLocationsTableViewCell.swift" : {
+    "index-unit-output-path" : "/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/SavedLocationsTableViewCell.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/SavedLocationsTableViewCell.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/SavedLocationsTableViewCell.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/MeetSerbia/Views/SavedRoutesTableViewCell.swift" : {
+    "index-unit-output-path" : "/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/SavedRoutesTableViewCell.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/SavedRoutesTableViewCell.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/SavedRoutesTableViewCell.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/MeetSerbia/Views/TableViewCell.swift" : {
+    "index-unit-output-path" : "/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/TableViewCell.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/TableViewCell.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/MeetSerbia.build/Release-iphoneos/MeetSerbia.build/Objects-normal/arm64/TableViewCell.o"
+  }
+}

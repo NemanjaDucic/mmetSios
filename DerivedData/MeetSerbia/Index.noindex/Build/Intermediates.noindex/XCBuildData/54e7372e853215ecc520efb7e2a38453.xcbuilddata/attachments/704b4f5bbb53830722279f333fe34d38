@@ -1,0 +1,12 @@
+{
+  "" : {
+    "dependencies" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Index.noindex/Build/Intermediates.noindex/MeetSerbia.build/Debug-iphoneos/MeetSerbiaTests.build/Objects-normal/arm64/MeetSerbiaTests-master.d",
+    "diagnostics" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Index.noindex/Build/Intermediates.noindex/MeetSerbia.build/Debug-iphoneos/MeetSerbiaTests.build/Objects-normal/arm64/MeetSerbiaTests-master.dia",
+    "emit-module-dependencies" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Index.noindex/Build/Intermediates.noindex/MeetSerbia.build/Debug-iphoneos/MeetSerbiaTests.build/Objects-normal/arm64/MeetSerbiaTests-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Index.noindex/Build/Intermediates.noindex/MeetSerbia.build/Debug-iphoneos/MeetSerbiaTests.build/Objects-normal/arm64/MeetSerbiaTests-master-emit-module.dia",
+    "swift-dependencies" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Index.noindex/Build/Intermediates.noindex/MeetSerbia.build/Debug-iphoneos/MeetSerbiaTests.build/Objects-normal/arm64/MeetSerbiaTests-master.swiftdeps"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/MeetSerbiaTests/MeetSerbiaTests.swift" : {
+
+  }
+}

@@ -11,3 +11,5 @@ typedef NS_ENUM(NSInteger, MBNNVehicleType)
     MBNNVehicleTypeTrailer,
     MBNNVehicleTypeMotorcycle
 } NS_SWIFT_NAME(VehicleType);
+
+NSString* MBNNVehicleTypeToString(MBNNVehicleType vehicle_type);

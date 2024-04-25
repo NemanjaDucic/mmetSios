@@ -1,0 +1,89 @@
+version: "Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)"
+options: "832cab530d7ec499bd53e97befa832dda778b03ffdf6abe060424939c555668c"
+build_start_time: [1713875146, 367357000]
+build_end_time: [1713875167, 31786000]
+inputs:
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/SwiftSoup/Sources/ArrayExt.swift": [1713875116, 651314146]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/SwiftSoup/Sources/Attribute.swift": [1713875116, 651414521]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/SwiftSoup/Sources/Attributes.swift": [1713875116, 651531270]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/SwiftSoup/Sources/BinarySearch.swift"
+  : [1713875116, 651619229]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/SwiftSoup/Sources/BooleanAttribute.swift"
+  : [1713875116, 651695520]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/SwiftSoup/Sources/CharacterExt.swift"
+  : [1713875116, 651786979]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/SwiftSoup/Sources/CharacterReader.swift"
+  : [1713875116, 651936270]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/SwiftSoup/Sources/Cleaner.swift": [1713875116, 652026895]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/SwiftSoup/Sources/Collector.swift": [1713875116, 652109812]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/SwiftSoup/Sources/CombiningEvaluator.swift"
+  : [1713875116, 652208812]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/SwiftSoup/Sources/Comment.swift": [1713875116, 652298853]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/SwiftSoup/Sources/Connection.swift": [1713875116, 652403437]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/SwiftSoup/Sources/CssSelector.swift"
+  : [1713875116, 652524645]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/SwiftSoup/Sources/DataNode.swift": [1713875116, 652644770]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/SwiftSoup/Sources/DataUtil.swift": [1713875116, 652763103]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/SwiftSoup/Sources/Document.swift": [1713875116, 652906686]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/SwiftSoup/Sources/DocumentType.swift"
+  : [1713875116, 653018978]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/SwiftSoup/Sources/Element.swift": [1713875116, 653160520]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/SwiftSoup/Sources/Elements.swift": [1713875116, 653360103]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/SwiftSoup/Sources/Entities.swift": [1713875116, 653639311]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/SwiftSoup/Sources/Evaluator.swift": [1713875116, 653765853]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/SwiftSoup/Sources/Exception.swift": [1713875116, 653866644]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/SwiftSoup/Sources/FormElement.swift"
+  : [1713875116, 653968228]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/SwiftSoup/Sources/HtmlTreeBuilder.swift"
+  : [1713875116, 654135019]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/SwiftSoup/Sources/HtmlTreeBuilderState.swift"
+  : [1713875116, 654405228]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/SwiftSoup/Sources/HttpStatusException.swift"
+  : [1713875116, 654563977]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/SwiftSoup/Sources/Mutex.swift": [1713875116, 655050935]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/SwiftSoup/Sources/Node.swift": [1713875116, 655247769]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/SwiftSoup/Sources/NodeTraversor.swift"
+  : [1713875116, 655368727]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/SwiftSoup/Sources/NodeVisitor.swift"
+  : [1713875116, 655474227]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/SwiftSoup/Sources/OrderedSet.swift": [1713875116, 655614560]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/SwiftSoup/Sources/ParseError.swift": [1713875116, 655704143]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/SwiftSoup/Sources/ParseErrorList.swift"
+  : [1713875116, 655804727]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/SwiftSoup/Sources/ParseSettings.swift"
+  : [1713875116, 655897977]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/SwiftSoup/Sources/Parser.swift": [1713875116, 656003685]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/SwiftSoup/Sources/Pattern.swift": [1713875116, 656097018]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/SwiftSoup/Sources/QueryParser.swift"
+  : [1713875116, 656249185]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/SwiftSoup/Sources/SerializationException.swift"
+  : [1713875116, 656349227]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/SwiftSoup/Sources/SimpleDictionary.swift"
+  : [1713875116, 656440810]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/SwiftSoup/Sources/StreamReader.swift"
+  : [1713875116, 656533185]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/SwiftSoup/Sources/String.swift": [1713875116, 656632351]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/SwiftSoup/Sources/StringBuilder.swift"
+  : [1713875116, 656738476]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/SwiftSoup/Sources/StringUtil.swift": [1713875116, 656851976]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/SwiftSoup/Sources/StructuralEvaluator.swift"
+  : [1713875116, 656937851]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/SwiftSoup/Sources/SwiftSoup.swift": [1713875116, 657132185]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/SwiftSoup/Sources/Tag.swift": [1713875116, 657257768]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/SwiftSoup/Sources/TextNode.swift": [1713875116, 657349518]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/SwiftSoup/Sources/Token.swift": [1713875116, 657447809]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/SwiftSoup/Sources/TokenQueue.swift": [1713875116, 657539643]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/SwiftSoup/Sources/Tokeniser.swift": [1713875116, 657659601]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/SwiftSoup/Sources/TokeniserState.swift"
+  : [1713875116, 657843351]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/SwiftSoup/Sources/TreeBuilder.swift"
+  : [1713875116, 657955184]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/SwiftSoup/Sources/UnfairLock.swift": [1713875116, 658031601]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/SwiftSoup/Sources/UnicodeScalar.swift"
+  : [1713875116, 658115017]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/SwiftSoup/Sources/Validate.swift": [1713875116, 658201559]
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/SwiftSoup/Sources/Whitelist.swift": [1713875116, 658353351]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/SwiftSoup/Sources/XmlDeclaration.swift"
+  : [1713875116, 658444517]
+  ? "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/SourcePackages/checkouts/SwiftSoup/Sources/XmlTreeBuilder.swift"
+  : [1713875116, 658532975]

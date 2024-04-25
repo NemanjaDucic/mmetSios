@@ -16,7 +16,7 @@ __attribute__((visibility ("default")))
 
 /**
  *  Timeout defines how long, in seconds, the request is allowed to take in total (including connecting to the host).
- *  Zero is meaning no timeout. Empty  is meaning default timeout from the configuration.
+ *  Zero is meaning no timeout. Empty (nullopt) is meaning default timeout from the configuration.
  */
 @property (nonatomic, readonly, nullable) NSNumber *timeoutSeconds;
 

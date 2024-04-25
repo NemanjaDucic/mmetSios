@@ -764,9 +764,11 @@ open class NavigationMapView: UIView {
                 let gradientStops = routeLineCongestionGradient(route,
                                                                 congestionFeatures: congestionFeatures,
                                                                 isSoft: crossfadesCongestionSegments)
-                defaultLineLayer.lineGradient = .expression((Expression.routeLineGradientExpression(gradientStops,
-                                                                                              lineBaseColor: trafficUnknownColor,
-                                                                                              isSoft: crossfadesCongestionSegments)))
+                defaultLineLayer.lineGradient = .expression(
+                    (Expression.routeLineGradientExpression(gradientStops,
+                                                            lineBaseColor: trafficUnknownColor,
+                                                            isSoft: crossfadesCongestionSegments))
+                )
             } else {
                 if showsCongestionForAlternativeRoutes {
                     let gradientStops = routeLineCongestionGradient(route,
@@ -1086,7 +1088,7 @@ open class NavigationMapView: UIView {
             case .none:
                 mapView.location.options.puckType = .puck2D(emptyPuckConfiguration)
             }
-            mapView.location.options.puckBearingSource = .course
+            mapView.location.options.puckBearing = .course
         }
     }
     
@@ -1297,9 +1299,6 @@ open class NavigationMapView: UIView {
         let shape = delegate?.navigationMapView(self, shapeFor: waypoints, legIndex: legIndex) ?? FeatureCollection(features: features)
         
         if route.legs.count > 1 {
-            removeAlternativeRoutes()
-            routes = [route]
-            
             do {
                 let waypointSourceIdentifier = NavigationMapView.SourceIdentifier.waypointSource
                 
@@ -1720,7 +1719,8 @@ open class NavigationMapView: UIView {
      */
     public init(frame: CGRect,
                 navigationCameraType: NavigationCameraType = .mobile,
-                tileStoreLocation: TileStoreConfiguration.Location? = .default) {
+                tileStoreLocation: TileStoreConfiguration.Location? = NavigationSettings.shared.tileStoreConfiguration.mapLocation
+) {
         super.init(frame: frame)
         let mapView = makeMapView(
             frame: frame,

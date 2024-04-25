@@ -10,3 +10,5 @@ typedef NS_ENUM(NSInteger, MBNNSpeedLimitUnit)
     /** miles per hour */
     MBNNSpeedLimitUnitMilesPerHour
 } NS_SWIFT_NAME(SpeedLimitUnit);
+
+NSString* MBNNSpeedLimitUnitToString(MBNNSpeedLimitUnit speed_limit_unit);

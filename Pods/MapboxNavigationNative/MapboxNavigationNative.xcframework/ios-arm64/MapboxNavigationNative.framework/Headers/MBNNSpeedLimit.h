@@ -14,15 +14,16 @@ __attribute__((visibility ("default")))
 // This class provides custom init which should be called
 + (nonnull instancetype)new NS_UNAVAILABLE;
 
-- (nonnull instancetype)initWithSpeedKmph:(nullable NSNumber *)speedKmph
-                               localeUnit:(MBNNSpeedLimitUnit)localeUnit
-                               localeSign:(MBNNSpeedLimitSign)localeSign;
+- (nonnull instancetype)initWithSpeed:(nullable NSNumber *)speed
+                           localeUnit:(MBNNSpeedLimitUnit)localeUnit
+                           localeSign:(MBNNSpeedLimitSign)localeSign;
 
 /**
- * speed in kilometres per hour
- *  `nullopt` for unlimited speed limit
+ * Speed in the units defined by localeUnit
+ *  `nullopt` for unknown speed limit
+ *  0 for unlimited speed
  */
-@property (nonatomic, readonly, nullable) NSNumber *speedKmph;
+@property (nonatomic, readonly, nullable) NSNumber *speed;
 
 /** default unit */
 @property (nonatomic, readonly) MBNNSpeedLimitUnit localeUnit;
@@ -30,5 +31,7 @@ __attribute__((visibility ("default")))
 /** default sign */
 @property (nonatomic, readonly) MBNNSpeedLimitSign localeSign;
 
+
+- (BOOL)isEqualToSpeedLimit:(nonnull MBNNSpeedLimit *)other;
 
 @end

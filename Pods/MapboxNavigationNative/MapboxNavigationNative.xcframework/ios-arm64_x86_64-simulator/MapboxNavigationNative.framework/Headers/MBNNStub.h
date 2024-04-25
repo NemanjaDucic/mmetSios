@@ -4,6 +4,7 @@
 
 @class MBNNAdasisConfigMessageOptions;
 
+/** STUB message options */
 NS_SWIFT_NAME(Stub)
 __attribute__((visibility ("default")))
 @interface MBNNStub : NSObject

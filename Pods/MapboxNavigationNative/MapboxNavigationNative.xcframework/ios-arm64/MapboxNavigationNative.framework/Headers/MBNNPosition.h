@@ -21,4 +21,6 @@ __attribute__((visibility ("default")))
 @property (nonatomic, readonly, nonnull) MBNNGraphPosition *position;
 @property (nonatomic, readonly) CLLocationCoordinate2D coordinate;
 
+- (BOOL)isEqualToPosition:(nonnull MBNNPosition *)other;
+
 @end

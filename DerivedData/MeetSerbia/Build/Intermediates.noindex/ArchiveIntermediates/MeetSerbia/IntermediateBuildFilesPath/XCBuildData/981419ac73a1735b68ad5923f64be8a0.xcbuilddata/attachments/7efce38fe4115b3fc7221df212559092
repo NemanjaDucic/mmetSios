@@ -1,0 +1,1140 @@
+{
+  "" : {
+    "const-values" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/MapboxNavigation-master.swiftconstvalues",
+    "dependencies" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/MapboxNavigation-master.d",
+    "diagnostics" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/MapboxNavigation-master.dia",
+    "emit-module-dependencies" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/MapboxNavigation-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/MapboxNavigation-master-emit-module.dia",
+    "swift-dependencies" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/MapboxNavigation-master.swiftdeps"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/GeneratedAssetSymbols.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/Array.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/Array.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/Array.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/Array.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/ArrivalController.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/ArrivalController.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/ArrivalController.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/ArrivalController.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/AVAudioSession.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/AVAudioSession.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/AVAudioSession.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/AVAudioSession.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/Banner.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/Banner.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/Banner.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/Banner.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/BannerContainerView.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/BannerContainerView.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/BannerContainerView.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/BannerContainerView.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/BannerContainerViewDelegate.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/BannerContainerViewDelegate.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/BannerContainerViewDelegate.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/BannerContainerViewDelegate.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/BannerDismissalViewController.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/BannerDismissalViewController.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/BannerDismissalViewController.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/BannerDismissalViewController.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/BannerDismissalViewControllerDelegate.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/BannerDismissalViewControllerDelegate.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/BannerDismissalViewControllerDelegate.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/BannerDismissalViewControllerDelegate.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/BannerDismissalViewControllerLayout.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/BannerDismissalViewControllerLayout.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/BannerDismissalViewControllerLayout.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/BannerDismissalViewControllerLayout.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/BannerPresentation.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/BannerPresentation.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/BannerPresentation.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/BannerPresentation.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/BannerPresentationDelegate.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/BannerPresentationDelegate.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/BannerPresentationDelegate.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/BannerPresentationDelegate.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/BannerView.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/BannerView.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/BannerView.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/BannerView.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/BottomBannerViewController.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/BottomBannerViewController.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/BottomBannerViewController.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/BottomBannerViewController.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/BottomBannerViewControllerDelegate.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/BottomBannerViewControllerDelegate.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/BottomBannerViewControllerDelegate.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/BottomBannerViewControllerDelegate.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/BottomBannerViewControllerLayout.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/BottomBannerViewControllerLayout.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/BottomBannerViewControllerLayout.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/BottomBannerViewControllerLayout.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/BoundingBox.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/BoundingBox.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/BoundingBox.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/BoundingBox.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/BuildingHighlighting.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/BuildingHighlighting.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/BuildingHighlighting.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/BuildingHighlighting.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/Bundle.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/Bundle.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/Bundle.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/Bundle.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/Cache.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/Cache.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/Cache.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/Cache.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/CameraController.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/CameraController.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/CameraController.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/CameraController.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/CameraModeFloatingButton.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/CameraModeFloatingButton.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/CameraModeFloatingButton.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/CameraModeFloatingButton.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/CameraStateTransition.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/CameraStateTransition.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/CameraStateTransition.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/CameraStateTransition.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/CarPlayActivity.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/CarPlayActivity.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/CarPlayActivity.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/CarPlayActivity.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/CarPlayCompassView.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/CarPlayCompassView.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/CarPlayCompassView.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/CarPlayCompassView.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/CarPlayManager.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/CarPlayManager.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/CarPlayManager.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/CarPlayManager.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/CarPlayManagerDelegate.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/CarPlayManagerDelegate.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/CarPlayManagerDelegate.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/CarPlayManagerDelegate.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/CarPlayMapViewController.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/CarPlayMapViewController.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/CarPlayMapViewController.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/CarPlayMapViewController.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/CarPlayMapViewControllerDelegate.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/CarPlayMapViewControllerDelegate.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/CarPlayMapViewControllerDelegate.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/CarPlayMapViewControllerDelegate.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/CarPlayNavigationViewController.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/CarPlayNavigationViewController.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/CarPlayNavigationViewController.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/CarPlayNavigationViewController.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/CarPlayNavigationViewControllerDelegate.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/CarPlayNavigationViewControllerDelegate.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/CarPlayNavigationViewControllerDelegate.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/CarPlayNavigationViewControllerDelegate.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/CarPlaySearchController.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/CarPlaySearchController.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/CarPlaySearchController.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/CarPlaySearchController.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/CarPlaySearchController+CPSearchTemplateDelegate.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/CarPlaySearchController+CPSearchTemplateDelegate.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/CarPlaySearchController+CPSearchTemplateDelegate.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/CarPlaySearchController+CPSearchTemplateDelegate.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/CarPlaySearchControllerDelegate.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/CarPlaySearchControllerDelegate.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/CarPlaySearchControllerDelegate.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/CarPlaySearchControllerDelegate.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/CGPoint.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/CGPoint.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/CGPoint.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/CGPoint.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/CGSize.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/CGSize.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/CGSize.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/CGSize.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/CLLocationCoordinate2D.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/CLLocationCoordinate2D.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/CLLocationCoordinate2D.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/CLLocationCoordinate2D.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/CLLocationDirection+Camera.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/CLLocationDirection+Camera.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/CLLocationDirection+Camera.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/CLLocationDirection+Camera.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/Collection.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/Collection.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/Collection.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/Collection.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/CongestionLevel+CarPlay.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/CongestionLevel+CarPlay.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/CongestionLevel+CarPlay.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/CongestionLevel+CarPlay.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/Constants.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/Constants.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/Constants.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/Constants.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/CPInterfaceController.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/CPInterfaceController.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/CPInterfaceController.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/CPInterfaceController.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/CPMapTemplate.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/CPMapTemplate.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/CPMapTemplate.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/CPMapTemplate.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/CPRouteChoice.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/CPRouteChoice.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/CPRouteChoice.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/CPRouteChoice.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/CPTrip.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/CPTrip.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/CPTrip.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/CPTrip.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/DataCache.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/DataCache.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/DataCache.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/DataCache.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/Date.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/Date.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/Date.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/Date.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/DateComponentsFormatter+NavigationAdditions.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/DateComponentsFormatter+NavigationAdditions.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/DateComponentsFormatter+NavigationAdditions.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/DateComponentsFormatter+NavigationAdditions.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/DayStyle.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/DayStyle.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/DayStyle.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/DayStyle.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/DestinationDataSource.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/DestinationDataSource.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/DestinationDataSource.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/DestinationDataSource.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/DestinationOptions.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/DestinationOptions.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/DestinationOptions.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/DestinationOptions.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/DestinationPreviewViewController.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/DestinationPreviewViewController.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/DestinationPreviewViewController.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/DestinationPreviewViewController.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/DestinationPreviewViewControllerDelegate.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/DestinationPreviewViewControllerDelegate.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/DestinationPreviewViewControllerDelegate.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/DestinationPreviewViewControllerDelegate.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/DestinationPreviewViewControllerLayout.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/DestinationPreviewViewControllerLayout.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/DestinationPreviewViewControllerLayout.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/DestinationPreviewViewControllerLayout.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/Dictionary.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/Dictionary.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/Dictionary.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/Dictionary.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/DistanceLabel.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/DistanceLabel.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/DistanceLabel.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/DistanceLabel.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/EndOfRouteViewController.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/EndOfRouteViewController.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/EndOfRouteViewController.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/EndOfRouteViewController.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/Error.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/Error.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/Error.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/Error.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/ExitView.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/ExitView.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/ExitView.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/ExitView.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/Expression.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/Expression.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/Expression.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/Expression.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/Feature.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/Feature.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/Feature.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/Feature.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/Feedback/ActiveNavigationFeedbackType+FeedbackItem.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/ActiveNavigationFeedbackType+FeedbackItem.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/ActiveNavigationFeedbackType+FeedbackItem.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/ActiveNavigationFeedbackType+FeedbackItem.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/Feedback/DialogViewController.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/DialogViewController.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/DialogViewController.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/DialogViewController.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/Feedback/FeedbackCollectionViewCell.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/FeedbackCollectionViewCell.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/FeedbackCollectionViewCell.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/FeedbackCollectionViewCell.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/Feedback/FeedbackItem.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/FeedbackItem.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/FeedbackItem.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/FeedbackItem.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/Feedback/FeedbackItemType.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/FeedbackItemType.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/FeedbackItemType.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/FeedbackItemType.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/Feedback/FeedbackSubtypeCollectionViewCell.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/FeedbackSubtypeCollectionViewCell.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/FeedbackSubtypeCollectionViewCell.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/FeedbackSubtypeCollectionViewCell.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/Feedback/FeedbackSubtypeViewController.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/FeedbackSubtypeViewController.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/FeedbackSubtypeViewController.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/FeedbackSubtypeViewController.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/Feedback/FeedbackViewController.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/FeedbackViewController.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/FeedbackViewController.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/FeedbackViewController.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/Feedback/FeedbackViewControllerType.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/FeedbackViewControllerType.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/FeedbackViewControllerType.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/FeedbackViewControllerType.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/Feedback/PassiveNavigationFeedbackType+FeedbackItem.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/PassiveNavigationFeedbackType+FeedbackItem.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/PassiveNavigationFeedbackType+FeedbackItem.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/PassiveNavigationFeedbackType+FeedbackItem.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/FloatingButton.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/FloatingButton.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/FloatingButton.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/FloatingButton.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/FollowingCameraOptions.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/FollowingCameraOptions.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/FollowingCameraOptions.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/FollowingCameraOptions.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/GenericRouteShield.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/GenericRouteShield.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/GenericRouteShield.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/GenericRouteShield.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/HighlightedButton.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/HighlightedButton.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/HighlightedButton.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/HighlightedButton.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/HighwayShield.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/HighwayShield.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/HighwayShield.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/HighwayShield.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/IdleTimerManager.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/IdleTimerManager.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/IdleTimerManager.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/IdleTimerManager.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/ImageCache.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/ImageCache.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/ImageCache.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/ImageCache.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/ImageDownload.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/ImageDownload.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/ImageDownload.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/ImageDownload.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/ImageDownloader.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/ImageDownloader.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/ImageDownloader.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/ImageDownloader.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/ImageRepository.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/ImageRepository.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/ImageRepository.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/ImageRepository.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/InstructionLabel.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/InstructionLabel.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/InstructionLabel.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/InstructionLabel.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/InstructionPresenter.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/InstructionPresenter.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/InstructionPresenter.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/InstructionPresenter.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/InstructionsBannerView.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/InstructionsBannerView.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/InstructionsBannerView.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/InstructionsBannerView.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/InstructionsBannerViewDelegate.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/InstructionsBannerViewDelegate.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/InstructionsBannerViewDelegate.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/InstructionsBannerViewDelegate.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/InstructionsCardCell.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/InstructionsCardCell.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/InstructionsCardCell.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/InstructionsCardCell.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/InstructionsCardCollectionDelegate.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/InstructionsCardCollectionDelegate.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/InstructionsCardCollectionDelegate.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/InstructionsCardCollectionDelegate.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/InstructionsCardContainerView.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/InstructionsCardContainerView.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/InstructionsCardContainerView.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/InstructionsCardContainerView.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/InstructionsCardContainerViewDelegate.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/InstructionsCardContainerViewDelegate.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/InstructionsCardContainerViewDelegate.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/InstructionsCardContainerViewDelegate.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/InstructionsCardView.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/InstructionsCardView.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/InstructionsCardView.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/InstructionsCardView.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/InstructionsCardViewController.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/InstructionsCardViewController.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/InstructionsCardViewController.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/InstructionsCardViewController.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/JunctionView.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/JunctionView.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/JunctionView.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/JunctionView.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/LanesStyleKit.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/LanesStyleKit.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/LanesStyleKit.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/LanesStyleKit.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/LanesView.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/LanesView.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/LanesView.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/LanesView.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/LaneView.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/LaneView.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/LaneView.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/LaneView.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/LineView.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/LineView.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/LineView.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/LineView.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/LocationAuthorization.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/LocationAuthorization.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/LocationAuthorization.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/LocationAuthorization.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/Log.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/Log.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/Log.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/Log.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/ManeuverContainerView.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/ManeuverContainerView.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/ManeuverContainerView.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/ManeuverContainerView.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/ManeuversStyleKit.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/ManeuversStyleKit.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/ManeuversStyleKit.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/ManeuversStyleKit.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/ManeuverView.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/ManeuverView.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/ManeuverView.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/ManeuverView.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/MapboxMapsStyle.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/MapboxMapsStyle.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/MapboxMapsStyle.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/MapboxMapsStyle.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/MapboxSpeechSynthesizer.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/MapboxSpeechSynthesizer.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/MapboxSpeechSynthesizer.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/MapboxSpeechSynthesizer.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/MapOrnamentPosition.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/MapOrnamentPosition.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/MapOrnamentPosition.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/MapOrnamentPosition.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/MapTemplateProvider.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/MapTemplateProvider.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/MapTemplateProvider.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/MapTemplateProvider.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/MapTemplateProviderDelegate.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/MapTemplateProviderDelegate.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/MapTemplateProviderDelegate.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/MapTemplateProviderDelegate.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/MapView.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/MapView.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/MapView.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/MapView.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/MarkerView.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/MarkerView.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/MarkerView.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/MarkerView.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/Match.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/Match.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/Match.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/Match.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/MultiplexedSpeechSynthesizer.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/MultiplexedSpeechSynthesizer.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/MultiplexedSpeechSynthesizer.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/MultiplexedSpeechSynthesizer.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/NavigationCamera.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationCamera.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationCamera.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationCamera.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/NavigationCameraConstants.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationCameraConstants.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationCameraConstants.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationCameraConstants.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/NavigationCameraDebugView.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationCameraDebugView.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationCameraDebugView.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationCameraDebugView.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/NavigationCameraState.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationCameraState.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationCameraState.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationCameraState.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/NavigationCameraStateTransition.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationCameraStateTransition.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationCameraStateTransition.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationCameraStateTransition.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/NavigationCameraType.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationCameraType.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationCameraType.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationCameraType.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/NavigationComponent.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationComponent.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationComponent.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationComponent.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/NavigationCustomizable.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationCustomizable.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationCustomizable.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationCustomizable.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/NavigationGeocodedPlacemark.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationGeocodedPlacemark.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationGeocodedPlacemark.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationGeocodedPlacemark.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/NavigationLocationProvider.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationLocationProvider.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationLocationProvider.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationLocationProvider.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/NavigationMapView.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationMapView.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationMapView.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationMapView.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/NavigationMapView+Annotations.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationMapView+Annotations.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationMapView+Annotations.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationMapView+Annotations.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/NavigationMapView+BuildingHighlighting.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationMapView+BuildingHighlighting.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationMapView+BuildingHighlighting.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationMapView+BuildingHighlighting.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/NavigationMapView+CLLocationManagerDelegate.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationMapView+CLLocationManagerDelegate.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationMapView+CLLocationManagerDelegate.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationMapView+CLLocationManagerDelegate.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/NavigationMapView+ContinuousAlternatives.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationMapView+ContinuousAlternatives.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationMapView+ContinuousAlternatives.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationMapView+ContinuousAlternatives.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/NavigationMapView+LocationAuthorization.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationMapView+LocationAuthorization.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationMapView+LocationAuthorization.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationMapView+LocationAuthorization.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/NavigationMapView+VanishingRouteLine.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationMapView+VanishingRouteLine.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationMapView+VanishingRouteLine.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationMapView+VanishingRouteLine.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/NavigationMapViewDelegate.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationMapViewDelegate.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationMapViewDelegate.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationMapViewDelegate.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/NavigationMapViewIdentifiers.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationMapViewIdentifiers.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationMapViewIdentifiers.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationMapViewIdentifiers.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/NavigationOptions.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationOptions.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationOptions.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationOptions.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/NavigationView.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationView.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationView.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationView.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/NavigationView+PreviewCamera.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationView+PreviewCamera.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationView+PreviewCamera.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationView+PreviewCamera.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/NavigationViewController.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationViewController.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationViewController.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationViewController.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/NavigationViewController+NavigationMapViewDelegate.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationViewController+NavigationMapViewDelegate.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationViewController+NavigationMapViewDelegate.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationViewController+NavigationMapViewDelegate.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/NavigationViewControllerDelegate.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationViewControllerDelegate.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationViewControllerDelegate.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationViewControllerDelegate.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/NavigationViewData.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationViewData.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationViewData.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationViewData.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/NavigationViewDelegate.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationViewDelegate.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationViewDelegate.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationViewDelegate.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/NavigationViewLayout.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationViewLayout.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationViewLayout.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationViewLayout.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/NavigationViewportDataSource.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationViewportDataSource.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationViewportDataSource.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationViewportDataSource.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/NavigationViewportDataSourceOptions.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationViewportDataSourceOptions.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationViewportDataSourceOptions.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NavigationViewportDataSourceOptions.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/NextBannerView.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NextBannerView.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NextBannerView.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NextBannerView.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/NightStyle.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NightStyle.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NightStyle.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NightStyle.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/NSAttributedString.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NSAttributedString.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NSAttributedString.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/NSAttributedString.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/OrnamentsController.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/OrnamentsController.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/OrnamentsController.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/OrnamentsController.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/OverviewCameraOptions.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/OverviewCameraOptions.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/OverviewCameraOptions.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/OverviewCameraOptions.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/PassiveLocationProvider.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/PassiveLocationProvider.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/PassiveLocationProvider.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/PassiveLocationProvider.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/Preview.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/Preview.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/Preview.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/Preview.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/PreviewOptions.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/PreviewOptions.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/PreviewOptions.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/PreviewOptions.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/PreviewViewController.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/PreviewViewController.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/PreviewViewController.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/PreviewViewController.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/PreviewViewControllerDelegate.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/PreviewViewControllerDelegate.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/PreviewViewControllerDelegate.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/PreviewViewControllerDelegate.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/PreviewViewControllerLayout.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/PreviewViewControllerLayout.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/PreviewViewControllerLayout.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/PreviewViewControllerLayout.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/ProgressBar.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/ProgressBar.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/ProgressBar.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/ProgressBar.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/RatingControl.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/RatingControl.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/RatingControl.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/RatingControl.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/RecentItem.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/RecentItem.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/RecentItem.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/RecentItem.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/ReportButton.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/ReportButton.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/ReportButton.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/ReportButton.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/ResourceOptionsManager.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/ResourceOptionsManager.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/ResourceOptionsManager.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/ResourceOptionsManager.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/ResumeButton.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/ResumeButton.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/ResumeButton.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/ResumeButton.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/Route.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/Route.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/Route.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/Route.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/RouteDurationAnnotationTailPosition.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/RouteDurationAnnotationTailPosition.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/RouteDurationAnnotationTailPosition.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/RouteDurationAnnotationTailPosition.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/RouteLineController.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/RouteLineController.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/RouteLineController.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/RouteLineController.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/RouteLineType.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/RouteLineType.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/RouteLineType.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/RouteLineType.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/RoutePreviewDataSource.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/RoutePreviewDataSource.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/RoutePreviewDataSource.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/RoutePreviewDataSource.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/RoutePreviewOptions.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/RoutePreviewOptions.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/RoutePreviewOptions.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/RoutePreviewOptions.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/RoutePreviewViewController.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/RoutePreviewViewController.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/RoutePreviewViewController.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/RoutePreviewViewController.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/RoutePreviewViewControllerDelegate.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/RoutePreviewViewControllerDelegate.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/RoutePreviewViewControllerDelegate.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/RoutePreviewViewControllerDelegate.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/RoutePreviewViewControllerLayout.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/RoutePreviewViewControllerLayout.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/RoutePreviewViewControllerLayout.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/RoutePreviewViewControllerLayout.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/RouteProgress+Arrival.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/RouteProgress+Arrival.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/RouteProgress+Arrival.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/RouteProgress+Arrival.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/RoutesPresentationStyle.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/RoutesPresentationStyle.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/RoutesPresentationStyle.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/RoutesPresentationStyle.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/RouteVoiceController.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/RouteVoiceController.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/RouteVoiceController.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/RouteVoiceController.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/SeparatorView.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/SeparatorView.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/SeparatorView.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/SeparatorView.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/Solar.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/Solar.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/Solar.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/Solar.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/SpeechSynthesizing.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/SpeechSynthesizing.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/SpeechSynthesizing.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/SpeechSynthesizing.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/SpeedLimitStyleKit.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/SpeedLimitStyleKit.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/SpeedLimitStyleKit.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/SpeedLimitStyleKit.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/SpeedLimitView.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/SpeedLimitView.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/SpeedLimitView.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/SpeedLimitView.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/SpriteRepository.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/SpriteRepository.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/SpriteRepository.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/SpriteRepository.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/Stack.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/Stack.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/Stack.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/Stack.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/StatusView.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/StatusView.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/StatusView.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/StatusView.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/StepListIndicatorView.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/StepListIndicatorView.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/StepListIndicatorView.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/StepListIndicatorView.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/StepsViewController.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/StepsViewController.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/StepsViewController.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/StepsViewController.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/StepsViewControllerDelegate.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/StepsViewControllerDelegate.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/StepsViewControllerDelegate.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/StepsViewControllerDelegate.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/StepTableViewCell.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/StepTableViewCell.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/StepTableViewCell.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/StepTableViewCell.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/String.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/String.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/String.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/String.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/StylableButton.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/StylableButton.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/StylableButton.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/StylableButton.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/StylableLabel.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/StylableLabel.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/StylableLabel.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/StylableLabel.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/StylableTextView.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/StylableTextView.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/StylableTextView.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/StylableTextView.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/StylableView.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/StylableView.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/StylableView.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/StylableView.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/Style.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/Style.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/Style.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/Style.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/StyleKitMarker.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/StyleKitMarker.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/StyleKitMarker.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/StyleKitMarker.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/StyleManager.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/StyleManager.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/StyleManager.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/StyleManager.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/StyleManagerDelegate.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/StyleManagerDelegate.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/StyleManagerDelegate.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/StyleManagerDelegate.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/StyleType.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/StyleType.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/StyleType.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/StyleType.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/StyleURI.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/StyleURI.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/StyleURI.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/StyleURI.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/SubtitleLabel.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/SubtitleLabel.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/SubtitleLabel.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/SubtitleLabel.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/SystemSpeechSynthesizer.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/SystemSpeechSynthesizer.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/SystemSpeechSynthesizer.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/SystemSpeechSynthesizer.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/TitleLabel.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/TitleLabel.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/TitleLabel.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/TitleLabel.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/TopBannerViewController.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/TopBannerViewController.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/TopBannerViewController.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/TopBannerViewController.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/TopBannerViewControllerDelegate.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/TopBannerViewControllerDelegate.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/TopBannerViewControllerDelegate.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/TopBannerViewControllerDelegate.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/Transitioning.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/Transitioning.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/Transitioning.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/Transitioning.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/UICollectionView.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/UICollectionView.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/UICollectionView.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/UICollectionView.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/UIColor.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/UIColor.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/UIColor.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/UIColor.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/UIDevice.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/UIDevice.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/UIDevice.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/UIDevice.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/UIEdgeInsets.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/UIEdgeInsets.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/UIEdgeInsets.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/UIEdgeInsets.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/UIFont.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/UIFont.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/UIFont.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/UIFont.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/UIGestureRecognizer.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/UIGestureRecognizer.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/UIGestureRecognizer.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/UIGestureRecognizer.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/UIImage.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/UIImage.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/UIImage.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/UIImage.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/UILayoutGuide.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/UILayoutGuide.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/UILayoutGuide.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/UILayoutGuide.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/UIScreen.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/UIScreen.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/UIScreen.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/UIScreen.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/UIStackView.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/UIStackView.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/UIStackView.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/UIStackView.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/UIView.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/UIView.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/UIView.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/UIView.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/UIViewController.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/UIViewController.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/UIViewController.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/UIViewController.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/URLRequest.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/URLRequest.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/URLRequest.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/URLRequest.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/URLSessionDelegateProxy.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/URLSessionDelegateProxy.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/URLSessionDelegateProxy.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/URLSessionDelegateProxy.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/UserCourseView.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/UserCourseView.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/UserCourseView.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/UserCourseView.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/UserHaloCourseView.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/UserHaloCourseView.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/UserHaloCourseView.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/UserHaloCourseView.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/UserLocationStyle.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/UserLocationStyle.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/UserLocationStyle.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/UserLocationStyle.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/UserPuckStyleKit.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/UserPuckStyleKit.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/UserPuckStyleKit.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/UserPuckStyleKit.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/Utils.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/Utils.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/Utils.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/Utils.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/VectorSource.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/VectorSource.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/VectorSource.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/VectorSource.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/ViewportDataSource.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/ViewportDataSource.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/ViewportDataSource.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/ViewportDataSource.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/ViewportDataSourceType.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/ViewportDataSourceType.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/ViewportDataSourceType.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/ViewportDataSourceType.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/VisualInstruction.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/VisualInstruction.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/VisualInstruction.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/VisualInstruction.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/VisualInstructionComponent.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/VisualInstructionComponent.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/VisualInstructionComponent.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/VisualInstructionComponent.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/VisualInstructionDelegate.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/VisualInstructionDelegate.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/VisualInstructionDelegate.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/VisualInstructionDelegate.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/WayNameLabel.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/WayNameLabel.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/WayNameLabel.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/WayNameLabel.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/WayNameView.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/WayNameView.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/WayNameView.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/WayNameView.o"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxNavigation/Sources/MapboxNavigation/WaypointStyle.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/WaypointStyle.o",
+    "llvm-bc" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/WaypointStyle.bc",
+    "object" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Build/Intermediates.noindex/ArchiveIntermediates/MeetSerbia/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/MapboxNavigation.build/Objects-normal/arm64/WaypointStyle.o"
+  }
+}

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>colors</key>
+	<array/>
+	<key>images</key>
+	<array>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Location/Puck/IndicatorAssets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameLocationDotInner</string>
+			<key>relativePath</key>
+			<string>./location-dot-inner.imageset</string>
+			<key>swiftSymbol</key>
+			<string>locationDotInner</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Location/Puck/IndicatorAssets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameLocationDotOuter</string>
+			<key>relativePath</key>
+			<string>./location-dot-outer.imageset</string>
+			<key>swiftSymbol</key>
+			<string>locationDotOuter</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxMaps/Sources/MapboxMaps/Location/Puck/IndicatorAssets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameTriangle</string>
+			<key>relativePath</key>
+			<string>./triangle.imageset</string>
+			<key>swiftSymbol</key>
+			<string>triangle</string>
+		</dict>
+	</array>
+	<key>symbols</key>
+	<array/>
+</dict>
+</plist>

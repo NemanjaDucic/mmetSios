@@ -18,10 +18,17 @@ __attribute__((visibility ("default")))
                                     legIndex:(uint32_t)legIndex
                            alternativeRoutes:(nonnull NSArray<id<MBNNRouteInterface>> *)alternativeRoutes;
 
+/** The main route that will be tracked by navigator. */
 @property (nonatomic, readonly, nonnull) id<MBNNRouteInterface> primaryRoute;
-/** Leg index of primary route. Can be >0 in the case of switch from alternative route back to main route. */
+
+/**
+ * Leg index of primary route. For eV routes it may differ for alternatives,
+ * but for non-eV routes it's usually the same for all alternatives and the main route.
+ */
 @property (nonatomic, readonly) uint32_t legIndex;
 
+/** Alternative routes size is usually from 0 to 2 */
 @property (nonatomic, readonly, nonnull, copy) NSArray<id<MBNNRouteInterface>> *alternativeRoutes;
+
 
 @end

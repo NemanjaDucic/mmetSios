@@ -20,14 +20,14 @@
 - (void)setAlternativeRoutesForRoutes:(nonnull NSArray<id<MBNNRouteInterface>> *)routes
                              callback:(nonnull MBNNSetAlternativeRoutesCallback)callback;
 - (void)refreshRouteForRouteRefreshResponse:(nonnull NSString *)routeRefreshResponse
-                                   callback:(nonnull MBNNRefreshRouteCallback)callback;
+                                   callback:(nonnull MBNNRefreshRouteCallback)callback __attribute__((deprecated));
 - (void)refreshRouteForRouteRefreshResponse:(nonnull NSString *)routeRefreshResponse
                                     routeId:(nonnull NSString *)routeId
-                                   callback:(nonnull MBNNRefreshRouteCallback)callback;
+                                   callback:(nonnull MBNNRefreshRouteCallback)callback __attribute__((deprecated));
 - (void)refreshRouteForRouteRefreshResponse:(nonnull NSString *)routeRefreshResponse
                                     routeId:(nonnull NSString *)routeId
                               geometryIndex:(uint32_t)geometryIndex
-                                   callback:(nonnull MBNNRefreshRouteCallback)callback;
+                                   callback:(nonnull MBNNRefreshRouteCallback)callback __attribute__((deprecated));
 - (void)setRerouteControllerForController:(nonnull id<MBNNRerouteControllerInterface>)controller;
 - (nonnull id<MBNNRerouteControllerInterface>)getRerouteController __attribute((ns_returns_retained));
 - (nonnull id<MBNNRerouteDetectorInterface>)getRerouteDetector __attribute((ns_returns_retained));

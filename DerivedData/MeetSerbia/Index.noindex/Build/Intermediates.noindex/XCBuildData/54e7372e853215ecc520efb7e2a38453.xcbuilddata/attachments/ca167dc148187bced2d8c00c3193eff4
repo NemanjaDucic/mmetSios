@@ -1,0 +1,72 @@
+{
+  "" : {
+    "dependencies" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Index.noindex/Build/Intermediates.noindex/Pods.build/Debug-maccatalyst/Turf.build/Objects-normal/arm64/Turf-master.d",
+    "diagnostics" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Index.noindex/Build/Intermediates.noindex/Pods.build/Debug-maccatalyst/Turf.build/Objects-normal/arm64/Turf-master.dia",
+    "emit-module-dependencies" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Index.noindex/Build/Intermediates.noindex/Pods.build/Debug-maccatalyst/Turf.build/Objects-normal/arm64/Turf-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Index.noindex/Build/Intermediates.noindex/Pods.build/Debug-maccatalyst/Turf.build/Objects-normal/arm64/Turf-master-emit-module.dia",
+    "swift-dependencies" : "/Users/nemanjaducic/Documents/GitHub/mmetSios/DerivedData/MeetSerbia/Index.noindex/Build/Intermediates.noindex/Pods.build/Debug-maccatalyst/Turf.build/Objects-normal/arm64/Turf-master.swiftdeps"
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Turf/Sources/Turf/BoundingBox.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Turf/Sources/Turf/Codable.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Turf/Sources/Turf/CoreLocation.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Turf/Sources/Turf/Feature.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Turf/Sources/Turf/FeatureCollection.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Turf/Sources/Turf/FeatureIdentifier.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Turf/Sources/Turf/GeoJSON.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Turf/Sources/Turf/Geometries/GeometryCollection.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Turf/Sources/Turf/Geometries/LineString.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Turf/Sources/Turf/Geometries/MultiLineString.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Turf/Sources/Turf/Geometries/MultiPoint.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Turf/Sources/Turf/Geometries/MultiPolygon.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Turf/Sources/Turf/Geometries/Point.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Turf/Sources/Turf/Geometries/Polygon.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Turf/Sources/Turf/Geometry.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Turf/Sources/Turf/JSON.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Turf/Sources/Turf/RadianCoordinate2D.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Turf/Sources/Turf/Ring.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Turf/Sources/Turf/Simplifier.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Turf/Sources/Turf/Spline.swift" : {
+
+  },
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Turf/Sources/Turf/Turf.swift" : {
+
+  }
+}

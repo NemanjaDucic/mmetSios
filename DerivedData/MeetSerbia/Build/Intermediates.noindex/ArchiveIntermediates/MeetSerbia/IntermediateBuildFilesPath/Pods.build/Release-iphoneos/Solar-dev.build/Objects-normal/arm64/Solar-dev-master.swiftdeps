@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)"
+options: "79c673fe4eaed84a03751ed2be5b09c3622eb24b7c46d228c5fa5c82828c443b"
+build_start_time: [1713875154, 971426000]
+build_end_time: [1713875161, 402735000]
+inputs:
+  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/Solar-dev/Solar/Solar.swift": [1712575756, 962891004]

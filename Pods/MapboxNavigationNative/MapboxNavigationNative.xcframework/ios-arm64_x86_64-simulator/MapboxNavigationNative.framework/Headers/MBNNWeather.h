@@ -10,3 +10,5 @@ typedef NS_ENUM(NSInteger, MBNNWeather)
     MBNNWeatherFog,
     MBNNWeatherWetRoad
 } NS_SWIFT_NAME(Weather);
+
+NSString* MBNNWeatherToString(MBNNWeather weather);

@@ -2,6 +2,12 @@
 
 #import <Foundation/Foundation.h>
 
+/**
+ * PROFILE LONG message options
+ * lat - if true, latitude type will be generated
+ * lon - if true, longitude type will be generated
+ * trafficSign - if true, Traffic Sign type will be generated
+ */
 NS_SWIFT_NAME(AdasisConfigProfilelongTypeOptions)
 __attribute__((visibility ("default")))
 @interface MBNNAdasisConfigProfilelongTypeOptions : NSObject
@@ -10,15 +16,11 @@ __attribute__((visibility ("default")))
 
 - (nonnull instancetype)initWithLat:(BOOL)lat
                                 lon:(BOOL)lon
-                                alt:(BOOL)alt
-                        trafficSign:(BOOL)trafficSign
-                       extendedLane:(BOOL)extendedLane;
+                        trafficSign:(BOOL)trafficSign;
 
 @property (nonatomic, readonly, getter=isLat) BOOL lat;
 @property (nonatomic, readonly, getter=isLon) BOOL lon;
-@property (nonatomic, readonly, getter=isAlt) BOOL alt;
 @property (nonatomic, readonly, getter=isTrafficSign) BOOL trafficSign;
-@property (nonatomic, readonly, getter=isExtendedLane) BOOL extendedLane;
 
 - (BOOL)isEqualToAdasisConfigProfilelongTypeOptions:(nonnull MBNNAdasisConfigProfilelongTypeOptions *)other;
 

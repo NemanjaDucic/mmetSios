@@ -23,4 +23,6 @@ __attribute__((visibility ("default")))
 @property (nonatomic, readonly) double percentAlong;
 
 
+- (BOOL)isEqualToGraphPosition:(nonnull MBNNGraphPosition *)other;
+
 @end

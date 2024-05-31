@@ -23,6 +23,7 @@ struct LocationModel: Codable {
     let nameEng: String
     let nameLat: String
     var primaryCategory: String
+    var isAccessible: [Bool]
 
     init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
@@ -40,6 +41,7 @@ struct LocationModel: Codable {
         nameEng = try container.decodeIfPresent(String.self, forKey: .nameEng) ?? ""
         nameLat = try container.decodeIfPresent(String.self, forKey: .nameLat) ?? ""
         primaryCategory = try container.decodeIfPresent(String.self, forKey: .primaryCategory) ?? ""
+        isAccessible = try container.decodeIfPresent([Bool].self, forKey: .isAccessible) ?? []
     }
 
     func toDictionary() -> [String: Any] {
@@ -57,7 +59,8 @@ struct LocationModel: Codable {
             "nameLat": nameLat,
             "subcat": subcat,
             "video": video,
-            "primaryCategory": primaryCategory
+            "primaryCategory": primaryCategory,
+            "isAccessible": isAccessible
         ]
     }
 }

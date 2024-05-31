@@ -19,7 +19,7 @@ class FirebaseWizard{
 
     }
     func removeFromFavoriteLocations(locationID:String){
-        refrence.child("users").child(UserDefaultsManager.userID)  .child("favourites").child("localities").child(locationID).removeValue()
+        refrence.child("users").child(UserDefaultsManager.userID).child("favourites").child("localities").child(locationID).removeValue()
     }
     func getFavorites( completion: @escaping ([LocationModel]?, Error?) -> Void) {
         refrence.child("favorites").child(UserDefaultsManager.userID).observeSingleEvent(of: .value, with: { snapshot  in
@@ -66,20 +66,7 @@ class FirebaseWizard{
         }
     }
 
-//    func getAllLocations(completion: @escaping ([LocationModel]?, Error?) -> Void) {
-//        let ref = Database.database().reference(withPath: "locations")
-//        
-//        ref.observeSingleEvent(of: .value) { snapshot in
-//            guard let data = try? JSONSerialization.data(withJSONObject: snapshot.value),
-//                  let locations = try? JSONDecoder().decode([String: LocationModel].self, from: data) else {
-//                completion(nil, NSError(domain: "YourApp", code: 1, userInfo: [NSLocalizedDescriptionKey: "Failed to retrieve locations"]))
-//                return
-//            }
-//            
-//            let locationModels = Array(locations.values)
-//            completion(locationModels, nil)
-//        }
-//    }
+
     func getAllLocations(completion: @escaping ([LocationModel]?, Error?) -> Void) {
         let ref = Database.database().reference(withPath: "locations")
         
@@ -265,6 +252,7 @@ class FirebaseWizard{
                     }
                 }
             }
+        
             
             // Fetch cover image
             let coverImageRef = Storage.storage().reference().child("images/\(UserDefaultsManager.userID)/cover.jpg")

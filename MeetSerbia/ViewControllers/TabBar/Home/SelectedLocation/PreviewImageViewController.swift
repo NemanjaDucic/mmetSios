@@ -30,7 +30,6 @@ class PreviewImageViewController:UIViewController,UIScrollViewDelegate{
         scroll.setup()
         scroll.imageScrollViewDelegate = self
         scroll.display(image: setImage!)
-   
         
         let swipeLeftGesture = UISwipeGestureRecognizer(target: self, action: #selector(handleSwipeLeft))
         swipeLeftGesture.direction = .left
@@ -39,6 +38,50 @@ class PreviewImageViewController:UIViewController,UIScrollViewDelegate{
         let swipeRightGesture = UISwipeGestureRecognizer(target: self, action: #selector(handleSwipeRight))
         swipeRightGesture.direction = .right
         scroll.addGestureRecognizer(swipeRightGesture)
+        buttonLeft.setTitle("", for: .normal)
+        buttonLeft.setTitleColor(.white, for: .normal)
+        buttonLeft.backgroundColor = .clear
+        buttonLeft.translatesAutoresizingMaskIntoConstraints = false
+        buttonLeft.setImage(UIImage(systemName: "chevron.backward"), for: .normal)
+                buttonRight.setTitle("", for: .normal)
+                buttonRight.setTitleColor(.white, for: .normal)
+                buttonRight.backgroundColor = .clear
+                buttonRight.translatesAutoresizingMaskIntoConstraints = false
+                buttonRight.setImage(UIImage(systemName: "chevron.forward"), for: .normal)
+                buttonRight.addTarget(self, action: #selector(handleSwipeRight), for: .touchUpInside)
+                buttonLeft.addTarget(self, action: #selector(handleSwipeLeft), for: .touchUpInside)
+                buttonLeft.tintColor = .white
+                buttonRight.tintColor = .white
+                view.addSubview(buttonRight)
+                view.addSubview(buttonLeft)
+                let buttonSize: CGFloat = 40 // Set the desired button size
+                buttonLeft.widthAnchor.constraint(equalToConstant: buttonSize).isActive = true
+                buttonLeft.heightAnchor.constraint(equalToConstant: buttonSize).isActive = true
+        
+                buttonRight.widthAnchor.constraint(equalToConstant: buttonSize).isActive = true
+                buttonRight.heightAnchor.constraint(equalToConstant: buttonSize).isActive = true
+                buttonLeft.imageView?.contentMode = .scaleAspectFit
+                buttonRight.imageView?.contentMode = .scaleAspectFit
+                var config = UIButton.Configuration.filled()
+                  config.imagePadding = 40
+                buttonRight.configuration = config
+                buttonLeft.configuration = config
+        NSLayoutConstraint.activate([
+            buttonLeft.centerYAnchor.constraint(equalTo: view.centerYAnchor),
+            buttonLeft.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 16),
+            buttonLeft.widthAnchor.constraint(equalToConstant: 60),
+            buttonLeft.heightAnchor.constraint(equalToConstant: 60),
+            
+            buttonRight.centerYAnchor.constraint(equalTo: view.centerYAnchor),
+            buttonRight.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -16),
+            buttonRight.widthAnchor.constraint(equalToConstant: 60),
+            buttonRight.heightAnchor.constraint(equalToConstant: 60)
+        ])
+//        scroll.zoomView?.addSubview(buttonRight)
+//        scroll.zoomView?.bringSubviewToFront(buttonRight)
+//        scroll.zoomView?.bringSubviewToFront(buttonLeft)
+//        scroll.zoomView?.addSubview(buttonLeft)
+
         
     }
     
@@ -82,11 +125,7 @@ extension PreviewImageViewController: ImageScrollViewDelegate {
 //    }
 
 //
-//        buttonLeft.setTitle("", for: .normal)
-//        buttonLeft.setTitleColor(.white, for: .normal)
-//        buttonLeft.backgroundColor = .clear
-//        buttonLeft.translatesAutoresizingMaskIntoConstraints = false
-//        buttonLeft.setImage(UIImage(systemName: "chevron.backward"), for: .normal)
+//
 //        buttonRight.setTitle("", for: .normal)
 //        buttonRight.setTitleColor(.white, for: .normal)
 //        buttonRight.backgroundColor = .clear

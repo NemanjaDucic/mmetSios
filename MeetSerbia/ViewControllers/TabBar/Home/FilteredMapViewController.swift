@@ -11,8 +11,8 @@ import MapboxCoreMaps
 import CoreLocation
 import Firebase
 import MapboxCommon
-import MapboxCoreNavigation
 import iProgressHUD
+import MapboxNavigationCore
 
 
 class FilteredMapViewController:UIViewController,CLLocationManagerDelegate, UICollectionViewDataSource, UICollectionViewDelegate,UICollectionViewDelegateFlowLayout, SubcategorySelectedDelegate{
@@ -28,9 +28,10 @@ class FilteredMapViewController:UIViewController,CLLocationManagerDelegate, UICo
        
 
     }
+  
     var landscapeConstraints: [NSLayoutConstraint] = []
-
-    let allCategories = Data().items as [DataModel]
+    var isDisabledEnabled = false
+    let allCategories = CategoryData().items as [DataModel]
     private let firebaseWizard = FirebaseWizard()
     @IBOutlet weak var heightConstraintCV: NSLayoutConstraint!
     @IBOutlet weak var heightConst: NSLayoutConstraint!
@@ -45,6 +46,8 @@ class FilteredMapViewController:UIViewController,CLLocationManagerDelegate, UICo
     var pointAnnotationManager : PointAnnotationManager?
      var sentFromSearch:Bool?
     var selectedSub = ""
+    private var rightBarButton = UIBarButtonItem()
+
     override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
         return [.landscape,.landscapeRight,.landscapeLeft]
     }
@@ -54,9 +57,6 @@ class FilteredMapViewController:UIViewController,CLLocationManagerDelegate, UICo
     internal var mapView: MapView!
     private var allAnotations = [LocationModel]()
     private var filterAnnotations = [LocationModel]()
-    lazy var settingsService: SettingsServiceInterface = {
-         return SettingsServiceFactory.getInstance(storageType: SettingsServiceStorageType.persistent)
-     }()
     override func viewDidLoad() {
         super.viewDidLoad()
         initSetup()
@@ -130,11 +130,16 @@ class FilteredMapViewController:UIViewController,CLLocationManagerDelegate, UICo
          }
 
      }
-
+    func localise () {
+      var settingServices:SettingsService{
+            SettingsServiceFactory.getInstance(storageType:  .persistent)
+        }
+        settingServices.set(key: MapboxCommonSettings.language, value: Constants().getMapLanguage())
+    }   
     private func multipleCategoriesInfo(categories: [String]) -> (subcategories: [String], images: [String]) {
         var subcategoriesArray = [String]()
         var imagesArray = [String]()
-        let allCategories = Data().items as [DataModel]
+        let allCategories = CategoryData().items as [DataModel]
         
         for category in allCategories {
             if categories.contains(where: { $0.lowercased() == category.categoryLat.lowercased() }) {
@@ -177,12 +182,14 @@ class FilteredMapViewController:UIViewController,CLLocationManagerDelegate, UICo
 
 
     private func initSetup(){
-        let myResourceOptions = ResourceOptions(accessToken: Constants.token)
-        let myMapInitOptions = MapInitOptions(resourceOptions: myResourceOptions)
+        let myMapInitOptions = MapInitOptions(styleURI: StyleURI.streets)
+        
         setupLandscapeConstraints()
         mapView = MapView(frame: mhView.bounds   , mapInitOptions: myMapInitOptions)
         mapView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
         mapView.isUserInteractionEnabled = true
+       
+       
         let width = Constants.serbiaNorthEast.longitude - Constants.serbiaSouthWest.longitude
         let height = Constants.serbiaNorthEast.latitude - Constants.serbiaSouthWest.latitude
         iProgressHUD.sharedInstance().attachProgress(toView: self.view)
@@ -209,30 +216,28 @@ class FilteredMapViewController:UIViewController,CLLocationManagerDelegate, UICo
         let bounds = CoordinateBounds(southwest: expandedSouthWest,
         northeast: expandedNorthEast)
         try? mapView.mapboxMap.setCameraBounds(with: CameraBoundsOptions(bounds: bounds))
-        let camera = mapView.mapboxMap.camera(for: bounds, padding: .zero, bearing:0, pitch: 0)
-        mapView.mapboxMap.setCamera(to: camera)
         selectedFilters.append(contentsOf: selectedCategories)
         floatinButton.backgroundColor = nil
         mhView.bringSubviewToFront(floatinButton)
-        
-        if sentFromSearch! {
-            
-            LocalManager.shared.getAllLocations { locations in
-                DispatchQueue.main.async {
-                    self.filterAnnotations = locations
-                    let filtered = self.filterAnnotations.filter{$0.subcat.contains(self.selectedSub.lowercased()) == true}
-                    self.addFilterAnnotations(filtered)
-                    self.horizontalCV.reloadData()
-                    self.view.dismissProgress()
+     
+        mapView.mapboxMap.onNext(event: .mapLoaded) { [weak self] _ in
+                    do {
+                        self!.localise()
+                    } catch {
+                        print("Failed to localize labels: \(error.localizedDescription)")
+                    }
                 }
-            }
-            
-            
-        } else {
-                
-                LocalManager.shared.getAllLocations { locations in
+       
+        
+        UserDefaultsManager.getCachedLocations { locations in
                     DispatchQueue.main.async {
-                        self.addAnnotations(locations.filterLocations(byCategories: self.selectedCategories))
+                        if self.isDisabledEnabled {
+                            self.addAnnotations(locations!.filterLocations(byCategories: self.selectedCategories).filter{$0.isAccessible[0] == true})
+
+                        } else {
+                            self.addAnnotations(locations!.filterLocations(byCategories: self.selectedCategories))
+
+                        }
                         if self.multipleCategoriesInfo(categories: self.selectedCategories).subcategories.isEmpty {
                             
                         } else {
@@ -248,8 +253,30 @@ class FilteredMapViewController:UIViewController,CLLocationManagerDelegate, UICo
                         
                     }
                 }
-        }
+        rightBarButton = UIBarButtonItem(title: "", style: .plain, target: self, action: #selector(disableButtonTapped))
+        let originalImage = isDisabledEnabled ? UIImage(named: "disabled_enabled")! : UIImage(named: "disabled_disable")!
+        let resizedImage = AppUtility().resizeImage(image: originalImage, targetSize: CGSize(width: 24, height: 24))
+        rightBarButton.setBackgroundImage(resizedImage, for: .normal, barMetrics: .default)
+        self.navigationItem.rightBarButtonItem = rightBarButton
         
+    }
+    @objc func disableButtonTapped() {
+            disabledEnabled(enabled: isDisabledEnabled)
+       }
+    func disabledEnabled(enabled:Bool){
+        isDisabledEnabled = !isDisabledEnabled
+        var originalImage = UIImage(named: "disabled_enabled")!
+        var originalImage2 = UIImage(named: "disabled_disable")!
+        if enabled == true {
+            let resizedImage = AppUtility().resizeImage(image: originalImage2, targetSize: CGSize(width: 24, height: 24))
+            
+            rightBarButton.setBackgroundImage(resizedImage, for: .normal, barMetrics: .default)
+            
+        } else {
+            let resizedImage = AppUtility().resizeImage(image: originalImage, targetSize: CGSize(width: 24, height: 24))
+            rightBarButton.setBackgroundImage(resizedImage, for: .normal, barMetrics: .default)
+
+        }
     }
     func addAnnotations(_ locations: [LocationModel]) {
         var annotationsToAdd: [PointAnnotation] = []
@@ -305,11 +332,12 @@ class FilteredMapViewController:UIViewController,CLLocationManagerDelegate, UICo
     
     @IBAction func floatingButtonClick(_ sender: Any) {
         filtereOutAnnotations()
-            print(selectedFilters)
+         
 
     }
     func filtereOutAnnotations(){
-        let allCategories = Data().items as [DataModel]
+  
+        let allCategories = CategoryData().items as [DataModel]
          var matchingResults = [DataModel]()
          for filterCategory in selectedFilters {
              if let matchingCategory = allCategories.first(where: { $0.categoryLat.lowercased() == filterCategory.lowercased() }) {
@@ -328,7 +356,13 @@ class FilteredMapViewController:UIViewController,CLLocationManagerDelegate, UICo
                        annotation.subcat.contains(filterCategory.lowercased())
                    }
                }
-               addFilterAnnotations(filtered)
+             if isDisabledEnabled{
+                 addFilterAnnotations(filtered.filter{$0.isAccessible[0] == true})
+
+             } else {
+                 addFilterAnnotations(filtered)
+
+             }
            } else {
                print("nema")
                // THERE ARE MATHCING RESULTS
@@ -350,8 +384,14 @@ class FilteredMapViewController:UIViewController,CLLocationManagerDelegate, UICo
                    }
                    filtered.append(contentsOf: annotationsForSubcategory)
                }
+               if isDisabledEnabled {
+                   addFilterAnnotations(filtered.filter{ $0.isAccessible[0] == true })
+               } else {
+                   addFilterAnnotations(filtered)
 
-               addFilterAnnotations(filtered)
+
+               }
+
                
            }
        }

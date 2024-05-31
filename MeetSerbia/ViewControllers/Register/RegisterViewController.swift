@@ -42,9 +42,32 @@ class RegisterViewController:UIViewController{
         passwordTextField.setupImageRightLong(image: "eye")
         passwordTextField.isSecureTextEntry = true
         passwordTextField.rightView?.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(secureText)))
+        // Register notifications
+            NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow(_:)), name: UIResponder.keyboardWillShowNotification, object: nil)
+            NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillHide(_:)), name: UIResponder.keyboardWillHideNotification, object: nil)
         
     }
-    
+    @objc func keyboardWillShow(_ notification: Notification) {
+         if let keyboardFrame = (notification.userInfo?[UIResponder.keyboardFrameEndUserInfoKey] as? NSValue)?.cgRectValue {
+             let keyboardHeight = keyboardFrame.height
+             
+             // Adjust the view's frame
+             if self.view.frame.origin.y == 0 {
+                 self.view.frame.origin.y -= keyboardHeight + 150
+             }
+         }
+     }
+
+    @objc func keyboardWillHide(_ notification: Notification) {
+        if self.view.frame.origin.y != 0 {
+            self.view.frame.origin.y = 0
+        }
+    }
+    deinit {
+        NotificationCenter.default.removeObserver(self, name: UIResponder.keyboardWillShowNotification, object: nil)
+        NotificationCenter.default.removeObserver(self, name: UIResponder.keyboardWillHideNotification, object: nil)
+    }
+  
     @IBAction func buttonClicked(_ sender: Any) {
         if flag == false {
             tryLogin(email: emailTextField!.text!, password: passwordTextField!.text!)
@@ -140,8 +163,11 @@ extension RegisterViewController {
                     else {
                         LocalManager.shared.getAllLocations { models in
                             UserDefaultsManager.userID = uid ?? ""
-                            UserDefaults.standard.set(true, forKey: "logedIn")
                             UserDefaultsManager.language = "cir"
+                            UserDefaultsManager.setCachedLocations(models)
+                            UserDefaults.standard.set(true, forKey: "logedIn")
+                          
+
                             self!.performSegue(withIdentifier: "toMain", sender: nil)
                         }
                
@@ -160,14 +186,17 @@ extension RegisterViewController {
             else {
                 LocalManager.shared.getAllLocations { models in
                     UserDefaultsManager.userID = res?.user.uid ?? ""
-                    UserDefaults.standard.set(true, forKey: "logedIn")
                     UserDefaultsManager.language = "cir"
+                    UserDefaultsManager.setCachedLocations(models)
+                    UserDefaults.standard.set(true, forKey: "logedIn")
                     self.performSegue(withIdentifier: "toMain", sender: nil)
+
                 }
               
                     
                 }
         }
     }
+
 }
 

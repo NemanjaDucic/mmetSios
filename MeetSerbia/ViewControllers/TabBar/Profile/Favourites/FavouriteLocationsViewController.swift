@@ -47,9 +47,14 @@ class FavouriteLocationsViewController:UIViewController,UITableViewDelegate,UITa
         let item = locations[indexPath.row]
         cell.delegate = self
         cell.index = indexPath.row
-       wizard.getSaveLocationImage(imageRef: item.images[0], completion: { locationImage in
-           cell.locationImage.image = locationImage
-        })
+        if item.images.isEmpty {
+            cell.locationImage.image = UIImage(named: "srb")
+        } else {
+            wizard.getSaveLocationImage(imageRef: item.images[0], completion: { locationImage in
+                cell.locationImage.image = locationImage
+             })
+        }
+ 
         switch UserDefaults.standard.string(forKey: "Language")! {
         case "eng":
             cell.locationNameLabel.text = item.nameEng

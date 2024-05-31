@@ -8,9 +8,9 @@
 import Foundation
 import UIKit
 import CoreLocation
-import MapboxNavigation
 import MapboxDirections
-import MapboxCoreNavigation
+import MapboxNavigationCore
+import MapboxNavigationUIKit
 
 class FavouriteRoutesViewController:UIViewController,UITableViewDelegate,UITableViewDataSource,SelectedRouteDelegate{
     
@@ -66,28 +66,28 @@ class FavouriteRoutesViewController:UIViewController,UITableViewDelegate,UITable
     
     func startNavigation(coordinates:[CLLocationCoordinate2D]){
         let options = NavigationRouteOptions(coordinates: coordinates)
-        Directions.shared.calculate(options) { [weak self] (_, result) in
-            switch result {
-            case .failure(let error):
-                print(error.localizedDescription)
-            case .success(let response):
-                guard let strongSelf = self else {
-                    return
-                }
-                let indexedRouteResponse = IndexedRouteResponse(routeResponse: response, routeIndex: 0)
-                let navigationService = MapboxNavigationService(indexedRouteResponse: indexedRouteResponse,
-                                                                customRoutingProvider: NavigationSettings.shared.directions,
-                                                                credentials: NavigationSettings.shared.directions.credentials,
-                                                                simulating: .never)
-                
-                let navigationOptions = NavigationOptions(navigationService: navigationService)
-                let navigationViewController = NavigationViewController(for: indexedRouteResponse,
-                                                                        navigationOptions: navigationOptions)
-                navigationViewController.modalPresentationStyle = .fullScreen
-                navigationViewController.routeLineTracksTraversal = true
-                strongSelf.present(navigationViewController, animated: true, completion: nil)
-            }
-        }
+        let request = NavigationMapSingleton.shared.mapboxNavigation.routingProvider().calculateRoutes(options: options)
+        Task {
+               switch await request.result {
+               case .failure(let error):
+                   print(error.localizedDescription)
+               case .success(let navigationRoutes):
+                   let navigationOptions = NavigationOptions(
+                    mapboxNavigation:NavigationMapSingleton.shared.mapboxNavigation,
+                    voiceController: NavigationMapSingleton.shared.mapboxNavigationProvider.routeVoiceController,
+                    eventsManager: NavigationMapSingleton.shared.mapboxNavigation.eventsManager()
+                    
+                   )
+                   let navigationViewController = NavigationViewController(
+                       navigationRoutes: navigationRoutes,
+                       navigationOptions: navigationOptions
+                   )
+                   
+                   navigationViewController.modalPresentationStyle = .fullScreen
+                   navigationViewController.routeLineTracksTraversal = true
+                   self.present(navigationViewController, animated: true, completion: nil)
+               }
+           }
         coordinatesOfRoute.removeAll()
     }
     deinit {

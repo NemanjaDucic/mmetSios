@@ -14,7 +14,9 @@ class HomePageViewController:UIViewController,UITableViewDelegate,UITableViewDat
         checkButtonGreen.isHidden = temporarySelectedCategories.isEmpty
         
     }
-    
+    private var rightBarButton = UIBarButtonItem()
+
+    var isDisabledEnabled = false
     var itemsArray = [DataModel]()
     private var boolArray = [false,false,false,false,false,false,false,false,false,false,false,false]
     private var selectedLocationModel: LocationModel?
@@ -64,13 +66,24 @@ class HomePageViewController:UIViewController,UITableViewDelegate,UITableViewDat
             viewControllers?.remove(at: 2)
             tabBarController.viewControllers = viewControllers
         }
-
+        UserDefaultsManager.getCachedLocations(completion: { models in
+            LocalManager.shared.allLocations = models!
+        })
         searchB.delegate = self
         searchTV.isHidden = true
         checkButtonGreen.isHidden = temporarySelectedCategories.isEmpty
-
+        rightBarButton = UIBarButtonItem(title: "", style: .plain, target: self, action: #selector(buttonTapped))
+        if let originalImage = UIImage(named: "disabled_disable") {
+            let resizedImage = AppUtility().resizeImage(image: originalImage, targetSize: CGSize(width: 24, height: 24))
+                                  rightBarButton.setBackgroundImage(resizedImage, for: .normal, barMetrics: .default)
+             }
+        self.navigationItem.rightBarButtonItem = rightBarButton
         
     }
+
+    @objc func buttonTapped() {
+            disabledEnabled(enabled: isDisabledEnabled)
+       }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if tableView == homePageTableView {
             return  itemsArray.count
@@ -81,7 +94,20 @@ class HomePageViewController:UIViewController,UITableViewDelegate,UITableViewDat
         }
         
     }
-    
+    func disabledEnabled(enabled:Bool){
+        isDisabledEnabled = !isDisabledEnabled
+        var originalImage = UIImage(named: "disabled_enabled")!
+        var originalImage2 = UIImage(named: "disabled_disable")!
+
+        if enabled == true {
+            let resizedImage = AppUtility().resizeImage(image: originalImage2, targetSize: CGSize(width: 24, height: 24))
+            rightBarButton.setBackgroundImage(resizedImage, for: .normal, barMetrics: .default)
+        } else {
+            let resizedImage = AppUtility().resizeImage(image: originalImage, targetSize: CGSize(width: 24, height: 24))
+            rightBarButton.setBackgroundImage(resizedImage, for: .normal, barMetrics: .default)
+
+        }
+    }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         if tableView == homePageTableView{
             
@@ -143,7 +169,7 @@ class HomePageViewController:UIViewController,UITableViewDelegate,UITableViewDat
     }
  
     func getData() {
-        itemsArray = Data().items
+        itemsArray = CategoryData().items
       
     }
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
@@ -225,6 +251,7 @@ class HomePageViewController:UIViewController,UITableViewDelegate,UITableViewDat
             let viewController =  UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "FMT") as? FilteredMapViewController
             viewController?.selectedCategories = temporarySelectedCategories
             viewController?.sentFromSearch = false
+            viewController?.isDisabledEnabled = isDisabledEnabled
             boolArray = [false,false,false,false,false,false,false,false,false,false,false,false]
             temporarySelectedCategories = []
             navigationController?.pushViewController(viewController!, animated: true)

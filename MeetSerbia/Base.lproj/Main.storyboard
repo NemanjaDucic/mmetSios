@@ -156,8 +156,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="751" image="LOGO MEET SERBIA" translatesAutoresizingMaskIntoConstraints="NO" id="FRS-gU-pqN">
-                                <rect key="frame" x="0.0" y="50" width="393" height="241"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="751" image="1024x1024" translatesAutoresizingMaskIntoConstraints="NO" id="FRS-gU-pqN">
+                                <rect key="frame" x="0.0" y="50" width="393" height="280"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="280" id="cOd-7q-5ME"/>
+                                </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="htp-Tk-qXm">
                                 <rect key="frame" x="105" y="653.66666666666663" width="82" height="51"/>
@@ -221,8 +224,8 @@
                                     </textField>
                                 </subviews>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NATURE TRADITION HISTORY" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jm3-Z3-oHI">
-                                <rect key="frame" x="20" y="311" width="353" height="201.66666666666663"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NATURE. TRADITION. HISTORY." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jm3-Z3-oHI">
+                                <rect key="frame" x="20" y="350" width="353" height="162.66666666666663"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -708,10 +711,10 @@
             </objects>
             <point key="canvasLocation" x="-2004" y="3174"/>
         </scene>
-        <!--VCTEST-->
+        <!--Custom Waypoints View Controller-->
         <scene sceneID="2p3-it-sgo">
             <objects>
-                <viewController id="SPV-dr-tC4" customClass="VCTEST" customModule="MeetSerbia" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="SPV-dr-tC4" customClass="CustomWaypointsViewController" customModule="MeetSerbia" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fmt-re-dUy">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1319,7 +1322,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="ZFA-sQ-0bA">
-                                <rect key="frame" x="0.0" y="44" width="393" height="715"/>
+                                <rect key="frame" x="0.0" y="44" width="393" height="675"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="memmoryCell" id="G6J-A1-YHE">
@@ -1333,7 +1336,7 @@
                                 </prototypes>
                             </tableView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hda-2j-eZR">
-                                <rect key="frame" x="20" y="779" width="353" height="43"/>
+                                <rect key="frame" x="20" y="739" width="353" height="43"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="43" id="BX8-fo-4Z8"/>
                                 </constraints>
@@ -1350,7 +1353,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="Hda-2j-eZR" firstAttribute="leading" secondItem="PKr-eG-Hgc" secondAttribute="leading" constant="20" id="7xO-3Q-4s8"/>
-                            <constraint firstAttribute="bottom" secondItem="Hda-2j-eZR" secondAttribute="bottom" constant="30" id="Brt-8v-fTF"/>
+                            <constraint firstAttribute="bottom" secondItem="Hda-2j-eZR" secondAttribute="bottom" constant="70" id="Brt-8v-fTF"/>
                             <constraint firstItem="PKr-eG-Hgc" firstAttribute="trailing" secondItem="Hda-2j-eZR" secondAttribute="trailing" constant="20" id="Hzv-4x-IUK"/>
                             <constraint firstItem="Hda-2j-eZR" firstAttribute="top" secondItem="ZFA-sQ-0bA" secondAttribute="bottom" constant="20" id="cL4-JV-4h2"/>
                             <constraint firstItem="ZFA-sQ-0bA" firstAttribute="top" secondItem="PKr-eG-Hgc" secondAttribute="top" id="fM1-dG-3ai"/>
@@ -1863,6 +1866,7 @@
         <segue reference="Pdc-S4-ag1"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <image name="1024x1024" width="1024" height="1024"/>
         <image name="LOGO MEET SERBIA" width="231" height="241"/>
         <image name="addphoto" width="799" height="402"/>
         <image name="bed" width="39" height="23"/>

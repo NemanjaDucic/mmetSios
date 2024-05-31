@@ -1,7 +1,0 @@
-version: "Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)"
-options: "325b42a3990ee8881f04c8e18a406e6b085fd18a572d1965c69654b932314f46"
-build_start_time: [1713875154, 983656000]
-build_end_time: [1713875161, 749758000]
-inputs:
-  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxSpeech/Sources/MapboxSpeech/MBSpeechOptions.swift": [1712575756, 916749133]
-  "/Users/nemanjaducic/Documents/GitHub/mmetSios/Pods/MapboxSpeech/Sources/MapboxSpeech/MapboxSpeech.swift": [1712575756, 916648215]

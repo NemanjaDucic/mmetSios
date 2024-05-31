@@ -8,19 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		120413BA2B3ED57D00139016 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120413B92B3ED57D00139016 /* ResetPasswordViewController.swift */; };
+		1212364C2C087BE3008FD487 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1293715C29C0645200F7BF0F /* GoogleService-Info.plist */; };
 		122184312B88C17E00518D91 /* TabBarMainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122184302B88C17E00518D91 /* TabBarMainController.swift */; };
 		122184372B8C9D8400518D91 /* FirebaseWizard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122184362B8C9D8400518D91 /* FirebaseWizard.swift */; };
 		122184392B90C1F700518D91 /* LocalMenager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122184382B90C1F700518D91 /* LocalMenager.swift */; };
 		122274E62BC1DD490085B688 /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122274E52BC1DD490085B688 /* UserDefaultsManager.swift */; };
 		122274E82BC1DFE20085B688 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 122274E72BC1DFE20085B688 /* Localizable.xcstrings */; };
 		122274EA2BC1E51D0085B688 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122274E92BC1E51D0085B688 /* Utils.swift */; };
-		122C8DC029CD9A0F00FE0FA2 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122C8DBF29CD9A0F00FE0FA2 /* Data.swift */; };
+		122C8DC029CD9A0F00FE0FA2 /* CategoryData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122C8DBF29CD9A0F00FE0FA2 /* CategoryData.swift */; };
 		122C8DC229CD9A4800FE0FA2 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122C8DC129CD9A4800FE0FA2 /* DataModel.swift */; };
 		122C8DC429CDB01900FE0FA2 /* PaddingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122C8DC329CDB01900FE0FA2 /* PaddingLabel.swift */; };
 		122C8DC729CDD82D00FE0FA2 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122C8DC529CDD82D00FE0FA2 /* TableViewCell.swift */; };
 		122C8DC829CDD82D00FE0FA2 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 122C8DC629CDD82D00FE0FA2 /* TableViewCell.xib */; };
 		122C8DCF29D1E3A100FE0FA2 /* ZoomingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122C8DCE29D1E3A100FE0FA2 /* ZoomingViewController.swift */; };
 		122CF52B29CC4E5A00808072 /* UI+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122CF52A29CC4E5A00808072 /* UI+Extensions.swift */; };
+		12335E062C092F8A00C301FE /* NavigationMapSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12335E052C092F8A00C301FE /* NavigationMapSingleton.swift */; };
 		123840402A41AAEE009A6FE4 /* TollModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1238403F2A41AAEE009A6FE4 /* TollModel.swift */; };
 		126523E329BEA63200875A87 /* AddNewMemmoryNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126523E229BEA63100875A87 /* AddNewMemmoryNavigation.swift */; };
 		126523E529BEA68800875A87 /* AddNewMemmoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126523E429BEA68800875A87 /* AddNewMemmoryViewController.swift */; };
@@ -71,7 +73,6 @@
 		128DB0A82BC1FC1400809D2D /* PinchCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128DB0A62BC1FC1400809D2D /* PinchCollectionViewCell.swift */; };
 		128DB0A92BC1FC1400809D2D /* PinchCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 128DB0A72BC1FC1400809D2D /* PinchCollectionViewCell.xib */; };
 		1290456B2A331D07007D834E /* logogif.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1290456A2A331D07007D834E /* logogif.gif */; };
-		1293715D29C0645200F7BF0F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1293715C29C0645200F7BF0F /* GoogleService-Info.plist */; };
 		1293F50A2ACC446C00CE2D08 /* ImagesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1293F5082ACC446C00CE2D08 /* ImagesCollectionViewCell.swift */; };
 		1293F50B2ACC446C00CE2D08 /* ImagesCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1293F5092ACC446C00CE2D08 /* ImagesCollectionViewCell.xib */; };
 		1293F50F2AD58D4500CE2D08 /* LaunchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1293F50E2AD58D4500CE2D08 /* LaunchScreenViewController.swift */; };
@@ -97,6 +98,7 @@
 		12CA91AB29B5C895007A322B /* MeetSerbiaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CA91AA29B5C895007A322B /* MeetSerbiaUITests.swift */; };
 		12CA91AD29B5C895007A322B /* MeetSerbiaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CA91AC29B5C895007A322B /* MeetSerbiaUITestsLaunchTests.swift */; };
 		12CA91C029B5E693007A322B /* PageOneVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CA91BF29B5E693007A322B /* PageOneVC.swift */; };
+		12D09F2B2C08686800628E2E /* MapboxNavigationCore in Frameworks */ = {isa = PBXBuildFile; productRef = 12D09F2A2C08686800628E2E /* MapboxNavigationCore */; };
 		12D2CD252A3882550077D3F8 /* PreviewImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D2CD242A3882550077D3F8 /* PreviewImageViewController.swift */; };
 		12DCE44729F68D42006FCD29 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DCE44629F68D42006FCD29 /* Constants.swift */; };
 		12F6EAF82BD005DC0095A50F /* AppUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F6EAF72BD005DC0095A50F /* AppUtility.swift */; };
@@ -132,13 +134,14 @@
 		122274E52BC1DD490085B688 /* UserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
 		122274E72BC1DFE20085B688 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		122274E92BC1E51D0085B688 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
-		122C8DBF29CD9A0F00FE0FA2 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		122C8DBF29CD9A0F00FE0FA2 /* CategoryData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryData.swift; sourceTree = "<group>"; };
 		122C8DC129CD9A4800FE0FA2 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		122C8DC329CDB01900FE0FA2 /* PaddingLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingLabel.swift; sourceTree = "<group>"; };
 		122C8DC529CDD82D00FE0FA2 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		122C8DC629CDD82D00FE0FA2 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 		122C8DCE29D1E3A100FE0FA2 /* ZoomingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomingViewController.swift; sourceTree = "<group>"; };
 		122CF52A29CC4E5A00808072 /* UI+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UI+Extensions.swift"; sourceTree = "<group>"; };
+		12335E052C092F8A00C301FE /* NavigationMapSingleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationMapSingleton.swift; sourceTree = "<group>"; };
 		1238403F2A41AAEE009A6FE4 /* TollModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TollModel.swift; sourceTree = "<group>"; };
 		126523E229BEA63100875A87 /* AddNewMemmoryNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewMemmoryNavigation.swift; sourceTree = "<group>"; };
 		126523E429BEA68800875A87 /* AddNewMemmoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewMemmoryViewController.swift; sourceTree = "<group>"; };
@@ -281,6 +284,7 @@
 				CD33C3AD5D2F4DD045A927A7 /* Pods_MeetSerbia.framework in Frameworks */,
 				12C6858B2BD1577900329E56 /* ImageScrollView in Frameworks */,
 				1271F8782A82ECAD00DC2F03 /* SwiftSoup in Frameworks */,
+				12D09F2B2C08686800628E2E /* MapboxNavigationCore in Frameworks */,
 				126F4EA22BD7EDCA00A3DB0C /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -326,7 +330,7 @@
 			isa = PBXGroup;
 			children = (
 				122CF52A29CC4E5A00808072 /* UI+Extensions.swift */,
-				122C8DBF29CD9A0F00FE0FA2 /* Data.swift */,
+				122C8DBF29CD9A0F00FE0FA2 /* CategoryData.swift */,
 				122C8DC329CDB01900FE0FA2 /* PaddingLabel.swift */,
 				12DCE44629F68D42006FCD29 /* Constants.swift */,
 				122184382B90C1F700518D91 /* LocalMenager.swift */,
@@ -334,6 +338,7 @@
 				122274E52BC1DD490085B688 /* UserDefaultsManager.swift */,
 				122274E92BC1E51D0085B688 /* Utils.swift */,
 				12F6EAF72BD005DC0095A50F /* AppUtility.swift */,
+				12335E052C092F8A00C301FE /* NavigationMapSingleton.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -502,13 +507,6 @@
 			path = "untitled folder/Fira_Sans";
 			sourceTree = "<group>";
 		};
-		1271F8792A82F0CA00DC2F03 /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModels;
-			sourceTree = "<group>";
-		};
 		129045692A331CF6007D834E /* gif */ = {
 			isa = PBXGroup;
 			children = (
@@ -578,7 +576,6 @@
 			isa = PBXGroup;
 			children = (
 				122184352B8C9D7000518D91 /* Networking */,
-				1271F8792A82F0CA00DC2F03 /* ViewModels */,
 				129045692A331CF6007D834E /* gif */,
 				122CF52929CC4E4B00808072 /* Helpers */,
 				12C5E05429C0C21F00752C64 /* Models */,
@@ -684,6 +681,7 @@
 				1271F8772A82ECAD00DC2F03 /* SwiftSoup */,
 				12C6858A2BD1577900329E56 /* ImageScrollView */,
 				126F4EA12BD7EDCA00A3DB0C /* Kingfisher */,
+				12D09F2A2C08686800628E2E /* MapboxNavigationCore */,
 			);
 			productName = MeetSerbia;
 			productReference = 12CA918629B5C894007A322B /* MeetSerbia.app */;
@@ -764,6 +762,7 @@
 				1271F8762A82ECAD00DC2F03 /* XCRemoteSwiftPackageReference "SwiftSoup" */,
 				12C685892BD1577900329E56 /* XCRemoteSwiftPackageReference "ImageScrollView" */,
 				126F4EA02BD7EDCA00A3DB0C /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				12D09F292C08686800628E2E /* XCRemoteSwiftPackageReference "mapbox-navigation-ios" */,
 			);
 			productRefGroup = 12CA918729B5C894007A322B /* Products */;
 			projectDirPath = "";
@@ -781,6 +780,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1212364C2C087BE3008FD487 /* GoogleService-Info.plist in Resources */,
 				1293F50B2ACC446C00CE2D08 /* ImagesCollectionViewCell.xib in Resources */,
 				12CA919629B5C895007A322B /* LaunchScreen.storyboard in Resources */,
 				12CA919329B5C895007A322B /* Assets.xcassets in Resources */,
@@ -807,7 +807,6 @@
 				126B47202BC94A01004FE297 /* FiraSans-LightItalic.ttf in Resources */,
 				126B470B2BC94A01004FE297 /* Poppins-ExtraLight.ttf in Resources */,
 				126B470F2BC94A01004FE297 /* Poppins-Light.ttf in Resources */,
-				1293715D29C0645200F7BF0F /* GoogleService-Info.plist in Resources */,
 				126B472F2BC94A01004FE297 /* FiraSans-Italic.ttf in Resources */,
 				126B47212BC94A01004FE297 /* FiraSans-Medium.ttf in Resources */,
 				126B472C2BC94A01004FE297 /* FiraSans-SemiBoldItalic.ttf in Resources */,
@@ -976,6 +975,7 @@
 				1267B4B829B9F6A500154428 /* HomePageTableViewCell.swift in Sources */,
 				1293F50F2AD58D4500CE2D08 /* LaunchScreenViewController.swift in Sources */,
 				12CA918A29B5C894007A322B /* AppDelegate.swift in Sources */,
+				12335E062C092F8A00C301FE /* NavigationMapSingleton.swift in Sources */,
 				126523E529BEA68800875A87 /* AddNewMemmoryViewController.swift in Sources */,
 				1267B4D429BAA4BA00154428 /* Slide3ViewController.swift in Sources */,
 				1267B4D629BAAB2600154428 /* OnboardingViewCoontrollerMain.swift in Sources */,
@@ -992,7 +992,7 @@
 				1267B4AE29B9D20D00154428 /* SleepViewController.swift in Sources */,
 				12C735B22BADA20600AA33D5 /* SavedLocationsTableViewCell.swift in Sources */,
 				12CA918C29B5C894007A322B /* SceneDelegate.swift in Sources */,
-				122C8DC029CD9A0F00FE0FA2 /* Data.swift in Sources */,
+				122C8DC029CD9A0F00FE0FA2 /* CategoryData.swift in Sources */,
 				1293F50A2ACC446C00CE2D08 /* ImagesCollectionViewCell.swift in Sources */,
 				1267B4C129BA104A00154428 /* MemmoriesViewController.swift in Sources */,
 			);
@@ -1384,6 +1384,14 @@
 				minimumVersion = 1.9.3;
 			};
 		};
+		12D09F292C08686800628E2E /* XCRemoteSwiftPackageReference "mapbox-navigation-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mapbox/mapbox-navigation-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -1401,6 +1409,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 12C685892BD1577900329E56 /* XCRemoteSwiftPackageReference "ImageScrollView" */;
 			productName = ImageScrollView;
+		};
+		12D09F2A2C08686800628E2E /* MapboxNavigationCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 12D09F292C08686800628E2E /* XCRemoteSwiftPackageReference "mapbox-navigation-ios" */;
+			productName = MapboxNavigationCore;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

@@ -35,9 +35,12 @@ class FavouriteMapViewController:UIViewController, AnnotationInteractionDelegate
     var reciverdLocations = [LocationModel]()
     override func viewDidLoad() {
         super.viewDidLoad()
-        let myResourceOptions = ResourceOptions(accessToken: Constants.token)
-        let myMapInitOptions = MapInitOptions(resourceOptions: myResourceOptions)
-        mapView = MapView(frame: mapholderView.bounds   , mapInitOptions: myMapInitOptions)
+//        let myResourceOptions = ResourceOptions(accessToken: Constants.token)
+//        let myMapInitOptions = MapInitOptions(resourceOptions: myResourceOptions)
+        let centerCoordinate = CLLocationCoordinate2D(latitude: 40.7128, longitude: -74.0060)
+             let options = MapInitOptions(cameraOptions: CameraOptions(center: centerCoordinate,
+                                                                       zoom: 9.0))
+        mapView = MapView(frame: mapholderView.bounds   , mapInitOptions: options)
         mapView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
         mapView.isUserInteractionEnabled = true
         pointAnnotationManager = mapView.annotations.makePointAnnotationManager()
@@ -50,8 +53,8 @@ class FavouriteMapViewController:UIViewController, AnnotationInteractionDelegate
         let bounds = CoordinateBounds(southwest: serbiaSouthWest,
         northeast: serbiaNorthEast)
         try? mapView.mapboxMap.setCameraBounds(with: CameraBoundsOptions(bounds: bounds))
-        let camera = mapView.mapboxMap.camera(for: bounds, padding: .zero, bearing:0, pitch: 0)
-        mapView.mapboxMap.setCamera(to: camera)
+//        let camera = mapView.mapboxMap.camera(for: bounds, padding: .zero, bearing:0, pitch: 0)
+//        mapView.mapboxMap.setCamera(to: camera)
         addAnnotations(reciverdLocations)
     }
     func addAnnotations(_ locations: [LocationModel]) {

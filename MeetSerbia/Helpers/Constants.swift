@@ -10,6 +10,7 @@ import CoreLocation
 
 class Constants {
     static let constants = Constants()
+    static let CACHE_KEY = "CachedData"
     static let token = "pk.eyJ1IjoibWVldHNlcmJpYSIsImEiOiJjbGY4NHNqb3UxbzJsM3pudGV4eGxrdmw2In0.U7yh9XHMImXSU3CxkLRbDg"
 
     //Language
@@ -101,6 +102,15 @@ class Constants {
          } else {
              return "Рута није сачувана"
          }
+    }
+    func getMapLanguage() -> String{
+        if userDefLangugaeKey == "eng"{
+         return  "en"
+        } else if userDefLangugaeKey == "lat" {
+            return "sr-latn"
+        } else {
+            return "sr"
+        }
     }
     //Sponsor Pins
     

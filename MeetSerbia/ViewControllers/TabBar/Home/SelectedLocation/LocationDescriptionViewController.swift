@@ -15,12 +15,13 @@ import iProgressHUD
 import SwiftSoup
 import Kingfisher
 import CoreLocation
-import MapboxNavigation
 import MapboxDirections
-import MapboxCoreNavigation
+import MapboxNavigationCore
+import MapboxNavigationUIKit
 
 class LocationDescriptionViewController:UIViewController,UICollectionViewDelegate,UICollectionViewDataSource,UITextViewDelegate, CLLocationManagerDelegate{
-    
+
+
     @IBOutlet weak var startNavButton: UIButton!
     @IBOutlet weak var buttonLike: UIButton!
     @IBOutlet weak var nameLabel: UILabel!
@@ -42,13 +43,13 @@ class LocationDescriptionViewController:UIViewController,UICollectionViewDelegat
     private let wizard = FirebaseWizard()
     private var currentLocationDisplayed:  LocationModel?
     var locationImages = [UIImage]()
-    
+
+
     override func viewDidLoad() {
         super.viewDidLoad()
         initSetup()
-        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(textViewTapped(_:)))
-        sampleTextHolder.addGestureRecognizer(tapGesture)
         FirebaseWizard().getLocation(byID: id) { model in
+         
             self.currentLocationDisplayed = model
             for i in model!.images {
                 print(Storage.storage().reference().child(i))
@@ -56,43 +57,14 @@ class LocationDescriptionViewController:UIViewController,UICollectionViewDelegat
             switch UserDefaultsManager.language {
             case "eng":
                 self.nameLabel.text = model?.nameEng ?? ""
-                if model?.subcat.contains("mobilna telefonija") == true {
-                    self.sampleTextHolder.attributedText = self.formatMixedContent(model?.descriptionEng ?? "")
-                }  else {
-                    if model?.descriptionLat.hasPrefix("<p>") == true {
-                        self.sampleTextHolder.attributedText = model?.descriptionEng.htmlToAttributedString
-                        self.sampleTextHolder.removeGestureRecognizer(tapGesture)
-                    } else {
-                        self.sampleTextHolder.text =  model?.descriptionEng
-                    }
-                }
-                
+                self.sampleTextHolder.attributedText = model?.descriptionEng.htmlToAttributedStringWithIncreasedFontSize
             case "lat":
                 self.nameLabel.text = model?.nameLat ?? ""
-                if model?.subcat.contains("mobilna telefonija") == true {
-                    self.sampleTextHolder.attributedText = self.formatMixedContent(model?.descriptionLat ?? "")
-                } else {
-                    if model?.descriptionLat.hasPrefix("<p>") == true {
-                        self.sampleTextHolder.attributedText = model?.descriptionLat.htmlToAttributedString
-                        self.sampleTextHolder.removeGestureRecognizer(tapGesture)
-                    } else {
-                        self.sampleTextHolder.text =  model?.descriptionLat
-                    }
-                    
-                    
-                }
+                self.sampleTextHolder.attributedText = model?.descriptionLat.htmlToAttributedStringWithIncreasedFontSize
+
             default:
                 self.nameLabel.text = model?.nameCir ?? ""
-                if model?.subcat.contains("mobilna telefonija") == true {
-                    self.sampleTextHolder.attributedText = self.formatMixedContent(model?.descriptionCir ?? "")
-                }  else {
-                    if model?.descriptionLat.hasPrefix("<p>") == true {
-                        self.sampleTextHolder.attributedText = model?.descriptionCir.htmlToAttributedString
-                        self.sampleTextHolder.removeGestureRecognizer(tapGesture)
-                    } else {
-                        self.sampleTextHolder.text =  model?.descriptionCir
-                    }
-                }
+                self.sampleTextHolder.attributedText = model?.descriptionCir.htmlToAttributedStringWithIncreasedFontSize
             }
             self.wizard.containsFavourite(locationID: self.id) { bool in
                 print(bool)
@@ -139,6 +111,21 @@ class LocationDescriptionViewController:UIViewController,UICollectionViewDelegat
         }
         
     }
+    func attributedString(from html: String) -> NSAttributedString? {
+        guard let data = html.data(using: .utf8) else {
+            return nil
+        }
+
+        do {
+            let attributedString = try NSAttributedString(data: data,
+                                                          options: [.documentType: NSAttributedString.DocumentType.html],
+                                                          documentAttributes: nil)
+            return attributedString
+        } catch {
+            print("Error creating attributed string from HTML: \(error)")
+            return nil
+        }
+    }
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         AppUtility.lockOrientation(.portrait)
@@ -161,7 +148,6 @@ class LocationDescriptionViewController:UIViewController,UICollectionViewDelegat
         imagesCollectionView.collectionViewLayout = layout
         sampleTextHolder.delegate = self
         locationManager.delegate = self
-        
         view.showProgress()
         view.updateCaption(text: Utils().loadingText())
         startNavButton.setTitle(Utils().startNavigationText(), for: .normal)
@@ -189,50 +175,7 @@ class LocationDescriptionViewController:UIViewController,UICollectionViewDelegat
     @objc func handleSwipe(_ gestureRecognizer: UISwipeGestureRecognizer){
         playVideo(in: imagesCollectionView)
     }
-    @objc func textViewTapped(_ gestureRecognizer: UITapGestureRecognizer) {
-        if gestureRecognizer.state == .ended {
-           
-            let point = gestureRecognizer.location(in: sampleTextHolder)
-            
-            if let position = sampleTextHolder.closestPosition(to: point) {
-                if let range = sampleTextHolder.tokenizer.rangeEnclosingPosition(position, with: .word, inDirection: .layout(.left)) {
-                    sampleTextHolder.selectedTextRange = range
-                    if let tappedWord = sampleTextHolder.text(in: range) {
-                        print("Tapped Word: \(tappedWord)")
-                        if tappedWord == "Link" || tappedWord == "Линк" {
-                            var formatedURL = urlString.replacingOccurrences(of: "\"", with: "")
-                            if formatedURL.hasPrefix("\\") {
-                                formatedURL.removeFirst()
-                            }
-                            if formatedURL.hasSuffix("\\") {
-                                formatedURL.removeLast()
-                            }
-                            if let fileUrl = URL(string: formatedURL) {
-                               
-                                 
-                                 if UIApplication.shared.canOpenURL(fileUrl) {
-                                     UIApplication.shared.open(fileUrl, options: [:], completionHandler: nil)
-                                
-                                 } else {
-                                     print("Error: Cannot open URL \(fileUrl)")
-                                 }
-                             } else {
-                                 print("Error: Invalid URL string")
-                             }
-                      
-                        }
-                    }
-                    
-                }
-            }
-        }
-    }
-    func textViewDidChangeSelection(_ textView: UITextView) {
-          if let selectedRange = textView.selectedTextRange {
-              let selectedText = textView.text(in: selectedRange)
-              print("Selected Text: \(selectedText ?? "")")
-          }
-      }
+
            
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         locationImages.count
@@ -302,34 +245,7 @@ class LocationDescriptionViewController:UIViewController,UICollectionViewDelegat
             }
         }
     }
-    private func formatMixedContent(_ mixedContent: String) -> NSAttributedString {
-        let components = mixedContent.components(separatedBy: "<a")
-        let attributedString = NSMutableAttributedString()
-        for component in components {
-            if component.contains("</a>") {
-                do {
-                    let doc = try SwiftSoup.parse("<a\(component)")
-                    let link = try doc.select("a").first()
-                    let linkText = try link?.text() ?? ""
-                    let linkURL = try link?.attr("href") ?? ""
-                    print(linkURL,"doc")
-                    let trimmedLinkString = linkURL.trimmingCharacters(in: .init(charactersIn: "\""))
-                    urlString = trimmedLinkString
-                    let linkAttributes: [NSAttributedString.Key: Any] = [.link: linkURL]
-                    let attributedLink = NSAttributedString(string: linkText, attributes: linkAttributes)
-                    attributedString.append(attributedLink)
-                } catch {
-                    print("Error parsing HTML: \(error)")
-                }
-            } else {
-                let textAttributes: [NSAttributedString.Key: Any] = [:]
-                let attributedText = NSAttributedString(string: component, attributes: textAttributes)
-                attributedString.append(attributedText)
-            }
-        }
 
-        return attributedString
-    }
     override func viewDidDisappear(_ animated: Bool) {
         super.viewDidDisappear(animated)
         player?.pause()
@@ -345,31 +261,31 @@ class LocationDescriptionViewController:UIViewController,UICollectionViewDelegat
                 } else if let placemark = placemarks?.first {
                     let origin = CLLocationCoordinate2D(latitude: currentLocation.coordinate.latitude, longitude: currentLocation.coordinate.longitude)
                     let endpoint = CLLocationCoordinate2D(latitude: self.lat, longitude: self.long)
-                    let options = NavigationRouteOptions(coordinates: [origin,endpoint])
-                    Directions.shared.calculate(options) { [weak self] (_, result) in
-                        switch result {
-                        case .failure(let error):
-                            print(error.localizedDescription)
-                        case .success(let response):
-                            guard let strongSelf = self else {
-                                return
-                            }
-                            let indexedRouteResponse = IndexedRouteResponse(routeResponse: response, routeIndex: 0)
-                            let navigationService = MapboxNavigationService(indexedRouteResponse: indexedRouteResponse,
-                                                                            customRoutingProvider: NavigationSettings.shared.directions,
-                                                                            credentials: NavigationSettings.shared.directions.credentials,
-                                                                            simulating: .onPoorGPS)
-                            
-                            let navigationOptions = NavigationOptions(navigationService: navigationService)
-                            let navigationViewController = NavigationViewController(for: indexedRouteResponse,
-                                                                                    navigationOptions: navigationOptions)
-                            navigationViewController.modalPresentationStyle = .fullScreen
-                           
-                            navigationViewController.routeLineTracksTraversal = true
-                            
-                            strongSelf.present(navigationViewController, animated: true, completion: nil)
-                        }
-                    }
+                    let options = NavigationRouteOptions(coordinates: [origin, endpoint])
+                 
+                    let request = NavigationMapSingleton.shared.mapboxNavigation.routingProvider().calculateRoutes(options: options)
+                    Task {
+                           switch await request.result {
+                           case .failure(let error):
+                               print(error.localizedDescription)
+                           case .success(let navigationRoutes):
+                               let navigationOptions = NavigationOptions(
+                                mapboxNavigation:NavigationMapSingleton.shared.mapboxNavigation,
+                                voiceController: NavigationMapSingleton.shared.mapboxNavigationProvider.routeVoiceController,
+                                eventsManager: NavigationMapSingleton.shared.mapboxNavigation.eventsManager()
+                                
+                               )
+                               let navigationViewController = NavigationViewController(
+                                   navigationRoutes: navigationRoutes,
+                                   navigationOptions: navigationOptions
+                               )
+                               
+                               navigationViewController.modalPresentationStyle = .fullScreen
+                               navigationViewController.routeLineTracksTraversal = true
+                               self.present(navigationViewController, animated: true, completion: nil)
+                           }
+                       }
+
                 }
             }
         } else {
@@ -388,6 +304,7 @@ class LocationDescriptionViewController:UIViewController,UICollectionViewDelegat
             wizard.addToFavoriteLocations(location: currentLocationDisplayed!)
         }
     }
+
     
 }
 

@@ -11,12 +11,10 @@ target 'MeetSerbia' do
 	pod 'Firebase/Database'
 	pod 'Firebase/Auth'
 	pod 'Firebase/Storage'
-	pod 'MapboxMaps', '10.17.0'
-  	pod 'MapboxNavigation', '~> 2.18'
-	pod 'MapboxCoreNavigation', '~> 2.18'
-	pod 'MapboxGeocoder.swift', '~> 0.15'	
 	pod 'SwiftyGif'
 	pod 'iProgressHUD', '~> 1.1.1'
+	pod 'YYCache'
+	
 
   target 'MeetSerbiaTests' do
     inherit! :search_paths

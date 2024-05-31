@@ -69,7 +69,6 @@ class MemmoriesViewController : UIViewController,UITableViewDelegate,UITableView
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         wizard.getYourMemories { [weak self] memoriesArray in
-        
         guard let self = self else { return }
         self.memoriesArray = memoriesArray
         
@@ -80,17 +79,21 @@ class MemmoriesViewController : UIViewController,UITableViewDelegate,UITableView
     }
         AppUtility.lockOrientation(.portrait)
 
+
     }
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(true)
         self.tabBarController?.tabBar.isHidden = false
-        AppUtility.lockOrientation(.all)
 
     }
     
+    deinit{
+        self.tabBarController?.tabBar.isHidden = false
+        AppUtility.lockOrientation(.all)
+    }
     @IBAction func addMemoClicked(_ sender: Any) {
         performSegue(withIdentifier: "addMemo", sender: nil)
     }
-    
+  
 }
 

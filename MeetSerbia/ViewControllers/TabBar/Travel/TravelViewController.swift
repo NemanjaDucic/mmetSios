@@ -11,9 +11,9 @@ import MapboxCoreMaps
 import CoreLocation
 import Firebase
 import MapboxCommon
-import MapboxCoreNavigation
+import MapboxNavigationCore
+import MapboxNavigationUIKit
 import MapboxDirections
-import MapboxNavigation
 
 class TravelViewController: UIViewController, CLLocationManagerDelegate,UISearchBarDelegate,UITableViewDelegate,UITableViewDataSource {
     private let storageRef = Storage.storage().reference()
@@ -26,8 +26,8 @@ class TravelViewController: UIViewController, CLLocationManagerDelegate,UISearch
     //LOCAL HOLDERS
     private var coordinatePointsArray = [CoordinateModel]() // SLUZI U SLUCAJU DA SACUVAMO RUTU
     private var coordinatesForPointsFromAdd = [CoordinateModel]()
-    var waypointsArray = [Waypoint]() // WAYPOINTI ZA NAVIGACIJU
-    var wayPointsAditionalyAded = [Waypoint]() // WAYPOINTI IZ ADD BUTTONA
+    var waypointsArray : [Waypoint] = []// WAYPOINTI ZA NAVIGACIJU
+    var wayPointsAditionalyAded : [Waypoint] = [] // WAYPOINTI IZ ADD BUTTONA
     var pointAnnotationManager : PointAnnotationManager?
     var selectedAnnotation: PointAnnotation? //SELEKTOVANA ANOTACIJA
     private var selectedLocationStart:LocationModel?
@@ -53,7 +53,15 @@ class TravelViewController: UIViewController, CLLocationManagerDelegate,UISearch
     @IBOutlet weak var seachStart: UISearchBar!
     internal var mapView: MapView!
     @IBOutlet weak var stackView: UIStackView!
-    
+//    let mapboxNavigationProvider = MapboxNavigationProvider(
+//        coreConfig: .init(
+//            locationSource: LocationSource.live,
+//            copilotEnabled: false
+//            
+//        )
+//    )
+//    lazy var mapboxNavigation = mapboxNavigationProvider.mapboxNavigation
+
  
     
     override func viewDidLoad() {
@@ -159,9 +167,10 @@ class TravelViewController: UIViewController, CLLocationManagerDelegate,UISearch
         holderView.isHidden = true
        }
     private func mapinit(){
-        let myResourceOptions = ResourceOptions(accessToken: Constants.token)
-        let myMapInitOptions = MapInitOptions(resourceOptions: myResourceOptions)
-        mapView = MapView(frame: mhHolderView.bounds   , mapInitOptions: myMapInitOptions)
+        let centerCoordinate = CLLocationCoordinate2D(latitude: 40.7128, longitude: -74.0060)
+             let options = MapInitOptions(cameraOptions: CameraOptions(center: centerCoordinate,
+                                                                       zoom: 9.0))
+        mapView = MapView(frame: mhHolderView.bounds   , mapInitOptions: options)
         mapView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
         mapView.isUserInteractionEnabled = true
         pointAnnotationManager = mapView.annotations.makePointAnnotationManager()
@@ -176,8 +185,7 @@ class TravelViewController: UIViewController, CLLocationManagerDelegate,UISearch
         northeast: expandedNorthEast)
         mapView.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(currentDestinationTextFieldTapped)))
         try? mapView.mapboxMap.setCameraBounds(with: CameraBoundsOptions(bounds: bounds))
-        let camera = mapView.mapboxMap.camera(for: bounds, padding: .zero, bearing:0, pitch: 0)
-        mapView.mapboxMap.setCamera(to: camera)
+
     }
 
     @objc func currentDestinationTextFieldTapped(){
@@ -194,6 +202,7 @@ class TravelViewController: UIViewController, CLLocationManagerDelegate,UISearch
         saveRoutesButton.isHidden = true
         stackView.isHidden = true
         holderView.isHidden = true
+        
         if Constants().userDefLangugaeKey == "eng"{
             searchEnd.placeholder = "Enter Destination"
             seachStart.placeholder = "Enter starting point"
@@ -450,28 +459,29 @@ class TravelViewController: UIViewController, CLLocationManagerDelegate,UISearch
         waypointsArray.append(contentsOf: wayPointsAditionalyAded)
         waypointsArray.append(Waypoint(coordinate: LocationCoordinate2D(latitude: selectedLocationEnd!.lat, longitude: selectedLocationEnd!.lon)))
         let options = NavigationRouteOptions(waypoints: waypointsArray)
-        Directions.shared.calculate(options) { [weak self] (_, result) in
-            switch result {
-            case .failure(let error):
-                print(error.localizedDescription)
-            case .success(let response):
-                guard let strongSelf = self else {
-                    return
-                }
-                let indexedRouteResponse = IndexedRouteResponse(routeResponse: response, routeIndex: 0)
-                let navigationService = MapboxNavigationService(indexedRouteResponse: indexedRouteResponse,
-                                                                customRoutingProvider: NavigationSettings.shared.directions,
-                                                                credentials: NavigationSettings.shared.directions.credentials,
-                                                                simulating: SimulationMode.never)
-                
-                let navigationOptions = NavigationOptions(navigationService: navigationService)
-                let navigationViewController = NavigationViewController(for: indexedRouteResponse,
-                                                                        navigationOptions: navigationOptions)
-                navigationViewController.modalPresentationStyle = .fullScreen
-                navigationViewController.routeLineTracksTraversal = true
-                strongSelf.present(navigationViewController, animated: true, completion: nil)
-            }
-        }
+        let request = NavigationMapSingleton.shared.mapboxNavigation.routingProvider().calculateRoutes(options: options)
+        Task {
+               switch await request.result {
+               case .failure(let error):
+                   print(error.localizedDescription)
+               case .success(let navigationRoutes):
+                   let navigationOptions = NavigationOptions(
+                    mapboxNavigation: NavigationMapSingleton.shared.mapboxNavigation,
+                    voiceController: NavigationMapSingleton.shared.mapboxNavigationProvider.routeVoiceController,
+                    eventsManager: NavigationMapSingleton.shared.mapboxNavigationProvider.eventsManager()
+                    
+                   )
+                   let navigationViewController = NavigationViewController(
+                       navigationRoutes: navigationRoutes,
+                       navigationOptions: navigationOptions
+                   )
+                   
+                   navigationViewController.modalPresentationStyle = .fullScreen
+                   navigationViewController.routeLineTracksTraversal = true
+                   self.present(navigationViewController, animated: true, completion: nil)
+               }
+           }
+
         
         waypointsArray.removeAll()
         coordinatePointsArray.removeAll()
@@ -570,7 +580,7 @@ class TravelViewController: UIViewController, CLLocationManagerDelegate,UISearch
     private func updateHolderView(anot:PointAnnotation){
         
         holderView.isHidden = false
-        holderLabel.text = anot.userInfo?["name"] as! String
+        holderLabel.text = anot.userInfo?["name"] as? String ?? ""
         
         if anot.userInfo?["image"] != nil {
             storageRef.child(anot.userInfo?["image"] as! String).getData(maxSize: 5 * 1024 * 1024) { data, error in

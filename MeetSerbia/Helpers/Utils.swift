@@ -8,8 +8,7 @@
 import Foundation
 import UIKit
 import MapboxDirections
-import MapboxCoreNavigation
-import MapboxNavigation
+import MapboxNavigationCore
 
 
 class Utils {

@@ -17,57 +17,35 @@ extension Array where Element: Equatable {
         }
     }
 }
-//extension String {
-//    var htmlToAttributedString: NSAttributedString? {
-//        guard let data = data(using: .utf8) else { return nil }
-//        do {
-//            return try NSAttributedString(data: data, options: [.documentType: NSAttributedString.DocumentType.html, .characterEncoding:String.Encoding.utf8.rawValue], documentAttributes: nil)
-//        } catch {
-//            return nil
-//        }
-//    }
-//    var htmlToString: String {
-//        return htmlToAttributedString?.string ?? ""
-//    }
-//}
-
-
-
 extension String {
-    var htmlToAttributedString: NSAttributedString? {
+    var htmlToAttributedStringWithIncreasedFontSize: NSAttributedString? {
         guard let data = data(using: .utf8) else { return nil }
         do {
-            let mutableAttributedString = try NSMutableAttributedString(data: data, options: [.documentType: NSAttributedString.DocumentType.html, .characterEncoding: String.Encoding.utf8.rawValue], documentAttributes: nil)
-            if containsNumbersOrDashes() {
-                let paragraphStyle = NSMutableParagraphStyle()
-                paragraphStyle.lineBreakMode = .byWordWrapping
-                mutableAttributedString.addAttribute(.font, value: UIFont.systemFont(ofSize: 14), range: NSRange(location: 0, length: mutableAttributedString.length)) 
-                mutableAttributedString.addAttribute(.paragraphStyle, value: paragraphStyle, range: NSRange(location: 0, length: mutableAttributedString.length))
-                
-                let regex = try NSRegularExpression(pattern: "(\\d+\\.)(?![^<]*>)", options: [])
-                let matches = regex.matches(in: self, options: [], range: NSRange(location: 0, length: self.utf16.count))
-                var offset = 0
-                for match in matches {
-                    let range = NSRange(location: match.range.lowerBound + offset, length: 1)
-                    mutableAttributedString.replaceCharacters(in: range, with: NSAttributedString(string: "\n"))
-                    offset -= 1
+            let attributedString = try NSMutableAttributedString(data: data,
+                                                                  options: [.documentType: NSAttributedString.DocumentType.html, .characterEncoding: String.Encoding.utf8.rawValue],
+                                                                  documentAttributes: nil)
+            
+            // Increase font size by 2 points
+            attributedString.enumerateAttribute(.font, in: NSRange(location: 0, length: attributedString.length), options: []) { value, range, _ in
+                if let font = value as? UIFont {
+                    let newFont = font.withSize(font.pointSize + 4)
+                    attributedString.addAttribute(.font, value: newFont, range: range)
                 }
             }
-            return mutableAttributedString
+            
+            return attributedString
         } catch {
+            print("Error creating attributed string from HTML: \(error)")
             return nil
         }
     }
     
     var htmlToString: String {
-        return htmlToAttributedString?.string ?? ""
-    }
-    
-    private func containsNumbersOrDashes() -> Bool {
-        let numbersAndDashesCharacterSet = CharacterSet(charactersIn: "0123456789-")
-        return rangeOfCharacter(from: numbersAndDashesCharacterSet) != nil
+        return htmlToAttributedStringWithIncreasedFontSize?.string ?? ""
     }
 }
+
+
 
 
 

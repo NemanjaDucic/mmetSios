@@ -14,43 +14,59 @@ class LocalManager {
     private var isFetchingLocations = false
     
     private init() {
-        fetchAllLocations()
+       loadCacnedTolls()
+        loadCachedLocations()
     }
-
+    private func loadCachedLocations() {
+         UserDefaultsManager.getCachedLocations { locations in
+             if let locations = locations {
+                 self.allLocations = locations
+                 
+             }
+         }
+     }
+    private func loadCacnedTolls() {
+         UserDefaultsManager.getCachedTolls{ tolls in
+             if let tolls = tolls {
+                 self.allTolls = tolls
+                 
+             }
+         }
+     }
     private func fetchAllLocations() {
-        guard !isFetchingLocations else { return }
+         guard !isFetchingLocations else { return }
 
-        isFetchingLocations = true
+         isFetchingLocations = true
 
-        firebaseWizard.getAllLocations { [weak self] locations, error in
-            guard let self = self else { return }
-            defer {
-                self.isFetchingLocations = false
-            }
-            if let error = error {
-                print("Error fetching locations: \(error)")
-            } else if let locations = locations {
-                self.allLocations = locations
-            }
-        }
-        firebaseWizard.getAllTolls { [weak self] tolls, error in
-            guard let self = self else { return }
-            defer {
-                self.isFetchingLocations = false
-                
-            }
-            if let error = error {
-                print("Error fetching locations: \(error)")
-            } else if let locations = tolls {
-                self.allTolls = locations
-            }
-        }
-    }
+         firebaseWizard.getAllLocations { [weak self] locations, error in
+             guard let self = self else { return }
+             defer {
+                 self.isFetchingLocations = false
+             }
+             if let error = error {
+                 print("Error fetching locations: \(error)")
+             } else if let locations = locations {
+                 self.allLocations = locations
+                 // Cache fetched locations
+                 UserDefaultsManager.setCachedLocations(locations)
+             }
+         }
+         firebaseWizard.getAllTolls { [weak self] tolls, error in
+             guard let self = self else { return }
+             defer {
+                 self.isFetchingLocations = false
+             }
+             if let error = error {
+                 print("Error fetching tolls: \(error)")
+             } else if let tolls = tolls {
+                 UserDefaultsManager.setCachedTolls(tolls)
+                 self.allTolls = tolls
+             }
+         }
+     }
 
     func getAllLocations(completion: @escaping ([LocationModel]) -> Void) {
-        if !allLocations.isEmpty {
-            completion(allLocations)
-        } else {
+      
             fetchAllLocations()
             var attempts = 0
             let maxAttempts = 5
@@ -63,7 +79,6 @@ class LocalManager {
                 }
             }
         }
-    }
 }
      
 extension Array where Element == LocationModel {

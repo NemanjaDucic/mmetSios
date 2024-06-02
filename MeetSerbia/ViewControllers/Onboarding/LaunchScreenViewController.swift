@@ -40,21 +40,39 @@ extension LaunchScreenViewController: SwiftyGifDelegate {
     }
     func checkAndTrigger() {
         UserDefaultsManager.entryCounter += 1
-        if UserDefaultsManager.entryCounter % 5 == 0 {
-            LocalManager.shared.getAllLocations { models in
-                UserDefaultsManager.setCachedLocations(models)
-                LocalManager.shared.allLocations = models
+        if logedInCheck() {
+            if UserDefaultsManager.entryCounter % 5 == 0 {
+                LocalManager.shared.getAllLocations { models in
+                    UserDefaultsManager.setCachedLocations(models)
+                    LocalManager.shared.allLocations = models
+                    DispatchQueue.main.async {
+                        self.performSegue(withIdentifier: "gifLooped", sender: nil)
+                    }
+                    
+                }
+            } else {
                 DispatchQueue.main.async {
                     self.performSegue(withIdentifier: "gifLooped", sender: nil)
                 }
-                
             }
         } else {
+            let onboardingController =  UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "onbord") as? OnboardingViewControllerMain
+            self.dismiss(animated: true)
+            onboardingController?.modalPresentationStyle = .fullScreen
             DispatchQueue.main.async {
-                self.performSegue(withIdentifier: "gifLooped", sender: nil)
+                self.present(onboardingController!, animated: false, completion: nil)
             }
+        }
+       
             
         }
-    }
     
+    private func logedInCheck()->Bool {
+        if Constants().userDefLoginKey == true {
+            return true
+        } else {
+            return false
+        }
+    }
 }
+

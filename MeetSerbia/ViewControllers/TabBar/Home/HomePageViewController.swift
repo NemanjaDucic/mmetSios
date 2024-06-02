@@ -12,6 +12,7 @@ class HomePageViewController:UIViewController,UITableViewDelegate,UITableViewDat
         temporarySelectedCategories.toggle(element: category)
         boolArray[index].toggle()
         checkButtonGreen.isHidden = temporarySelectedCategories.isEmpty
+        view.endEditing(true)
         
     }
     private var rightBarButton = UIBarButtonItem()
@@ -146,24 +147,20 @@ class HomePageViewController:UIViewController,UITableViewDelegate,UITableViewDat
             }
     }
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
-        if Constants().userDefLangugaeKey == "eng" {
-            let filteredData = LocalManager.shared.allLocations.filter { item in
-                return item.nameEng.lowercased().contains(searchText.lowercased())
-            }
-            self.filteredData = filteredData.map { $0.nameLat.uppercased() }
-        } else if Constants().userDefLangugaeKey == "lat" {
-            let filteredData = LocalManager.shared.allLocations.filter { item in
-                
-                return item.nameLat.lowercased().contains(searchText.lowercased())
-            }
-            self.filteredData = filteredData.map { $0.nameLat.uppercased() }
-        } else {
-            let filteredData = LocalManager.shared.allLocations.filter { item in
-                return item.nameCir.lowercased().contains(searchText.lowercased())
-            }
-            self.filteredData = filteredData.map { $0.nameLat.uppercased() }
+        let filteredData = LocalManager.shared.allLocations.filter { item in
+            return item.nameCir.lowercased().contains(searchText.lowercased()) ||
+                   item.nameLat.lowercased().contains(searchText.lowercased()) ||
+                   item.nameEng.lowercased().contains(searchText.lowercased())
         }
-        
+
+        // Then, map the filtered data based on the user language key
+        if Constants().userDefLangugaeKey == "lat" {
+            self.filteredData = filteredData.map { $0.nameLat.uppercased() }
+        } else if Constants().userDefLangugaeKey == "eng" {
+            self.filteredData = filteredData.map { $0.nameEng.uppercased() }
+        } else {
+            self.filteredData = filteredData.map { $0.nameCir.uppercased() }
+        }
         searchTV.isHidden = filteredData.isEmpty
         searchTV.reloadData()
     }
@@ -191,7 +188,14 @@ class HomePageViewController:UIViewController,UITableViewDelegate,UITableViewDat
                        return
                    }
             let selectedLocation = filteredData[indexPath.row]
-            selectedLocationModel = LocalManager.shared.allLocations.first{$0.nameLat.lowercased() == selectedLocation.lowercased()}
+
+            if Constants().userDefLangugaeKey == "eng"{
+                selectedLocationModel = LocalManager.shared.allLocations.first{$0.nameEng.lowercased() == selectedLocation.lowercased()}
+            } else if Constants().userDefLangugaeKey == "lat" {
+                selectedLocationModel = LocalManager.shared.allLocations.first{$0.nameLat.lowercased() == selectedLocation.lowercased()}
+            } else {
+                selectedLocationModel = LocalManager.shared.allLocations.first{$0.nameCir.lowercased() == selectedLocation.lowercased()}
+            }
             let DVC  = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "locationDescVC") as? LocationDescriptionViewController
             DVC?.id = selectedLocationModel!.id
             DVC?.long = selectedLocationModel!.lon

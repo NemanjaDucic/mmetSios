@@ -28,7 +28,7 @@ class FilteredMapViewController:UIViewController,CLLocationManagerDelegate, UICo
        
 
     }
-  
+    private var isAnotationSelected = false
     var landscapeConstraints: [NSLayoutConstraint] = []
     var isDisabledEnabled = false
     let allCategories = CategoryData().items as [DataModel]
@@ -231,13 +231,15 @@ class FilteredMapViewController:UIViewController,CLLocationManagerDelegate, UICo
         
         UserDefaultsManager.getCachedLocations { locations in
                     DispatchQueue.main.async {
-                        if self.isDisabledEnabled {
-                            self.addAnnotations(locations!.filterLocations(byCategories: self.selectedCategories).filter{$0.isAccessible[0] == true})
+                      
+                            if self.isDisabledEnabled {
+                                self.addAnnotations(locations!.filterLocations(byCategories: self.selectedCategories))
+                                self.filtereOutAnnotations()
 
-                        } else {
-                            self.addAnnotations(locations!.filterLocations(byCategories: self.selectedCategories))
+                            } else {
+                                self.addAnnotations(locations!.filterLocations(byCategories: self.selectedCategories))
 
-                        }
+                            }
                         if self.multipleCategoriesInfo(categories: self.selectedCategories).subcategories.isEmpty {
                             
                         } else {
@@ -326,7 +328,10 @@ class FilteredMapViewController:UIViewController,CLLocationManagerDelegate, UICo
 
             annotationsToAdd.append(pointAnnotation)
         }
-        self.pointAnnotationManager?.annotations.append(contentsOf: annotationsToAdd)
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
+            self.pointAnnotationManager?.annotations.append(contentsOf: annotationsToAdd)
+        }
+     
       
     }
     
@@ -336,77 +341,92 @@ class FilteredMapViewController:UIViewController,CLLocationManagerDelegate, UICo
 
     }
     func filtereOutAnnotations(){
-  
-        let allCategories = CategoryData().items as [DataModel]
-         var matchingResults = [DataModel]()
-         for filterCategory in selectedFilters {
-             if let matchingCategory = allCategories.first(where: { $0.categoryLat.lowercased() == filterCategory.lowercased() }) {
-                 matchingResults.append(matchingCategory)
-             }
-         }
       
-         if matchingResults.isEmpty {
-             print("nema")
-               // THERE ARENT MATHCING RESULTS
-               pointAnnotationManager?.annotations.removeAll()
-               filterAnnotations = allAnotations
-               let filtered = filterAnnotations.filter { annotation in
-                   
-                   selectedFilters.contains { filterCategory in
-                       annotation.subcat.contains(filterCategory.lowercased())
-                   }
-               }
-             if isDisabledEnabled{
-                 addFilterAnnotations(filtered.filter{$0.isAccessible[0] == true})
-
-             } else {
-                 addFilterAnnotations(filtered)
-
+            let allCategories = CategoryData().items as [DataModel]
+             var matchingResults = [DataModel]()
+            print(selectedFilters)
+             for filterCategory in selectedFilters {
+                 if let matchingCategory = allCategories.first(where: { $0.categoryLat.lowercased() == filterCategory.lowercased() }) {
+                     matchingResults.append(matchingCategory)
+                 }
              }
-           } else {
-               print("nema")
-               // THERE ARE MATHCING RESULTS
-                  pointAnnotationManager?.annotations.removeAll()
-                  filterAnnotations = allAnotations
-                  var filtered = [LocationModel]()
-                  for matchingCategory in matchingResults {
-                      let annotationsForCategory = filterAnnotations.filter { annotation in
-                          annotation.category.contains(matchingCategory.categoryLat.lowercased())
-                      }
-                      filtered.append(contentsOf: annotationsForCategory)
-                  }
-               for filterCategory in selectedFilters {
-                   if matchingResults.contains(where: { $0.categoryLat.lowercased() == filterCategory.lowercased() }) {
-                       continue
+          
+             if matchingResults.isEmpty {
+                 print("nema")
+                   // THERE ARENT MATHCING RESULTS
+                   pointAnnotationManager?.annotations.removeAll()
+                   filterAnnotations = allAnotations
+                   let filtered = filterAnnotations.filter { annotation in
+                       
+                       selectedFilters.contains { filterCategory in
+                           annotation.subcat.contains(filterCategory.lowercased())
+                       }
                    }
-                   let annotationsForSubcategory = filterAnnotations.filter { annotation in
-                       annotation.subcat.contains(filterCategory.lowercased())
-                   }
-                   filtered.append(contentsOf: annotationsForSubcategory)
-               }
-               if isDisabledEnabled {
-                   addFilterAnnotations(filtered.filter{ $0.isAccessible[0] == true })
+                 if isDisabledEnabled{
+                     addFilterAnnotations(filtered.filter{$0.isAccessible[0] == true})
+
+                 } else {
+                     addFilterAnnotations(filtered)
+
+                 }
                } else {
-                   addFilterAnnotations(filtered)
+                   print("nema")
+                   // THERE ARE MATHCING RESULTS
+                      pointAnnotationManager?.annotations.removeAll()
+                      filterAnnotations = allAnotations
+                      var filtered = [LocationModel]()
+                      for matchingCategory in matchingResults {
+                          let annotationsForCategory = filterAnnotations.filter { annotation in
+                              annotation.category.contains(matchingCategory.categoryLat.lowercased())
+                          }
+                          filtered.append(contentsOf: annotationsForCategory)
+                      }
+                   for filterCategory in selectedFilters {
+                       if matchingResults.contains(where: { $0.categoryLat.lowercased() == filterCategory.lowercased() }) {
+                           continue
+                       }
+                       let annotationsForSubcategory = filterAnnotations.filter { annotation in
+                           annotation.subcat.contains(filterCategory.lowercased())
+                       }
+                       filtered.append(contentsOf: annotationsForSubcategory)
+                   }
+                   if isDisabledEnabled {
+                       addFilterAnnotations(filtered.filter{ $0.isAccessible[0] == true })
+                   } else {
+                       addFilterAnnotations(filtered)
 
 
+                   }
+
+                   
                }
-
-               
            }
-       }
+
     
 }
 extension FilteredMapViewController: AnnotationInteractionDelegate {
     public func annotationManager(_ manager: AnnotationManager, didDetectTappedAnnotations annotations: [Annotation]) {
-        if let anot = annotations.first as? PointAnnotation{
-            let DVC  = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "locationDescVC") as? LocationDescriptionViewController
-            DVC?.id = anot.image?.name ?? ""
-            DVC?.long = anot.point.coordinates.longitude
-            DVC?.lat = anot.point.coordinates.latitude
-            self.navigationController?.pushViewController(DVC!, animated: true)
-        }
-        
+        guard annotations.count == 1, let anot = annotations.first as? PointAnnotation else {
+                  return
+              }
+              guard !isAnotationSelected else {
+                  return
+              }
+              isAnotationSelected = true
+
+              let DVC = UIStoryboard(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "locationDescVC") as? LocationDescriptionViewController
+              DVC?.id = anot.image?.name ?? ""
+              DVC?.long = anot.point.coordinates.longitude
+              DVC?.lat = anot.point.coordinates.latitude
+              if let viewController = DVC {
+                  self.navigationController?.pushViewController(viewController, animated: true)
+                  
+              } else {
+                  self.isAnotationSelected = false
+              }
+          }
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        isAnotationSelected = false
     }
- 
 }

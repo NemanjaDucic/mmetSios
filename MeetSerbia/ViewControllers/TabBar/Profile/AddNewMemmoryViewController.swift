@@ -20,10 +20,12 @@ class AddNewMemmoryViewController:UIViewController,UIImagePickerControllerDelega
     
     @IBOutlet weak var addNewMemmoryButton: UIButton!
     
+    @IBOutlet weak var descTitle: UITextField!
     @IBOutlet weak var memoryTitleLabel: UITextField!
     @IBOutlet weak var myJurneyTf: UITextField!
     @IBOutlet weak var enterDescriptionTF: UITextField!
     @IBOutlet weak var photoButton: UIButton!
+    @IBOutlet weak var photoTitle: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
         uiSetup()
@@ -32,8 +34,32 @@ class AddNewMemmoryViewController:UIViewController,UIImagePickerControllerDelega
     private func uiSetup(){
         imagePickerController.delegate = self
         imagePickerController.sourceType = .photoLibrary
-        
-    }
+        if Constants().userDefLangugaeKey == "eng" {
+            self.title = "ADD NEW MEMORY"
+            memoryTitleLabel.text = "Title"
+            descTitle.text = "Description"
+            enterDescriptionTF.placeholder = "Enter Description..."
+            myJurneyTf.placeholder = "My Travel"
+            photoTitle.text = "Photography"
+
+        }else if Constants().userDefLangugaeKey == "lat"{
+            self.title = "DODAJ NOVU USPOMENU"
+            memoryTitleLabel.text = "Naslov"
+            descTitle.text = "Opis"
+            enterDescriptionTF.placeholder = "Unesi opis..."
+            myJurneyTf.placeholder = "Moje Putovanje"
+            photoTitle.text = "Fotografija"
+            
+        }
+ 
+    let tapGesture = UITapGestureRecognizer(target: self, action: #selector(dismissKeyboard))
+        memoryTitleLabel.addGestureRecognizer(tapGesture)
+        descTitle.addGestureRecognizer(tapGesture)
+    view.addGestureRecognizer(tapGesture)
+}
+@objc func dismissKeyboard() {
+     view.endEditing(true)
+ }
     
     @IBAction func buttonPickClicked(_ sender: UIButton) {
 

@@ -22,7 +22,7 @@ class Slide2ViewController: UIViewController {
     }
     private func uiSetup(){
         view.backgroundColor = UIColor(red: 255/255, green: 253/255, blue: 228/255, alpha: 1)
-        tvDesc.text = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer\n \n took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing\n \n Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        tvDesc.text = "Оснивач је Мисије, сада Задужбине Манастира Хиландара у Београду, којом је руководио три године. Такође је оснивач Издавачке куће „Принцип Прес“ и престижног магазина Србија – Национална ревија. \n\nПриређивач је капиталних монографија на више светских језика: Туристичка библија Србије, Србија – од злата јабука, Бој изнад векова – стогодишњица Кумановске битке, Србија – друмовима, пругама, рекама и др. \n\nРуководилац је више пројеката из области културе, међу којима су значајнији „Србија на међународним сајмовима књига – Лајпциг, Пекинг, Москва, Франкфурт 2019“ као и подухват дигитализације културног наслеђа и савременог стваралаштва „Србија национална ревија — пут у дигитализовани свет културне баштине Србије“."
         tvDesc.backgroundColor = UIColor(red: 255/255, green: 253/255, blue: 228/255, alpha: 1)
     }
 }

@@ -10,6 +10,9 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
+        <array key="D-DIN.otf">
+            <string>D-DIN</string>
+        </array>
         <array key="FiraSans-Regular.ttf">
             <string>FiraSans-Regular</string>
         </array>
@@ -346,7 +349,7 @@
                                         </connections>
                                     </button>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="23" translatesAutoresizingMaskIntoConstraints="NO" id="paC-pL-evM">
-                                        <rect key="frame" x="20" y="467.66666666666657" width="353" height="249.33333333333331"/>
+                                        <rect key="frame" x="20" y="449.66666666666674" width="353" height="277.33333333333326"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dtF-sb-6Wy">
                                                 <rect key="frame" x="0.0" y="0.0" width="353" height="140"/>
@@ -355,7 +358,7 @@
                                                 </constraints>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Lt-Jq-dno">
-                                                <rect key="frame" x="0.0" y="163" width="353" height="20.333333333333343"/>
+                                                <rect key="frame" x="0.0" y="162.99999999999994" width="353" height="20.333333333333343"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="20.329999999999998" id="OUa-Wt-mhb"/>
                                                 </constraints>
@@ -364,7 +367,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p78-r4-gC9">
-                                                <rect key="frame" x="0.0" y="206.33333333333337" width="353" height="43"/>
+                                                <rect key="frame" x="0.0" y="206.33333333333331" width="353" height="43"/>
                                                 <color key="backgroundColor" red="0.003269783673" green="0.03046263099" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="43" id="sgG-C4-PBm"/>
@@ -377,6 +380,13 @@
                                                     <action selector="adBtnClick:" destination="OkA-qK-hxt" eventType="touchUpInside" id="KH3-Bj-Mrg"/>
                                                 </connections>
                                             </button>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hBS-rS-U5T">
+                                                <rect key="frame" x="0.0" y="272.33333333333331" width="353" height="5"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="5" id="33d-ez-BOa"/>
+                                                </constraints>
+                                            </view>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </stackView>
@@ -451,7 +461,7 @@
                                     <constraint firstItem="6wn-30-GQI" firstAttribute="top" secondItem="ndG-8j-h9O" secondAttribute="top" constant="10" id="CqR-83-csf"/>
                                     <constraint firstAttribute="trailing" secondItem="6wn-30-GQI" secondAttribute="trailing" constant="20" id="KNr-YZ-c83"/>
                                     <constraint firstItem="cH5-DY-PjK" firstAttribute="leading" secondItem="ndG-8j-h9O" secondAttribute="leading" constant="20" id="LwM-bQ-iWE"/>
-                                    <constraint firstAttribute="bottom" secondItem="paC-pL-evM" secondAttribute="bottom" constant="30" id="MyL-gb-ra8"/>
+                                    <constraint firstAttribute="bottom" secondItem="paC-pL-evM" secondAttribute="bottom" constant="20" id="MyL-gb-ra8"/>
                                     <constraint firstItem="oab-tl-OPa" firstAttribute="top" secondItem="1E7-M1-6g6" secondAttribute="bottom" constant="20" id="Qml-pK-gs1"/>
                                     <constraint firstAttribute="bottom" secondItem="oab-tl-OPa" secondAttribute="bottom" constant="20" id="TOD-wd-7eh"/>
                                     <constraint firstItem="paC-pL-evM" firstAttribute="leading" secondItem="ndG-8j-h9O" secondAttribute="leading" constant="20" id="aha-Ji-bZ8"/>
@@ -1494,10 +1504,12 @@
                     <navigationItem key="navigationItem" title="ДОДАЈ НОВУ УСПОМЕНУ" id="drJ-TP-F4O"/>
                     <connections>
                         <outlet property="addNewMemmoryButton" destination="SyH-6Y-QNB" id="hST-G1-1Vq"/>
+                        <outlet property="descTitle" destination="D9P-l5-Erz" id="pDf-uQ-wq1"/>
                         <outlet property="enterDescriptionTF" destination="dQs-uc-utS" id="SxJ-wj-NJ7"/>
                         <outlet property="memoryTitleLabel" destination="Bnj-lq-4ga" id="y3b-kk-oFo"/>
                         <outlet property="myJurneyTf" destination="7Ua-X8-vIQ" id="jSe-dZ-boF"/>
                         <outlet property="photoButton" destination="7x3-0q-MTz" id="myb-Vx-IFm"/>
+                        <outlet property="photoTitle" destination="wzX-gl-Avd" id="LOh-RL-i2D"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ebh-Jo-Qsz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1718,7 +1730,7 @@
                                 <string key="text">Оснивач је Мисије, сада Задужбине Манастира Хиландара у Београду, којом је руководио три године. Такође је оснивач Издавачке куће „Принцип Прес“ и престижног магазина Србија – Национална ревија. Приређивач је капиталних монографија на више светских језика: Туристичка библија Србије, Србија – од злата јабука, Бој изнад векова – стогодишњица Кумановске битке, Србија – друмовима, пругама, рекама и др. Руководилац је више пројеката из области културе, међу којима су значајнији „Србија на међународним сајмовима књига – Лајпциг, Пекинг, Москва, Франкфурт 2019“ као и подухват дигитализације културног наслеђа и савременог стваралаштва „Србија национална ревија — пут у дигитализовани свет културне баштине Србије“.
 </string>
                                 <color key="textColor" systemColor="labelColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <fontDescription key="fontDescription" name="D-DIN" family="D-DIN" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="O АУТОРУ АПЛИКАЦИЈЕ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qRa-Jd-0jM">
@@ -1765,7 +1777,7 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <color key="textColor" systemColor="labelColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <fontDescription key="fontDescription" name="D-DIN" family="D-DIN" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>

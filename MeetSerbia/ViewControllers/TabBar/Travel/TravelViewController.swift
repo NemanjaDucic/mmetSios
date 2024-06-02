@@ -22,6 +22,7 @@ class TravelViewController: UIViewController, CLLocationManagerDelegate,UISearch
         return [.landscape,.landscapeLeft,.landscapeRight]
     }
     var landscapeConstraints: [NSLayoutConstraint] = []
+    private var isAnotationSelected = false
 
     //LOCAL HOLDERS
     private var coordinatePointsArray = [CoordinateModel]() // SLUZI U SLUCAJU DA SACUVAMO RUTU
@@ -53,14 +54,7 @@ class TravelViewController: UIViewController, CLLocationManagerDelegate,UISearch
     @IBOutlet weak var seachStart: UISearchBar!
     internal var mapView: MapView!
     @IBOutlet weak var stackView: UIStackView!
-//    let mapboxNavigationProvider = MapboxNavigationProvider(
-//        coreConfig: .init(
-//            locationSource: LocationSource.live,
-//            copilotEnabled: false
-//            
-//        )
-//    )
-//    lazy var mapboxNavigation = mapboxNavigationProvider.mapboxNavigation
+
 
  
     
@@ -144,8 +138,10 @@ class TravelViewController: UIViewController, CLLocationManagerDelegate,UISearch
                button.setTitleColor(.white, for: .normal)
                button.backgroundColor = .clear
                button.translatesAutoresizingMaskIntoConstraints = false
-            button.setImage(UIImage(named: "x"), for: .normal) // Set image for the button
-
+            if let image = UIImage(named: "x")?.withRenderingMode(.alwaysTemplate) {
+            button.setImage(image, for: .normal)
+            button.tintColor = UIColor.systemGray5  // Set your desired color here
+             }
                button.addTarget(self, action: #selector(closeButtonTapped), for: .touchUpInside)
                 holderView.addSubview(button)
                 NSLayoutConstraint.activate([
@@ -160,8 +156,13 @@ class TravelViewController: UIViewController, CLLocationManagerDelegate,UISearch
         self.tabBarController?.selectedIndex = 2
         mapinit()
         NotificationCenter.default.addObserver(self, selector: #selector(orientationChanged), name: UIDevice.orientationDidChangeNotification, object: nil)
-
-
+        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(handleTap(_:)))
+        
+        mapView.addGestureRecognizer(tapGesture)
+        
+    }
+    @objc func handleTap(_ sender: UITapGestureRecognizer) {
+        view.endEditing(true)
     }
     @objc func closeButtonTapped() {
         holderView.isHidden = true
@@ -255,21 +256,35 @@ class TravelViewController: UIViewController, CLLocationManagerDelegate,UISearch
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
         guard indexPath.row < filteredData.count else {
-                   return
-               }
+            return
+        }
         let selectedLocation = filteredData[indexPath.row]
         if didSelectSearchForStartingPoint{
             seachStart.searchTextField.text = selectedLocation
             seachStart.endEditing(true)
+            if Constants().userDefLangugaeKey == "eng"{
+                selectedLocationStart = LocalManager.shared.allLocations.first{$0.nameEng.lowercased() == selectedLocation.lowercased()}
+            } else if Constants().userDefLangugaeKey == "lat" {
+                selectedLocationStart = LocalManager.shared.allLocations.first{$0.nameLat.lowercased() == selectedLocation.lowercased()}
+            } else {
+                selectedLocationStart = LocalManager.shared.allLocations.first{$0.nameCir.lowercased() == selectedLocation.lowercased()}
+            }
             selectedLocationStart = LocalManager.shared.allLocations.first{$0.nameLat.lowercased() == selectedLocation.lowercased()}
-           
+            
             searchTableBiew.reloadData()
         } else {
             searchEnd.endEditing(true)
             searchEnd.searchTextField.text = selectedLocation
-            selectedLocationEnd = LocalManager.shared.allLocations.first{$0.nameLat.lowercased() == selectedLocation.lowercased()}
+            if Constants().userDefLangugaeKey == "eng"{
+                selectedLocationEnd = LocalManager.shared.allLocations.first{$0.nameEng.lowercased() == selectedLocation.lowercased()}
+            } else if Constants().userDefLangugaeKey == "lat" {
+                selectedLocationEnd = LocalManager.shared.allLocations.first{$0.nameLat.lowercased() == selectedLocation.lowercased()}
+            } else {
+                selectedLocationEnd = LocalManager.shared.allLocations.first{$0.nameCir.lowercased() == selectedLocation.lowercased()}
+            }
+            
             searchTableBiew.reloadData()
-         
+            
         }
         searchTableBiew.isHidden = true
         
@@ -278,6 +293,7 @@ class TravelViewController: UIViewController, CLLocationManagerDelegate,UISearch
             saveRoutesButton.isHidden = false
             stackView.isHidden = false
         }
+        
 
     }
     
@@ -565,36 +581,51 @@ class TravelViewController: UIViewController, CLLocationManagerDelegate,UISearch
     }
     func annotationManager(_ manager: AnnotationManager, didDetectTappedAnnotations annotations: [Annotation]) {
         
-        if let anot = annotations.first as? PointAnnotation{
+        guard annotations.count == 1, let anot = annotations.first as? PointAnnotation else {
+            return
+        }
+        guard !isAnotationSelected else {
+            return
+        }
+        isAnotationSelected = true
+        
+        if anot.image?.image == UIImage(named: "pin"){
+            print("stojan")
+        } else {
+            selectedAnnotation = anot
+            updateHolderView(anot: anot)
             
-            if anot.image?.image == UIImage(named: "pin"){
-                print("stojan")
-            } else {
-                selectedAnnotation = anot
-               updateHolderView(anot: anot)
-            }
             
-         
         }
     }
     private func updateHolderView(anot:PointAnnotation){
         
+        holderImage.image = nil
         holderView.isHidden = false
         holderLabel.text = anot.userInfo?["name"] as? String ?? ""
+        
         
         if anot.userInfo?["image"] != nil {
             storageRef.child(anot.userInfo?["image"] as! String).getData(maxSize: 5 * 1024 * 1024) { data, error in
                 if let error = error {
+                    self.isAnotationSelected = false
+                    
                     print("Error downloading image: \(error.localizedDescription)")
                 } else {
                     if let imageData = data, let image = UIImage(data: imageData) {
                         self.holderImage.image = image
                         
                     } else {
+                        
                         print("Error loading image data")
                     }
+                    
                 }
             }
+            
+        }
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
+            self.isAnotationSelected = false
         }
         
         
@@ -615,22 +646,28 @@ extension TravelViewController: AnnotationInteractionDelegate {
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
         if Constants().userDefLangugaeKey == "eng" {
             let filteredData = LocalManager.shared.allLocations.filter { item in
-                return item.nameEng.lowercased().contains(searchText.lowercased())
+                return item.nameCir.lowercased().contains(searchText.lowercased()) ||
+                item.nameLat.lowercased().contains(searchText.lowercased()) ||
+                item.nameEng.lowercased().contains(searchText.lowercased())
             }
-            self.filteredData = filteredData.map { $0.nameLat.uppercased() }
+            self.filteredData = filteredData.map { $0.nameEng.uppercased() }
         } else if Constants().userDefLangugaeKey == "lat" {
             let filteredData = LocalManager.shared.allLocations.filter { item in
                 
-                return item.nameLat.lowercased().contains(searchText.lowercased())
+                return item.nameCir.lowercased().contains(searchText.lowercased()) ||
+                item.nameLat.lowercased().contains(searchText.lowercased()) ||
+                item.nameEng.lowercased().contains(searchText.lowercased())
             }
             self.filteredData = filteredData.map { $0.nameLat.uppercased() }
         } else {
             let filteredData = LocalManager.shared.allLocations.filter { item in
-                return item.nameCir.lowercased().contains(searchText.lowercased())
+                return item.nameCir.lowercased().contains(searchText.lowercased()) ||
+                item.nameLat.lowercased().contains(searchText.lowercased()) ||
+                item.nameEng.lowercased().contains(searchText.lowercased())
             }
-            self.filteredData = filteredData.map { $0.nameLat.uppercased() }
+            self.filteredData = filteredData.map { $0.nameCir.uppercased() }
         }
-        
+
         searchTableBiew.isHidden = filteredData.isEmpty
         searchTableBiew.reloadData()
     }

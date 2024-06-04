@@ -11,7 +11,8 @@ class HomePageViewController:UIViewController,UITableViewDelegate,UITableViewDat
     func didSelectCategory(cell: UITableViewCell, category: String,index:Int) {
         temporarySelectedCategories.toggle(element: category)
         boolArray[index].toggle()
-        checkButtonGreen.isHidden = temporarySelectedCategories.isEmpty
+        checkButtonGreen.isHidden = temporarySelectedCategories.isEmpty 
+        searchTV.isHidden = true
         view.endEditing(true)
         
     }
@@ -196,6 +197,7 @@ class HomePageViewController:UIViewController,UITableViewDelegate,UITableViewDat
             } else {
                 selectedLocationModel = LocalManager.shared.allLocations.first{$0.nameCir.lowercased() == selectedLocation.lowercased()}
             }
+            searchTV.isHidden = true
             let DVC  = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "locationDescVC") as? LocationDescriptionViewController
             DVC?.id = selectedLocationModel!.id
             DVC?.long = selectedLocationModel!.lon

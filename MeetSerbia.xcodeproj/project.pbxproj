@@ -245,6 +245,7 @@
 		12A14CF32BADA82F00675829 /* FavouriteLocationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteLocationsViewController.swift; sourceTree = "<group>"; };
 		12A14CF52BADA84000675829 /* FavouriteRoutesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteRoutesViewController.swift; sourceTree = "<group>"; };
 		12A14CF72BADBB4400675829 /* FavouriteMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteMapViewController.swift; sourceTree = "<group>"; };
+		12AB31082C0DE67B0041AE3A /* MeetSerbia.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MeetSerbia.entitlements; sourceTree = "<group>"; };
 		12C5E05529C0C23500752C64 /* MemoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryModel.swift; sourceTree = "<group>"; };
 		12C735AA2BAD94D300AA33D5 /* TYPE + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TYPE + Extension.swift"; sourceTree = "<group>"; };
 		12C735AC2BADA1EF00AA33D5 /* SavedRoutesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedRoutesTableViewCell.swift; sourceTree = "<group>"; };
@@ -575,6 +576,7 @@
 		12CA918829B5C894007A322B /* MeetSerbia */ = {
 			isa = PBXGroup;
 			children = (
+				12AB31082C0DE67B0041AE3A /* MeetSerbia.entitlements */,
 				122184352B8C9D7000518D91 /* Networking */,
 				129045692A331CF6007D834E /* gif */,
 				122CF52929CC4E4B00808072 /* Helpers */,
@@ -1170,6 +1172,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MeetSerbia/MeetSerbia.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4HK4P5XKSC;
@@ -1207,6 +1210,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MeetSerbia/MeetSerbia.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4HK4P5XKSC;

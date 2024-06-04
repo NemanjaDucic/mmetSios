@@ -79,6 +79,7 @@ class FilteredMapViewController:UIViewController,CLLocationManagerDelegate, UICo
         }
         
       }
+    
     private func setupLandscapeConstraints() {
         // Define your landscape constraints here
         landscapeConstraints = [
@@ -188,7 +189,7 @@ class FilteredMapViewController:UIViewController,CLLocationManagerDelegate, UICo
         mapView = MapView(frame: mhView.bounds   , mapInitOptions: myMapInitOptions)
         mapView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
         mapView.isUserInteractionEnabled = true
-       
+//        mapView.gestures.delegate = self
        
         let width = Constants.serbiaNorthEast.longitude - Constants.serbiaSouthWest.longitude
         let height = Constants.serbiaNorthEast.latitude - Constants.serbiaSouthWest.latitude
@@ -427,6 +428,50 @@ extension FilteredMapViewController: AnnotationInteractionDelegate {
           }
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+        horizontalCV.reloadData()
         isAnotationSelected = false
     }
 }
+//extension FilteredMapViewController:GestureManagerDelegate {
+//    func gestureManager(_ gestureManager: MapboxMaps.GestureManager, didBegin gestureType: MapboxMaps.GestureType) {
+//        if gestureType == .pinch {
+//            getVisibleBoundingBox()
+//            print(mapView.mapboxMap.cameraBounds.bounds.east)
+//            print("\(mapView.mapboxMap.cameraBounds.maxZoom)")
+//            print("\(mapView.mapboxMap.cameraBounds.minZoom)")
+            
+//            getAnnotations(in: getVisibleB)
+//
+//        } else {
+//            print("boban")
+//        }
+//    }
+//    
+//    func gestureManager(_ gestureManager: MapboxMaps.GestureManager, didEnd gestureType: MapboxMaps.GestureType, willAnimate: Bool) {
+//        print("boban")
+//    }
+//    
+//    func gestureManager(_ gestureManager: MapboxMaps.GestureManager, didEndAnimatingFor gestureType: MapboxMaps.GestureType) {
+//        print("boban")
+//    }
+//    func getVisibleBoundingBox() -> (sw: CLLocationCoordinate2D, ne: CLLocationCoordinate2D)? {
+//          let visibleRect = mapView.mapboxMap.coordinateBounds(for: mapView.bounds)
+//          
+//          let sw = visibleRect.southwest
+//          let ne = visibleRect.northeast
+//          print(sw,ne)
+//          return (sw, ne)
+//      }
+//    func getAnnotations(in boundingBox: (sw: CLLocationCoordinate2D, ne: CLLocationCoordinate2D)) -> [PointAnnotation] {
+//        pointAnnotationManager?.annotations.removeAll()
+//        allAnotations.filter{$0.lat.}
+//        allAnotations.filter()
+//        return allAnotations.filter { annotation in
+//            let coordinate = annotation.coordinate
+//            return coordinate.latitude >= boundingBox.sw.latitude &&
+//                   coordinate.latitude <= boundingBox.ne.latitude &&
+//                   coordinate.longitude >= boundingBox.sw.longitude &&
+//                   coordinate.longitude <= boundingBox.ne.longitude
+//        }
+//    }
+//}

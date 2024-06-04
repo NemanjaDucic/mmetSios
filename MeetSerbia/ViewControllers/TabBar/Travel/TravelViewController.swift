@@ -14,8 +14,10 @@ import MapboxCommon
 import MapboxNavigationCore
 import MapboxNavigationUIKit
 import MapboxDirections
+import iProgressHUD
 
 class TravelViewController: UIViewController, CLLocationManagerDelegate,UISearchBarDelegate,UITableViewDelegate,UITableViewDataSource {
+    
     private let storageRef = Storage.storage().reference()
     
     override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
@@ -38,7 +40,7 @@ class TravelViewController: UIViewController, CLLocationManagerDelegate,UISearch
     private var filteredData = [String]()
     var locationManager = CLLocationManager()
     var didSelectSearchForStartingPoint = false
-    
+    private var isNavigationFinished = false
     // OUTLETS
     @IBOutlet weak var tableViewTopConstraint: NSLayoutConstraint!
     @IBOutlet weak var mhHolderView: UIView!
@@ -157,11 +159,13 @@ class TravelViewController: UIViewController, CLLocationManagerDelegate,UISearch
         mapinit()
         NotificationCenter.default.addObserver(self, selector: #selector(orientationChanged), name: UIDevice.orientationDidChangeNotification, object: nil)
         let tapGesture = UITapGestureRecognizer(target: self, action: #selector(handleTap(_:)))
-        
+        iProgressHUD.sharedInstance().attachProgress(toView: self.view)
+        view.updateCaption(text: Utils().loadingText())
         mapView.addGestureRecognizer(tapGesture)
         
     }
     @objc func handleTap(_ sender: UITapGestureRecognizer) {
+        searchTableBiew.isHidden = true
         view.endEditing(true)
     }
     @objc func closeButtonTapped() {
@@ -219,7 +223,10 @@ class TravelViewController: UIViewController, CLLocationManagerDelegate,UISearch
         showLocalitiesButton.setTitle(Constants().getShowLocalities(), for: .normal)
         saveRoutesButton.setTitle(Constants().getSaveRoute(), for: .normal)
         startNavButton.setTitle(Constants().getMyPath(), for: .normal)
-
+        if isNavigationFinished {
+            isNavigationFinished = false
+            self.tabBarController?.selectedIndex = 1
+        }
     }
   
     override func viewDidAppear(_ animated: Bool) {
@@ -468,7 +475,9 @@ class TravelViewController: UIViewController, CLLocationManagerDelegate,UISearch
     }
     
     func startNavigation(){
-        
+        view.showProgress()
+        isNavigationFinished = true
+
         waypointsArray.append(Waypoint(coordinate:  LocationCoordinate2D(latitude: currentLatitude!, longitude: currentLongitude!)))
         if selectedLocationStart != nil { waypointsArray.append(Waypoint(coordinate: LocationCoordinate2D(latitude: selectedLocationStart!.lat, longitude: selectedLocationStart!.lon)))}
        
@@ -479,23 +488,37 @@ class TravelViewController: UIViewController, CLLocationManagerDelegate,UISearch
         Task {
                switch await request.result {
                case .failure(let error):
+                   self.view.dismissProgress()
+
                    print(error.localizedDescription)
                case .success(let navigationRoutes):
                    let navigationOptions = NavigationOptions(
                     mapboxNavigation: NavigationMapSingleton.shared.mapboxNavigation,
                     voiceController: NavigationMapSingleton.shared.mapboxNavigationProvider.routeVoiceController,
                     eventsManager: NavigationMapSingleton.shared.mapboxNavigationProvider.eventsManager()
-                    
                    )
                    let navigationViewController = NavigationViewController(
                        navigationRoutes: navigationRoutes,
                        navigationOptions: navigationOptions
                    )
-                   
+                   let image = UIImageView()
+                   image.image = UIImage(named: "mts_pin")
+                   image.translatesAutoresizingMaskIntoConstraints = false // Enable Auto Layout
+
+                   navigationViewController.navigationView.addSubview(image)
+                   NSLayoutConstraint.activate([
+                   image.trailingAnchor.constraint(equalTo: navigationViewController.navigationView.trailingAnchor, constant: -16),
+                   image.centerYAnchor.constraint(equalTo:navigationViewController.navigationView.topAnchor,constant: 100 ),
+                      image.widthAnchor.constraint(equalToConstant: 30),
+                      image.heightAnchor.constraint(equalToConstant: 50)
+                  ])
+                  self.view.dismissProgress()
+                  navigationViewController.delegate = self
                    navigationViewController.modalPresentationStyle = .fullScreen
                    navigationViewController.routeLineTracksTraversal = true
                    self.present(navigationViewController, animated: true, completion: nil)
                }
+            
            }
 
         
@@ -686,11 +709,94 @@ extension TravelViewController: AnnotationInteractionDelegate {
         
           return true
       }
-    
-    
-    
 }
+extension TravelViewController:NavigationViewControllerDelegate {
+    func navigationViewControllerDidDismiss(_ navigationViewController: MapboxNavigationUIKit.NavigationViewController, byCanceling canceled: Bool) {
+        if canceled == true {
+        dismiss(animated: true)
+        }
+    }
+    
+    func navigationViewController(_ navigationViewController: MapboxNavigationUIKit.NavigationViewController, didUpdate progress: MapboxNavigationCore.RouteProgress, with location: CLLocation, rawLocation: CLLocation) {
+        print("didUpdate")
+    }
+    
+    func navigationViewController(_ navigationViewController: MapboxNavigationUIKit.NavigationViewController, didArriveAt waypoint: MapboxDirections.Waypoint) {
+        print("onwaypoint")
+    }
+    
+    func navigationViewController(_ navigationViewController: MapboxNavigationUIKit.NavigationViewController, didAdd finalDestinationAnnotation: MapboxMaps.PointAnnotation, pointAnnotationManager: MapboxMaps.PointAnnotationManager) {
+        print("didAdd")
+    }
+    
+    func navigationViewController(_ navigationViewController: MapboxNavigationUIKit.NavigationViewController, didSelect waypoint: MapboxDirections.Waypoint) {
+        print("didSelect")
+    }
+    
+    func navigationViewController(_ navigationViewController: MapboxNavigationUIKit.NavigationViewController, willRerouteFrom location: CLLocation?) {
+        print("will reroute")
+    }
+    
+    func navigationViewController(_ navigationViewController: MapboxNavigationUIKit.NavigationViewController, didRerouteAlong route: MapboxDirections.Route) {
+        print("didRerouteAlong")
+    }
+    
+    func navigationViewController(_ navigationViewController: MapboxNavigationUIKit.NavigationViewController, didUpdateAlternatives updatedAlternatives: [MapboxNavigationCore.AlternativeRoute], removedAlternatives: [MapboxNavigationCore.AlternativeRoute]) {
+        print("didUpdateAlternatives")
+    }
+    
+    func navigationViewController(_ navigationViewController: MapboxNavigationUIKit.NavigationViewController, didSwitchToCoincidentOnlineRoute coincideRoute: MapboxDirections.Route) {
+        print("didSwitchToCoincidentOnlineRoute")
+    }
+    
+    func navigationViewController(_ navigationViewController: MapboxNavigationUIKit.NavigationViewController, didSelect alternative: MapboxNavigationCore.AlternativeRoute) {
+        print("didselect")
+    }
+    
+    func navigationViewController(_ navigationViewController: MapboxNavigationUIKit.NavigationViewController, didFailToRerouteWith error: Error) {
+        print("failed to reroute")
+    }
+    
+    func navigationViewController(_ navigationViewController: MapboxNavigationUIKit.NavigationViewController, didRefresh routeProgress: MapboxNavigationCore.RouteProgress) {
+        print("refreshed")
+    }
+    
+    func navigationViewController(_ navigationViewController: MapboxNavigationUIKit.NavigationViewController, routeLineLayerWithIdentifier identifier: String, sourceIdentifier: String) -> MapboxMaps.LineLayer? {
+        return nil
+    }
+    
+    func navigationViewController(_ navigationViewController: MapboxNavigationUIKit.NavigationViewController, routeCasingLineLayerWithIdentifier identifier: String, sourceIdentifier: String) -> MapboxMaps.LineLayer? {
+        return nil
+    }
+    
+    func navigationViewController(_ navigationViewController: MapboxNavigationUIKit.NavigationViewController, routeRestrictedAreasLineLayerWithIdentifier identifier: String, sourceIdentifier: String) -> MapboxMaps.LineLayer? {
+        return nil
 
+    }
+    
+    func navigationViewController(_ navigationViewController: MapboxNavigationUIKit.NavigationViewController, waypointCircleLayerWithIdentifier identifier: String, sourceIdentifier: String) -> MapboxMaps.CircleLayer? {
+        return nil
+
+    }
+    
+    func navigationViewController(_ navigationViewController: MapboxNavigationUIKit.NavigationViewController, waypointSymbolLayerWithIdentifier identifier: String, sourceIdentifier: String) -> MapboxMaps.SymbolLayer? {
+        return nil
+
+    }
+    
+    func navigationViewController(_ navigationViewController: MapboxNavigationUIKit.NavigationViewController, shapeFor waypoints: [MapboxDirections.Waypoint], legIndex: Int) -> Turf.FeatureCollection? {
+        return nil
+
+    }
+    
+    func navigationViewController(_ navigationViewController: MapboxNavigationUIKit.NavigationViewController, roadNameAt location: CLLocation) -> String? {
+        return ""
+    }
+    
+    func navigationViewController(_ navigationViewController: MapboxNavigationUIKit.NavigationViewController, didSubmitArrivalFeedback isPositive: Bool) {
+        print("didSubmitFeedback")
+    }
+}
 
 
 

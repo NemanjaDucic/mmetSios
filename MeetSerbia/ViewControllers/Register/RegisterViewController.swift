@@ -8,6 +8,7 @@
 import Foundation
 import UIKit
 import Firebase
+import iProgressHUD
 
 class RegisterViewController:UIViewController{
     private let refrence = Database.database().reference()
@@ -41,6 +42,8 @@ class RegisterViewController:UIViewController{
         emailTextField.setupImageRight(image: "checkmark")
         passwordTextField.setupImageRightLong(image: "eye")
         passwordTextField.isSecureTextEntry = true
+        iProgressHUD.sharedInstance().attachProgress(toView: self.view)
+        view.updateCaption(text: Utils().loadingText())
         passwordTextField.rightView?.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(secureText)))
         // Register notifications
             NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow(_:)), name: UIResponder.keyboardWillShowNotification, object: nil)
@@ -78,10 +81,14 @@ class RegisterViewController:UIViewController{
   
     @IBAction func buttonClicked(_ sender: Any) {
         if flag == false {
+            view.showProgress()
+
             tryLogin(email: emailTextField!.text!, password: passwordTextField!.text!)
 
         } else {
         if checkData(){
+            view.showProgress()
+
             tryRegister(email: emailTextField!.text!, password: passwordTextField!.text!)
         } else {
         }
@@ -158,6 +165,7 @@ extension RegisterViewController {
     private func tryRegister(email:String,password:String){
         Firebase.Auth.auth().createUser(withEmail: email, password: password){[weak self] authResult, error  in
             if error != nil {
+                self!.view.dismissProgress()
                 self?.showToast(message: "Погрешни креденцијали", font: UIFont.systemFont(ofSize: 12.0))
                 return
             } else {
@@ -167,7 +175,10 @@ extension RegisterViewController {
                 self!.refrence.child("users").child(uid!).child("memories")
                 Firebase.Auth.auth().signIn(withEmail: email, password: password){res,err in
                     if err != nil {
-                        return }
+                        self!.view.dismissProgress()
+                        
+                        return
+                    }
                     else {
                         LocalManager.shared.getAllLocations { models in
                             UserDefaultsManager.userID = uid ?? ""
@@ -175,6 +186,7 @@ extension RegisterViewController {
                             UserDefaultsManager.setCachedLocations(models)
                             UserDefaults.standard.set(true, forKey: "logedIn")
                           
+                            self!.view.dismissProgress()
 
                             self!.performSegue(withIdentifier: "toMain", sender: nil)
                         }
@@ -189,14 +201,19 @@ extension RegisterViewController {
     private func tryLogin(email:String,password:String){
         Firebase.Auth.auth().signIn(withEmail: email, password: password){res,err in
             if err != nil {
+                self.view.dismissProgress()
+
                 self.showToast(message: "Погрешни креденцијали", font: UIFont.systemFont(ofSize: 12.0))
-                return }
+                return
+            }
             else {
                 LocalManager.shared.getAllLocations { models in
                     UserDefaultsManager.userID = res?.user.uid ?? ""
                     UserDefaultsManager.language = "cir"
                     UserDefaultsManager.setCachedLocations(models)
                     UserDefaults.standard.set(true, forKey: "logedIn")
+                    self.view.dismissProgress()
+
                     self.performSegue(withIdentifier: "toMain", sender: nil)
 
                 }

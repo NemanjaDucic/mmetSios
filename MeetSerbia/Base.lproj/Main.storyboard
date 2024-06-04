@@ -734,7 +734,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="H7L-5F-oWZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-843.51145038167931" y="3369.0140845070423"/>
+            <point key="canvasLocation" x="-770" y="3264"/>
         </scene>
         <!--MTS Meet Serbia-->
         <scene sceneID="pLR-OM-8F7">
@@ -1773,7 +1773,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="A79-S3-jfF">
-                                <rect key="frame" x="0.0" y="212" width="393" height="640"/>
+                                <rect key="frame" x="10" y="79" width="373" height="773"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <color key="textColor" systemColor="labelColor"/>
@@ -1784,10 +1784,10 @@
                         <viewLayoutGuide key="safeArea" id="3Ul-Vi-inL"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="A79-S3-jfF" firstAttribute="leading" secondItem="gdQ-2l-OOn" secondAttribute="leading" id="8gi-5g-gNr"/>
-                            <constraint firstItem="3Ul-Vi-inL" firstAttribute="trailing" secondItem="A79-S3-jfF" secondAttribute="trailing" id="bzF-NL-IAV"/>
+                            <constraint firstItem="A79-S3-jfF" firstAttribute="leading" secondItem="gdQ-2l-OOn" secondAttribute="leading" constant="10" id="8gi-5g-gNr"/>
+                            <constraint firstItem="3Ul-Vi-inL" firstAttribute="trailing" secondItem="A79-S3-jfF" secondAttribute="trailing" constant="10" id="bzF-NL-IAV"/>
                             <constraint firstAttribute="bottom" secondItem="A79-S3-jfF" secondAttribute="bottom" id="hIL-dO-6TA"/>
-                            <constraint firstItem="A79-S3-jfF" firstAttribute="top" secondItem="3Ul-Vi-inL" secondAttribute="top" constant="153" id="iom-0S-Kys"/>
+                            <constraint firstItem="A79-S3-jfF" firstAttribute="top" secondItem="3Ul-Vi-inL" secondAttribute="top" constant="20" id="iom-0S-Kys"/>
                         </constraints>
                     </view>
                     <connections>

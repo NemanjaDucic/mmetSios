@@ -19,13 +19,16 @@ extension Array where Element: Equatable {
 }
 extension String {
     var htmlToAttributedStringWithIncreasedFontSize: NSAttributedString? {
-        guard let data = data(using: .utf8) else { return nil }
+        // Replace the specific URL with the new URL
+        let modifiedHtmlString = self.replacingOccurrences(of: "https://mts.rs/Privatni/Korisnicka-zona/Kontakt/Kako-do-nas", with: "https://mts.rs")
+        
+        guard let data = modifiedHtmlString.data(using: .utf8) else { return nil }
         do {
             let attributedString = try NSMutableAttributedString(data: data,
                                                                   options: [.documentType: NSAttributedString.DocumentType.html, .characterEncoding: String.Encoding.utf8.rawValue],
                                                                   documentAttributes: nil)
             
-            // Increase font size by 2 points
+            // Increase font size by 4 points
             attributedString.enumerateAttribute(.font, in: NSRange(location: 0, length: attributedString.length), options: []) { value, range, _ in
                 if let font = value as? UIFont {
                     let newFont = font.withSize(font.pointSize + 4)
@@ -44,6 +47,8 @@ extension String {
         return htmlToAttributedStringWithIncreasedFontSize?.string ?? ""
     }
 }
+
+
 
 
 

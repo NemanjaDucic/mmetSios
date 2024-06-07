@@ -106,8 +106,25 @@ class FilteredMapViewController:UIViewController,CLLocationManagerDelegate, UICo
         let cell = horizontalCV.dequeueReusableCell(withReuseIdentifier: identifier, for: indexPath) as! HorizontalCollectionViewCell
           cell.delegate = self
         let info = multipleCategoriesInfo(categories: selectedCategories)
-        cell.titleLabel.text = info.subcategories[indexPath.row]
-    
+        let text = info.subcategories[indexPath.row]
+        if text.contains(" ") {
+                 let words = text.split(separator: " ")
+                 if words.count > 1 {
+                     let midIndex = words.count / 2
+                     let firstLine = words[0..<midIndex].joined(separator: " ")
+                     let secondLine = words[midIndex..<words.count].joined(separator: " ")
+                     cell.titleLabel.text = "\(firstLine)\n\(secondLine)"
+                 } else {
+                     cell.titleLabel.text = text
+                 }
+             } else {
+                 cell.titleLabel.text = text
+             }
+//        cell.titleLabel.text = info.subcategories[indexPath.row]
+//        cell.overlayImageView.isHidden = false
+//        if cell.titleLabel.text == "Praznici i\nneradni dani"{
+//            cell.overlayImageView.isHidden = false
+//        }
         cell.mainImage.image = UIImage(named:info.images[indexPath.row])
 
         if boolArray.isEmpty{
@@ -183,14 +200,16 @@ class FilteredMapViewController:UIViewController,CLLocationManagerDelegate, UICo
 
 
     private func initSetup(){
-        let myMapInitOptions = MapInitOptions(styleURI: StyleURI.streets)
+        let uri = StyleURI(rawValue: "mapbox://styles/meetserbia/clx2zlxb3005m01qqdv5j57zo/draft")
+//        let uri2 = StyleURI(rawValue: StyleURI.streets)
+        let myMapInitOptions = MapInitOptions(styleURI: uri)
         
         setupLandscapeConstraints()
         mapView = MapView(frame: mhView.bounds   , mapInitOptions: myMapInitOptions)
         mapView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
         mapView.isUserInteractionEnabled = true
 //        mapView.gestures.delegate = self
-       
+//       
         let width = Constants.serbiaNorthEast.longitude - Constants.serbiaSouthWest.longitude
         let height = Constants.serbiaNorthEast.latitude - Constants.serbiaSouthWest.latitude
         iProgressHUD.sharedInstance().attachProgress(toView: self.view)
@@ -435,20 +454,21 @@ extension FilteredMapViewController: AnnotationInteractionDelegate {
 //extension FilteredMapViewController:GestureManagerDelegate {
 //    func gestureManager(_ gestureManager: MapboxMaps.GestureManager, didBegin gestureType: MapboxMaps.GestureType) {
 //        if gestureType == .pinch {
-//            getVisibleBoundingBox()
-//            print(mapView.mapboxMap.cameraBounds.bounds.east)
-//            print("\(mapView.mapboxMap.cameraBounds.maxZoom)")
-//            print("\(mapView.mapboxMap.cameraBounds.minZoom)")
-            
-//            getAnnotations(in: getVisibleB)
 //
+//            
 //        } else {
 //            print("boban")
 //        }
 //    }
 //    
 //    func gestureManager(_ gestureManager: MapboxMaps.GestureManager, didEnd gestureType: MapboxMaps.GestureType, willAnimate: Bool) {
-//        print("boban")
+//        if gestureType == .pinch {
+//            updateAnnotationsForVisibleArea()
+//        } else if gestureType == .pitch {
+//            updateAnnotationsForVisibleArea()
+//        } else {
+//            updateAnnotationsForVisibleArea()
+//        }
 //    }
 //    
 //    func gestureManager(_ gestureManager: MapboxMaps.GestureManager, didEndAnimatingFor gestureType: MapboxMaps.GestureType) {
@@ -462,16 +482,18 @@ extension FilteredMapViewController: AnnotationInteractionDelegate {
 //          print(sw,ne)
 //          return (sw, ne)
 //      }
-//    func getAnnotations(in boundingBox: (sw: CLLocationCoordinate2D, ne: CLLocationCoordinate2D)) -> [PointAnnotation] {
-//        pointAnnotationManager?.annotations.removeAll()
-//        allAnotations.filter{$0.lat.}
-//        allAnotations.filter()
-//        return allAnotations.filter { annotation in
-//            let coordinate = annotation.coordinate
-//            return coordinate.latitude >= boundingBox.sw.latitude &&
-//                   coordinate.latitude <= boundingBox.ne.latitude &&
-//                   coordinate.longitude >= boundingBox.sw.longitude &&
-//                   coordinate.longitude <= boundingBox.ne.longitude
+//    func updateAnnotationsForVisibleArea() {
+//        guard let boundingBox = getVisibleBoundingBox() else { return }
+//        
+//        let filteredAnnotations = allAnotations.filter { annotation in
+//            isCoordinate(annotation.lat,annotation.lon, within: BoundingBox(southWest: getVisibleBoundingBox()!.sw, northEast: getVisibleBoundingBox()!.ne))
 //        }
+//        addAnnotations(filteredAnnotations)
+//    }
+//    func isCoordinate(_ latitude: Double, _ longitude: Double, within boundingBox: BoundingBox) -> Bool {
+//        return latitude >= boundingBox.southWest.latitude &&
+//               latitude <= boundingBox.northEast.latitude &&
+//               longitude >= boundingBox.southWest.longitude &&
+//               longitude <= boundingBox.northEast.longitude
 //    }
 //}

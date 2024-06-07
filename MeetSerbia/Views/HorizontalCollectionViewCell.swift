@@ -26,11 +26,11 @@ class HorizontalCollectionViewCell: UICollectionViewCell {
         overlayImageView.clipsToBounds = true
         overlayImageView.image = UIImage(named: "shadow")
         overlayImageView.alpha = 0.9
-        
+        overlayImageView.isHidden = true
         
         hiddenlabel.isHidden = true
         let imageName = cellData ? "button_checked" : "button_unchecked"
-
+        titleLabel.lineBreakMode = .byTruncatingTail
         checkButton.setImage(UIImage(named: imageName), for: .normal)
         mainImage.addSubview(overlayImageView)
     }

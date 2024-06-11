@@ -16,7 +16,16 @@ import MapboxNavigationUIKit
 import MapboxDirections
 import iProgressHUD
 
-class TravelViewController: UIViewController, CLLocationManagerDelegate,UISearchBarDelegate,UITableViewDelegate,UITableViewDataSource {
+class TravelViewController: UIViewController, CLLocationManagerDelegate,UISearchBarDelegate,UITableViewDelegate,UITableViewDataSource, NavigationFilterTapped {
+    func buttonTapped(in cell: CategoriesInNavigationTableViewCell) {
+        guard let indexPath = filterViewTableView.indexPath(for: cell) else {
+              return
+          }
+        filterSelected[indexPath.row].toggle()
+        stringFilters.toggle(element: filterCellData[indexPath.row].categoryLat.lowercased())
+        filterViewTableView.reloadData()
+    }
+    
     
     private let storageRef = Storage.storage().reference()
     
@@ -41,6 +50,15 @@ class TravelViewController: UIViewController, CLLocationManagerDelegate,UISearch
     var locationManager = CLLocationManager()
     var didSelectSearchForStartingPoint = false
     private var isNavigationFinished = false
+    private var stringFilters = [String]()
+    
+    // BOOL ARRAY ZA CEKIRANE FILTERE
+    private var filterSelected = [false,false,false,false,false,false,false,false,false,false,false,false]
+    private var filterCellData = CategoryData().items
+    private var selectedCategoryIndex: Int?
+    var isShowingSubcategories = false
+
+    
     // OUTLETS
     @IBOutlet weak var tableViewTopConstraint: NSLayoutConstraint!
     @IBOutlet weak var mhHolderView: UIView!
@@ -57,8 +75,16 @@ class TravelViewController: UIViewController, CLLocationManagerDelegate,UISearch
     internal var mapView: MapView!
     @IBOutlet weak var stackView: UIStackView!
 
-
- 
+    //FILTER VIEW
+    @IBOutlet weak var filtersViewHolder: UIView!
+    @IBOutlet weak var filterViewLabel: UILabel!
+    @IBOutlet weak var filterViewButton: UIButton!
+    @IBOutlet weak var filterViewBar: UISlider!
+    @IBOutlet weak var filterViewTableView: UITableView!
+    @IBOutlet weak var filterViewBottomLabel: UILabel!
+    @IBOutlet weak var kmLabel: UILabel!
+    @IBOutlet weak var buttonBack: UIButton!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -74,6 +100,7 @@ class TravelViewController: UIViewController, CLLocationManagerDelegate,UISearch
         self.mhHolderView.bringSubviewToFront(stackView)
         self.mhHolderView.bringSubviewToFront(holderView)
         self.mhHolderView.bringSubviewToFront(holderLabel)
+        self.mhHolderView.bringSubviewToFront(filtersViewHolder)
     
     }
     @objc func orientationChanged() {
@@ -102,16 +129,39 @@ class TravelViewController: UIViewController, CLLocationManagerDelegate,UISearch
         
       }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = UITableViewCell()
-        cell.textLabel?.text = filteredData[indexPath.row]
-        return cell
+        if tableView == searchTableBiew {
+            let cell = UITableViewCell()
+            cell.textLabel?.text = filteredData[indexPath.row]
+            return cell
+        } else {
+            let cell = filterViewTableView.dequeueReusableCell(withIdentifier: "filterTableCell", for: indexPath) as! CategoriesInNavigationTableViewCell
+            
+            if UserDefaultsManager.language == "lat" {
+                cell.categoryNameLabel.text = filterCellData[indexPath.row].categoryLat
+            } else if UserDefaultsManager.language == "eng" {
+                cell.categoryNameLabel.text = filterCellData[indexPath.row].categoryEng
+                
+            } else {
+                cell.categoryNameLabel.text = filterCellData[indexPath.row].category
+
+            }
+            let imageName = filterSelected[indexPath.row] ? "checkmark.square" : "squareshape"
+            cell.checkButton.setImage(UIImage(systemName: imageName), for: .normal)
+            cell.arrowButton.isHidden = filterCellData[indexPath.row].subcategory.count == 1 || filterCellData[indexPath.row].subcategory.count == 0
+          
+
+            cell.delegate = self
+            return cell
+        }
     }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        filteredData.count
+
+        if tableView == searchTableBiew {
+           return filteredData.count
+        } else {
+            return filterCellData.count
+        }
     }
-
-
-
     private func setupLandscapeConstraints() {
         // Define your landscape constraints here
         landscapeConstraints = [
@@ -132,6 +182,11 @@ class TravelViewController: UIViewController, CLLocationManagerDelegate,UISearch
         searchTableBiew.delegate = self
         setupLandscapeConstraints()
         searchTableBiew.isHidden = true
+        filterViewTableView.delegate = self
+        filterViewTableView.dataSource = self
+        filterViewLabel.text = Utils().getChooseLocalitiesNavigationText()
+        filterViewBottomLabel.text = Utils().getRadiusText()
+        filterViewTableView.register(UINib(nibName: "CategoriesInNavigationTableViewCell", bundle: nil), forCellReuseIdentifier: "filterTableCell")
         holderView.layoutMargins = UIEdgeInsets(top: 10, left: 10, bottom: 0, right: 10)
         holderView.isLayoutMarginsRelativeArrangement = true
         // Create Button
@@ -152,7 +207,8 @@ class TravelViewController: UIViewController, CLLocationManagerDelegate,UISearch
                   button.widthAnchor.constraint(equalToConstant: 40),
                   button.heightAnchor.constraint(equalToConstant: 40)
               ])
-       
+        filterViewButton.setTitle(Utils().getSaveText(), for: .normal)
+        buttonBack.isHidden = true
         // Delegates
         locationManager.delegate = self
         self.tabBarController?.selectedIndex = 2
@@ -162,11 +218,23 @@ class TravelViewController: UIViewController, CLLocationManagerDelegate,UISearch
         iProgressHUD.sharedInstance().attachProgress(toView: self.view)
         view.updateCaption(text: Utils().loadingText())
         mapView.addGestureRecognizer(tapGesture)
-        
+        filterViewBar.maximumValue = 150
+        filterViewBar.minimumValue = 0
+        filterViewBar.value = 50
+        kmLabel.text = "50" + Utils().getKMText()
+        filterViewBar.addTarget(self, action: #selector(sliderValueChanged(_:)), for: .valueChanged)
+
+        filtersViewHolder.isHidden = true
+
     }
+    @objc func sliderValueChanged(_ sender: UISlider) {
+          // Update the label text based on the slider value
+        kmLabel.text = String(format: "%.0f", sender.value) + Utils().getKMText()
+      }
     @objc func handleTap(_ sender: UITapGestureRecognizer) {
         searchTableBiew.isHidden = true
         view.endEditing(true)
+        filtersViewHolder.isHidden = true
     }
     @objc func closeButtonTapped() {
         holderView.isHidden = true
@@ -239,9 +307,6 @@ class TravelViewController: UIViewController, CLLocationManagerDelegate,UISearch
         default:
             break
         }
-     
-
-        
     }
     
     func locationManagerDidChangeAuthorization(_ manager: CLLocationManager) {
@@ -253,54 +318,112 @@ class TravelViewController: UIViewController, CLLocationManagerDelegate,UISearch
         }
     }
     
-   
-    
     func startLocationUpdates() {
         locationManager.desiredAccuracy = kCLLocationAccuracyNearestTenMeters
         locationManager.startUpdatingLocation()
         
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
-        guard indexPath.row < filteredData.count else {
-            return
-        }
-        let selectedLocation = filteredData[indexPath.row]
-        if didSelectSearchForStartingPoint{
-            seachStart.searchTextField.text = selectedLocation
-            seachStart.endEditing(true)
-            if Constants().userDefLangugaeKey == "eng"{
-                selectedLocationStart = LocalManager.shared.allLocations.first{$0.nameEng.lowercased() == selectedLocation.lowercased()}
-            } else if Constants().userDefLangugaeKey == "lat" {
+        if tableView == searchTableBiew {
+            guard indexPath.row < filteredData.count else {
+                return
+            }
+            let selectedLocation = filteredData[indexPath.row]
+            if didSelectSearchForStartingPoint{
+                seachStart.searchTextField.text = selectedLocation
+                seachStart.endEditing(true)
+                if Constants().userDefLangugaeKey == "eng"{
+                    selectedLocationStart = LocalManager.shared.allLocations.first{$0.nameEng.lowercased() == selectedLocation.lowercased()}
+                } else if Constants().userDefLangugaeKey == "lat" {
+                    selectedLocationStart = LocalManager.shared.allLocations.first{$0.nameLat.lowercased() == selectedLocation.lowercased()}
+                } else {
+                    selectedLocationStart = LocalManager.shared.allLocations.first{$0.nameCir.lowercased() == selectedLocation.lowercased()}
+                }
                 selectedLocationStart = LocalManager.shared.allLocations.first{$0.nameLat.lowercased() == selectedLocation.lowercased()}
+                
+                searchTableBiew.reloadData()
             } else {
-                selectedLocationStart = LocalManager.shared.allLocations.first{$0.nameCir.lowercased() == selectedLocation.lowercased()}
+                searchEnd.endEditing(true)
+                searchEnd.searchTextField.text = selectedLocation
+                if Constants().userDefLangugaeKey == "eng"{
+                    selectedLocationEnd = LocalManager.shared.allLocations.first{$0.nameEng.lowercased() == selectedLocation.lowercased()}
+                } else if Constants().userDefLangugaeKey == "lat" {
+                    selectedLocationEnd = LocalManager.shared.allLocations.first{$0.nameLat.lowercased() == selectedLocation.lowercased()}
+                } else {
+                    selectedLocationEnd = LocalManager.shared.allLocations.first{$0.nameCir.lowercased() == selectedLocation.lowercased()}
+                }
+                
+                searchTableBiew.reloadData()
+                
             }
-            selectedLocationStart = LocalManager.shared.allLocations.first{$0.nameLat.lowercased() == selectedLocation.lowercased()}
-            
-            searchTableBiew.reloadData()
-        } else {
-            searchEnd.endEditing(true)
-            searchEnd.searchTextField.text = selectedLocation
-            if Constants().userDefLangugaeKey == "eng"{
-                selectedLocationEnd = LocalManager.shared.allLocations.first{$0.nameEng.lowercased() == selectedLocation.lowercased()}
-            } else if Constants().userDefLangugaeKey == "lat" {
-                selectedLocationEnd = LocalManager.shared.allLocations.first{$0.nameLat.lowercased() == selectedLocation.lowercased()}
-            } else {
-                selectedLocationEnd = LocalManager.shared.allLocations.first{$0.nameCir.lowercased() == selectedLocation.lowercased()}
-            }
-            
-            searchTableBiew.reloadData()
-            
-        }
-        searchTableBiew.isHidden = true
-        
-        if selectedLocationEnd != nil  {
             searchTableBiew.isHidden = true
-            saveRoutesButton.isHidden = false
-            stackView.isHidden = false
+            
+            if selectedLocationEnd != nil  {
+                searchTableBiew.isHidden = true
+                saveRoutesButton.isHidden = false
+                stackView.isHidden = false
+            }
+        } else {
+            if buttonBack.isHidden {
+                let selectedCategory = filterCellData[indexPath.row]
+                if selectedCategory.subcategory.count != 1 {
+                    isShowingSubcategories = true
+                    selectedCategoryIndex = indexPath.row
+                    var subcategoryData: [DataModel] = []
+                    for i in 0..<selectedCategory.subcategory.count {
+                        let subcategory = DataModel(
+                            category: selectedCategory.subcategory[i],
+                            categoryEng: selectedCategory.subcategoryEng[i],
+                            categoryLat: selectedCategory.subcategoryLat[i],
+                            subcategory: [],
+                            subcategotyLat: [],
+                            subcategoryEng: [],
+                            expanded: false,
+                            categoryImageData: "",
+                            imageData: []
+                        )
+                        subcategoryData.append(subcategory)
+                    }
+                    buttonBack.isHidden = false
+                    filterSelected.removeAll()
+                    for i in  subcategoryData {
+                        filterSelected.append(false)
+                    }
+                    filterViewLabel.text = buttonBack.isHidden ? Utils().getChooseLocalitiesNavigationText() : Utils().getSubcategoryPickText()
+                    
+                    
+                    filterCellData = subcategoryData
+                    filterViewTableView.reloadData()
+                }
+            } else {
+                print("stojan")
+            }
         }
-        
+
+    }
+    private func showLocationsWithiBoundsWithFilters(locationModels:[LocationModel]) -> [LocationModel]{
+        let filteredLocationModels = locationModels.filter { location in
+            stringFilters.contains(location.primaryCategory) ||
+            location.subcat.contains { subcategory in
+                stringFilters.contains(subcategory)
+            }
+        }
+        return filteredLocationModels
+    }
+    
+    @IBAction func useFiltersButtonClick(_ sender: Any) {
+        var myLocation = CLLocationCoordinate2D(latitude: currentLatitude!, longitude: currentLongitude!)
+        var destionation = CLLocationCoordinate2D(latitude: selectedLocationEnd!.lat, longitude: selectedLocationEnd!.lon)
+        if selectedLocationStart != nil {
+            
+            var currentLocation = CLLocationCoordinate2D(latitude: selectedLocationStart!.lat, longitude: selectedLocationStart!.lon)
+            
+            addAnnotations(getProximityAnnotations(start: Point(currentLocation), end: Point(destionation), oneMore: Point(myLocation), radius:Double(filterViewBar.value)).0,getProximityAnnotations(start: Point(currentLocation), end: Point(destionation), oneMore: Point(myLocation), radius:  Double(filterViewBar.value)).1)
+        } else {
+            var twoLocations = getProximityAnnotationsForTwoLocations(start: Point(myLocation), end: Point(destionation),radius: Double(filterViewBar.value))
+            addAnnotations(showLocationsWithiBoundsWithFilters(locationModels: twoLocations.0), twoLocations.1)
+        }
+        filtersViewHolder.isHidden = true
 
     }
     
@@ -364,6 +487,21 @@ class TravelViewController: UIViewController, CLLocationManagerDelegate,UISearch
         }
     }
     
+    @IBAction func filterBackButton(_ sender: Any) {
+        if isShowingSubcategories {
+                  isShowingSubcategories = false
+                    buttonBack.isHidden = true
+            filterSelected.removeAll()
+                  filterCellData = CategoryData().items
+            for i in filterCellData {
+                filterSelected.append(false)
+            }
+                  filterViewTableView.reloadData()
+            
+              }
+        filterViewLabel.text = buttonBack.isHidden ? Utils().getChooseLocalitiesNavigationText() : Utils().getSubcategoryPickText()
+
+    }
     
     @IBAction func saveRouteClick(_ sender: Any) {
         var coordinateStart = CoordinateModel(lat: currentLatitude ?? 0.0, lon: currentLongitude ?? 0.0)
@@ -395,29 +533,36 @@ class TravelViewController: UIViewController, CLLocationManagerDelegate,UISearch
     }
     
     @IBAction func showLocalityClicked(_ sender: Any) {
-        var myLocation = CLLocationCoordinate2D(latitude: currentLatitude!, longitude: currentLongitude!)
-        var destionation = CLLocationCoordinate2D(latitude: selectedLocationEnd!.lat, longitude: selectedLocationEnd!.lon)
-
-        if selectedLocationStart != nil {
-            
-            var currentLocation = CLLocationCoordinate2D(latitude: selectedLocationStart!.lat, longitude: selectedLocationStart!.lon)
-            
-            addAnnotations(getProximityAnnotations(start: Point(currentLocation), end: Point(destionation), oneMore: Point(myLocation)).0,getProximityAnnotations(start: Point(currentLocation), end: Point(destionation), oneMore: Point(myLocation)).1)
-        } else {
-            var twoLocations = getProximityAnnotationsForTwoLocations(start: Point(myLocation), end: Point(destionation))
-            addAnnotations(twoLocations.0, twoLocations.1)
-          
-        }
-
+//        var myLocation = CLLocationCoordinate2D(latitude: currentLatitude!, longitude: currentLongitude!)
+//        var destionation = CLLocationCoordinate2D(latitude: selectedLocationEnd!.lat, longitude: selectedLocationEnd!.lon)
+//
+//        if selectedLocationStart != nil {
+//            
+//            var currentLocation = CLLocationCoordinate2D(latitude: selectedLocationStart!.lat, longitude: selectedLocationStart!.lon)
+//            
+//            addAnnotations(getProximityAnnotations(start: Point(currentLocation), end: Point(destionation), oneMore: Point(myLocation)).0,getProximityAnnotations(start: Point(currentLocation), end: Point(destionation), oneMore: Point(myLocation)).1)
+//        } else {
+//            var twoLocations = getProximityAnnotationsForTwoLocations(start: Point(myLocation), end: Point(destionation))
+//            addAnnotations(twoLocations.0, twoLocations.1)
+//          
+//        }
+        
+        filtersViewHolder.isHidden = false
        
     }
-    func getProximityAnnotationsForTwoLocations(start: Point, end: Point) -> ([LocationModel], [TollModel]) {
-        let padding = 0.020000
+    func getProximityAnnotationsForTwoLocations(start: Point, end: Point, radius: Double) -> ([LocationModel], [TollModel]) {
+        // Calculate the midpoint between start and end
+        let midLatitude = (start.coordinates.latitude + end.coordinates.latitude) / 2
+        let midLongitude = (start.coordinates.longitude + end.coordinates.longitude) / 2
         
-        let west = min(start.coordinates.longitude, end.coordinates.longitude) - padding
-        let east = max(start.coordinates.longitude, end.coordinates.longitude) + padding
-        let south = min(start.coordinates.latitude, end.coordinates.latitude) - padding
-        let north = max(start.coordinates.latitude, end.coordinates.latitude) + padding
+        // Convert radius from kilometers to degrees
+        let radiusInDegreesLatitude = radius / kilometersPerDegreeLatitude
+        let radiusInDegreesLongitude = radius / (cos(midLatitude * .pi / 180) * kilometersPerDegreeLatitude)
+        
+        let west = midLongitude - radiusInDegreesLongitude
+        let east = midLongitude + radiusInDegreesLongitude
+        let south = midLatitude - radiusInDegreesLatitude
+        let north = midLatitude + radiusInDegreesLatitude
         
         var proximityAnnotations: [LocationModel] = []
         var proximityTolls: [TollModel] = []
@@ -429,23 +574,31 @@ class TravelViewController: UIViewController, CLLocationManagerDelegate,UISearch
                 proximityAnnotations.append(annotation)
             }
         }
-        for tol in LocalManager.shared.allTolls {
-            let tollCoordinate = CLLocationCoordinate2D(latitude: tol.lat, longitude: tol.lon)
+        for toll in LocalManager.shared.allTolls {
+            let tollCoordinate = CLLocationCoordinate2D(latitude: toll.lat, longitude: toll.lon)
             if (tollCoordinate.longitude > west && tollCoordinate.longitude < east &&
                 tollCoordinate.latitude > south && tollCoordinate.latitude < north) {
-                proximityTolls.append(tol)
+                proximityTolls.append(toll)
             }
         }
         
         return (proximityAnnotations, proximityTolls)
     }
-
-    func getProximityAnnotations(start: Point, end: Point, oneMore: Point) -> ([LocationModel], [TollModel]) {
-        let padding = 0.020000
-        let west = min(start.coordinates.longitude, end.coordinates.longitude, oneMore.coordinates.longitude) - padding
-        let east = max(start.coordinates.longitude, end.coordinates.longitude, oneMore.coordinates.longitude) + padding
-        let south = min(start.coordinates.latitude, end.coordinates.latitude, oneMore.coordinates.latitude) - padding
-        let north = max(start.coordinates.latitude, end.coordinates.latitude, oneMore.coordinates.latitude) + padding
+    let kilometersPerDegreeLatitude: Double = 111.0
+    // Function to get proximity annotations for three locations
+    func getProximityAnnotations(start: Point, end: Point, oneMore: Point, radius: Double) -> ([LocationModel], [TollModel]) {
+        // Calculate the centroid of the three points
+        let midLatitude = (start.coordinates.latitude + end.coordinates.latitude + oneMore.coordinates.latitude) / 3
+        let midLongitude = (start.coordinates.longitude + end.coordinates.longitude + oneMore.coordinates.longitude) / 3
+        
+        // Convert radius from kilometers to degrees
+        let radiusInDegreesLatitude = radius / kilometersPerDegreeLatitude
+        let radiusInDegreesLongitude = radius / (cos(midLatitude * .pi / 180) * kilometersPerDegreeLatitude)
+        
+        let west = midLongitude - radiusInDegreesLongitude
+        let east = midLongitude + radiusInDegreesLongitude
+        let south = midLatitude - radiusInDegreesLatitude
+        let north = midLatitude + radiusInDegreesLatitude
         
         var proximityAnnotations: [LocationModel] = []
         var proximityTolls: [TollModel] = []
@@ -457,11 +610,11 @@ class TravelViewController: UIViewController, CLLocationManagerDelegate,UISearch
                 proximityAnnotations.append(annotation)
             }
         }
-        for tol in LocalManager.shared.allTolls {
-            let tollCoordinate = CLLocationCoordinate2D(latitude: tol.lat, longitude: tol.lon)
+        for toll in LocalManager.shared.allTolls {
+            let tollCoordinate = CLLocationCoordinate2D(latitude: toll.lat, longitude: toll.lon)
             if (tollCoordinate.longitude > west && tollCoordinate.longitude < east &&
                 tollCoordinate.latitude > south && tollCoordinate.latitude < north) {
-                proximityTolls.append(tol)
+                proximityTolls.append(toll)
             }
         }
         

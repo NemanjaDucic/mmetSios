@@ -120,11 +120,7 @@ class FilteredMapViewController:UIViewController,CLLocationManagerDelegate, UICo
              } else {
                  cell.titleLabel.text = text
              }
-//        cell.titleLabel.text = info.subcategories[indexPath.row]
-//        cell.overlayImageView.isHidden = false
-//        if cell.titleLabel.text == "Praznici i\nneradni dani"{
-//            cell.overlayImageView.isHidden = false
-//        }
+
         cell.mainImage.image = UIImage(named:info.images[indexPath.row])
 
         if boolArray.isEmpty{
@@ -208,8 +204,10 @@ class FilteredMapViewController:UIViewController,CLLocationManagerDelegate, UICo
         mapView = MapView(frame: mhView.bounds   , mapInitOptions: myMapInitOptions)
         mapView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
         mapView.isUserInteractionEnabled = true
-//        mapView.gestures.delegate = self
-//       
+        mapView.gestures.delegate = self
+        mapView.mapboxMap.onEvery(event: .cameraChanged){ [weak self] _ in
+        self?.addFilteredAnnotations()
+    }
         let width = Constants.serbiaNorthEast.longitude - Constants.serbiaSouthWest.longitude
         let height = Constants.serbiaNorthEast.latitude - Constants.serbiaSouthWest.latitude
         iProgressHUD.sharedInstance().attachProgress(toView: self.view)
@@ -325,6 +323,8 @@ class FilteredMapViewController:UIViewController,CLLocationManagerDelegate, UICo
         self.pointAnnotationManager?.annotations.removeAll()
         self.pointAnnotationManager?.annotations.append(contentsOf: annotationsToAdd)
         self.allAnotations = locations
+     
+        
         self.view.dismissProgress()
         
     }
@@ -451,49 +451,57 @@ extension FilteredMapViewController: AnnotationInteractionDelegate {
         isAnotationSelected = false
     }
 }
-//extension FilteredMapViewController:GestureManagerDelegate {
-//    func gestureManager(_ gestureManager: MapboxMaps.GestureManager, didBegin gestureType: MapboxMaps.GestureType) {
+extension FilteredMapViewController:GestureManagerDelegate {
+    func gestureManager(_ gestureManager: MapboxMaps.GestureManager, didBegin gestureType: MapboxMaps.GestureType) {
+        if gestureType == .pinch {
+
+            
+        } else {
+            print("boban")
+        }
+    }
+    
+    func gestureManager(_ gestureManager: MapboxMaps.GestureManager, didEnd gestureType: MapboxMaps.GestureType, willAnimate: Bool) {
 //        if gestureType == .pinch {
-//
-//            
-//        } else {
-//            print("boban")
-//        }
-//    }
-//    
-//    func gestureManager(_ gestureManager: MapboxMaps.GestureManager, didEnd gestureType: MapboxMaps.GestureType, willAnimate: Bool) {
-//        if gestureType == .pinch {
-//            updateAnnotationsForVisibleArea()
+//            addFilteredAnnotations()
 //        } else if gestureType == .pitch {
-//            updateAnnotationsForVisibleArea()
+//            addFilteredAnnotations()
 //        } else {
-//            updateAnnotationsForVisibleArea()
+//            addFilteredAnnotations()
 //        }
-//    }
-//    
-//    func gestureManager(_ gestureManager: MapboxMaps.GestureManager, didEndAnimatingFor gestureType: MapboxMaps.GestureType) {
-//        print("boban")
-//    }
-//    func getVisibleBoundingBox() -> (sw: CLLocationCoordinate2D, ne: CLLocationCoordinate2D)? {
-//          let visibleRect = mapView.mapboxMap.coordinateBounds(for: mapView.bounds)
-//          
-//          let sw = visibleRect.southwest
-//          let ne = visibleRect.northeast
-//          print(sw,ne)
-//          return (sw, ne)
-//      }
-//    func updateAnnotationsForVisibleArea() {
-//        guard let boundingBox = getVisibleBoundingBox() else { return }
-//        
-//        let filteredAnnotations = allAnotations.filter { annotation in
-//            isCoordinate(annotation.lat,annotation.lon, within: BoundingBox(southWest: getVisibleBoundingBox()!.sw, northEast: getVisibleBoundingBox()!.ne))
-//        }
-//        addAnnotations(filteredAnnotations)
-//    }
-//    func isCoordinate(_ latitude: Double, _ longitude: Double, within boundingBox: BoundingBox) -> Bool {
-//        return latitude >= boundingBox.southWest.latitude &&
-//               latitude <= boundingBox.northEast.latitude &&
-//               longitude >= boundingBox.southWest.longitude &&
-//               longitude <= boundingBox.northEast.longitude
-//    }
-//}
+    }
+    
+    func gestureManager(_ gestureManager: MapboxMaps.GestureManager, didEndAnimatingFor gestureType: MapboxMaps.GestureType) {
+        print("boban")
+       
+    }
+
+    private func addFilteredAnnotations() {
+        guard let visibleRegion = try? mapView.mapboxMap.coordinateBounds(for: mapView.frame) else {
+                   return
+               }
+        var anotsToFilter = allAnotations
+        print(anotsToFilter.count,"copy of all")
+        print(allAnotations.count,"all")
+        var zoomedAnotations = anotsToFilter.filter{ location in
+            let coordinate = CLLocationCoordinate2D(latitude: location.lat, longitude: location.lon)
+            return visibleRegion.contains(coordinate)
+        }
+        print(zoomedAnotations.count,"zoomed")
+        if (pointAnnotationManager?.annotations.count ?? 0 > 200) {
+            pointAnnotationManager?.annotations.removeAll()
+            
+        }
+        addFilterAnnotations(zoomedAnotations)
+       
+     }
+    
+
+  
+}
+extension CoordinateBounds {
+    func contains(_ coordinate: CLLocationCoordinate2D) -> Bool {
+        return (southwest.latitude <= coordinate.latitude && coordinate.latitude <= northeast.latitude) &&
+               (southwest.longitude <= coordinate.longitude && coordinate.longitude <= northeast.longitude)
+    }
+}

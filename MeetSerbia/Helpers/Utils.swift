@@ -23,7 +23,30 @@ class Utils {
         default:
             return "Учитавање ..."
         }
-        
+    }
+    func getKMText()->String {
+        switch UserDefaultsManager.language {
+        case "cir":
+            return "Kм"
+        case "eng":
+            return "Km"
+        case "lat":
+            return "Km"
+        default:
+            return "Kм"
+        }
+    }
+    func getSubcategoryPickText() -> String {
+        switch UserDefaultsManager.language {
+        case "cir":
+            return "Изабери подкатегорије"
+        case "eng":
+            return "Choose subcategories"
+        case "lat":
+            return "Izaberi podkategorije"
+        default:
+            return "Изабери подкатегорије"
+        }
     }
     func addNewMemoryText() -> String {
         switch UserDefaultsManager.language {
@@ -50,6 +73,42 @@ class Utils {
             return "Започни навигацију"
         }
         
+    }
+    func getChooseLocalitiesNavigationText() -> String {
+        switch UserDefaultsManager.language {
+        case "cir":
+            return "Изабери локалитете за успутна стајалишта"
+        case "eng":
+            return "Choose Localities for waypotins"
+        case "lat":
+            return "Izaberi lokalitete za usputna stajališta"
+        default:
+            return "Изабери локалитете за успутна стајалишта"
+        }
+    }
+    func getRadiusText() -> String {
+        switch UserDefaultsManager.language {
+        case "cir":
+            return "Радијус"
+        case "eng":
+            return "Radius"
+        case "lat":
+            return "Radijus"
+        default:
+            return "Радијус"
+        }
+    }
+    func getSaveText() -> String {
+        switch UserDefaultsManager.language {
+        case "cir":
+            return "Сачувај"
+        case "eng":
+            return "Save"
+        case "lat":
+            return "Sačuvaj"
+        default:
+            return "Сачувај"
+        }
     }
     
     func getPinForCategory(category: String) -> String {
